@@ -6,25 +6,40 @@
 <title>每日 AI Agent 要闻</title>
 <meta name="description" content="每日 AI Agent 要闻 · 由 Hermes Agent 自动汇编">
 <meta property="og:title" content="每日 AI Agent 要闻">
-<meta property="og:description" content="每日 AI Agent 要闻自动归档">
+<meta property="og:description" content="每天 10:00 自动归档的 AI Agent 行业动态">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 </head>
 <body>
-<header class="site-header">
-  <h1>🤖 每日 AI Agent 要闻</h1>
-  <p>由 Hermes Agent 自动汇编 · 每天 10:00 更新</p>
-  <div class="nav-meta">
-    <a href="index.html">🏠 首页</a>
-    <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener">⭐ GitHub</a>
+<header class="topbar">
+  <button id="menu-toggle" class="menu-toggle" aria-label="切换菜单">☰</button>
+  <a href="#" class="logo">
+    <span class="emoji">🤖</span>
+    <span class="text-full grad-text">每日 AI Agent 要闻</span>
+  </a>
+  <div class="search-wrap" id="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input id="search-input" type="search" placeholder="搜索新闻 (按 / 快速聚焦)" autocomplete="off" spellcheck="false">
+    <button id="search-clear" class="search-clear" aria-label="清除">✕</button>
+  </div>
+  <div class="topbar-actions">
+    <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener" title="GitHub">⭐</a>
   </div>
 </header>
-<div class="container">
-<h2 class="section-title">📌 最新一期</h2>
-<article class="hero-card"><span class="badge">LATEST</span><h2><a href="2026-05-18.html">🤖 今日 AI 要闻 · 2026-05-18</a></h2><div class="meta-row"><span>📅 2026-05-18</span><span>📊 🎯 Agent 重点 ×4 · 📰 大模型 & 行业动态 ×4 · 💡 一句话快讯 ×5</span></div><div class="summary">Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业</div><a href="2026-05-18.html" class="read-more">阅读全文 →</a></article></div>
+
+<div class="layout">
+  <aside id="sidebar" class="sidebar"></aside>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+  <main id="main" class="main">
+    <div class="empty"><span class="emoji">⏳</span><p>加载中...</p></div>
+  </main>
+</div>
+
 <footer class="site-footer">
-  <p>© 2026 · 自动生成于 2026-05-18 17:19 UTC · Powered by <a href="https://github.com/NousResearch" target="_blank" rel="noopener">Hermes Agent</a> <span class="heart">❤</span></p>
+  <p>Powered by <a href="https://github.com/NousResearch" target="_blank" rel="noopener">Hermes Agent</a> <span class="heart">❤</span> · <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener">源码</a></p>
 </footer>
+
+<script src="assets/app.js"></script>
 </body>
 </html>
