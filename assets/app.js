@@ -1,448 +1,430 @@
-/* =========================================================
-   ai-daily-news front-end app
-   - Loads data.json (all posts pre-built by build.py)
-   - Renders by selected date or by search query
-   - Highlights matches
-   ========================================================= */
-(function () {
+// AI 每日要闻 — SPA front-end
+// Features: search, sidebar archive, category filter, keyword cloud,
+// theme toggle, copy-link, per-day lazy load, route via #/<date>[/<itemId>]
+(() => {
   "use strict";
 
-  const $ = (sel, ctx = document) => ctx.querySelector(sel);
-  const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
-  const escHtml = (s) =>
-    String(s == null ? "" : s)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  const KIND_META = {
-    hero: { label: "Agent 重点", emoji: "🎯" },
-    mini: { label: "大模型 & 行业动态", emoji: "📰" },
-    quick: { label: "一句话快讯", emoji: "💡" },
-    other: { label: "其他", emoji: "📌" },
+  // ---- state ----
+  const state = {
+    index: [],            // [{date,title,summary,counts}]
+    posts: new Map(),     // date -> full post obj (cached)
+    currentDate: null,
+    filter: "all",        // all | hero | mini | quick
+    query: "",
+    keywords: [],
+    recentBundle: null,   // bundled recent 30 days for cross-day search
   };
 
-  let DATA = null;
-  let activeDate = null;
-  let searchTerm = "";
-  let searchTimer = null;
-
-  // ---- init ----
-  document.addEventListener("DOMContentLoaded", init);
-
-  async function init() {
-    try {
-      const res = await fetch("data.json", { cache: "no-store" });
-      DATA = await res.json();
-    } catch (e) {
-      console.error("Failed to load data.json", e);
-      $("#main").innerHTML = '<div class="empty"><span class="emoji">⚠️</span><p>加载数据失败，请稍后再试</p></div>';
-      return;
-    }
-    if (!DATA.posts || DATA.posts.length === 0) {
-      renderEmpty();
-      return;
-    }
-    DATA.posts.sort((a, b) => b.date.localeCompare(a.date));
-    activeDate = readHash() || DATA.posts[0].date;
-    renderSidebar();
-    bindUI();
-    render();
-  }
-
-  // ---- URL hash routing ----
-  function readHash() {
-    const m = location.hash.match(/^#\/?(\d{4}-\d{2}-\d{2})/);
-    return m ? m[1] : null;
-  }
-  function writeHash(date) {
-    if (!date) return;
-    history.replaceState(null, "", "#/" + date);
-  }
-  window.addEventListener("hashchange", () => {
-    const d = readHash();
-    if (d && d !== activeDate) {
-      activeDate = d;
-      $("#search-input").value = "";
-      searchTerm = "";
-      $("#search-wrap").classList.remove("has-value");
-      render();
-    }
-  });
-
-  // ---- bind UI ----
-  function bindUI() {
-    const input = $("#search-input");
-    input.addEventListener("input", (e) => {
-      const v = e.target.value.trim();
-      $("#search-wrap").classList.toggle("has-value", !!v);
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(() => {
-        searchTerm = v.toLowerCase();
-        render();
-      }, 120);
-    });
-    $("#search-clear").addEventListener("click", () => {
-      input.value = "";
-      $("#search-wrap").classList.remove("has-value");
-      searchTerm = "";
-      render();
-      input.focus();
-    });
-    // keyboard shortcut "/"
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "/" && document.activeElement !== input) {
-        e.preventDefault();
-        input.focus();
-      }
-      if (e.key === "Escape" && document.activeElement === input) {
-        input.value = "";
-        searchTerm = "";
-        $("#search-wrap").classList.remove("has-value");
-        render();
-      }
-    });
-    // sidebar toggle (mobile)
-    const tgl = $("#menu-toggle");
-    const sb = $("#sidebar");
-    const ov = $("#sidebar-overlay");
-    if (tgl) {
-      tgl.addEventListener("click", () => {
-        sb.classList.toggle("open");
-        ov.classList.toggle("open");
-      });
-      ov.addEventListener("click", () => {
-        sb.classList.remove("open");
-        ov.classList.remove("open");
-      });
-    }
-  }
-
-  // ---- sidebar ----
-  // Format a Date object as YYYY-MM-DD using LOCAL time (not UTC).
+  // ---- date helpers (LOCAL TZ) ----
   function localYMD(d) {
     const y = d.getFullYear();
     const m = String(d.getMonth() + 1).padStart(2, "0");
     const day = String(d.getDate()).padStart(2, "0");
     return `${y}-${m}-${day}`;
   }
-
-  function renderSidebar() {
+  function dateLabel(s) {
     const now = new Date();
-    const todayStr = localYMD(now);
-    const yest = new Date(now);
-    yest.setDate(now.getDate() - 1);
-    const yestStr = localYMD(yest);
-    const dayBefore = new Date(now);
-    dayBefore.setDate(now.getDate() - 2);
-    const dayBeforeStr = localYMD(dayBefore);
-
-    const dateLabel = (d) => {
-      if (d === todayStr) return "今天";
-      if (d === yestStr) return "昨天";
-      if (d === dayBeforeStr) return "前天";
-      return d;
-    };
-
-    const items = DATA.posts.map((p) => {
-      const isToday = p.date === todayStr;
-      return `<li>
-        <a href="#/${p.date}" data-date="${p.date}" class="${p.date === activeDate ? "active" : ""}">
-          <span class="dot"></span>
-          <span class="date-text">${dateLabel(p.date)}</span>
-          ${isToday ? '<span class="badge-today">TODAY</span>' : ""}
-        </a>
-      </li>`;
-    }).join("");
-
-    // stats
-    let totalNews = 0, totalAgent = 0;
-    DATA.posts.forEach((p) => {
-      p.sections.forEach((s) => {
-        const c = (s.items || []).length;
-        totalNews += c;
-        if (s.kind === "hero") totalAgent += c;
-      });
-    });
-
-    $("#sidebar").innerHTML = `
-      <h3>📅 日期归档</h3>
-      <ul class="date-list">${items}</ul>
-      <h3>📊 统计</h3>
-      <div class="stats-card">
-        <div class="stat-row"><span>总期数</span><span class="num">${DATA.posts.length}</span></div>
-        <div class="stat-row"><span>累计新闻</span><span class="num">${totalNews}</span></div>
-        <div class="stat-row"><span>Agent 重点</span><span class="num">${totalAgent}</span></div>
-      </div>
-    `;
-    // delegate clicks (so the active state updates instantly)
-    $$("#sidebar .date-list a").forEach((a) => {
-      a.addEventListener("click", (e) => {
-        const d = a.dataset.date;
-        if (d) {
-          $$("#sidebar .date-list a").forEach((x) => x.classList.remove("active"));
-          a.classList.add("active");
-          activeDate = d;
-          $("#search-input").value = "";
-          searchTerm = "";
-          $("#search-wrap").classList.remove("has-value");
-          // close mobile sidebar
-          $("#sidebar").classList.remove("open");
-          $("#sidebar-overlay").classList.remove("open");
-          writeHash(d);
-          render();
-        }
-      });
-    });
-  }
-
-  function setSidebarActive(date) {
-    $$("#sidebar .date-list a").forEach((a) =>
-      a.classList.toggle("active", a.dataset.date === date)
-    );
-  }
-
-  // ---- main render ----
-  function render() {
-    if (searchTerm) {
-      renderSearch();
-    } else {
-      setSidebarActive(activeDate);
-      writeHash(activeDate);
-      renderDay(activeDate);
-    }
-  }
-
-  function renderEmpty() {
-    $("#main").innerHTML = `
-      <div class="empty">
-        <span class="emoji">📭</span>
-        <p>暂无内容，等待今日 10:00 自动推送...</p>
-      </div>
-    `;
-  }
-
-  function renderDay(date) {
-    const post = DATA.posts.find((p) => p.date === date);
-    if (!post) {
-      $("#main").innerHTML = `<div class="empty"><span class="emoji">🤔</span><p>未找到该日期的内容</p></div>`;
-      return;
-    }
-
-    const sectionsHtml = post.sections.map((sec) => renderSection(sec)).join("");
-    const counts = post.sections
-      .filter((s) => (s.items || []).length)
-      .map((s) => `${KIND_META[s.kind].emoji} ${s.items.length}`)
-      .join(" · ");
-
-    $("#main").innerHTML = `
-      <header class="page-header">
-        <h1>${escHtml(post.title)}</h1>
-        <div class="meta-row">
-          <span>📅 ${post.date}</span>
-          ${counts ? `<span>${counts}</span>` : ""}
-        </div>
-        ${post.summary ? `<div class="summary">${inlineMd(post.summary)}</div>` : ""}
-      </header>
-      ${sectionsHtml}
-    `;
-  }
-
-  function renderSection(sec) {
-    const meta = KIND_META[sec.kind] || KIND_META.other;
-    const items = sec.items || [];
-    if (!items.length) return "";
-
-    let inner = "";
-    if (sec.kind === "hero") {
-      inner = items
-        .map(
-          (it, i) => `
-          <article class="news-card" data-variant="${(i % 4) + 1}">
-            <span class="num-badge">${i + 1}</span>
-            <h3 class="card-title">${inlineMd(it.title)}</h3>
-            <ul class="card-fields">
-              ${(it.fields || []).map(renderField).join("")}
-            </ul>
-            ${renderSource(it.source)}
-          </article>
-        `
-        )
-        .join("");
-    } else if (sec.kind === "mini") {
-      inner = `<div class="mini-grid">${items
-        .map(
-          (it) => `
-          <div class="mini-card">
-            ${it.title ? `<div class="mini-title">${inlineMd(it.title)}</div>` : ""}
-            ${it.desc ? `<div class="mini-desc">${inlineMd(it.desc)}</div>` : ""}
-            ${
-              it.source && it.source.url
-                ? `<a class="mini-link" href="${escHtml(it.source.url)}" target="_blank" rel="noopener">🔗 ${escHtml(domainOf(it.source.url))}</a>`
-                : ""
-            }
-          </div>`
-        )
-        .join("")}</div>`;
-    } else if (sec.kind === "quick") {
-      inner = items.map((t) => `<div class="quick-card">${inlineMd(t)}</div>`).join("");
-    } else {
-      inner = `<div class="news-card">${escHtml(JSON.stringify(items))}</div>`;
-    }
-
-    return `
-      <h2 class="section-heading" data-kind="${sec.kind}">
-        <span class="ico">${meta.emoji}</span>
-        <span>${escHtml(sec.name || meta.label)}</span>
-        <span class="count">${items.length} 条</span>
-      </h2>
-      ${inner}
-    `;
-  }
-
-  function renderField(f) {
-    const cls = "field-" + slugify(f.label || "");
-    return `<li class="${cls}"><span class="field-label">${escHtml(f.label)}：</span>${inlineMd(f.value)}</li>`;
-  }
-  function renderSource(src) {
-    if (!src) return "";
-    if (src.url) {
-      return `<a class="source-link" href="${escHtml(src.url)}" target="_blank" rel="noopener">🔗 ${escHtml(src.text)}<span class="domain">· ${escHtml(domainOf(src.url))}</span></a>`;
-    }
-    return `<div class="source-link">🔗 ${escHtml(src.text)}</div>`;
-  }
-
-  // ---- search ----
-  function renderSearch() {
-    const q = searchTerm;
-    const results = []; // {post, kind, item, html}
-
-    DATA.posts.forEach((post) => {
-      post.sections.forEach((sec) => {
-        (sec.items || []).forEach((it, idx) => {
-          const blob = makeSearchBlob(it, sec.kind);
-          if (blob.toLowerCase().includes(q)) {
-            results.push({ post, sec, it, idx });
-          }
-        });
-      });
-    });
-
-    setSidebarActive(null);
-
-    if (results.length === 0) {
-      $("#main").innerHTML = `
-        <header class="page-header">
-          <h1>🔍 搜索：${escHtml(searchTerm)}</h1>
-          <div class="meta-row"><span>没有匹配结果</span></div>
-        </header>
-        <div class="no-results">
-          <span class="emoji">🤷</span>
-          <p>未找到匹配 "${escHtml(searchTerm)}" 的内容，试试别的关键词？</p>
-        </div>
-      `;
-      return;
-    }
-
-    // group by date
-    const byDate = new Map();
-    results.forEach((r) => {
-      if (!byDate.has(r.post.date)) byDate.set(r.post.date, []);
-      byDate.get(r.post.date).push(r);
-    });
-
-    const sortedDates = Array.from(byDate.keys()).sort().reverse();
-    const html = sortedDates
-      .map((d) => {
-        const grp = byDate.get(d);
-        const cards = grp.map(renderSearchHit).join("");
-        return `<div class="day-divider">📅 ${d} · ${grp.length} 条</div>${cards}`;
-      })
-      .join("");
-
-    $("#main").innerHTML = `
-      <header class="page-header">
-        <h1>🔍 搜索结果</h1>
-        <div class="meta-row">
-          <span>关键词："<b style="color:var(--accent)">${escHtml(searchTerm)}</b>"</span>
-          <span>共 <b style="color:var(--accent)">${results.length}</b> 条结果，分布在 <b>${sortedDates.length}</b> 期</span>
-        </div>
-      </header>
-      ${html}
-    `;
-  }
-
-  function renderSearchHit(r) {
-    const { sec, it, idx } = r;
-    if (sec.kind === "hero") {
-      const fields = (it.fields || []).map((f) => {
-        return `<li class="field-${slugify(f.label)}"><span class="field-label">${escHtml(f.label)}：</span>${highlight(f.value)}</li>`;
-      }).join("");
-      return `
-        <article class="news-card" data-variant="${(idx % 4) + 1}">
-          <span class="num-badge">${idx + 1}</span>
-          <h3 class="card-title">${highlight(it.title)}</h3>
-          <ul class="card-fields">${fields}</ul>
-          ${renderSource(it.source)}
-        </article>
-      `;
-    }
-    if (sec.kind === "mini") {
-      return `
-        <div class="mini-card" style="margin-bottom:14px">
-          ${it.title ? `<div class="mini-title">${highlight(it.title)}</div>` : ""}
-          ${it.desc ? `<div class="mini-desc">${highlight(it.desc)}</div>` : ""}
-          ${it.source && it.source.url ? `<a class="mini-link" href="${escHtml(it.source.url)}" target="_blank" rel="noopener">🔗 ${escHtml(domainOf(it.source.url))}</a>` : ""}
-        </div>`;
-    }
-    if (sec.kind === "quick") {
-      return `<div class="quick-card">${highlight(it)}</div>`;
-    }
-    return "";
-  }
-
-  function makeSearchBlob(it, kind) {
-    if (kind === "hero") {
-      const fields = (it.fields || []).map((f) => f.label + " " + f.value).join(" ");
-      const src = it.source ? (it.source.text || "") + " " + (it.source.url || "") : "";
-      return [it.title, fields, src].join(" ");
-    }
-    if (kind === "mini") {
-      return [it.title || "", it.desc || "", it.source ? it.source.url || "" : ""].join(" ");
-    }
-    if (kind === "quick") return String(it);
-    return "";
-  }
-
-  // ---- inline md (links, bold, code) + highlight ----
-  function inlineMd(text) {
-    if (text == null) return "";
-    let s = escHtml(text);
-    s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-      (_, t, u) => `<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
-    s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-    s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
-    if (searchTerm) s = applyHighlight(s, searchTerm);
+    const t0 = localYMD(now);
+    const t1 = localYMD(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1));
+    const t2 = localYMD(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 2));
+    if (s === t0) return "今天";
+    if (s === t1) return "昨天";
+    if (s === t2) return "前天";
     return s;
   }
 
-  function highlight(text) {
-    return inlineMd(text); // inlineMd already calls applyHighlight if searchTerm set
+  // ---- theme ----
+  function initTheme() {
+    const saved = localStorage.getItem("theme");
+    const sys = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    const t = saved || sys;
+    document.documentElement.setAttribute("data-theme", t);
+    const btn = $("#theme-toggle");
+    if (btn) btn.textContent = t === "dark" ? "🌙" : "☀️";
+  }
+  function toggleTheme() {
+    const cur = document.documentElement.getAttribute("data-theme") || "dark";
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+    const btn = $("#theme-toggle");
+    if (btn) btn.textContent = next === "dark" ? "🌙" : "☀️";
   }
 
-  function applyHighlight(html, term) {
-    // highlight inside text nodes only (avoid breaking tags)
-    const re = new RegExp("(" + escapeRe(term) + ")", "gi");
-    // simple split-on-tag approach
-    return html.replace(/(<[^>]+>)|([^<]+)/g, (m, tag, txt) => {
-      if (tag) return tag;
-      return txt.replace(re, '<mark class="hl">$1</mark>');
+  // ---- toast ----
+  let toastTimer = 0;
+  function toast(msg) {
+    const t = $("#toast");
+    if (!t) return;
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove("show"), 1800);
+  }
+
+  // ---- data loading ----
+  async function loadIndex() {
+    const r = await fetch("data/index.json", { cache: "no-cache" });
+    state.index = await r.json();
+  }
+  async function loadKeywords() {
+    try {
+      const r = await fetch("data/keywords.json", { cache: "no-cache" });
+      state.keywords = await r.json();
+    } catch (e) { state.keywords = []; }
+  }
+  async function loadRecentBundle() {
+    try {
+      const r = await fetch("data.json", { cache: "no-cache" });
+      const j = await r.json();
+      state.recentBundle = j.posts || [];
+      for (const p of state.recentBundle) state.posts.set(p.date, p);
+    } catch (e) { state.recentBundle = []; }
+  }
+  async function loadPost(date) {
+    if (state.posts.has(date)) return state.posts.get(date);
+    const r = await fetch(`data/${date}.json`, { cache: "no-cache" });
+    if (!r.ok) throw new Error(`Failed to load ${date}`);
+    const p = await r.json();
+    state.posts.set(date, p);
+    return p;
+  }
+
+  // ---- routing ----
+  function parseHash() {
+    // #/YYYY-MM-DD or #/YYYY-MM-DD/itemId
+    const h = location.hash.replace(/^#\/?/, "");
+    const [date, ...rest] = h.split("/");
+    return { date: date || null, anchor: rest.join("/") || null };
+  }
+  function setHash(date, anchor) {
+    const v = anchor ? `#/${date}/${anchor}` : `#/${date}`;
+    if (location.hash !== v) history.replaceState(null, "", v);
+  }
+
+  // ---- render: sidebar (archive list) ----
+  function renderSidebar() {
+    const nav = $("#dates");
+    if (!nav) return;
+    nav.innerHTML = state.index.map((p) => {
+      const total = p.counts.hero + p.counts.mini + p.counts.quick;
+      const isCurrent = p.date === state.currentDate;
+      const todayStr = localYMD(new Date());
+      const isToday = p.date === todayStr;
+      return `<a href="#/${p.date}" class="date-link${isCurrent ? " active" : ""}" data-date="${p.date}">
+        <span class="date-label">${dateLabel(p.date)}</span>
+        ${isToday ? '<span class="badge-today">TODAY</span>' : ""}
+        <span class="date-meta">${total} 条</span>
+      </a>`;
+    }).join("");
+  }
+
+  // ---- render: keyword cloud ----
+  function renderCloud() {
+    const c = $("#cloud");
+    if (!c) return;
+    if (!state.keywords.length) {
+      c.innerHTML = '<div class="muted small">数据积累中…</div>';
+      return;
+    }
+    const max = state.keywords[0].count;
+    c.innerHTML = state.keywords.map((k) => {
+      const w = 0.7 + (k.count / max) * 0.9; // 0.7em – 1.6em
+      return `<button class="cloud-tag" data-word="${escAttr(k.word)}" style="font-size:${w}em">${escHtml(k.word)}<sup>${k.count}</sup></button>`;
+    }).join("");
+  }
+
+  // ---- render: filters ----
+  function renderFilters() {
+    $$(".chip").forEach((b) => {
+      b.classList.toggle("active", b.dataset.filter === state.filter);
     });
   }
 
-  function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
-  function slugify(s) { return String(s).trim().toLowerCase().replace(/\s+/g, "-").slice(0, 20); }
-  function domainOf(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return url; } }
+  // ---- render: main content ----
+  async function renderPost(date) {
+    const main = $("#content");
+    if (!main) return;
+    main.innerHTML = '<div class="loading">加载中…</div>';
+    let post;
+    try {
+      post = await loadPost(date);
+    } catch (e) {
+      main.innerHTML = `<div class="empty">未找到 ${escHtml(date)}</div>`;
+      return;
+    }
+    state.currentDate = date;
+    document.title = `${post.title} · AI 每日要闻`;
+
+    const filtered = post.sections
+      .filter((s) => state.filter === "all" || s.kind === state.filter)
+      .filter((s) => s.items.length);
+
+    let html = `<article class="post">
+      <header class="post-header">
+        <div class="post-date-row">
+          <time class="post-date">${escHtml(post.date)}</time>
+          <span class="post-date-label">${escHtml(dateLabel(post.date))}</span>
+        </div>
+        <h1 class="post-title">${escHtml(post.title)}</h1>
+        ${post.summary ? `<p class="post-summary">${escHtml(post.summary)}</p>` : ""}
+      </header>`;
+
+    if (!filtered.length) {
+      html += `<div class="empty">没有匹配 "${escHtml(state.filter)}" 的内容</div>`;
+    }
+
+    for (const sec of filtered) {
+      html += `<section class="sec sec-${sec.kind}">
+        <h2 class="sec-title">${escHtml(sec.title)}</h2>
+        <div class="sec-items sec-items-${sec.kind}">`;
+      for (let i = 0; i < sec.items.length; i++) {
+        html += renderItem(sec.items[i], i, post.date, sec.kind);
+      }
+      html += `</div></section>`;
+    }
+    html += `</article>`;
+    main.innerHTML = html;
+
+    // Apply search highlight if any
+    if (state.query) applySearchFilter();
+
+    // Scroll to anchor if present
+    const { anchor } = parseHash();
+    if (anchor) {
+      const el = document.getElementById(anchor);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        el.classList.add("flash");
+        setTimeout(() => el.classList.remove("flash"), 1600);
+      }
+    }
+  }
+
+  function renderItem(item, idx, date, kind) {
+    const num = String(idx + 1).padStart(2, "0");
+    const id = item.id;
+    const links = item.links.map((l) =>
+      `<a class="item-link" href="${escAttr(l.url)}" target="_blank" rel="noopener noreferrer">${escHtml(l.text)} ↗</a>`
+    ).join("");
+
+    // Try to parse "要点: ... · 详情: ... · 影响: ..." structured body
+    let bodyHtml = "";
+    if (item.body) {
+      const segs = item.body.split(/\s*·\s*/);
+      const tagRe = /^(要点|详情|影响|来源|背景|看点)[：:]\s*(.+)$/;
+      const tagged = [];
+      const plain = [];
+      for (const s of segs) {
+        const m = s.match(tagRe);
+        if (m) tagged.push({ tag: m[1], text: m[2] });
+        else plain.push(s);
+      }
+      if (tagged.length) {
+        bodyHtml = `<div class="card-meta">${tagged.map(t =>
+          `<div class="meta-row"><span class="meta-tag meta-${t.tag}">${escHtml(t.tag)}</span><span class="meta-text">${escHtml(t.text)}</span></div>`
+        ).join("")}</div>`;
+        if (plain.length) bodyHtml += `<div class="card-text">${escHtml(plain.join(" · "))}</div>`;
+      } else {
+        bodyHtml = `<div class="card-text">${escHtml(item.body)}</div>`;
+      }
+    }
+
+    return `<div class="card card-${kind}" id="${escAttr(id)}" data-kind="${kind}" data-date="${date}">
+      <div class="card-num" data-num="${num}"></div>
+      <div class="card-body">
+        <div class="card-headline">${escHtml(item.headline)}</div>
+        ${bodyHtml}
+        ${links ? `<div class="card-links">${links}</div>` : ""}
+      </div>
+      <button class="card-copy" title="复制此条链接" data-copy="${escAttr(id)}" aria-label="复制链接">🔗</button>
+    </div>`;
+  }
+
+  // ---- search ----
+  function applySearchFilter() {
+    const q = state.query.trim().toLowerCase();
+    const cards = $$(".card");
+    if (!q) {
+      cards.forEach((c) => c.classList.remove("hidden", "match"));
+      $$(".sec").forEach((s) => s.classList.remove("hidden"));
+      return;
+    }
+    let total = 0;
+    cards.forEach((c) => {
+      const text = c.textContent.toLowerCase();
+      const match = text.includes(q);
+      c.classList.toggle("hidden", !match);
+      c.classList.toggle("match", match);
+      if (match) total++;
+    });
+    // Hide section if no items visible
+    $$(".sec").forEach((s) => {
+      const any = s.querySelectorAll(".card:not(.hidden)").length > 0;
+      s.classList.toggle("hidden", !any);
+    });
+  }
+
+  // Cross-day search: when user types, also surface other dates with hits
+  function crossDaySearchHints() {
+    const q = state.query.trim().toLowerCase();
+    if (!q || !state.recentBundle) return [];
+    const hits = [];
+    for (const p of state.recentBundle) {
+      if (p.date === state.currentDate) continue;
+      let count = 0;
+      for (const s of p.sections) {
+        for (const it of s.items) {
+          const text = (it.headline + " " + it.body).toLowerCase();
+          if (text.includes(q)) count++;
+        }
+      }
+      if (count) hits.push({ date: p.date, count });
+    }
+    return hits.slice(0, 5);
+  }
+
+  function renderSearchHints() {
+    const hints = crossDaySearchHints();
+    let bar = $("#search-hints");
+    if (!hints.length) { if (bar) bar.remove(); return; }
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.id = "search-hints";
+      bar.className = "search-hints";
+      $("#content").prepend(bar);
+    } else {
+      const c = $("#content");
+      if (bar.parentNode !== c) c.prepend(bar);
+    }
+    bar.innerHTML = `<span class="muted small">其他日期匹配：</span>` + hints.map(h =>
+      `<a class="hint-pill" href="#/${h.date}">${dateLabel(h.date)} <em>(${h.count})</em></a>`
+    ).join("");
+  }
+
+  // ---- copy link ----
+  async function copyItemLink(id) {
+    const url = `${location.origin}${location.pathname}#/${state.currentDate}/${id}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast("链接已复制 📋");
+    } catch (e) {
+      // Fallback
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); toast("链接已复制 📋"); }
+      catch (err) { toast("复制失败"); }
+      ta.remove();
+    }
+  }
+
+  // ---- escape ----
+  function escHtml(s) {
+    return String(s).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  }
+  function escAttr(s) {
+    return String(s).replace(/["&<>]/g, (c) => ({ '"': "&quot;", "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  }
+
+  // ---- events ----
+  function bindEvents() {
+    // Search input
+    const q = $("#q");
+    let debounceT = 0;
+    q.addEventListener("input", (e) => {
+      clearTimeout(debounceT);
+      debounceT = setTimeout(() => {
+        state.query = e.target.value;
+        applySearchFilter();
+        renderSearchHints();
+      }, 120);
+    });
+
+    // Keyboard shortcuts: / to focus, Esc to clear
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "/" && document.activeElement.tagName !== "INPUT") {
+        e.preventDefault();
+        q.focus();
+      } else if (e.key === "Escape" && document.activeElement === q) {
+        q.value = ""; state.query = ""; applySearchFilter(); renderSearchHints();
+      }
+    });
+
+    // Sidebar nav
+    document.addEventListener("click", (e) => {
+      const link = e.target.closest(".date-link");
+      if (link) {
+        e.preventDefault();
+        const d = link.dataset.date;
+        location.hash = `#/${d}`;
+        return;
+      }
+      const chip = e.target.closest(".chip");
+      if (chip) {
+        state.filter = chip.dataset.filter;
+        renderFilters();
+        if (state.currentDate) renderPost(state.currentDate);
+        return;
+      }
+      const word = e.target.closest(".cloud-tag");
+      if (word) {
+        q.value = word.dataset.word;
+        state.query = word.dataset.word;
+        applySearchFilter();
+        renderSearchHints();
+        return;
+      }
+      const copy = e.target.closest(".card-copy");
+      if (copy) {
+        copyItemLink(copy.dataset.copy);
+        return;
+      }
+      const themeBtn = e.target.closest("#theme-toggle");
+      if (themeBtn) { toggleTheme(); return; }
+    });
+
+    // Hash routing
+    window.addEventListener("hashchange", route);
+  }
+
+  async function route() {
+    const { date } = parseHash();
+    const target = date && state.index.find((p) => p.date === date)
+      ? date
+      : (state.index[0] && state.index[0].date);
+    if (!target) {
+      $("#content").innerHTML = `<div class="empty">还没有任何内容，请等待下次更新。</div>`;
+      return;
+    }
+    if (!date) setHash(target);
+    await renderPost(target);
+    renderSidebar();
+  }
+
+  // ---- service worker ----
+  function registerSW() {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    }
+  }
+
+  // ---- init ----
+  async function init() {
+    initTheme();
+    bindEvents();
+    await loadIndex();
+    await Promise.all([loadKeywords(), loadRecentBundle()]);
+    renderSidebar();
+    renderCloud();
+    renderFilters();
+    await route();
+    registerSW();
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
 })();

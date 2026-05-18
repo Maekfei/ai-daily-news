@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 每日要闻</title>
+    <link>https://maekfei.github.io/ai-daily-news/</link>
+    <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 18 May 2026 10:09:30 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-18</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-18</link>
+      <guid isPermaLink="false">2026-05-18</guid>
+      <pubDate>Mon, 18 May 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业
+• Anthropic 推出面向中小企业的 Claude 服务套餐
+• Meta 自研消费级 AI Agent &quot;Hatch&quot; 内测
+• Anthropic 同意以 9000 亿美元估值开启新一轮融资
+• arXiv 多智能体新综述：超越个体智能
+• OpenAI 与 Anthropic 同日争夺企业 AI 嵌入权 — 两家在私募股权体系开启平行动作，重心从&quot;模型谁更强&quot;转向&quot;谁能稳定嵌入业务流&quot;。来源</description>
+    </item>
+  </channel>
+</rss>

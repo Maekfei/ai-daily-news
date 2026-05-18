@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+  <text x="80" y="120" font-size="24" fill="#94a3b8" font-family="system-ui,sans-serif">AI 每日要闻 · 2026-05-18</text>
+  <text x="80" y="200" font-size="56" font-weight="700" fill="#f8fafc" font-family="system-ui,sans-serif">🤖 今日 AI 要闻 · 2026-05-18</text>
+  <text x="80" y="270" font-size="26" fill="#cbd5e1" font-family="system-ui,sans-serif">Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业</text>
+  <line x1="80" y1="320" x2="1120" y2="320" stroke="#334155" stroke-width="1"/>
+  <text x="80" y="380" font-size="28" fill="#cbd5e1" font-family="system-ui,sans-serif">• Anthropic 推出面向中小企业的 Claude 服务套餐</text>
+<text x="80" y="436" font-size="28" fill="#cbd5e1" font-family="system-ui,sans-serif">• Meta 自研消费级 AI Agent &quot;Hatch&quot; 内测</text>
+<text x="80" y="492" font-size="28" fill="#cbd5e1" font-family="system-ui,sans-serif">• Anthropic 同意以 9000 亿美元估值开启新一轮融资</text>
+
+  <text x="80" y="580" font-size="22" fill="#64748b" font-family="system-ui,sans-serif">maekfei.github.io/ai-daily-news</text>
+</svg>

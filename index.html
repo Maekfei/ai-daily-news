@@ -1,45 +1,77 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日 AI Agent 要闻</title>
-<meta name="description" content="每日 AI Agent 要闻 · 由 Hermes Agent 自动汇编">
-<meta property="og:title" content="每日 AI Agent 要闻">
-<meta property="og:description" content="每天 10:00 自动归档的 AI Agent 行业动态">
-<meta property="og:type" content="website">
-<link rel="stylesheet" href="assets/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>🤖 今日 AI 要闻 · 2026-05-18 · AI 每日要闻</title>
+<meta name="description" content="Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业"/>
+<link rel="canonical" href="https://maekfei.github.io/ai-daily-news/"/>
+<meta property="og:title" content="🤖 今日 AI 要闻 · 2026-05-18 · AI 每日要闻"/>
+<meta property="og:description" content="Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业"/>
+<meta property="og:image" content="https://maekfei.github.io/ai-daily-news/og/2026-05-18.svg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://maekfei.github.io/ai-daily-news/"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="🤖 今日 AI 要闻 · 2026-05-18 · AI 每日要闻"/>
+<meta name="twitter:description" content="Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业"/>
+<meta name="twitter:image" content="https://maekfei.github.io/ai-daily-news/og/2026-05-18.svg"/>
+<link rel="alternate" type="application/rss+xml" title="AI 每日要闻" href="https://maekfei.github.io/ai-daily-news/feed.xml"/>
+<link rel="stylesheet" href="assets/style.css"/>
+<script defer src="assets/app.js"></script>
+<!-- GoatCounter privacy-friendly analytics -->
+<script data-goatcounter="https://maekfei-ai-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+<a class="skip" href="#main">跳到主内容</a>
 <header class="topbar">
-  <button id="menu-toggle" class="menu-toggle" aria-label="切换菜单">☰</button>
-  <a href="#" class="logo">
-    <span class="emoji">🤖</span>
-    <span class="text-full grad-text">每日 AI Agent 要闻</span>
-  </a>
-  <div class="search-wrap" id="search-wrap">
-    <span class="search-icon">🔍</span>
-    <input id="search-input" type="search" placeholder="搜索新闻 (按 / 快速聚焦)" autocomplete="off" spellcheck="false">
-    <button id="search-clear" class="search-clear" aria-label="清除">✕</button>
-  </div>
-  <div class="topbar-actions">
-    <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener" title="GitHub">⭐</a>
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">⚡</span>
+      <span class="brand-text"><strong>AI 每日要闻</strong><em>Agent 重点 · 每日 10:00</em></span>
+    </div>
+    <div class="search-wrap">
+      <input id="q" type="search" placeholder="搜索新闻、产品、关键词…   按 / 聚焦" autocomplete="off"/>
+      <kbd class="kbd">/</kbd>
+    </div>
+    <div class="topbar-actions">
+      <button id="theme-toggle" class="icon-btn" title="切换主题" aria-label="切换主题">🌗</button>
+      <a class="icon-btn" href="feed.xml" title="RSS 订阅" aria-label="RSS">📡</a>
+      <a class="icon-btn" href="https://github.com/Maekfei/ai-daily-news" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">⌘</a>
+    </div>
   </div>
 </header>
-
 <div class="layout">
-  <aside id="sidebar" class="sidebar"></aside>
-  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-title">归档</div>
+      <nav id="dates"></nav>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">分类</div>
+      <div id="filters" class="chips">
+        <button class="chip active" data-filter="all">全部</button>
+        <button class="chip" data-filter="hero">🎯 Agent</button>
+        <button class="chip" data-filter="mini">📰 大模型/行业</button>
+        <button class="chip" data-filter="quick">💡 快讯</button>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">本周热词 <span class="muted">(7天)</span></div>
+      <div id="cloud" class="cloud"></div>
+    </div>
+    <div class="sidebar-section sidebar-about">
+      <div class="sidebar-title">关于</div>
+      <p class="muted small">每日 10:00 (UTC+8) 自动汇编，重点关注 AI Agent / 智能体生态。内容由 AI 整理，建议核实原文。</p>
+      <p class="muted small">数据归档：<a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </aside>
   <main id="main" class="main">
-    <div class="empty"><span class="emoji">⏳</span><p>加载中...</p></div>
+    <div id="content"></div>
+    <footer class="page-footer">
+      <p>内容由 AI 自动整理，仅供参考。Built by <a href="https://github.com/Maekfei" target="_blank" rel="noopener">Maekfei</a> · <a href="feed.xml">RSS</a> · <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener">源码</a></p>
+    </footer>
   </main>
 </div>
-
-<footer class="site-footer">
-  <p>Powered by <a href="https://github.com/NousResearch" target="_blank" rel="noopener">Hermes Agent</a> <span class="heart">❤</span> · <a href="https://github.com/Maekfei/ai-daily-news" target="_blank" rel="noopener">源码</a></p>
-</footer>
-
-<script src="assets/app.js"></script>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
