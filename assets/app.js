@@ -121,17 +121,28 @@
   }
 
   // ---- sidebar ----
+  // Format a Date object as YYYY-MM-DD using LOCAL time (not UTC).
+  function localYMD(d) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    return `${y}-${m}-${day}`;
+  }
+
   function renderSidebar() {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const ymd = (d) => d.toISOString().slice(0, 10);
-    const todayStr = ymd(today);
-    const yest = new Date(today); yest.setDate(today.getDate() - 1);
-    const yestStr = ymd(yest);
+    const now = new Date();
+    const todayStr = localYMD(now);
+    const yest = new Date(now);
+    yest.setDate(now.getDate() - 1);
+    const yestStr = localYMD(yest);
+    const dayBefore = new Date(now);
+    dayBefore.setDate(now.getDate() - 2);
+    const dayBeforeStr = localYMD(dayBefore);
 
     const dateLabel = (d) => {
       if (d === todayStr) return "今天";
       if (d === yestStr) return "昨天";
+      if (d === dayBeforeStr) return "前天";
       return d;
     };
 
