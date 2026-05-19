@@ -96,9 +96,10 @@ TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
 
 python3 - <<'PYEOF'
 import json, urllib.request, os
-from datetime import date
+from datetime import date, timedelta
 
 today = "${TODAY}"  # 注意：cron 内执行时手动替换或用 os.popen
+cutoff = (date.today() - timedelta(days=365)).isoformat()  # 只保留 1 年内论文
 
 # Load existing pool
 src = "papers/papers.json"
@@ -137,6 +138,8 @@ for item in data:
     if not title: continue
     text = (title + " " + (paper.get("summary") or "")).lower()
     if not any(k in text for k in KW): continue
+    pub = (paper.get("publishedAt") or "")[:10]
+    if pub and pub < cutoff: continue   # 跳过 1 年前的论文
     aid = paper.get("id", "")
     pid = "hf-" + aid.replace(".", "-")
     if pid in known:
@@ -152,14 +155,14 @@ for item in data:
         "url": f"https://huggingface.co/papers/{aid}",
         "pdf_url": f"https://arxiv.org/pdf/{aid}.pdf",
         "tags": detect_tags(title, paper.get("summary")),
-        "published": (paper.get("publishedAt") or "")[:10],
+        "published": pub,
         "added": today,
         "stars": paper.get("upvotes", 0),
     }
     added_count += 1
 
-# Sort by added desc then stars desc, cap at 80
-all_papers = list(known.values())
+# Sort by added desc then stars desc, prune aged-out, cap at 80
+all_papers = [p for p in known.values() if (not p.get("published")) or p["published"] >= cutoff]
 all_papers.sort(key=lambda p: (p.get("added", ""), p.get("stars", 0)), reverse=True)
 all_papers = all_papers[:80]
 

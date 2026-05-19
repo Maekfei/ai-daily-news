@@ -410,10 +410,22 @@ def build_papers() -> dict:
         except Exception as e:
             print(f"  ✗ papers.json parse: {e}", file=sys.stderr)
 
+    # Filter: only keep papers published within the last 365 days.
+    # Papers with no `published` field are kept (manually curated entries).
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=365)).date().isoformat()
+    before = len(papers)
+    papers = [p for p in papers if (not p.get("published")) or p.get("published", "") >= cutoff]
+    dropped = before - len(papers)
+    if dropped:
+        print(f"  · dropped {dropped} papers older than {cutoff}")
+
     # Normalize + sort by `added` desc, then `published` desc
     def _key(p):
         return (p.get("added", ""), p.get("published", ""))
     papers.sort(key=_key, reverse=True)
+
+    # Cap at 80 most-recent
+    papers = papers[:80]
 
     # Build tag stats
     tag_counter = Counter()
