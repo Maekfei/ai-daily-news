@@ -537,11 +537,25 @@
 
     // Sidebar nav + chips + cloud + copy + theme + tag chip + topnav
     document.addEventListener("click", (e) => {
-      const link = e.target.closest(".date-link");
-      if (link) {
+      // Paper-date link must be checked FIRST (it also has .date-link class for styling)
+      const paperDate = e.target.closest("[data-paper-date]");
+      if (paperDate) {
         e.preventDefault();
-        const d = link.dataset.date;
-        location.hash = `#/${d}`;
+        const d = paperDate.dataset.paperDate;
+        const target = document.getElementById(`date-${d}`);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+          target.classList.add("flash");
+          setTimeout(() => target.classList.remove("flash"), 1200);
+        }
+        document.querySelectorAll("#dates .date-link").forEach((a) => a.classList.remove("active"));
+        paperDate.classList.add("active");
+        return;
+      }
+      const link = e.target.closest(".date-link");
+      if (link && link.dataset.date) {
+        e.preventDefault();
+        location.hash = `#/${link.dataset.date}`;
         return;
       }
       const chip = e.target.closest(".chip");
@@ -555,22 +569,6 @@
       if (tagChip) {
         state.paperTagFilter = tagChip.dataset.tag;
         renderPapers();
-        return;
-      }
-      const paperDate = e.target.closest("[data-paper-date]");
-      if (paperDate) {
-        e.preventDefault();
-        const d = paperDate.dataset.paperDate;
-        const target = document.getElementById(`date-${d}`);
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-          // Visual highlight
-          target.classList.add("flash");
-          setTimeout(() => target.classList.remove("flash"), 1200);
-        }
-        // Mark active link
-        document.querySelectorAll("#dates .date-link").forEach((a) => a.classList.remove("active"));
-        paperDate.classList.add("active");
         return;
       }
       const word = e.target.closest(".cloud-tag");
