@@ -480,3 +480,225 @@ a:hover { text-decoration: underline; }
 .meta-背景 { background: linear-gradient(135deg, #94a3b8, #64748b); }
 .meta-看点 { background: linear-gradient(135deg, #10b981, #059669); }
 .meta-text { color: var(--fg-muted); flex: 1; }
+
+/* ========== TOPNAV (要闻 / 论文) ========== */
+.topnav {
+  display: flex;
+  gap: .25rem;
+  margin-left: .5rem;
+}
+.topnav-link {
+  padding: .42rem .85rem;
+  border-radius: 8px;
+  font-size: .88rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.topnav-link:hover {
+  color: var(--fg);
+  background: var(--bg-card);
+  text-decoration: none;
+}
+.topnav-link.active {
+  color: var(--fg);
+  background: var(--bg-card);
+  border-color: var(--border-strong);
+  box-shadow: var(--glow);
+}
+@media (max-width: 720px) {
+  .topnav-link { padding: .35rem .6rem; font-size: .82rem; }
+  .brand-text em { display: none; }
+}
+
+/* ========== PAPERS PAGE ========== */
+/* Hide news-only sidebar widgets when in papers view */
+body.view-papers .sidebar-section:has(#dates),
+body.view-papers .sidebar-section:has(#filters),
+body.view-papers .sidebar-section:has(#cloud) {
+  display: none;
+}
+
+.papers-page { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.paper-tagbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 1rem 1.1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .42rem .8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-card-2);
+  color: var(--fg-muted);
+  font-size: .82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .15s;
+  font-family: inherit;
+}
+.tag-chip sup {
+  font-size: .68rem;
+  color: var(--fg-dim);
+  margin-left: .15rem;
+}
+.tag-chip:hover {
+  color: var(--fg);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.tag-chip.active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+  box-shadow: 0 6px 18px -6px rgba(167,139,250,.5);
+}
+.tag-chip.active sup { color: rgba(255,255,255,.85); }
+
+.papers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 1.1rem;
+}
+@media (max-width: 600px) {
+  .papers-grid { grid-template-columns: 1fr; }
+}
+
+.paper-card {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  padding: 1.1rem 1.2rem 1.05rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  position: relative;
+  transition: all .2s ease;
+  overflow: hidden;
+}
+.paper-card::before {
+  content: "";
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2), var(--accent-3));
+  opacity: 0; transition: opacity .2s;
+}
+.paper-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow);
+}
+.paper-card:hover::before { opacity: 1; }
+
+.paper-tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  align-items: center;
+  margin-bottom: .15rem;
+}
+.paper-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .22rem;
+  padding: .18rem .55rem;
+  border-radius: 6px;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: #fff;
+  white-space: nowrap;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+.paper-stars {
+  margin-left: auto;
+  font-size: .75rem;
+  color: var(--fg-muted);
+  font-weight: 600;
+}
+
+/* Per-tag colors. Mirrors build.py TAG_LABELS. */
+.tag-hf-trending,
+.paper-tag.tag-hf-trending     { background: linear-gradient(135deg, #f97316, #ef4444); }
+.tag-top-conference,
+.paper-tag.tag-top-conference  { background: linear-gradient(135deg, #f59e0b, #d97706); color: #422006; }
+.tag-arxiv-hot,
+.paper-tag.tag-arxiv-hot       { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+.tag-agent,
+.paper-tag.tag-agent           { background: linear-gradient(135deg, #a78bfa, #7c3aed); }
+.tag-rl,
+.paper-tag.tag-rl              { background: linear-gradient(135deg, #06b6d4, #0891b2); }
+.tag-multimodal,
+.paper-tag.tag-multimodal      { background: linear-gradient(135deg, #ec4899, #db2777); }
+.tag-benchmark,
+.paper-tag.tag-benchmark       { background: linear-gradient(135deg, #10b981, #059669); }
+.tag-reasoning,
+.paper-tag.tag-reasoning       { background: linear-gradient(135deg, #8b5cf6, #6366f1); }
+.tag-code,
+.paper-tag.tag-code            { background: linear-gradient(135deg, #475569, #1e293b); }
+.tag-robotics,
+.paper-tag.tag-robotics        { background: linear-gradient(135deg, #14b8a6, #0d9488); }
+.tag-survey,
+.paper-tag.tag-survey          { background: linear-gradient(135deg, #64748b, #475569); }
+.tag-open-source,
+.paper-tag.tag-open-source     { background: linear-gradient(135deg, #22c55e, #16a34a); }
+
+/* When tag-chip is in the tagbar, override gradient for non-active state */
+.paper-tagbar .tag-chip:not(.active) {
+  background: var(--bg-card-2);
+  color: var(--fg-muted);
+}
+.paper-tagbar .tag-chip.active {
+  /* Keep the per-tag color when filter is active */
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 6px 18px -6px rgba(167,139,250,.5);
+}
+
+.paper-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--fg);
+  text-decoration: none;
+  letter-spacing: -.01em;
+}
+.paper-title:hover {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+.paper-authors {
+  font-size: .8rem;
+  color: var(--fg-muted);
+  font-style: italic;
+}
+.paper-venue {
+  font-size: .76rem;
+  color: var(--fg-dim);
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.paper-summary {
+  margin: .35rem 0 0;
+  font-size: .9rem;
+  line-height: 1.65;
+  color: var(--fg-muted);
+}
+.paper-card .card-links {
+  margin-top: .35rem;
+  display: flex; flex-wrap: wrap; gap: .35rem;
+}

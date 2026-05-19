@@ -23,6 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "posts"
+PAPERS_DIR = ROOT / "papers"
 DATA_DIR = ROOT / "data"
 OG_DIR = ROOT / "og"
 SITE_URL = "https://maekfei.github.io/ai-daily-news"
@@ -338,6 +339,10 @@ def render_index_html(posts: list) -> str:
       <span class="brand-mark">⚡</span>
       <span class="brand-text"><strong>AI 每日要闻</strong><em>Agent 重点 · 每日 10:00</em></span>
     </div>
+    <nav class="topnav" id="topnav">
+      <a href="#/" class="topnav-link" data-view="news">📰 要闻</a>
+      <a href="#/papers" class="topnav-link" data-view="papers">📚 论文</a>
+    </nav>
     <div class="search-wrap">
       <input id="q" type="search" placeholder="搜索新闻、产品、关键词…   按 / 聚焦" autocomplete="off"/>
       <kbd class="kbd">/</kbd>
@@ -385,6 +390,69 @@ def render_index_html(posts: list) -> str:
 </body>
 </html>
 """
+
+
+def build_papers() -> dict:
+    """Read papers/papers.json (or papers/*.json files) and emit data/papers.json.
+
+    Source format (papers/papers.json):
+      {"papers": [{id, title, authors[], venue, summary, url, pdf_url, tags[], published, added, stars?}, ...]}
+
+    Output (data/papers.json):
+      {"papers": [...sorted by added desc...], "tags": [{key,label,count}, ...], "generated_at": "..."}
+    """
+    src = PAPERS_DIR / "papers.json"
+    papers = []
+    if src.exists():
+        try:
+            data = json.loads(src.read_text(encoding="utf-8"))
+            papers = data.get("papers", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        except Exception as e:
+            print(f"  ✗ papers.json parse: {e}", file=sys.stderr)
+
+    # Normalize + sort by `added` desc, then `published` desc
+    def _key(p):
+        return (p.get("added", ""), p.get("published", ""))
+    papers.sort(key=_key, reverse=True)
+
+    # Build tag stats
+    tag_counter = Counter()
+    for p in papers:
+        for t in p.get("tags", []) or []:
+            tag_counter[t] += 1
+    tag_meta = TAG_LABELS  # {key: {label, emoji}}
+    tags = []
+    for key, count in tag_counter.most_common():
+        meta = tag_meta.get(key, {"label": key, "emoji": ""})
+        tags.append({"key": key, "label": meta["label"], "emoji": meta.get("emoji", ""), "count": count})
+
+    out = {
+        "papers": papers,
+        "tags": tags,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    (DATA_DIR / "papers.json").write_text(
+        json.dumps(out, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    return out
+
+
+# Tag labels (for chips and badges). emoji is purely decorative.
+TAG_LABELS = {
+    "hf-trending":     {"label": "HF 热门",    "emoji": "🔥"},
+    "top-conference":  {"label": "顶会论文",   "emoji": "🏆"},
+    "arxiv-hot":       {"label": "arXiv 热门", "emoji": "📈"},
+    "agent":           {"label": "Agent",      "emoji": "🤖"},
+    "rl":              {"label": "RL",         "emoji": "🎯"},
+    "multimodal":      {"label": "多模态",     "emoji": "🎨"},
+    "benchmark":       {"label": "评测",       "emoji": "📊"},
+    "reasoning":       {"label": "推理",       "emoji": "🧠"},
+    "code":            {"label": "代码",       "emoji": "💻"},
+    "robotics":        {"label": "机器人",     "emoji": "🦾"},
+    "survey":          {"label": "综述",       "emoji": "📚"},
+    "open-source":     {"label": "开源",       "emoji": "🔓"},
+}
 
 
 def main():
@@ -463,9 +531,13 @@ def main():
     # SPA shell
     (ROOT / "index.html").write_text(render_index_html(posts), encoding="utf-8")
 
+    # Papers module
+    papers_data = build_papers()
+
     print(f"  ✓ data.json   ({len(recent)} recent of {len(posts)})")
     print(f"  ✓ data/index.json + data/<date>.json × {len(posts)}")
     print(f"  ✓ data/keywords.json ({len(keywords)} words)")
+    print(f"  ✓ data/papers.json ({len(papers_data['papers'])} papers, {len(papers_data['tags'])} tags)")
     print(f"  ✓ feed.xml, sitemap.xml")
     print(f"  ✓ og/*.svg × {len(posts) + 1}")
     print(f"  ✓ index.html (SPA shell)")

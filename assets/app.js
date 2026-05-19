@@ -16,6 +16,9 @@
     query: "",
     keywords: [],
     recentBundle: null,   // bundled recent 30 days for cross-day search
+    view: "news",         // "news" | "papers"
+    papers: null,         // {papers: [...], tags: [...]}
+    paperTagFilter: "all",// "all" or a tag key
   };
 
   // ---- date helpers (LOCAL TZ) ----
@@ -92,13 +95,24 @@
     state.posts.set(date, p);
     return p;
   }
+  async function loadPapers() {
+    if (state.papers) return state.papers;
+    try {
+      const r = await fetch("data/papers.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("no papers");
+      state.papers = await r.json();
+    } catch (e) {
+      state.papers = { papers: [], tags: [] };
+    }
+    return state.papers;
+  }
 
   // ---- routing ----
   function parseHash() {
-    // #/YYYY-MM-DD or #/YYYY-MM-DD/itemId
+    // #/YYYY-MM-DD or #/YYYY-MM-DD/itemId or #/papers or #/papers/<tag>
     const h = location.hash.replace(/^#\/?/, "");
-    const [date, ...rest] = h.split("/");
-    return { date: date || null, anchor: rest.join("/") || null };
+    const [first, ...rest] = h.split("/");
+    return { first: first || null, rest: rest.join("/") || null };
   }
   function setHash(date, anchor) {
     const v = anchor ? `#/${date}/${anchor}` : `#/${date}`;
@@ -193,7 +207,7 @@
     if (state.query) applySearchFilter();
 
     // Scroll to anchor if present
-    const { anchor } = parseHash();
+    const { rest: anchor } = parseHash();
     if (anchor) {
       const el = document.getElementById(anchor);
       if (el) {
@@ -244,7 +258,122 @@
     </div>`;
   }
 
-  // ---- search ----
+  // ---- render: papers view ----
+  // Tag colors are defined in CSS as .tag-<key>; this list mirrors build.py TAG_LABELS.
+  const TAG_FALLBACK = {
+    "hf-trending":    { label: "HF 热门",    emoji: "🔥" },
+    "top-conference": { label: "顶会论文",   emoji: "🏆" },
+    "arxiv-hot":      { label: "arXiv 热门", emoji: "📈" },
+    "agent":          { label: "Agent",      emoji: "🤖" },
+    "rl":             { label: "RL",         emoji: "🎯" },
+    "multimodal":     { label: "多模态",     emoji: "🎨" },
+    "benchmark":      { label: "评测",       emoji: "📊" },
+    "reasoning":      { label: "推理",       emoji: "🧠" },
+    "code":           { label: "代码",       emoji: "💻" },
+    "robotics":       { label: "机器人",     emoji: "🦾" },
+    "survey":         { label: "综述",       emoji: "📚" },
+    "open-source":    { label: "开源",       emoji: "🔓" },
+  };
+  function tagMeta(key) {
+    return TAG_FALLBACK[key] || { label: key, emoji: "🏷" };
+  }
+
+  async function renderPapers() {
+    const main = $("#content");
+    if (!main) return;
+    main.innerHTML = '<div class="loading">加载论文…</div>';
+    const data = await loadPapers();
+    document.title = "📚 论文 · AI 每日要闻";
+
+    const allPapers = data.papers || [];
+    const tags = data.tags || [];
+
+    // Filter by tag + free-text query
+    const q = state.query.trim().toLowerCase();
+    const filtered = allPapers.filter((p) => {
+      const tagMatch = state.paperTagFilter === "all"
+        || (p.tags || []).includes(state.paperTagFilter);
+      if (!tagMatch) return false;
+      if (!q) return true;
+      const blob = [
+        p.title, p.summary, (p.authors || []).join(" "),
+        p.venue, (p.tags || []).join(" "),
+      ].join(" ").toLowerCase();
+      return blob.includes(q);
+    });
+
+    let html = `<article class="papers-page">
+      <header class="post-header">
+        <div class="post-date-row">
+          <span class="post-date-label">📚 论文精选</span>
+          <span class="muted small">共 ${allPapers.length} 篇 · Agent / 大模型 / 强化学习</span>
+        </div>
+        <h1 class="post-title">最新最热 AI 论文</h1>
+        <p class="post-summary">汇总 HuggingFace 热门、arXiv 高引、顶会（NeurIPS / ICML / ICLR / ACL …）的代表性论文，每日同步更新。</p>
+      </header>`;
+
+    // Tag filter chips
+    html += `<div class="paper-tagbar">
+      <button class="tag-chip${state.paperTagFilter === "all" ? " active" : ""}" data-tag="all">全部 <sup>${allPapers.length}</sup></button>`;
+    for (const t of tags) {
+      const meta = tagMeta(t.key);
+      const active = state.paperTagFilter === t.key ? " active" : "";
+      html += `<button class="tag-chip tag-${t.key}${active}" data-tag="${escAttr(t.key)}">${meta.emoji} ${escHtml(meta.label)} <sup>${t.count}</sup></button>`;
+    }
+    html += `</div>`;
+
+    if (!filtered.length) {
+      html += `<div class="empty">没有匹配的论文 · 调整筛选或清空搜索框试试</div>`;
+    } else {
+      html += `<div class="papers-grid">`;
+      for (const p of filtered) html += renderPaperCard(p);
+      html += `</div>`;
+    }
+    html += `</article>`;
+    main.innerHTML = html;
+  }
+
+  function renderPaperCard(p) {
+    const id = p.id || slugifyClient(p.title || "paper");
+    const url = p.url || p.pdf_url || "#";
+    const authors = (p.authors || []).slice(0, 4).join(" · ");
+    const moreAuthors = (p.authors || []).length > 4 ? ` 等 ${p.authors.length} 人` : "";
+    const venueLine = [p.venue, p.published].filter(Boolean).join(" · ");
+
+    const tagChips = (p.tags || []).map((k) => {
+      const m = tagMeta(k);
+      return `<span class="paper-tag tag-${escAttr(k)}">${m.emoji} ${escHtml(m.label)}</span>`;
+    }).join("");
+
+    const stars = p.stars
+      ? `<span class="paper-stars" title="HuggingFace likes">❤ ${p.stars.toLocaleString()}</span>`
+      : "";
+
+    const links = [];
+    if (p.url) links.push(`<a class="item-link" href="${escAttr(p.url)}" target="_blank" rel="noopener noreferrer">原文 ↗</a>`);
+    if (p.pdf_url && p.pdf_url !== p.url) links.push(`<a class="item-link" href="${escAttr(p.pdf_url)}" target="_blank" rel="noopener noreferrer">PDF ↗</a>`);
+
+    return `<div class="paper-card" id="${escAttr(id)}">
+      <div class="paper-tags-row">${tagChips}${stars}</div>
+      <a class="paper-title" href="${escAttr(url)}" target="_blank" rel="noopener noreferrer">${escHtml(p.title || "(untitled)")}</a>
+      ${authors ? `<div class="paper-authors">${escHtml(authors)}${escHtml(moreAuthors)}</div>` : ""}
+      ${venueLine ? `<div class="paper-venue">${escHtml(venueLine)}</div>` : ""}
+      ${p.summary ? `<p class="paper-summary">${escHtml(p.summary)}</p>` : ""}
+      ${links.length ? `<div class="card-links">${links.join("")}</div>` : ""}
+    </div>`;
+  }
+
+  function slugifyClient(s) {
+    return String(s).toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "paper";
+  }
+
+  function updateTopnav() {
+    $$(".topnav-link").forEach((a) => {
+      a.classList.toggle("active", a.dataset.view === state.view);
+    });
+    // Hide news-only sidebar sections in papers view
+    document.body.classList.toggle("view-papers", state.view === "papers");
+  }
   function applySearchFilter() {
     const q = state.query.trim().toLowerCase();
     const cards = $$(".card");
@@ -340,8 +469,12 @@
       clearTimeout(debounceT);
       debounceT = setTimeout(() => {
         state.query = e.target.value;
-        applySearchFilter();
-        renderSearchHints();
+        if (state.view === "papers") {
+          renderPapers();
+        } else {
+          applySearchFilter();
+          renderSearchHints();
+        }
       }, 120);
     });
 
@@ -351,11 +484,13 @@
         e.preventDefault();
         q.focus();
       } else if (e.key === "Escape" && document.activeElement === q) {
-        q.value = ""; state.query = ""; applySearchFilter(); renderSearchHints();
+        q.value = ""; state.query = "";
+        if (state.view === "papers") renderPapers();
+        else { applySearchFilter(); renderSearchHints(); }
       }
     });
 
-    // Sidebar nav
+    // Sidebar nav + chips + cloud + copy + theme + tag chip + topnav
     document.addEventListener("click", (e) => {
       const link = e.target.closest(".date-link");
       if (link) {
@@ -371,12 +506,18 @@
         if (state.currentDate) renderPost(state.currentDate);
         return;
       }
+      const tagChip = e.target.closest(".paper-tagbar .tag-chip");
+      if (tagChip) {
+        state.paperTagFilter = tagChip.dataset.tag;
+        renderPapers();
+        return;
+      }
       const word = e.target.closest(".cloud-tag");
       if (word) {
         q.value = word.dataset.word;
         state.query = word.dataset.word;
-        applySearchFilter();
-        renderSearchHints();
+        if (state.view === "papers") renderPapers();
+        else { applySearchFilter(); renderSearchHints(); }
         return;
       }
       const copy = e.target.closest(".card-copy");
@@ -386,6 +527,12 @@
       }
       const themeBtn = e.target.closest("#theme-toggle");
       if (themeBtn) { toggleTheme(); return; }
+      // Topnav handled via hashchange (regular anchor) — no JS needed,
+      // but reset paperTagFilter when going to /papers without a tag.
+      const topnav = e.target.closest(".topnav-link");
+      if (topnav && topnav.dataset.view === "papers") {
+        state.paperTagFilter = "all";
+      }
     });
 
     // Hash routing
@@ -393,7 +540,22 @@
   }
 
   async function route() {
-    const { date } = parseHash();
+    const { first, rest } = parseHash();
+
+    // Papers view
+    if (first === "papers") {
+      state.view = "papers";
+      if (rest) state.paperTagFilter = rest;
+      updateTopnav();
+      await renderPapers();
+      // Sync search results live (papers re-renders on each search input)
+      return;
+    }
+
+    // News view (default)
+    state.view = "news";
+    updateTopnav();
+    const date = first;
     const target = date && state.index.find((p) => p.date === date)
       ? date
       : (state.index[0] && state.index[0].date);
