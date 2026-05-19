@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 May 2026 10:09:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 02:04:06 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-19</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-19</link>
+      <guid isPermaLink="false">2026-05-19</guid>
+      <pubDate>Tue, 19 May 2026 10:00:00 +0800</pubDate>
+      <description>字节跳动 AI 资本开支上调至 2000 亿元加码国产芯片；Anthropic 首次反超 OpenAI 成企业 AI 付费第一。
+• Anthropic 与 SpaceX 签 22 万张 GPU 算力协议
+• Anthropic 商业付费客户份额首次反超 OpenAI
+• Claude Code 极简 Agent 架构源码细节流出
+• 国内&quot;AI 智能体抓取数据第一案&quot;广州落槌
+• 字节跳动 2026 年 AI 资本开支上调至 2000 亿元 — 较去年底 1600 亿初步规划增幅至少 25%（约合 300 亿美元），并将更大比例资金投向国产 AI 芯片，原因之一是 HBM 内存价格持续上涨。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-18</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-18</link>
