@@ -515,11 +515,45 @@ a:hover { text-decoration: underline; }
 }
 
 /* ========== PAPERS PAGE ========== */
-/* Hide news-only sidebar widgets when in papers view */
-body.view-papers .sidebar-section:has(#dates),
+/* In papers view: keep #dates sidebar (for paper dates), hide news-only filter/cloud */
 body.view-papers .sidebar-section:has(#filters),
 body.view-papers .sidebar-section:has(#cloud) {
   display: none;
+}
+
+/* Papers day section */
+.papers-day {
+  margin-bottom: 36px;
+  scroll-margin-top: 80px;
+}
+.papers-day-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(124, 92, 255, 0.12), rgba(124, 92, 255, 0.02));
+  border-left: 4px solid var(--accent, #7c5cff);
+}
+.papers-day-date {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--fg, #1a1a2e);
+  letter-spacing: 0.02em;
+}
+.papers-day-count {
+  font-size: 0.82rem;
+  color: var(--muted, #888);
+  font-variant-numeric: tabular-nums;
+}
+@keyframes paperDayFlash {
+  0% { background: rgba(124, 92, 255, 0.25); }
+  100% { background: transparent; }
+}
+.papers-day.flash .papers-day-header {
+  animation: paperDayFlash 1.2s ease-out;
 }
 
 .papers-page { display: flex; flex-direction: column; gap: 1.5rem; }

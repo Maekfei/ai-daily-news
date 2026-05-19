@@ -163,6 +163,9 @@
     const main = $("#content");
     if (!main) return;
     main.innerHTML = '<div class="loading">加载中…</div>';
+    // Restore news-mode sidebar header
+    const archiveTitle = document.querySelector(".sidebar-section .sidebar-title");
+    if (archiveTitle) archiveTitle.textContent = "归档";
     let post;
     try {
       post = await loadPost(date);
@@ -285,6 +288,10 @@
     const data = await loadPapers();
     document.title = "📚 论文 · AI 每日要闻";
 
+    // Relabel sidebar archive header for papers view
+    const archiveTitle = document.querySelector(".sidebar-section .sidebar-title");
+    if (archiveTitle) archiveTitle.textContent = "📅 论文日期";
+
     const allPapers = data.papers || [];
     const tags = data.tags || [];
 
@@ -325,12 +332,50 @@
     if (!filtered.length) {
       html += `<div class="empty">没有匹配的论文 · 调整筛选或清空搜索框试试</div>`;
     } else {
-      html += `<div class="papers-grid">`;
-      for (const p of filtered) html += renderPaperCard(p);
-      html += `</div>`;
+      // Group by `added` date (newest first)
+      const groups = new Map();
+      for (const p of filtered) {
+        const d = p.added || p.published || "未注明日期";
+        if (!groups.has(d)) groups.set(d, []);
+        groups.get(d).push(p);
+      }
+      const dates = Array.from(groups.keys()).sort().reverse();
+      for (const d of dates) {
+        const items = groups.get(d);
+        const anchor = `date-${d}`;
+        html += `<section class="papers-day" id="${escAttr(anchor)}">
+          <div class="papers-day-header">
+            <h2 class="papers-day-date">📅 ${escHtml(d)}</h2>
+            <span class="papers-day-count">${items.length} 篇</span>
+          </div>
+          <div class="papers-grid">`;
+        for (const p of items) html += renderPaperCard(p);
+        html += `</div></section>`;
+      }
     }
     html += `</article>`;
     main.innerHTML = html;
+
+    // Render sidebar date list (papers-mode)
+    renderPapersSidebar(filtered);
+  }
+
+  function renderPapersSidebar(papers) {
+    const nav = $("#dates");
+    if (!nav) return;
+    const counts = new Map();
+    for (const p of papers) {
+      const d = p.added || p.published || "未注明日期";
+      counts.set(d, (counts.get(d) || 0) + 1);
+    }
+    const dates = Array.from(counts.keys()).sort().reverse();
+    if (!dates.length) {
+      nav.innerHTML = `<li class="muted small">暂无论文</li>`;
+      return;
+    }
+    nav.innerHTML = dates.map((d) => {
+      return `<li><a href="#/papers" class="date-link" data-paper-date="${escAttr(d)}"><span class="date-label">${escHtml(d)}</span><span class="date-meta">${counts.get(d)} 篇</span></a></li>`;
+    }).join("");
   }
 
   function renderPaperCard(p) {
@@ -510,6 +555,22 @@
       if (tagChip) {
         state.paperTagFilter = tagChip.dataset.tag;
         renderPapers();
+        return;
+      }
+      const paperDate = e.target.closest("[data-paper-date]");
+      if (paperDate) {
+        e.preventDefault();
+        const d = paperDate.dataset.paperDate;
+        const target = document.getElementById(`date-${d}`);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+          // Visual highlight
+          target.classList.add("flash");
+          setTimeout(() => target.classList.remove("flash"), 1200);
+        }
+        // Mark active link
+        document.querySelectorAll("#dates .date-link").forEach((a) => a.classList.remove("active"));
+        paperDate.classList.add("active");
         return;
       }
       const word = e.target.closest(".cloud-tag");
