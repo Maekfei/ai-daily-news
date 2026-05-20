@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 May 2026 02:55:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 02:02:50 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-20</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-20</link>
+      <guid isPermaLink="false">2026-05-20</guid>
+      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
+      <description>Google I/O 2026 开幕，谷歌发布 Gemini 3.5 系列与全天候个人智能体 Gemini Spark；Anthropic 斥资逾 3 亿美元收购 Stainless，进一步把 OpenAI、Google 共同依赖的 SDK 工具链握在自己手里。
+• Google I/O 2026：发布 Gemini Spark 全天候个人 AI 智能体
+• Anthropic 斥资逾 3 亿美元收购 Stainless，握紧 AI SDK 命门
+• SandboxAQ 把药物发现模型接入 Claude，&quot;无需博士&quot;做药
+• Google I/O 2026 模型矩阵更新 — 谷歌同步发布 Gemini 3.5 Flash / Omni，相比 3.0 系列在多模态推理与端侧延迟上做优化，并预告下一代 Veo 视频生成与 Imagen 图像生成升级，全部纳入 Gemini Spark 的工具池。来源：Google I/O 2026 keynote · TechCrunch
+• OpenAI Codex × Dell 企业合作 — OpenAI 5 月 18 日宣布与 Dell 达成 Codex 企业部署合作，把 Codex CLI / 移动端 / 桌面 App 打包进 Dell 企业 IT 套件。Codex 周活已突破 400 万。来源：OpenAI 官方索引</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-19</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-19</link>
