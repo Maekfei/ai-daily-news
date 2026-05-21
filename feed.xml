@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 May 2026 02:02:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 02:09:19 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-21</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-21</link>
+      <guid isPermaLink="false">2026-05-21</guid>
+      <pubDate>Thu, 21 May 2026 10:00:00 +0800</pubDate>
+      <description>NVIDIA 公布 FY27 Q1 营收 816 亿美元、数据中心同比 +77%，验证 Agent 时代算力高景气；阿里云抛出&quot;真武 M890 + 128 卡超节点&quot;硬件答卷，把&quot;Agentic Cloud&quot;从概念落到芯片。
+• 阿里云正式提出 &quot;Agentic Cloud&quot;，发布真武 M890 与 128 卡超节点
+• Andrej Karpathy 加盟 Anthropic，组队用 Claude 加速预训练研究
+• Google I/O 2026 合体亚马逊、Meta、微软推出&quot;AI 通用购物车&quot;
+• NVIDIA FY27 Q1 营收 816.2 亿美元，再超预期 — 数据中心收入创纪录 752 亿美元（compute $60.4B、networking $14.8B），同比 +77%；季度回购+分红 200 亿美元。Jensen Huang 在电话会强调 Blackwell Ultra 出货爬坡和 Rubin 架构早期发货是核心动能。来源：CNBC NVDA 财报实况 ｜ 来源：NVIDIA 官方财报通稿
+• Google I/O 2026 模型矩阵：Gemini 3.5 Flash 主推 agentic 路线 — 谷歌定位 3.5 Flash 为&quot;专为 Agent 调用优化&quot;的轻量主力，搭配 Gemini Spark 个人代理与 Project Astra 升级，3.5 Pro/Omni 同步推出。来源：TechCrunch</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-20</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-20</link>
