@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 21 May 2026 02:09:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 02:07:01 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-22</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-22</link>
+      <guid isPermaLink="false">2026-05-22</guid>
+      <pubDate>Fri, 22 May 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 拟以超 9000 亿美元估值开启新一轮融资，估值首次反超 OpenAI；Google I/O 2026 余温未退，Gemini 3.5 Flash 与 Antigravity 推动消费级 Agent 全面铺开。
+• Anthropic 拟以 9000 亿美元估值新一轮融资，估值首次反超 OpenAI
+• Google I/O 2026 全面押注 Agent：Gemini 3.5 Flash + Antigravity 2.0 + UCP/AP2 协议
+• Anthropic 收购 SDK / MCP 平台 Stainless，竞品 SDK 生成基础设施被切断
+• xAI 上线 Grok Skills：单次问答转向&quot;可配置自动化工作空间&quot;
+• OpenAI 拟数周内提交 IPO 文件，计划秋季上市 — 据多家媒体报道，OpenAI 正准备在未来数周内提交 IPO 文件，目标 2026 年秋季登陆公开市场，承销商已在协调；这将与 SpaceX 的预期 IPO（股票代码 SPCX）形成&quot;AI 双 IPO&quot;格局。来源：界面新闻</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-21</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-21</link>

@@ -210,6 +210,30 @@
       "stars": 22
     },
     {
+      "id": "hf-2605-19376",
+      "title": "Generative Recursive Reasoning",
+      "authors": [
+        "Junyeob Baek",
+        "Mingyu Jo",
+        "Minsu Kim",
+        "Mengye Ren",
+        "Yoshua Bengio",
+        "Sungjin Ahn"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "How should future neural reasoning systems implement extended computation? Recursive Reasoning Models (RRMs) offer a promising alternative to autoregressive sequence extension by performing iterative latent-state refinement with shared transition functions. Yet existing RRMs are largely deterministic, following a single latent trajectory and converging to a single prediction. We introduce Generative Recursive reAsoning Models (GRAM), a framework that turns recursive latent reasoning into probabilistic multi-trajectory computation. GRAM models r",
+      "url": "https://huggingface.co/papers/2605.19376",
+      "pdf_url": "https://arxiv.org/pdf/2605.19376.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-05-20",
+      "added": "2026-05-21",
+      "stars": 21
+    },
+    {
       "id": "hf-2605-17829",
       "title": "Interactive Evaluation Requires a Design Science",
       "authors": [
@@ -264,6 +288,33 @@
       "stars": 11
     },
     {
+      "id": "hf-2605-20668",
+      "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
+      "authors": [
+        "Seungone Kim",
+        "Dongkeun Yoon",
+        "Kiril Gashteovski",
+        "Juyoung Suk",
+        "Jinheon Baek",
+        "Pranjal Aggarwal",
+        "Ian Wu",
+        "Viktor Zaverkin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "With the advancement of AI capabilities, AI reviewers are beginning to be deployed in scientific peer review, yet their capability and credibility remain in question: many scientists simply view them as probabilistic systems without the expertise to evaluate research, while other researchers are more optimistic about their readiness without concrete evidence. Understanding what AI reviewers do well, where they fall short, and what challenges remain is essential. However, existing evaluations of AI reviewers have focused on whether their verdict",
+      "url": "https://huggingface.co/papers/2605.20668",
+      "pdf_url": "https://arxiv.org/pdf/2605.20668.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-05-20",
+      "added": "2026-05-21",
+      "stars": 9
+    },
+    {
       "id": "hf-2605-15458",
       "title": "Video Models Can Reason with Verifiable Rewards",
       "authors": [
@@ -314,30 +365,6 @@
       "published": "2026-05-18",
       "added": "2026-05-21",
       "stars": 7
-    },
-    {
-      "id": "hf-2605-19376",
-      "title": "Generative Recursive Reasoning",
-      "authors": [
-        "Junyeob Baek",
-        "Mingyu Jo",
-        "Minsu Kim",
-        "Mengye Ren",
-        "Yoshua Bengio",
-        "Sungjin Ahn"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "How should future neural reasoning systems implement extended computation? Recursive Reasoning Models (RRMs) offer a promising alternative to autoregressive sequence extension by performing iterative latent-state refinement with shared transition functions. Yet existing RRMs are largely deterministic, following a single latent trajectory and converging to a single prediction. We introduce Generative Recursive reAsoning Models (GRAM), a framework that turns recursive latent reasoning into probabilistic multi-trajectory computation. GRAM models r",
-      "url": "https://huggingface.co/papers/2605.19376",
-      "pdf_url": "https://arxiv.org/pdf/2605.19376.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-05-20",
-      "added": "2026-05-21",
-      "stars": 5
     },
     {
       "id": "hf-2605-09640",
@@ -530,33 +557,6 @@
       "published": "2026-05-19",
       "added": "2026-05-21",
       "stars": 2
-    },
-    {
-      "id": "hf-2605-20668",
-      "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
-      "authors": [
-        "Seungone Kim",
-        "Dongkeun Yoon",
-        "Kiril Gashteovski",
-        "Juyoung Suk",
-        "Jinheon Baek",
-        "Pranjal Aggarwal",
-        "Ian Wu",
-        "Viktor Zaverkin"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "With the advancement of AI capabilities, AI reviewers are beginning to be deployed in scientific peer review, yet their capability and credibility remain in question: many scientists simply view them as probabilistic systems without the expertise to evaluate research, while other researchers are more optimistic about their readiness without concrete evidence. Understanding what AI reviewers do well, where they fall short, and what challenges remain is essential. However, existing evaluations of AI reviewers have focused on whether their verdict",
-      "url": "https://huggingface.co/papers/2605.20668",
-      "pdf_url": "https://arxiv.org/pdf/2605.20668.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-05-20",
-      "added": "2026-05-21",
-      "stars": 1
     },
     {
       "id": "hf-2605-18101",
