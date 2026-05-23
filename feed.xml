@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 May 2026 02:07:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 02:04:44 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-23</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-23</link>
+      <guid isPermaLink="false">2026-05-23</guid>
+      <pubDate>Sat, 23 May 2026 10:00:00 +0800</pubDate>
+      <description>NVIDIA FY2027 Q1 营收 816 亿美元再破纪录、数据中心暴增 92%；OpenAI Codex 入选 Gartner AI 编码 Agent 魔力象限领导者，Anthropic 深夜挖角 Karpathy 余波未平。
+• OpenAI Codex 入选 Gartner AI 编码 Agent 魔力象限领导者
+• NVIDIA FY2027 Q1 营收 816 亿美元创纪录，数据中心同比暴增 92%
+• Andrej Karpathy 正式加入 Anthropic Pretraining 团队
+• 阿里 Qwen3.7-Max 自主 35 小时编写芯片软件，登顶国产模型 Arena 榜
+• OpenAI 拟 9 月 IPO，加快冲刺公开市场 — TechCrunch 援引消息人士称 OpenAI 正在加速推进 IPO，最快今年 9 月完成挂牌；公司一季度营收已达 57 亿美元（含 Codex、企业销售、ChatGPT 广告），较同期 Anthropic 高出近 10 亿美元。来源：TechCrunch</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-22</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-22</link>
