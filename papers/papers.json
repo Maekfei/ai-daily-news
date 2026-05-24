@@ -1,6 +1,29 @@
 {
   "papers": [
     {
+      "id": "hf-2605-21467",
+      "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+      "authors": [
+        "Kaiyi Zhang",
+        "Wei Wu",
+        "Yankai Lin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a central technique for improving the reasoning capabilities of large language models. Despite its effectiveness, how response-level rewards translate into token-level probability changes remains poorly understood. We introduce a discriminator view of RLVR updates, showing that the policy-gradient update direction implicitly acts as a linear discriminator over token-gradient vectors and thereby determines which token probabilities are increased or decreased during learning. Un",
+      "url": "https://huggingface.co/papers/2605.21467",
+      "pdf_url": "https://arxiv.org/pdf/2605.21467.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-05-20",
+      "added": "2026-05-23",
+      "stars": 189
+    },
+    {
       "id": "hf-2605-22355",
       "title": "TransitLM: A Large-Scale Dataset and Benchmark for Map-Free Transit Route Generation",
       "authors": [
@@ -23,7 +46,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 162
+      "stars": 167
     },
     {
       "id": "hf-2605-22109",
@@ -51,30 +74,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 152
-    },
-    {
-      "id": "hf-2605-21467",
-      "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
-      "authors": [
-        "Kaiyi Zhang",
-        "Wei Wu",
-        "Yankai Lin"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a central technique for improving the reasoning capabilities of large language models. Despite its effectiveness, how response-level rewards translate into token-level probability changes remains poorly understood. We introduce a discriminator view of RLVR updates, showing that the policy-gradient update direction implicitly acts as a linear discriminator over token-gradient vectors and thereby determines which token probabilities are increased or decreased during learning. Un",
-      "url": "https://huggingface.co/papers/2605.21467",
-      "pdf_url": "https://arxiv.org/pdf/2605.21467.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-05-20",
-      "added": "2026-05-23",
-      "stars": 124
+      "stars": 160
     },
     {
       "id": "hf-2605-14678",
@@ -101,7 +101,7 @@
       ],
       "published": "2026-05-19",
       "added": "2026-05-23",
-      "stars": 81
+      "stars": 90
     },
     {
       "id": "hf-2605-16928",
@@ -127,7 +127,7 @@
       ],
       "published": "2026-05-16",
       "added": "2026-05-23",
-      "stars": 75
+      "stars": 83
     },
     {
       "id": "hf-2605-21850",
@@ -154,7 +154,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 52
+      "stars": 56
     },
     {
       "id": "hf-2605-21572",
@@ -181,7 +181,7 @@
       ],
       "published": "2026-05-20",
       "added": "2026-05-23",
-      "stars": 42
+      "stars": 45
     },
     {
       "id": "hf-2605-22012",
@@ -209,7 +209,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 35
+      "stars": 37
     },
     {
       "id": "hf-2605-22681",
@@ -235,7 +235,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 29
+      "stars": 34
     },
     {
       "id": "hf-2605-22642",
@@ -262,7 +262,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 29
+      "stars": 32
     },
     {
       "id": "hf-2605-22536",
@@ -289,7 +289,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 21
+      "stars": 24
     },
     {
       "id": "hf-2605-10158",
@@ -312,7 +312,29 @@
       ],
       "published": "2026-05-11",
       "added": "2026-05-23",
-      "stars": 17
+      "stars": 23
+    },
+    {
+      "id": "hf-2605-22791",
+      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "authors": [
+        "Ali Hatamizadeh",
+        "Yejin Choi",
+        "Jan Kautz"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just what to forget, but how to edit this compressed memory without scrambling existing associations. Delta-rule models subtract the current read before writing a new value, and Kimi Delta Attention (KDA) sharpens forgetting with channel-wise decay. But the active edit still uses a single scalar gate to control two different things: how much old conten",
+      "url": "https://huggingface.co/papers/2605.22791",
+      "pdf_url": "https://arxiv.org/pdf/2605.22791.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 21
     },
     {
       "id": "hf-2605-22177",
@@ -342,29 +364,31 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 17
+      "stars": 18
     },
     {
-      "id": "hf-2605-22791",
-      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "id": "hf-2605-17602",
+      "title": "AutoRubric-T2I: Robust Rule-Based Reward Model for Text-to-Image Alignment",
       "authors": [
-        "Ali Hatamizadeh",
-        "Yejin Choi",
-        "Jan Kautz"
+        "Kuei-Chun Kao",
+        "Daixuan Huo",
+        "Yuanhao Ban",
+        "Cho-Jui Hsieh"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just what to forget, but how to edit this compressed memory without scrambling existing associations. Delta-rule models subtract the current read before writing a new value, and Kimi Delta Attention (KDA) sharpens forgetting with channel-wise decay. But the active edit still uses a single scalar gate to control two different things: how much old conten",
-      "url": "https://huggingface.co/papers/2605.22791",
-      "pdf_url": "https://arxiv.org/pdf/2605.22791.pdf",
+      "summary": "Aligning Text-to-Image (T2I) generation models with human preferences increasingly relies on image reward models that score or rank generated images according to prompt alignment and perceptual quality. Existing reward models are commonly trained as Bradley-Terry (BT) preference models on large-scale human preference corpora, making them costly to train, difficult to adapt, and opaque in their evaluation criteria. Meanwhile, Vision-Language Model (VLM) judges can provide more fine-grained assessments through textual rubrics, but their manually",
+      "url": "https://huggingface.co/papers/2605.17602",
+      "pdf_url": "https://arxiv.org/pdf/2605.17602.pdf",
       "tags": [
         "hf-trending",
+        "rl",
         "reasoning",
         "benchmark",
-        "code"
+        "multimodal"
       ],
-      "published": "2026-05-21",
+      "published": "2026-05-20",
       "added": "2026-05-23",
-      "stars": 16
+      "stars": 12
     },
     {
       "id": "hf-2605-21605",
@@ -414,6 +438,26 @@
       ],
       "published": "2026-05-18",
       "added": "2026-05-23",
+      "stars": 10
+    },
+    {
+      "id": "hf-2605-21981",
+      "title": "RiT: Vanilla Diffusion Transformers Suffice in Representation Space",
+      "authors": [
+        "Le Zhang",
+        "Ning Mang",
+        "Aishwarya Agrawal"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Flow matching with x-prediction -- regressing the clean data point rather than the ambient velocity -- is known to exploit low-dimensional manifold structure effectively in pixel space li2025back. We ask whether a pretrained representation space, while containing a low-dimensional data manifold of comparable intrinsic dimensionality, offers a distribution more favorable for flow-matching learning. Comparing pixel, SD-VAE, and DINOv2 features along four geometric axes, we find that pixel and DINOv2 share nearly identical intrinsic dimensionaliti",
+      "url": "https://huggingface.co/papers/2605.21981",
+      "pdf_url": "https://arxiv.org/pdf/2605.21981.pdf",
+      "tags": [
+        "hf-trending",
+        "code"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
       "stars": 9
     },
     {
@@ -438,26 +482,6 @@
         "agent",
         "benchmark",
         "multimodal"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 7
-    },
-    {
-      "id": "hf-2605-21981",
-      "title": "RiT: Vanilla Diffusion Transformers Suffice in Representation Space",
-      "authors": [
-        "Le Zhang",
-        "Ning Mang",
-        "Aishwarya Agrawal"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Flow matching with x-prediction -- regressing the clean data point rather than the ambient velocity -- is known to exploit low-dimensional manifold structure effectively in pixel space li2025back. We ask whether a pretrained representation space, while containing a low-dimensional data manifold of comparable intrinsic dimensionality, offers a distribution more favorable for flow-matching learning. Comparing pixel, SD-VAE, and DINOv2 features along four geometric axes, we find that pixel and DINOv2 share nearly identical intrinsic dimensionaliti",
-      "url": "https://huggingface.co/papers/2605.21981",
-      "pdf_url": "https://arxiv.org/pdf/2605.21981.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
@@ -490,7 +514,7 @@
       ],
       "published": "2026-05-19",
       "added": "2026-05-23",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2605-22138",
@@ -516,7 +540,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2605-22538",
@@ -542,7 +566,28 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 4
+      "stars": 5
+    },
+    {
+      "id": "hf-2605-22581",
+      "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
+      "authors": [
+        "Junhyeong Cho",
+        "Ruojin Cai",
+        "Hadar Averbuch-Elor"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Many public buildings provide floorplans with a \"you are here\" indicator to help visitors orient themselves. Floorplan localization seeks to computationally replicate this capability by determining where visual observations were captured within a floorplan. However, existing methods typically assume controlled small-scale environments and precise vectorized floorplans, limiting their ability to operate in large-scale buildings and rasterized floorplans. In this work, we present an approach for performing floorplan localization in the wild by gr",
+      "url": "https://huggingface.co/papers/2605.22581",
+      "pdf_url": "https://arxiv.org/pdf/2605.22581.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 5
     },
     {
       "id": "hf-2605-22344",
@@ -572,51 +617,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2605-17602",
-      "title": "AutoRubric-T2I: Robust Rule-Based Reward Model for Text-to-Image Alignment",
-      "authors": [
-        "Kuei-Chun Kao",
-        "Daixuan Huo",
-        "Yuanhao Ban",
-        "Cho-Jui Hsieh"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Aligning Text-to-Image (T2I) generation models with human preferences increasingly relies on image reward models that score or rank generated images according to prompt alignment and perceptual quality. Existing reward models are commonly trained as Bradley-Terry (BT) preference models on large-scale human preference corpora, making them costly to train, difficult to adapt, and opaque in their evaluation criteria. Meanwhile, Vision-Language Model (VLM) judges can provide more fine-grained assessments through textual rubrics, but their manually",
-      "url": "https://huggingface.co/papers/2605.17602",
-      "pdf_url": "https://arxiv.org/pdf/2605.17602.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-20",
-      "added": "2026-05-23",
-      "stars": 3
-    },
-    {
-      "id": "hf-2605-22581",
-      "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
-      "authors": [
-        "Junhyeong Cho",
-        "Ruojin Cai",
-        "Hadar Averbuch-Elor"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Many public buildings provide floorplans with a \"you are here\" indicator to help visitors orient themselves. Floorplan localization seeks to computationally replicate this capability by determining where visual observations were captured within a floorplan. However, existing methods typically assume controlled small-scale environments and precise vectorized floorplans, limiting their ability to operate in large-scale buildings and rasterized floorplans. In this work, we present an approach for performing floorplan localization in the wild by gr",
-      "url": "https://huggingface.co/papers/2605.22581",
-      "pdf_url": "https://arxiv.org/pdf/2605.22581.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 3
-    },
-    {
       "id": "hf-2605-22535",
       "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks",
       "authors": [
@@ -641,7 +641,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2605-15669",
@@ -665,7 +665,26 @@
       ],
       "published": "2026-05-15",
       "added": "2026-05-23",
-      "stars": 2
+      "stars": 4
+    },
+    {
+      "id": "hf-2605-22641",
+      "title": "More Context, Larger Models, or Moral Knowledge? A Systematic Study of Schwartz Value Detection in Political Texts",
+      "authors": [
+        "Víctor Yeste",
+        "Paolo Rosso"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Detecting Schwartz values in political text is difficult because implicit cues often depend on surrounding arguments and fine-grained distinctions between neighboring values. We study when context and explicit moral knowledge help sentence-level value detection. Using the ValuesML/Touch{é} ValueEval format, we compare sentence, window, and full-document inputs; no-RAG and retrieval-augmented settings with a curated moral knowledge base; supervised DeBERTa-v3-base/large encoders; and zero-shot LLMs from 12B to 123B parameters. The results show t",
+      "url": "https://huggingface.co/papers/2605.22641",
+      "pdf_url": "https://arxiv.org/pdf/2605.22641.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 3
     },
     {
       "id": "hf-2605-22074",
@@ -710,7 +729,7 @@
       ],
       "published": "2026-05-19",
       "added": "2026-05-23",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2605-22715",
@@ -736,28 +755,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 1
-    },
-    {
-      "id": "hf-2605-20405",
-      "title": "Disentangling Sampling from Training Budget in Class-Imbalanced CT Body Composition Segmentation",
-      "authors": [
-        "Iason Skylitsis",
-        "Dimitrios Karkalousos",
-        "Ivana Išgum"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Class imbalance is a fundamental challenge in medical image segmentation, where frequent classes typically dominate training at the expense of rare classes. Loss-based approaches mitigate imbalance by reweighting the per-pixel loss within the batch, while sampling strategies control which images enter the batch. Yet neither explicitly controls which classes appear within the batch, leaving rare-class exposure only partially rebalanced. In this work, we adopt episodic sampling from few-shot learning to promote class-balanced batch construction i",
-      "url": "https://huggingface.co/papers/2605.20405",
-      "pdf_url": "https://arxiv.org/pdf/2605.20405.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-05-19",
-      "added": "2026-05-23",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2605-20244",
@@ -784,7 +782,7 @@
       ],
       "published": "2026-05-18",
       "added": "2026-05-23",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2605-22777",
@@ -807,26 +805,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 1
-    },
-    {
-      "id": "hf-2605-22641",
-      "title": "More Context, Larger Models, or Moral Knowledge? A Systematic Study of Schwartz Value Detection in Political Texts",
-      "authors": [
-        "Víctor Yeste",
-        "Paolo Rosso"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Detecting Schwartz values in political text is difficult because implicit cues often depend on surrounding arguments and fine-grained distinctions between neighboring values. We study when context and explicit moral knowledge help sentence-level value detection. Using the ValuesML/Touch{é} ValueEval format, we compare sentence, window, and full-document inputs; no-RAG and retrieval-augmented settings with a curated moral knowledge base; supervised DeBERTa-v3-base/large encoders; and zero-shot LLMs from 12B to 123B parameters. The results show t",
-      "url": "https://huggingface.co/papers/2605.22641",
-      "pdf_url": "https://arxiv.org/pdf/2605.22641.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2605-22717",
@@ -851,7 +830,28 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 0
+      "stars": 2
+    },
+    {
+      "id": "hf-2605-20405",
+      "title": "Disentangling Sampling from Training Budget in Class-Imbalanced CT Body Composition Segmentation",
+      "authors": [
+        "Iason Skylitsis",
+        "Dimitrios Karkalousos",
+        "Ivana Išgum"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Class imbalance is a fundamental challenge in medical image segmentation, where frequent classes typically dominate training at the expense of rare classes. Loss-based approaches mitigate imbalance by reweighting the per-pixel loss within the batch, while sampling strategies control which images enter the batch. Yet neither explicitly controls which classes appear within the batch, leaving rare-class exposure only partially rebalanced. In this work, we adopt episodic sampling from few-shot learning to promote class-balanced batch construction i",
+      "url": "https://huggingface.co/papers/2605.20405",
+      "pdf_url": "https://arxiv.org/pdf/2605.20405.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-05-19",
+      "added": "2026-05-23",
+      "stars": 1
     },
     {
       "id": "hf-2605-22552",
