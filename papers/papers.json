@@ -1,6 +1,134 @@
 {
   "papers": [
     {
+      "id": "hf-2605-23897",
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "authors": [
+        "Beichen Zhang",
+        "Yuhong Liu",
+        "Jinsong Li",
+        "Yuhang Zang",
+        "Jiaqi Wang",
+        "Dahua Lin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fixed predefined toolkits or produce noisy intermediate images from unified multimodal methods. We pursue a third option: using a dedicated image editing model and decouple it with an understanding model. However, off-the-shelf image editors fail as re",
+      "url": "https://huggingface.co/papers/2605.23897",
+      "pdf_url": "https://arxiv.org/pdf/2605.23897.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-25",
+      "stars": 1
+    },
+    {
+      "id": "hf-2605-23901",
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "authors": [
+        "Xu Ouyang",
+        "Deyi Liu",
+        "Yuhang Cai",
+        "Jing Liu",
+        "Yuan Yang",
+        "Chen Zheng",
+        "Thomas Hartvigsen",
+        "Yiyuan Ma"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute.   We propose the Shannon Scaling Law, a unified theoretical framework that models LLM training as information transmission over a noisy channel, grounded in the Shannon-Hartley theorem. By mapping model parameters to channel bandwidth and training tokens to signal power, our for",
+      "url": "https://huggingface.co/papers/2605.23901",
+      "pdf_url": "https://arxiv.org/pdf/2605.23901.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-25",
+      "stars": 0
+    },
+    {
+      "id": "hf-2605-23899",
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "authors": [
+        "Zisu Huang",
+        "Jingwen Xu",
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Qihao Yang",
+        "Muzhao Tian",
+        "Xiaohua Wang",
+        "Changze Lv"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Language agents increasingly improve by reusing skills -- structured procedural artifacts distilled from past experience. In particular, domain-level and model-generated skills are especially promising. They offer fast adaptation within a domain by encoding domain-specific recurring procedures, and they scale beyond labor-intensive hand-crafting. However, while extraction methods continue to proliferate, understanding remains limited, with no comprehensive study spanning the full skill lifecycle -- experience generation, skill extraction, and s",
+      "url": "https://huggingface.co/papers/2605.23899",
+      "pdf_url": "https://arxiv.org/pdf/2605.23899.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-25",
+      "stars": 0
+    },
+    {
+      "id": "hf-2605-23904",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "authors": [
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou",
+        "Zisu Huang",
+        "Yan Li",
+        "Xuemei Gao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model tur",
+      "url": "https://huggingface.co/papers/2605.23904",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-25",
+      "stars": 0
+    },
+    {
+      "id": "hf-2605-23902",
+      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "authors": [
+        "Yifan Lu",
+        "Qi Wu",
+        "Jay Zhangjie Wu",
+        "Zian Wang",
+        "Huan Ling",
+        "Sanja Fidler",
+        "Xuanchi Ren"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encoder rather than synthesize more details, and becomes increasingly costly at megapixel scale. This drawback calls for a more expressive and efficient decoding paradigm. Motivated by recent progress in scalable pixel-space diffusion, we introduce PiD, a",
+      "url": "https://huggingface.co/papers/2605.23902",
+      "pdf_url": "https://arxiv.org/pdf/2605.23902.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-25",
+      "stars": 0
+    },
+    {
       "id": "hf-2605-21467",
       "title": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
       "authors": [
@@ -21,7 +149,7 @@
       ],
       "published": "2026-05-20",
       "added": "2026-05-23",
-      "stars": 189
+      "stars": 192
     },
     {
       "id": "hf-2605-22355",
@@ -46,7 +174,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 167
+      "stars": 168
     },
     {
       "id": "hf-2605-22109",
@@ -74,7 +202,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 160
+      "stars": 162
     },
     {
       "id": "hf-2605-14678",
@@ -101,7 +229,7 @@
       ],
       "published": "2026-05-19",
       "added": "2026-05-23",
-      "stars": 90
+      "stars": 91
     },
     {
       "id": "hf-2605-16928",
@@ -127,7 +255,7 @@
       ],
       "published": "2026-05-16",
       "added": "2026-05-23",
-      "stars": 83
+      "stars": 85
     },
     {
       "id": "hf-2605-21850",
@@ -181,7 +309,7 @@
       ],
       "published": "2026-05-20",
       "added": "2026-05-23",
-      "stars": 45
+      "stars": 46
     },
     {
       "id": "hf-2605-22012",
@@ -209,7 +337,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 37
+      "stars": 40
     },
     {
       "id": "hf-2605-22681",
@@ -312,7 +440,7 @@
       ],
       "published": "2026-05-11",
       "added": "2026-05-23",
-      "stars": 23
+      "stars": 24
     },
     {
       "id": "hf-2605-22791",
@@ -388,7 +516,7 @@
       ],
       "published": "2026-05-20",
       "added": "2026-05-23",
-      "stars": 12
+      "stars": 16
     },
     {
       "id": "hf-2605-21605",
@@ -461,33 +589,6 @@
       "stars": 9
     },
     {
-      "id": "hf-2605-22144",
-      "title": "One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems",
-      "authors": [
-        "Yufei Shi",
-        "Weilong Yan",
-        "Naixuan Huang",
-        "Yucheng Chen",
-        "Chenyu Zhang",
-        "Tao He",
-        "Si Yong Yeo",
-        "Ming Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing approaches for digital short-drama production typically rely on one-shot LLM generated scripts and loosely coupled pipelines, which fail to satisfy three key requirements of short-drama generation: (1) narrative pacing, resulting in weak hooks, insufficient escalation, and unattractive endings; (2) spatial consistency, leading to drifting scene layouts and inconsistent character positions across clips; and (3) production-level quality control, requiring extensive manual review and correction across script and visual stages. We present",
-      "url": "https://huggingface.co/papers/2605.22144",
-      "pdf_url": "https://arxiv.org/pdf/2605.22144.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 7
-    },
-    {
       "id": "hf-2605-20176",
       "title": "ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning",
       "authors": [
@@ -514,7 +615,34 @@
       ],
       "published": "2026-05-19",
       "added": "2026-05-23",
-      "stars": 7
+      "stars": 9
+    },
+    {
+      "id": "hf-2605-22144",
+      "title": "One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems",
+      "authors": [
+        "Yufei Shi",
+        "Weilong Yan",
+        "Naixuan Huang",
+        "Yucheng Chen",
+        "Chenyu Zhang",
+        "Tao He",
+        "Si Yong Yeo",
+        "Ming Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing approaches for digital short-drama production typically rely on one-shot LLM generated scripts and loosely coupled pipelines, which fail to satisfy three key requirements of short-drama generation: (1) narrative pacing, resulting in weak hooks, insufficient escalation, and unattractive endings; (2) spatial consistency, leading to drifting scene layouts and inconsistent character positions across clips; and (3) production-level quality control, requiring extensive manual review and correction across script and visual stages. We present",
+      "url": "https://huggingface.co/papers/2605.22144",
+      "pdf_url": "https://arxiv.org/pdf/2605.22144.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 8
     },
     {
       "id": "hf-2605-22138",
@@ -540,7 +668,55 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 5
+      "stars": 7
+    },
+    {
+      "id": "hf-2605-22344",
+      "title": "Bernini: Latent Semantic Planning for Video Diffusion",
+      "authors": [
+        "Bernini Team",
+        "Chenchen Liu",
+        "Junyi Chen",
+        "Lei Li",
+        "Lu Chi",
+        "Mingzhen Sun",
+        "Zhuoying Li",
+        "Yi Fu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal large language models (MLLMs) and diffusion models have each reached remarkable maturity: MLLMs excel at reasoning over heterogeneous multimodal inputs with strong semantic grounding, while diffusion models synthesize images and videos with photorealistic fidelity. We argue that these two families can be unified through a simple division of labor: MLLMs perform semantic planning, while diffusion models render pixels from high-level semantic guidance and low-level visual features. Building on this idea, we propose Bernini, a unified f",
+      "url": "https://huggingface.co/papers/2605.22344",
+      "pdf_url": "https://arxiv.org/pdf/2605.22344.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 7
+    },
+    {
+      "id": "hf-2605-22581",
+      "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
+      "authors": [
+        "Junhyeong Cho",
+        "Ruojin Cai",
+        "Hadar Averbuch-Elor"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Many public buildings provide floorplans with a \"you are here\" indicator to help visitors orient themselves. Floorplan localization seeks to computationally replicate this capability by determining where visual observations were captured within a floorplan. However, existing methods typically assume controlled small-scale environments and precise vectorized floorplans, limiting their ability to operate in large-scale buildings and rasterized floorplans. In this work, we present an approach for performing floorplan localization in the wild by gr",
+      "url": "https://huggingface.co/papers/2605.22581",
+      "pdf_url": "https://arxiv.org/pdf/2605.22581.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-05-21",
+      "added": "2026-05-23",
+      "stars": 6
     },
     {
       "id": "hf-2605-22538",
@@ -569,54 +745,6 @@
       "stars": 5
     },
     {
-      "id": "hf-2605-22581",
-      "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
-      "authors": [
-        "Junhyeong Cho",
-        "Ruojin Cai",
-        "Hadar Averbuch-Elor"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Many public buildings provide floorplans with a \"you are here\" indicator to help visitors orient themselves. Floorplan localization seeks to computationally replicate this capability by determining where visual observations were captured within a floorplan. However, existing methods typically assume controlled small-scale environments and precise vectorized floorplans, limiting their ability to operate in large-scale buildings and rasterized floorplans. In this work, we present an approach for performing floorplan localization in the wild by gr",
-      "url": "https://huggingface.co/papers/2605.22581",
-      "pdf_url": "https://arxiv.org/pdf/2605.22581.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 5
-    },
-    {
-      "id": "hf-2605-22344",
-      "title": "Bernini: Latent Semantic Planning for Video Diffusion",
-      "authors": [
-        "Bernini Team",
-        "Chenchen Liu",
-        "Junyi Chen",
-        "Lei Li",
-        "Lu Chi",
-        "Mingzhen Sun",
-        "Zhuoying Li",
-        "Yi Fu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multimodal large language models (MLLMs) and diffusion models have each reached remarkable maturity: MLLMs excel at reasoning over heterogeneous multimodal inputs with strong semantic grounding, while diffusion models synthesize images and videos with photorealistic fidelity. We argue that these two families can be unified through a simple division of labor: MLLMs perform semantic planning, while diffusion models render pixels from high-level semantic guidance and low-level visual features. Building on this idea, we propose Bernini, a unified f",
-      "url": "https://huggingface.co/papers/2605.22344",
-      "pdf_url": "https://arxiv.org/pdf/2605.22344.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-23",
-      "stars": 4
-    },
-    {
       "id": "hf-2605-22535",
       "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks",
       "authors": [
@@ -641,7 +769,7 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-23",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2605-15669",
@@ -665,7 +793,7 @@
       ],
       "published": "2026-05-15",
       "added": "2026-05-23",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2605-22641",
@@ -1869,137 +1997,6 @@
       "published": "2026-05-18",
       "added": "2026-05-20",
       "stars": 35
-    },
-    {
-      "id": "hf-2605-14278",
-      "title": "KVPO: ODE-Native GRPO for Autoregressive Video Alignment via KV Semantic Exploration",
-      "authors": [
-        "Ruicheng Zhang",
-        "Kaixi Cong",
-        "Jun Zhou",
-        "Zhizhou Zhong",
-        "Zunnan Xu",
-        "Shuiyang Mao",
-        "Wei Liu",
-        "Xiu Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Aligning streaming autoregressive (AR) video generators with human preferences is challenging. Existing reinforcement learning methods predominantly rely on noise-based exploration and SDE-based surrogate policies that are mismatched to the deterministic ODE dynamics of distilled AR models, and tend to perturb low-level appearance rather than the high-level semantic storyline progression critical for long-horizon coherence. To address these limitations, we present KVPO, an ODE-native online Group Relative Policy Optimization (GRPO) framework fo",
-      "url": "https://huggingface.co/papers/2605.14278",
-      "pdf_url": "https://arxiv.org/pdf/2605.14278.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-05-14",
-      "added": "2026-05-20",
-      "stars": 35
-    },
-    {
-      "id": "hf-2605-17283",
-      "title": "OProver: A Unified Framework for Agentic Formal Theorem Proving",
-      "authors": [
-        "David Ma",
-        "Kaijing Ma",
-        "Shawn Guo",
-        "Yunfeng Shi",
-        "Enduo Zhao",
-        "Jiajun Shi",
-        "Zhaoxiang Zhang",
-        "Gavin Cheung"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent progress in formal theorem proving has benefited from large-scale proof generation and verifier-aware training, but agentic proving is rarely integrated into prover training, appearing only at inference time. We present OProver, a unified framework for agentic formal theorem proving in Lean 4, in which failed proof attempts are iteratively revised using retrieved compiler verified proofs and Lean compiler feedback. OProver is trained through continued pretraining followed by iterative post-training: each iteration runs agentic proving, i",
-      "url": "https://huggingface.co/papers/2605.17283",
-      "pdf_url": "https://arxiv.org/pdf/2605.17283.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-05-17",
-      "added": "2026-05-20",
-      "stars": 28
-    },
-    {
-      "id": "hf-2605-18643",
-      "title": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
-      "authors": [
-        "Xingtai Lv",
-        "Li Sheng",
-        "Kaiyan Zhang",
-        "Yichen You",
-        "Siyan Gao",
-        "Xueheng Luo",
-        "Yuxin Zuo",
-        "Yuchen Fan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Mixture-of-Experts (MoE) scales language models efficiently through sparse expert activation, and its dynamic variant further reduces computation by adjusting the activated experts in an input-dependent manner. Existing dynamic MoE methods usually rely on pre-training from scratch or task-specific adaptation, leaving the practical conversion of fully trained MoE underexplored. Enabling such adaptation would directly alleviate the inference costs by allowing easy tokens to bypass unnecessary expert during serving. This paper introduces Zero-Expe",
-      "url": "https://huggingface.co/papers/2605.18643",
-      "pdf_url": "https://arxiv.org/pdf/2605.18643.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-05-18",
-      "added": "2026-05-20",
-      "stars": 25
-    },
-    {
-      "id": "hf-2605-17672",
-      "title": "Stop When Reasoning Converges: Semantic-Preserving Early Exit for Reasoning Models",
-      "authors": [
-        "Dehai Min",
-        "Giovanni Vaccarino",
-        "Huiyi Chen",
-        "Yongliang Wu",
-        "Gal Yona",
-        "Lu Cheng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large Reasoning Models (LRMs) achieve strong performance by generating long chains of thought (CoT), but often overthink, continuing to reason after a solution has already stabilized and thereby wasting tokens and increasing latency. Existing inference-time early-exit methods rely primarily on answer-level signals, such as confidence or trial-answer consistency, to decide when to stop. However, these signals mainly reflect answer readiness rather than reasoning convergence: they may trigger before the model has finished exploring or self-correc",
-      "url": "https://huggingface.co/papers/2605.17672",
-      "pdf_url": "https://arxiv.org/pdf/2605.17672.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-05-17",
-      "added": "2026-05-20",
-      "stars": 19
-    },
-    {
-      "id": "hf-2605-17260",
-      "title": "LiteFrame: Efficient Vision Encoders Unlock Frame Scaling in Video LLMs",
-      "authors": [
-        "Jihwan Kim",
-        "Nikhil Parthasarathy",
-        "Danfeng Qin",
-        "Junhwa Hur",
-        "Deqing Sun",
-        "Bohyung Han",
-        "Ming-Hsuan Yang",
-        "Boqing Gong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The fundamental challenge in scaling Video Large Language Models (Video LLMs) to long-form video lies in managing the explosion of visual-token context length. Existing strategies predominantly focus on \"post-hoc\" token reduction -- reducing visual tokens after feature extraction to alleviate the LLM's computational overhead. While these methods effectively reduce the number of visual tokens, we observe that the primary latency bottleneck then shifts from the LLM to the expensive per-frame processing of the vision encoder. To address this, we i",
-      "url": "https://huggingface.co/papers/2605.17260",
-      "pdf_url": "https://arxiv.org/pdf/2605.17260.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-17",
-      "added": "2026-05-20",
-      "stars": 19
     }
   ]
 }
