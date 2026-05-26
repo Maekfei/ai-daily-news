@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 25 May 2026 02:11:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 02:12:48 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-26</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-26</link>
+      <guid isPermaLink="false">2026-05-26</guid>
+      <pubDate>Tue, 26 May 2026 10:00:00 +0800</pubDate>
+      <description>谷歌 I/O 余热未退、Agent 工具栈竞争升级；华为在 ISCAS 2026 抛出&quot;韬（τ）定律&quot;，从摩尔的&quot;几何缩微&quot;转向&quot;时间缩微&quot;，国产半导体路线之争升温。
+• Google DeepMind 公开&quot;大规模 Agent 系统&quot;工程实践
+• Anthropic 完成 3 亿美元收购 Stainless，收紧 SDK 与 MCP 控制权
+• 月之暗面 Kimi 完成 20 亿美元新融资，估值 200 亿、冲刺港股 IPO
+• 阿里 Qwen3.7-Max 登顶 Arena 国产榜，主打 35 小时长 horizon Agent
+• DeepSeek-V4-Pro API 永久降价 25%，并推进 700 亿元新一轮融资 — 5 月 24 日晚间宣布，配合本月 LiveCodeBench 93.5% 的开源记录，进一步压低 Agent 推理成本。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-25</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-25</link>
