@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 02:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 02:11:00 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-27</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-27</link>
+      <guid isPermaLink="false">2026-05-27</guid>
+      <pubDate>Wed, 27 May 2026 10:00:00 +0800</pubDate>
+      <description>支付宝公布**3 亿笔智能体支付**并发布 TokenPay/AI 钱包，把 Agent Pay 做成新支付基础设施；OpenRouter 完成 1.13 亿美元 B 轮、估值越过 10 亿美元，&quot;模型路由&quot;上升为 AI 第二层基础设施。
+• 支付宝发布 AI 原生支付体系，3 亿笔智能体支付落地
+• OpenRouter 完成 1.13 亿美元 B 轮，估值跃过 10 亿美元
+• 谷歌 I/O 2026 把&quot;Agent 工具栈&quot;摆到 C 位：Gemini 3.5 Flash + Antigravity 2.0
+• Anthropic 准备公开上线最强模型 Claude Mythos 预览版
+• 新华社：AI 智能体正从&quot;对话 AI&quot;迈向&quot;行动 AI&quot; — 5 月 27 日新华社科技观察文章指出，2026 年 Agent 已实现规模化变革，重点提到支付宝、科大讯飞 Loomy、腾讯云雀等代表案例。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-26</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-26</link>
