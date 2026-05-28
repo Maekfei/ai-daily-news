@@ -28,6 +28,35 @@
       "stars": 88
     },
     {
+      "id": "hf-2605-23271",
+      "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+      "authors": [
+        "Songlin Yang",
+        "Haobin Zhong",
+        "Ruilin Zhang",
+        "Xiaotong Zhao",
+        "Shuai Li",
+        "Kai Zheng",
+        "Xuyi Yang",
+        "Zhe Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The rapid evolution of generative video foundation models has propelled the field toward professional-grade cinematic synthesis. To achieve such demanding quality, the community transitions towards Reinforcement Learning (RL) and agentic workflows. However, reliable evaluation has emerged as a critical bottleneck. Existing benchmarks predominantly evaluate ''whether it is right'' (basic prompt-following) while fundamentally neglecting ''whether it is good'' (cinematic quality, acting, and aesthetics). Furthermore, current automated metrics lack",
+      "url": "https://huggingface.co/papers/2605.23271",
+      "pdf_url": "https://arxiv.org/pdf/2605.23271.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-05-22",
+      "added": "2026-05-27",
+      "stars": 72
+    },
+    {
       "id": "hf-2605-23218",
       "title": "Foundation Protocol: A Coordination Layer for Agentic Society",
       "authors": [
@@ -75,6 +104,54 @@
         "hf-trending",
         "reasoning",
         "robotics"
+      ],
+      "published": "2026-05-25",
+      "added": "2026-05-27",
+      "stars": 34
+    },
+    {
+      "id": "hf-2605-25535",
+      "title": "Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents",
+      "authors": [
+        "Yeonjun In",
+        "Wonjoong Kim",
+        "Sangwu Park",
+        "Kanghoon Yoon",
+        "Chanyoung Park"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing large language model (LLM) based memory systems apply universal, static policies that overlook a fundamental reality: the contexts that are worth storing in memory are different across users. This misalignment wastes limited memory budget on transient interactions while failing to preserve critical context for long horizon tasks. To address this gap, we investigate an underexplored question: can LLM based memory systems learn personalized memory policies? We introduce PerMemBench, the first benchmark for evaluating personalized memory",
+      "url": "https://huggingface.co/papers/2605.25535",
+      "pdf_url": "https://arxiv.org/pdf/2605.25535.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-05-25",
+      "added": "2026-05-27",
+      "stars": 34
+    },
+    {
+      "id": "hf-2605-26230",
+      "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
+      "authors": [
+        "Jin Hyeon Kim",
+        "Jaeeun Lee",
+        "Claire Kim",
+        "Kyoungjin Oh",
+        "Paul Hyunbin Cho",
+        "Jaewon Min",
+        "Yeji Choi",
+        "Jihye Park"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multi-view 3D reconstruction has achieved remarkable progress with the advent of feed-forward 3D reconstruction models. However, these models are typically trained and evaluated under ideal, degradation-free imaging conditions, whereas real-world observations often contain degradations that differ significantly from such settings. Improving robustness for multi-view 3D reconstruction under degraded conditions therefore remains an important challenge. We present Geometry-Aware Representation Denoising (GARD), a novel framework that performs diff",
+      "url": "https://huggingface.co/papers/2605.26230",
+      "pdf_url": "https://arxiv.org/pdf/2605.26230.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
       ],
       "published": "2026-05-25",
       "added": "2026-05-27",
@@ -368,29 +445,6 @@
       "stars": 9
     },
     {
-      "id": "hf-2605-25535",
-      "title": "Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents",
-      "authors": [
-        "Yeonjun In",
-        "Wonjoong Kim",
-        "Sangwu Park",
-        "Kanghoon Yoon",
-        "Chanyoung Park"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing large language model (LLM) based memory systems apply universal, static policies that overlook a fundamental reality: the contexts that are worth storing in memory are different across users. This misalignment wastes limited memory budget on transient interactions while failing to preserve critical context for long horizon tasks. To address this gap, we investigate an underexplored question: can LLM based memory systems learn personalized memory policies? We introduce PerMemBench, the first benchmark for evaluating personalized memory",
-      "url": "https://huggingface.co/papers/2605.25535",
-      "pdf_url": "https://arxiv.org/pdf/2605.25535.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-05-25",
-      "added": "2026-05-27",
-      "stars": 7
-    },
-    {
       "id": "hf-2605-26099",
       "title": "Language Models Need Sleep",
       "authors": [
@@ -441,35 +495,6 @@
       "stars": 7
     },
     {
-      "id": "hf-2605-23271",
-      "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
-      "authors": [
-        "Songlin Yang",
-        "Haobin Zhong",
-        "Ruilin Zhang",
-        "Xiaotong Zhao",
-        "Shuai Li",
-        "Kai Zheng",
-        "Xuyi Yang",
-        "Zhe Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The rapid evolution of generative video foundation models has propelled the field toward professional-grade cinematic synthesis. To achieve such demanding quality, the community transitions towards Reinforcement Learning (RL) and agentic workflows. However, reliable evaluation has emerged as a critical bottleneck. Existing benchmarks predominantly evaluate ''whether it is right'' (basic prompt-following) while fundamentally neglecting ''whether it is good'' (cinematic quality, acting, and aesthetics). Furthermore, current automated metrics lack",
-      "url": "https://huggingface.co/papers/2605.23271",
-      "pdf_url": "https://arxiv.org/pdf/2605.23271.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-22",
-      "added": "2026-05-27",
-      "stars": 6
-    },
-    {
       "id": "hf-2605-23699",
       "title": "CRONOS: Benchmarking Counterfactual Physical Consistency in Video Models",
       "authors": [
@@ -488,6 +513,27 @@
         "code"
       ],
       "published": "2026-05-22",
+      "added": "2026-05-27",
+      "stars": 5
+    },
+    {
+      "id": "hf-2605-26502",
+      "title": "PRISM: Position-encoded Regressive Inverse Spectral Model for Multilayer Thin-Film Design",
+      "authors": [
+        "Runtian Wang",
+        "Renhao Xue",
+        "Baige Chen",
+        "Hao Wu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The inverse problem of multilayer thin-film optical coatings design represents a complex combinatorial-continuous optimization challenge. We present PRISM (Position-encoded Regressive Inverse Spectral Model), a unified decoder-only autoregressive transformer that streamlines this process by jointly predicting discrete material selection and continuous thickness regression within a single backbone. PRISM introduces two primary architectural innovations: (1) spectrum prefix conditioning, which utilizes standard prefix tokens for in-context target",
+      "url": "https://huggingface.co/papers/2605.26502",
+      "pdf_url": "https://arxiv.org/pdf/2605.26502.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-05-26",
       "added": "2026-05-27",
       "stars": 5
     },
@@ -518,52 +564,6 @@
       "published": "2026-05-01",
       "added": "2026-05-27",
       "stars": 4
-    },
-    {
-      "id": "hf-2605-26230",
-      "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
-      "authors": [
-        "Jin Hyeon Kim",
-        "Jaeeun Lee",
-        "Claire Kim",
-        "Kyoungjin Oh",
-        "Paul Hyunbin Cho",
-        "Jaewon Min",
-        "Yeji Choi",
-        "Jihye Park"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multi-view 3D reconstruction has achieved remarkable progress with the advent of feed-forward 3D reconstruction models. However, these models are typically trained and evaluated under ideal, degradation-free imaging conditions, whereas real-world observations often contain degradations that differ significantly from such settings. Improving robustness for multi-view 3D reconstruction under degraded conditions therefore remains an important challenge. We present Geometry-Aware Representation Denoising (GARD), a novel framework that performs diff",
-      "url": "https://huggingface.co/papers/2605.26230",
-      "pdf_url": "https://arxiv.org/pdf/2605.26230.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-05-25",
-      "added": "2026-05-27",
-      "stars": 3
-    },
-    {
-      "id": "hf-2605-26502",
-      "title": "PRISM: Position-encoded Regressive Inverse Spectral Model for Multilayer Thin-Film Design",
-      "authors": [
-        "Runtian Wang",
-        "Renhao Xue",
-        "Baige Chen",
-        "Hao Wu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The inverse problem of multilayer thin-film optical coatings design represents a complex combinatorial-continuous optimization challenge. We present PRISM (Position-encoded Regressive Inverse Spectral Model), a unified decoder-only autoregressive transformer that streamlines this process by jointly predicting discrete material selection and continuous thickness regression within a single backbone. PRISM introduces two primary architectural innovations: (1) spectrum prefix conditioning, which utilizes standard prefix tokens for in-context target",
-      "url": "https://huggingface.co/papers/2605.26502",
-      "pdf_url": "https://arxiv.org/pdf/2605.26502.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-05-26",
-      "added": "2026-05-27",
-      "stars": 3
     },
     {
       "id": "hf-2605-24426",
@@ -661,6 +661,32 @@
         "code"
       ],
       "published": "2026-05-25",
+      "added": "2026-05-27",
+      "stars": 2
+    },
+    {
+      "id": "hf-2605-22818",
+      "title": "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning",
+      "authors": [
+        "Lee Hsin-Ying",
+        "Hanwen Jiang",
+        "Yiqun Mei",
+        "Jing Shi",
+        "Ming-Hsuan Yang",
+        "Zhixin Shu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we introduce MotiMotion, a novel framework that reformulates motion control as a reasoning-then-generation problem. To encourage causally grounded and commonsense-consistent interactions, we leverage a training-free vision-language reasoner to refine image-s",
+      "url": "https://huggingface.co/papers/2605.22818",
+      "pdf_url": "https://arxiv.org/pdf/2605.22818.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-05-21",
       "added": "2026-05-27",
       "stars": 2
     },
@@ -844,32 +870,6 @@
       "published": "2026-05-25",
       "added": "2026-05-27",
       "stars": 1
-    },
-    {
-      "id": "hf-2605-22818",
-      "title": "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning",
-      "authors": [
-        "Lee Hsin-Ying",
-        "Hanwen Jiang",
-        "Yiqun Mei",
-        "Jing Shi",
-        "Ming-Hsuan Yang",
-        "Zhixin Shu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we introduce MotiMotion, a novel framework that reformulates motion control as a reasoning-then-generation problem. To encourage causally grounded and commonsense-consistent interactions, we leverage a training-free vision-language reasoner to refine image-s",
-      "url": "https://huggingface.co/papers/2605.22818",
-      "pdf_url": "https://arxiv.org/pdf/2605.22818.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-21",
-      "added": "2026-05-27",
-      "stars": 0
     },
     {
       "id": "hf-2605-10988",
@@ -1073,6 +1073,30 @@
       "published": "2026-05-18",
       "added": "2026-05-26",
       "stars": 28
+    },
+    {
+      "id": "hf-2605-17423",
+      "title": "Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration",
+      "authors": [
+        "Yiren Song",
+        "Huilin Zhong",
+        "Kevin Qinghong Lin",
+        "Haofan Wang",
+        "Mike Zheng Shou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We study series-level cinematic remaking, a long-horizon video-to-video generation problem that localizes full episodes or films via stylization or actor replacement while strictly preserving narrative structure, motion choreography, and character identity across hundreds of shots. Existing video generation and editing pipelines often break down in this regime due to compounding identity drift, background mutation, and semantic erosion under large camera motions and viewpoint changes. We propose Soap2Soap, a multi-agent framework that enforces",
+      "url": "https://huggingface.co/papers/2605.17423",
+      "pdf_url": "https://arxiv.org/pdf/2605.17423.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-05-17",
+      "added": "2026-05-26",
+      "stars": 23
     },
     {
       "id": "hf-2605-23771",
@@ -1454,30 +1478,6 @@
         "multimodal"
       ],
       "published": "2026-05-23",
-      "added": "2026-05-26",
-      "stars": 1
-    },
-    {
-      "id": "hf-2605-17423",
-      "title": "Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration",
-      "authors": [
-        "Yiren Song",
-        "Huilin Zhong",
-        "Kevin Qinghong Lin",
-        "Haofan Wang",
-        "Mike Zheng Shou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We study series-level cinematic remaking, a long-horizon video-to-video generation problem that localizes full episodes or films via stylization or actor replacement while strictly preserving narrative structure, motion choreography, and character identity across hundreds of shots. Existing video generation and editing pipelines often break down in this regime due to compounding identity drift, background mutation, and semantic erosion under large camera motions and viewpoint changes. We propose Soap2Soap, a multi-agent framework that enforces",
-      "url": "https://huggingface.co/papers/2605.17423",
-      "pdf_url": "https://arxiv.org/pdf/2605.17423.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-05-17",
       "added": "2026-05-26",
       "stars": 1
     },

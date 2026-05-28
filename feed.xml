@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 May 2026 02:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 02:08:18 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-28</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-28</link>
+      <guid isPermaLink="false">2026-05-28</guid>
+      <pubDate>Thu, 28 May 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 即将以 **9000 亿美元**估值收尾新一轮 300 亿美元融资，超越 OpenAI 登顶全球 AI 初创估值榜首；阿里云 Qwen Cloud 正式出海，把&quot;Agent 时代的云入口&quot;摆到全球开发者面前。
+• Anthropic 即将以 9000 亿美元估值收尾 300 亿美元巨额融资
+• 阿里云 Qwen Cloud 出海，全栈 Agent 云入口同步登场
+• Fireworks AI 估值四倍跳涨至 150 亿美元，推理基础设施再受热捧
+• xAI 推出 Grok Skills，把&quot;持久记忆 + 可编程工作空间&quot;塞进 Agent
+• OpenAI GPT-5.6 后端日志泄露：上下文窗口冲到 150 万 tokens — 多名开发者在 Codex 后端发现内部代号 iris-alpha / ember-alpha / beacon-alpha，预计 6 月发布；GPT-5.5 仅 4 月底才上线，迭代节奏明显加快。来源（IT之家）</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-27</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-27</link>
