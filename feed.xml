@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 02:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 02:03:33 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-29</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-29</link>
+      <guid isPermaLink="false">2026-05-29</guid>
+      <pubDate>Fri, 29 May 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 旗舰模型 Claude Opus 4.8 正式上线，编程与 Agent 能力刷新榜单；DeepSeek 组建 Harness 团队对标 Claude Code，国产 Agent 产品化进入加速期。
+• Anthropic 发布 Claude Opus 4.8，强化 Agent 与编程能力
+• 昆仑万维发布 SkyClaw-v1.0，国产 Agent 模型杀入第一梯队
+• DeepSeek 组建 Harness 团队对标 Claude Code
+• Anthropic 同步上线 Claude Code Dynamic Workflows 研究预览 — 单任务可调度数百并行子 Agent，支持完成数十万行代码库迁移，定价沿用 Opus 4.8 主线。来源
+• 腾讯科技：Claude Opus 4.8&quot;更诚实、可控制 effort&quot; — 用户可在 claude.ai 直接调节模型投入任务的算力，配合 Fast Mode 形成成本-性能可调档位。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-28</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-28</link>
