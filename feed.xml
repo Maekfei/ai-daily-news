@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 May 2026 02:02:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 02:06:59 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-05-31</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-31</link>
+      <guid isPermaLink="false">2026-05-31</guid>
+      <pubDate>Sun, 31 May 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 凭借企业端高增长把估值推过 OpenAI、成全球最贵 AI 公司；Claude Opus 4.8 携 Dynamic Workflows 把 Agent 编排带进生产环境。
+• Anthropic 估值反超 OpenAI，Claude 在企业端跑通商业闭环
+• Anthropic 推出 Claude Opus 4.8 与 Dynamic Workflows，Agent 进入&quot;动态编排&quot;时代
+• OpenAI GPT-5.6 下月发布，150 万 Token 上下文剑指&quot;超级智能体&quot;
+• 中国信通院联合三大运营商发布 ATH 1.0：全球首个 Agent 可信握手协议
+• DeepSeek 联合 CodeAgent 发布《From Copilots to Coworkers》：99% 由 AI 自己写</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-30</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-30</link>

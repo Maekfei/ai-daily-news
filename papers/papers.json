@@ -24,7 +24,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 81
+      "stars": 110
     },
     {
       "id": "hf-2605-30263",
@@ -49,7 +49,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 40
+      "stars": 46
     },
     {
       "id": "hf-2605-30346",
@@ -74,59 +74,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 32
-    },
-    {
-      "id": "hf-2605-30248",
-      "title": "GenClaw: Code-Driven Agentic Image Generation",
-      "authors": [
-        "Junyan Ye",
-        "Jun He",
-        "Zilong Huang",
-        "Dongzhi Jiang",
-        "Xuan Yang",
-        "Rui Chen",
-        "Weijia Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Image generation models have evolved from text-conditioned pixel synthesis toward multimodal agents endowed with visual comprehension and tool invocation capabilities. Yet, existing agents remain at the mercy of underlying black-box image models. Their workflow is trapped in a repetitive cycle of prompt rewriting for generation refinement, leaving them with no mechanism to directly manipulate the canvas. In essence, the potential of LLMs to serve as a genuine \"brush\" for precise visual construction remains largely untapped. In this paper, we pr",
-      "url": "https://huggingface.co/papers/2605.30248",
-      "pdf_url": "https://arxiv.org/pdf/2605.30248.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "multimodal",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-05-28",
-      "added": "2026-05-30",
-      "stars": 25
-    },
-    {
-      "id": "hf-2605-30010",
-      "title": "EarlyTom: Early Token Compression Completes Fast Video Understanding",
-      "authors": [
-        "Hesong Wang",
-        "Xin Jin",
-        "Lu Lu",
-        "Chenhaowen Li",
-        "Jian Chen",
-        "Qiang Liu",
-        "Huan Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Video large language models (Video-LLMs) have demonstrated strong capabilities in video understanding tasks. However, their practical deployment is still hindered by the inefficiency introduced by processing massive amounts of visual tokens. Although recent approaches achieve extremely low token retention ratios while maintaining accuracy comparable to full-token baselines, most of them perform compression only at the late stage of prefilling, leaving the efficiency of the vision encoder unoptimized. In this paper, we first show that vision enc",
-      "url": "https://huggingface.co/papers/2605.30010",
-      "pdf_url": "https://arxiv.org/pdf/2605.30010.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal"
-      ],
-      "published": "2026-05-28",
-      "added": "2026-05-30",
-      "stars": 23
+      "stars": 37
     },
     {
       "id": "hf-2605-30161",
@@ -154,7 +102,59 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 20
+      "stars": 35
+    },
+    {
+      "id": "hf-2605-30248",
+      "title": "GenClaw: Code-Driven Agentic Image Generation",
+      "authors": [
+        "Junyan Ye",
+        "Jun He",
+        "Zilong Huang",
+        "Dongzhi Jiang",
+        "Xuan Yang",
+        "Rui Chen",
+        "Weijia Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Image generation models have evolved from text-conditioned pixel synthesis toward multimodal agents endowed with visual comprehension and tool invocation capabilities. Yet, existing agents remain at the mercy of underlying black-box image models. Their workflow is trapped in a repetitive cycle of prompt rewriting for generation refinement, leaving them with no mechanism to directly manipulate the canvas. In essence, the potential of LLMs to serve as a genuine \"brush\" for precise visual construction remains largely untapped. In this paper, we pr",
+      "url": "https://huggingface.co/papers/2605.30248",
+      "pdf_url": "https://arxiv.org/pdf/2605.30248.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "multimodal",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-05-28",
+      "added": "2026-05-30",
+      "stars": 31
+    },
+    {
+      "id": "hf-2605-30010",
+      "title": "EarlyTom: Early Token Compression Completes Fast Video Understanding",
+      "authors": [
+        "Hesong Wang",
+        "Xin Jin",
+        "Lu Lu",
+        "Chenhaowen Li",
+        "Jian Chen",
+        "Qiang Liu",
+        "Huan Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Video large language models (Video-LLMs) have demonstrated strong capabilities in video understanding tasks. However, their practical deployment is still hindered by the inefficiency introduced by processing massive amounts of visual tokens. Although recent approaches achieve extremely low token retention ratios while maintaining accuracy comparable to full-token baselines, most of them perform compression only at the late stage of prefilling, leaving the efficiency of the vision encoder unoptimized. In this paper, we first show that vision enc",
+      "url": "https://huggingface.co/papers/2605.30010",
+      "pdf_url": "https://arxiv.org/pdf/2605.30010.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal"
+      ],
+      "published": "2026-05-28",
+      "added": "2026-05-30",
+      "stars": 24
     },
     {
       "id": "hf-2605-30265",
@@ -178,7 +178,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 17
+      "stars": 18
     },
     {
       "id": "hf-2605-28424",
@@ -204,7 +204,7 @@
       ],
       "published": "2026-05-27",
       "added": "2026-05-30",
-      "stars": 16
+      "stars": 18
     },
     {
       "id": "hf-2605-29507",
@@ -232,7 +232,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 15
+      "stars": 16
     },
     {
       "id": "hf-2605-26029",
@@ -259,7 +259,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2605-30102",
@@ -281,7 +281,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 7
+      "stars": 9
     },
     {
       "id": "hf-2605-29861",
@@ -305,7 +305,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2605-29534",
@@ -330,7 +330,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2605-30268",
@@ -351,7 +351,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2605-29156",
@@ -377,7 +377,7 @@
       ],
       "published": "2026-05-27",
       "added": "2026-05-30",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2605-30350",
@@ -403,7 +403,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 4
+      "stars": 6
     },
     {
       "id": "hf-2605-29648",
@@ -428,7 +428,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2601-07525",
@@ -453,7 +453,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 3
+      "stars": 5
     },
     {
       "id": "hf-2605-29341",
@@ -480,7 +480,7 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 3
+      "stars": 5
     },
     {
       "id": "hf-2605-22189",
@@ -504,7 +504,25 @@
       ],
       "published": "2026-05-21",
       "added": "2026-05-30",
-      "stars": 3
+      "stars": 5
+    },
+    {
+      "id": "hf-2605-30349",
+      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+      "authors": [
+        "Yusuf Dalva",
+        "Pinar Yanardag"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and locking scene composition to the initial viewpoint e",
+      "url": "https://huggingface.co/papers/2605.30349",
+      "pdf_url": "https://arxiv.org/pdf/2605.30349.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-05-28",
+      "added": "2026-05-30",
+      "stars": 5
     },
     {
       "id": "hf-2605-30347",
@@ -526,25 +544,30 @@
       ],
       "published": "2026-05-28",
       "added": "2026-05-30",
-      "stars": 3
+      "stars": 4
     },
     {
-      "id": "hf-2605-30349",
-      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+      "id": "hf-2605-29157",
+      "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
       "authors": [
-        "Yusuf Dalva",
-        "Pinar Yanardag"
+        "Yifei Zuo",
+        "Dhruv Pai",
+        "Zhichen Zeng",
+        "Alec Dewulf",
+        "Shuming Hu",
+        "Zhaoran Wang"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and locking scene composition to the initial viewpoint e",
-      "url": "https://huggingface.co/papers/2605.30349",
-      "pdf_url": "https://arxiv.org/pdf/2605.30349.pdf",
+      "summary": "Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism derived from nonparametric statistics in the test-time regression framework. In contrast to prior research on efficient attention variants, LLA upgrades the local constant estimate in softmax attention to a local linear estimate, yielding provably superior bias-variance tradeoffs for associative memory. However, LLA",
+      "url": "https://huggingface.co/papers/2605.29157",
+      "pdf_url": "https://arxiv.org/pdf/2605.29157.pdf",
       "tags": [
-        "hf-trending"
+        "hf-trending",
+        "benchmark"
       ],
-      "published": "2026-05-28",
+      "published": "2026-05-27",
       "added": "2026-05-30",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2605-21781",
@@ -567,7 +590,7 @@
       ],
       "published": "2026-05-20",
       "added": "2026-05-30",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2605-24785",
@@ -590,7 +613,47 @@
       ],
       "published": "2026-05-26",
       "added": "2026-05-30",
-      "stars": 2
+      "stars": 3
+    },
+    {
+      "id": "hf-2605-25220",
+      "title": "Multi-view Consistent 3D Gaussian Head Avatars 'without' Multi-view Generation",
+      "authors": [
+        "Aviral Chharia",
+        "Fernando De la Torre"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "High-fidelity 3D Gaussian head avatar generation is critical for applications such as AR/VR, telepresence, and digital humans. Existing methods depend on multi-view datasets, 3D captures, or intermediate 2D view synthesis. In contrast, we learn both conditional and unconditional 3D head models from randomly sampled 2D images alone, without using multi-view data, 3D supervision, or intermediate view generation. We introduce MVCHead, a single-shot state space model that enforces multi-view consistency (MVC) directly in the 3D representation while",
+      "url": "https://huggingface.co/papers/2605.25220",
+      "pdf_url": "https://arxiv.org/pdf/2605.25220.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-05-24",
+      "added": "2026-05-30",
+      "stars": 3
+    },
+    {
+      "id": "hf-2605-29271",
+      "title": "CoHyDE: Iterative Co-Training of LLM Rewriter & Dense Encoder for Tool Retrieval",
+      "authors": [
+        "Vaishali Senthil",
+        "Ashutosh Hathidara",
+        "Sebastian Schreiber"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant training approaches, contrastive encoder fine-tuning and HyDE-style query expansion with a frozen LLM, address this problem from opposite ends and fail in complementary directions: the fine-tuned encoder excels when the query's surface form already matches the catalog but collapses when it does no",
+      "url": "https://huggingface.co/papers/2605.29271",
+      "pdf_url": "https://arxiv.org/pdf/2605.29271.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl"
+      ],
+      "published": "2026-05-28",
+      "added": "2026-05-30",
+      "stars": 3
     },
     {
       "id": "hf-2605-30093",
@@ -612,46 +675,6 @@
       "published": "2026-05-28",
       "added": "2026-05-30",
       "stars": 2
-    },
-    {
-      "id": "hf-2605-25220",
-      "title": "Multi-view Consistent 3D Gaussian Head Avatars 'without' Multi-view Generation",
-      "authors": [
-        "Aviral Chharia",
-        "Fernando De la Torre"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "High-fidelity 3D Gaussian head avatar generation is critical for applications such as AR/VR, telepresence, and digital humans. Existing methods depend on multi-view datasets, 3D captures, or intermediate 2D view synthesis. In contrast, we learn both conditional and unconditional 3D head models from randomly sampled 2D images alone, without using multi-view data, 3D supervision, or intermediate view generation. We introduce MVCHead, a single-shot state space model that enforces multi-view consistency (MVC) directly in the 3D representation while",
-      "url": "https://huggingface.co/papers/2605.25220",
-      "pdf_url": "https://arxiv.org/pdf/2605.25220.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-05-24",
-      "added": "2026-05-30",
-      "stars": 1
-    },
-    {
-      "id": "hf-2605-29271",
-      "title": "CoHyDE: Iterative Co-Training of LLM Rewriter & Dense Encoder for Tool Retrieval",
-      "authors": [
-        "Vaishali Senthil",
-        "Ashutosh Hathidara",
-        "Sebastian Schreiber"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant training approaches, contrastive encoder fine-tuning and HyDE-style query expansion with a frozen LLM, address this problem from opposite ends and fail in complementary directions: the fine-tuned encoder excels when the query's surface form already matches the catalog but collapses when it does no",
-      "url": "https://huggingface.co/papers/2605.29271",
-      "pdf_url": "https://arxiv.org/pdf/2605.29271.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-05-28",
-      "added": "2026-05-30",
-      "stars": 1
     },
     {
       "id": "hf-2605-22765",
@@ -768,29 +791,6 @@
         "multimodal"
       ],
       "published": "2026-05-28",
-      "added": "2026-05-30",
-      "stars": 1
-    },
-    {
-      "id": "hf-2605-29157",
-      "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
-      "authors": [
-        "Yifei Zuo",
-        "Dhruv Pai",
-        "Zhichen Zeng",
-        "Alec Dewulf",
-        "Shuming Hu",
-        "Zhaoran Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism derived from nonparametric statistics in the test-time regression framework. In contrast to prior research on efficient attention variants, LLA upgrades the local constant estimate in softmax attention to a local linear estimate, yielding provably superior bias-variance tradeoffs for associative memory. However, LLA",
-      "url": "https://huggingface.co/papers/2605.29157",
-      "pdf_url": "https://arxiv.org/pdf/2605.29157.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-05-27",
       "added": "2026-05-30",
       "stars": 1
     },
