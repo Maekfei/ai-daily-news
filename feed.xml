@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 May 2026 02:06:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 02:04:05 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-01</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-01</link>
+      <guid isPermaLink="false">2026-06-01</guid>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 完成 650 亿美元 H 轮融资、估值 9650 亿美元首次反超 OpenAI；DeepSeek 将 V4-Pro API 永久降至原价 1/4，全球 LLM API 价格战进入新阶段。
+• Anthropic（Claude 母公司）完成 650 亿美元 H 轮融资，估值 9650 亿美元
+• Anthropic 发布 Claude Opus 4.8，主打动态工作流与 Agent 编码
+• OpenRouter 完成 1.13 亿美元 B 轮融资，估值翻倍至 13 亿美元
+• DeepSeek-V4-Pro API 永久降价 75% — 5 月 22 日 DeepSeek 官网更新定价：原 5 月 31 日到期的 2.5 折促销活动结束后，V4-Pro 输入价格永久从 $1.74/M tokens 调整为 $0.435/M tokens、输出从 $3.48 降至 $0.87，正式将促销价&quot;焊死&quot;为长期定价，引发全球 LLM API 价格战新一轮重定价讨论。来源
+• 月之暗面（Moonshot AI）启动赴港 IPO 评估 — 据彭博，Kimi 母公司估值 3 个月内从 43 亿美元飙升至 180 亿美元，已与中金、高盛接洽上市事宜，可能与智谱、MiniMax 同台竞争&quot;A 股/港股大模型第一股&quot;。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-05-31</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-05-31</link>
