@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jun 2026 02:04:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 02:08:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-02</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-02</link>
+      <guid isPermaLink="false">2026-06-02</guid>
+      <pubDate>Tue, 02 Jun 2026 10:00:00 +0800</pubDate>
+      <description>MiniMax 开源新一代旗舰 M3 模型剑指 GPT-5.5；Cognition 以 260 亿美元估值完成 10 亿美元融资，Devin 89% 自我代码增长引爆 Coding Agent 赛道。
+• MiniMax 发布开源旗舰模型 M3，主打编程与 Agent 能力
+• Cognition 完成 10 亿美元融资，Devin 估值飙至 260 亿美元
+• Anthropic 发布 Claude Opus 4.8，Coding 与 Agent 能力再升级
+• Anthropic 完成 650 亿美元融资，估值 9650 亿美元逼近万亿 — H 轮新融资完成后估值约 965 billion，为 IPO 铺路；Claude API 需求暴涨被列为主要驱动。TechCrunch
+• NVIDIA 在 GTC Taipei 2026 发布 Nemotron 3 Ultra — 千亿参数级开源混合 SSM-MoE 架构模型，专为智能体推理与行动场景优化，推理速度提升 5 倍、成本下降约 30%。每经/搜狐科技转载</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-01</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-01</link>
