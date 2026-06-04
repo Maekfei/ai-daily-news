@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 02:07:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 02:04:10 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-04</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-04</link>
+      <guid isPermaLink="false">2026-06-04</guid>
+      <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
+      <description>微软 Build 2026 一口气发七款 MAI 自研模型并宣告 &quot;Agent 优先&quot; 时代；特朗普签署 AI 模型上市前 30 天自愿审查行政令，全球 Agent 与监管同步加速。
+• 微软 Build 2026：发布 MAI 全系自研模型，宣告&quot;Agent 优先&quot;时代
+• OpenAI&quot;Intelligence at Work&quot;发布会：Codex 全面并入 ChatGPT
+• Anthropic 秘密递交 S-1，估值约 9650 亿美元
+• 腾讯微信 AI 智能体进入内测，开放超十亿用户入口
+• 特朗普签署 AI 自愿审查行政令 — 6 月 2 日特朗普正式签署&quot;妥协版&quot;行政令，要求前沿 AI 模型发布前 30 天自愿向政府提交安全测试评估，原计划的 90 天强制访问期在业界游说后被缩短。钛媒体 / 今日头条</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-03</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-03</link>
