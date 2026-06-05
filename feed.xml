@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 02:04:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 02:03:31 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-05</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-05</link>
+      <guid isPermaLink="false">2026-06-05</guid>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Computex 2026 谢幕：高通宣告&quot;Agent 时代&quot;，端侧成主战场；微软 Scout 因内部&quot;让用户上瘾&quot;文件遭曝，纳德拉紧急切割。
+• Computex 2026 闭幕：英伟达、AMD、高通、Arm 集体押注 AI Agent
+• 微软 Scout AI 助手陷&quot;让用户上瘾&quot;争议，纳德拉紧急切割
+• 多家手机厂商与微信合作落地 AI 智能体
+• 博通（Broadcom）Q3 AI 营收指引 160 亿美元低于预期 — Broadcom 公布 FY2026 Q2 财报，AI 半导体营收 108 亿美元同比 +143%，但 Q3 AI 营收指引&quot;仅&quot;160 亿美元（市场预期 163 亿美元），股价 6 月 4 日单日暴跌 12.6%，引发市场对 AI 资本支出兑现节奏的重新定价。Broadcom IR 公告 / 财新
+• Anthropic 企业 ARR 跃升至约 400 亿美元 — The Information 数据：Anthropic 企业级年化收入从 2025 年 12 月的 90 亿美元飙升至 2026 年 5 月的约 400 亿美元，已超过 OpenAI 同期约 250 亿美元的 ARR，成为首个企业市场反超 OpenAI 的玩家；Anthropic 同期估值已达 9650 亿美元。The Information 数据综合</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-04</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-04</link>
