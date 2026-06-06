@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 02:03:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 02:08:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-06</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-06</link>
+      <guid isPermaLink="false">2026-06-06</guid>
+      <pubDate>Sat, 06 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 抛出&quot;递归自我改进&quot;重磅报告并冲刺 IPO，美国《Great American AI Act》草案出炉欲三年内联邦统辖各州 AI 立法。
+• Anthropic 发布《When AI Builds Itself》报告：递归自我改进进入实质阶段
+• 《Great American AI Act》草案出炉：三年内联邦法规优先于各州 AI 立法
+• NVIDIA 发布 Cosmos 3：全球首个完全开放的全模态物理 AI 基础模型
+• Anthropic 秘密递交 IPO 文件，估值飙至 9650 亿美元 — Anthropic 6 月初向 SEC 递交机密 S-1 草案，年化收入由 2025 年 12 月的约 90 亿美元飙升至 2026 年 5 月的约 470 亿美元，企业 ARR 已超越 OpenAI 同期约 250 亿美元，被市场视为史上最大 AI IPO 候选。Crunchbase News / Simon Willison · Anthropic run-rate hits $47B
+• OpenAI 把 Codex 完整集成进 ChatGPT，并发布 6 款行业插件 — 6 月 2–6 日陆续推送：Codex Agent 进入 ChatGPT 主入口，覆盖近 10 亿用户；新插件覆盖私募股权、银行、销售、医疗数据等业务场景，法律与企业融资插件本月内上线，预示 Codex 从&quot;编程 Agent&quot;扩张为&quot;通用工作 Agent&quot;。9to5Mac / Digital Applied 报道</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-05</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-05</link>
