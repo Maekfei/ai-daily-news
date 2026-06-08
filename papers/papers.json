@@ -1,6 +1,110 @@
 {
   "papers": [
     {
+      "id": "hf-2606-07080",
+      "title": "dots.tts Technical Report",
+      "authors": [
+        "Shi Lian",
+        "Changtao Li",
+        "Bohan Li",
+        "Hankun Wang",
+        "Da Zheng",
+        "Junfeng Tian",
+        "Yufeng Ma",
+        "Colin Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present dots.tts, a 2B-parameter continuous autoregressive text-to-speech (TTS) foundation model that models speech in a continuous latent space. Compared with existing continuous autoregressive models, our key innovations are threefold. First, we train an AudioVAE with multiple objectives to build a semantically structured and prediction-friendly continuous speech space. Second, we use full-history conditioning in the flow-matching head to preserve long-range consistency and reduce drift during generation. Third, we apply reward-free self-c",
+      "url": "https://huggingface.co/papers/2606.07080",
+      "pdf_url": "https://arxiv.org/pdf/2606.07080.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-06-05",
+      "added": "2026-06-08",
+      "stars": 1
+    },
+    {
+      "id": "hf-2606-06538",
+      "title": "WorldBench: A Challenging and Visually Diverse Multimodal Reasoning Benchmark",
+      "authors": [
+        "Yida Yin",
+        "Harish Krishnakumar",
+        "Chung Peng Lee",
+        "Boya Zeng",
+        "Wenhao Chai",
+        "Shengbang Tong",
+        "Wenhu Chen",
+        "Hu Xu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "In real-world applications, models are expected to perform reliably across diverse settings. Yet, many existing multimodal benchmarks expand task types without capturing the visual diversity needed to handle open-ended visual inputs. We present WorldBench, a challenging and visually diverse reasoning benchmark to evaluate Multimodal Large Language Models (MLLMs). We build a taxonomy of thousands of visual concepts across multiple domains (e.g., living things). Guided by this taxonomy, we curate a broad collection of images from search engines a",
+      "url": "https://huggingface.co/papers/2606.06538",
+      "pdf_url": "https://arxiv.org/pdf/2606.06538.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-04",
+      "added": "2026-06-08",
+      "stars": 0
+    },
+    {
+      "id": "hf-2606-06741",
+      "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+      "authors": [
+        "Zhiling Yan",
+        "Dingjie Song",
+        "Hanrong Zhang",
+        "Wei Liang",
+        "Yuxuan Zhang",
+        "Yutong Dai",
+        "Lifang He",
+        "Philip S. Yu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Self-evolving agents requires adaptation after deployment, but existing approaches assume a usable learning loop, such as curated skills, successful trajectories, or verifier signals. Real open-world deployments may provide none of these, offering only a task prompt. In this work, we study open-world self-evolution, where an agent must build both its skills and its own verification signals from scratch, using open-world resources but no target-task supervision. We propose OpenSkill, a framework that bootstraps this loop: it acquires grounded kn",
+      "url": "https://huggingface.co/papers/2606.06741",
+      "pdf_url": "https://arxiv.org/pdf/2606.06741.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-04",
+      "added": "2026-06-08",
+      "stars": 0
+    },
+    {
+      "id": "hf-2606-07412",
+      "title": "Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills",
+      "authors": [
+        "Chuan Xiao",
+        "Zhengbo Jiao",
+        "Shaobo Wang",
+        "Wei Wang",
+        "Bing Zhao",
+        "Hu Wei",
+        "Linfeng Zhang",
+        "Lin Qu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM-driven software engineering agents have become a central testbed for real-world language-model capability, yet their training remains limited by the availability of high-quality SWE tasks. Existing synthetic data methods typically create tasks through fixed mutation or bug-injection procedures, making the resulting distributions largely independent of the agent's own weaknesses and training progress. We introduce Socratic-SWE, a closed-loop self-evolution framework that reuses the agent's historical solving traces as a source of training si",
+      "url": "https://huggingface.co/papers/2606.07412",
+      "pdf_url": "https://arxiv.org/pdf/2606.07412.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "code"
+      ],
+      "published": "2026-06-05",
+      "added": "2026-06-08",
+      "stars": 0
+    },
+    {
       "id": "hf-2606-06492",
       "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
       "authors": [
@@ -21,7 +125,7 @@
       ],
       "published": "2026-06-04",
       "added": "2026-06-06",
-      "stars": 63
+      "stars": 72
     },
     {
       "id": "hf-2606-05553",
@@ -45,7 +149,7 @@
       ],
       "published": "2026-06-04",
       "added": "2026-06-06",
-      "stars": 42
+      "stars": 45
     },
     {
       "id": "hf-2606-04743",
@@ -93,7 +197,7 @@
       ],
       "published": "2026-06-04",
       "added": "2026-06-06",
-      "stars": 36
+      "stars": 37
     },
     {
       "id": "hf-2606-05259",
@@ -121,6 +225,28 @@
       "stars": 34
     },
     {
+      "id": "hf-2606-03312",
+      "title": "RobotValues: Evaluating Household Robots When Human Values Conflict",
+      "authors": [
+        "Jongwook Han",
+        "Hyeongjin Kim",
+        "Yohan Jo"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "While household robots are often evaluated based on task completion, everyday domestic environments involve value-conflicting situations in which robots are expected to choose actions that prioritize other values than task success, such as human autonomy, efficiency, or social appropriateness. Yet, there are no benchmarks for evaluating robots' value preferences in such scenarios. We introduce RobotValues, a benchmark to evaluate household robot planners in 10K value-conflict scenarios. Each instance consists of a realistic household image with",
+      "url": "https://huggingface.co/papers/2606.03312",
+      "pdf_url": "https://arxiv.org/pdf/2606.03312.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-06-02",
+      "added": "2026-06-06",
+      "stars": 24
+    },
+    {
       "id": "hf-2606-06428",
       "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
       "authors": [
@@ -140,28 +266,6 @@
         "reasoning"
       ],
       "published": "2026-06-04",
-      "added": "2026-06-06",
-      "stars": 23
-    },
-    {
-      "id": "hf-2606-03312",
-      "title": "RobotValues: Evaluating Household Robots When Human Values Conflict",
-      "authors": [
-        "Jongwook Han",
-        "Hyeongjin Kim",
-        "Yohan Jo"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "While household robots are often evaluated based on task completion, everyday domestic environments involve value-conflicting situations in which robots are expected to choose actions that prioritize other values than task success, such as human autonomy, efficiency, or social appropriateness. Yet, there are no benchmarks for evaluating robots' value preferences in such scenarios. We introduce RobotValues, a benchmark to evaluate household robot planners in 10K value-conflict scenarios. Each instance consists of a realistic household image with",
-      "url": "https://huggingface.co/papers/2606.03312",
-      "pdf_url": "https://arxiv.org/pdf/2606.03312.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-06-02",
       "added": "2026-06-06",
       "stars": 23
     },
@@ -214,7 +318,7 @@
       ],
       "published": "2026-06-03",
       "added": "2026-06-06",
-      "stars": 18
+      "stars": 19
     },
     {
       "id": "hf-2606-04811",
@@ -244,52 +348,6 @@
       "stars": 15
     },
     {
-      "id": "hf-2606-04880",
-      "title": "MAOAM: Unified Object and Material Selection with Vision-Language Models",
-      "authors": [
-        "Jaden Park",
-        "Valentin Deschaintre",
-        "Jason Kuen",
-        "Kangning Liu",
-        "Iliyan Georgiev",
-        "Krishna Kumar Singh",
-        "Yong Jae Lee",
-        "Michael Fischer"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Selection is a core operation in interactive image editing. To be practical, a user should be able to specify and disambiguate the desired selection region through either text or click-based interactions, and the system should support selecting not only objects but also other criteria, such as materials. Material-based selection is valuable for tasks like re-texturing surfaces or editing instances of a specific material. However, existing vision-language-model (VLM) based selection methods are object-centric and typically support a single inter",
-      "url": "https://huggingface.co/papers/2606.04880",
-      "pdf_url": "https://arxiv.org/pdf/2606.04880.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-06-02",
-      "added": "2026-06-06",
-      "stars": 8
-    },
-    {
-      "id": "hf-2606-06286",
-      "title": "LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs",
-      "authors": [
-        "Gianluca Barmina",
-        "Peter Schneider-Kamp",
-        "Lukas Galke Poech"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models can reproduce training data, but existing memorization evaluations mostly measure whether models can be forced to do so, rather than whether they do so under ordinary use. We introduce PropMe, a propensity-aware framework for memorization evaluation that contrasts prefix-based capability attacks with non-adversarial evaluations. We propose a metric transformation that, applied to existing functions, allows to create propensity metrics. We further introduce SimpleTrace, a lightweight tracing pipeline built on infini-gram th",
-      "url": "https://huggingface.co/papers/2606.06286",
-      "pdf_url": "https://arxiv.org/pdf/2606.06286.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-06-04",
-      "added": "2026-06-06",
-      "stars": 7
-    },
-    {
       "id": "hf-2606-06155",
       "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
       "authors": [
@@ -314,7 +372,53 @@
       ],
       "published": "2026-06-04",
       "added": "2026-06-06",
-      "stars": 7
+      "stars": 10
+    },
+    {
+      "id": "hf-2606-04880",
+      "title": "MAOAM: Unified Object and Material Selection with Vision-Language Models",
+      "authors": [
+        "Jaden Park",
+        "Valentin Deschaintre",
+        "Jason Kuen",
+        "Kangning Liu",
+        "Iliyan Georgiev",
+        "Krishna Kumar Singh",
+        "Yong Jae Lee",
+        "Michael Fischer"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Selection is a core operation in interactive image editing. To be practical, a user should be able to specify and disambiguate the desired selection region through either text or click-based interactions, and the system should support selecting not only objects but also other criteria, such as materials. Material-based selection is valuable for tasks like re-texturing surfaces or editing instances of a specific material. However, existing vision-language-model (VLM) based selection methods are object-centric and typically support a single inter",
+      "url": "https://huggingface.co/papers/2606.04880",
+      "pdf_url": "https://arxiv.org/pdf/2606.04880.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-06-02",
+      "added": "2026-06-06",
+      "stars": 9
+    },
+    {
+      "id": "hf-2606-06286",
+      "title": "LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs",
+      "authors": [
+        "Gianluca Barmina",
+        "Peter Schneider-Kamp",
+        "Lukas Galke Poech"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models can reproduce training data, but existing memorization evaluations mostly measure whether models can be forced to do so, rather than whether they do so under ordinary use. We introduce PropMe, a propensity-aware framework for memorization evaluation that contrasts prefix-based capability attacks with non-adversarial evaluations. We propose a metric transformation that, applied to existing functions, allows to create propensity metrics. We further introduce SimpleTrace, a lightweight tracing pipeline built on infini-gram th",
+      "url": "https://huggingface.co/papers/2606.06286",
+      "pdf_url": "https://arxiv.org/pdf/2606.06286.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-06-04",
+      "added": "2026-06-06",
+      "stars": 8
     },
     {
       "id": "hf-2606-03092",
@@ -338,7 +442,62 @@
       ],
       "published": "2026-06-02",
       "added": "2026-06-06",
-      "stars": 6
+      "stars": 7
+    },
+    {
+      "id": "hf-2606-06447",
+      "title": "Latent Reasoning with Normalizing Flows",
+      "authors": [
+        "Guancheng Tu",
+        "Xiangjun Fu",
+        "Suhao Yu",
+        "Yao Tang",
+        "Haoqiang Kang",
+        "Lianhui Qin",
+        "Yizhe Zhang",
+        "Jiatao Gu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models often improve reasoning by generating explicit chain-of-thought (CoT), demonstrating the importance of intermediate computation. However, textual CoT forces this computation through a discrete, serial, and communication-oriented token stream: each reasoning step must be verbalized before the model can proceed, even when the underlying update is semantic, uncertain, or only partially formed. Latent reasoning offers a higher-bandwidth alternative by performing intermediate computation in compact continuous states before comm",
+      "url": "https://huggingface.co/papers/2606.06447",
+      "pdf_url": "https://arxiv.org/pdf/2606.06447.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-06-04",
+      "added": "2026-06-06",
+      "stars": 7
+    },
+    {
+      "id": "hf-2606-05979",
+      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+      "authors": [
+        "Yi Yang",
+        "Zhihong Liu",
+        "Siqi Kou",
+        "Yiyang Chen",
+        "Yanzhe Hu",
+        "Jianbo Zhou",
+        "Boyuan Zhao",
+        "Zhijie Wei"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We propose world-language-action (WLA) models as a new class of embodied foundation models. WLA takes textual instructions, images, and robot states as inputs to jointly predict textual subtasks, subgoal images, and robot actions, conjoining the world modeling interface to learn from extensive egocentric videos as in the world-action model (WAM) and the language reasoning capacities to solve complex long-horizon tasks as in vision-language-action (VLA) models. At the core of WLA lies an autoregressive (AR) Transformer backbone, instead of a bid",
+      "url": "https://huggingface.co/papers/2606.05979",
+      "pdf_url": "https://arxiv.org/pdf/2606.05979.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-06-04",
+      "added": "2026-06-06",
+      "stars": 7
     },
     {
       "id": "hf-2605-30159",
@@ -368,59 +527,30 @@
       "stars": 6
     },
     {
-      "id": "hf-2606-06447",
-      "title": "Latent Reasoning with Normalizing Flows",
+      "id": "hf-2606-05254",
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
       "authors": [
-        "Guancheng Tu",
-        "Xiangjun Fu",
-        "Suhao Yu",
-        "Yao Tang",
-        "Haoqiang Kang",
-        "Lianhui Qin",
-        "Yizhe Zhang",
-        "Jiatao Gu"
+        "Arman Akbari",
+        "Ci Zhang",
+        "Arash Akbari",
+        "Lin Zhao",
+        "Yixiao Chen",
+        "Weiwei Chen",
+        "Xuan Zhang",
+        "Geng Yuan"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models often improve reasoning by generating explicit chain-of-thought (CoT), demonstrating the importance of intermediate computation. However, textual CoT forces this computation through a discrete, serial, and communication-oriented token stream: each reasoning step must be verbalized before the model can proceed, even when the underlying update is semantic, uncertain, or only partially formed. Latent reasoning offers a higher-bandwidth alternative by performing intermediate computation in compact continuous states before comm",
-      "url": "https://huggingface.co/papers/2606.06447",
-      "pdf_url": "https://arxiv.org/pdf/2606.06447.pdf",
+      "summary": "World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality",
+      "url": "https://huggingface.co/papers/2606.05254",
+      "pdf_url": "https://arxiv.org/pdf/2606.05254.pdf",
       "tags": [
         "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-06-04",
-      "added": "2026-06-06",
-      "stars": 6
-    },
-    {
-      "id": "hf-2606-05979",
-      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
-      "authors": [
-        "Yi Yang",
-        "Zhihong Liu",
-        "Siqi Kou",
-        "Yiyang Chen",
-        "Yanzhe Hu",
-        "Jianbo Zhou",
-        "Boyuan Zhao",
-        "Zhijie Wei"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We propose world-language-action (WLA) models as a new class of embodied foundation models. WLA takes textual instructions, images, and robot states as inputs to jointly predict textual subtasks, subgoal images, and robot actions, conjoining the world modeling interface to learn from extensive egocentric videos as in the world-action model (WAM) and the language reasoning capacities to solve complex long-horizon tasks as in vision-language-action (VLA) models. At the core of WLA lies an autoregressive (AR) Transformer backbone, instead of a bid",
-      "url": "https://huggingface.co/papers/2606.05979",
-      "pdf_url": "https://arxiv.org/pdf/2606.05979.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
         "benchmark",
-        "multimodal",
         "robotics"
       ],
-      "published": "2026-06-04",
+      "published": "2026-06-03",
       "added": "2026-06-06",
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "hf-2606-05769",
@@ -474,7 +604,7 @@
       ],
       "published": "2026-06-04",
       "added": "2026-06-06",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-03940",
@@ -548,28 +678,44 @@
       "stars": 4
     },
     {
-      "id": "hf-2606-05254",
-      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+      "id": "hf-2606-05846",
+      "title": "Towards Truly Multilingual ASR: Generalizing Code-Switching ASR to Unseen Language Pairs",
       "authors": [
-        "Arman Akbari",
-        "Ci Zhang",
-        "Arash Akbari",
-        "Lin Zhao",
-        "Yixiao Chen",
-        "Weiwei Chen",
-        "Xuan Zhang",
-        "Geng Yuan"
+        "Gio Paik",
+        "Hyunseo Shin",
+        "Soungmin Lee"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "World-action models (WAMs) jointly generate future video and robot actions through iterative diffusion, achieving strong performance on manipulation benchmarks but requiring tens of denoising steps, a cost that precludes real-time control. Step distillation has emerged as the natural remedy, but off-the-shelf methods break down in the joint video-action setting because video and action streams use different SNR-shifted noise schedules and reach training with substantially different marginal noise distributions, an asymmetry that single-modality",
-      "url": "https://huggingface.co/papers/2606.05254",
-      "pdf_url": "https://arxiv.org/pdf/2606.05254.pdf",
+      "summary": "Automatic Speech Recognition (ASR) has become a key technology for human--AI interaction. However, code-switching ASR (CS-ASR) remains particularly challenging due to the severe scarcity of multilingual CS speech resources across diverse language pairs. Existing approaches primarily improve CS-ASR performance through synthetic CS speech generation or pair-specific fine-tuning on limited bilingual datasets. Nevertheless, these approaches face an inherent scalability limitation, as support for CS must be developed separately for language pairs wh",
+      "url": "https://huggingface.co/papers/2606.05846",
+      "pdf_url": "https://arxiv.org/pdf/2606.05846.pdf",
       "tags": [
         "hf-trending",
-        "benchmark",
-        "robotics"
+        "rl"
       ],
-      "published": "2026-06-03",
+      "published": "2026-06-04",
+      "added": "2026-06-06",
+      "stars": 4
+    },
+    {
+      "id": "hf-2606-03645",
+      "title": "The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models",
+      "authors": [
+        "Liuyuan Wen",
+        "Xun Zhu",
+        "Lihao Huang",
+        "Wenbin Li",
+        "Yang Gao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large Language Models exhibit paradoxical fragility in fundamental arithmetic, implying a disconnect between internal computation and discrete output. By analyzing the residual stream geometry during multi-operand addition, we identify the Iso-Raw-Sum Trajectory (IRST), a geometric structure where representations are anchored by semantic digits and modulated by continuous carry fibers. We propose the Noisy Quantization Model to explain this geometry, framing arithmetic errors as Geometric Slippages caused by internal neural noise pushing a cont",
+      "url": "https://huggingface.co/papers/2606.03645",
+      "pdf_url": "https://arxiv.org/pdf/2606.03645.pdf",
+      "tags": [
+        "hf-trending",
+        "code"
+      ],
+      "published": "2026-05-29",
       "added": "2026-06-06",
       "stars": 4
     },
@@ -615,48 +761,6 @@
         "reasoning",
         "benchmark",
         "multimodal"
-      ],
-      "published": "2026-05-29",
-      "added": "2026-06-06",
-      "stars": 3
-    },
-    {
-      "id": "hf-2606-05846",
-      "title": "Towards Truly Multilingual ASR: Generalizing Code-Switching ASR to Unseen Language Pairs",
-      "authors": [
-        "Gio Paik",
-        "Hyunseo Shin",
-        "Soungmin Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Automatic Speech Recognition (ASR) has become a key technology for human--AI interaction. However, code-switching ASR (CS-ASR) remains particularly challenging due to the severe scarcity of multilingual CS speech resources across diverse language pairs. Existing approaches primarily improve CS-ASR performance through synthetic CS speech generation or pair-specific fine-tuning on limited bilingual datasets. Nevertheless, these approaches face an inherent scalability limitation, as support for CS must be developed separately for language pairs wh",
-      "url": "https://huggingface.co/papers/2606.05846",
-      "pdf_url": "https://arxiv.org/pdf/2606.05846.pdf",
-      "tags": [
-        "hf-trending",
-        "rl"
-      ],
-      "published": "2026-06-04",
-      "added": "2026-06-06",
-      "stars": 3
-    },
-    {
-      "id": "hf-2606-03645",
-      "title": "The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models",
-      "authors": [
-        "Liuyuan Wen",
-        "Xun Zhu",
-        "Lihao Huang",
-        "Wenbin Li",
-        "Yang Gao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large Language Models exhibit paradoxical fragility in fundamental arithmetic, implying a disconnect between internal computation and discrete output. By analyzing the residual stream geometry during multi-operand addition, we identify the Iso-Raw-Sum Trajectory (IRST), a geometric structure where representations are anchored by semantic digits and modulated by continuous carry fibers. We propose the Noisy Quantization Model to explain this geometry, framing arithmetic errors as Geometric Slippages caused by internal neural noise pushing a cont",
-      "url": "https://huggingface.co/papers/2606.03645",
-      "pdf_url": "https://arxiv.org/pdf/2606.03645.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
       ],
       "published": "2026-05-29",
       "added": "2026-06-06",
@@ -975,7 +1079,7 @@
       ],
       "published": "2026-06-03",
       "added": "2026-06-06",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2606-01317",
@@ -1876,91 +1980,6 @@
       "published": "2026-06-03",
       "added": "2026-06-05",
       "stars": 1
-    },
-    {
-      "id": "hf-2606-01804",
-      "title": "SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing",
-      "authors": [
-        "Hanlin Zhang",
-        "Daxin Tan",
-        "Dehua Tao",
-        "Xiao Chen",
-        "Haochen Tan",
-        "Linqi Song"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Instruction-guided speech editing requires a model to modify specified speech attributes while preserving unrelated characteristics. Despite rapid progress in Speech Large Language Models (Speech LLMs), systematic evaluation of this capability remains challenging, as existing benchmarks are fragmented across isolated editing tasks. To bridge this gap, we introduce SpeechEditBench, a bilingual multi-attribute benchmark for instruction-guided speech editing. SpeechEditBench encompasses seven atomic editing tasks, as well as compositional editing",
-      "url": "https://huggingface.co/papers/2606.01804",
-      "pdf_url": "https://arxiv.org/pdf/2606.01804.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-03",
-      "added": "2026-06-05",
-      "stars": 0
-    },
-    {
-      "id": "hf-2605-31498",
-      "title": "Scalable Inference-Time Annealing with Surrogate Likelihood Estimators",
-      "authors": [
-        "Daniel Peñaherrera",
-        "Rishal Aggarwal",
-        "David Ryan Koes"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "A long standing challenge in computational chemistry and biophysics is efficiently sampling the Boltzmann distribution of molecules. Advances in generative modeling have been proposed to address the limitations of conventional sampling techniques by eliminating the computational cost of simulation. A promising direction is iteratively finetuning diffusion models along a temperature ladder whereby training data is generated via importance sampling during inference-time annealing. Unfortunately, these methods require computing a divergence over t",
-      "url": "https://huggingface.co/papers/2605.31498",
-      "pdf_url": "https://arxiv.org/pdf/2605.31498.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
-      ],
-      "published": "2026-06-01",
-      "added": "2026-06-05",
-      "stars": 0
-    },
-    {
-      "id": "hf-2606-04056",
-      "title": "Token Budgets: An Empirical Catalog of 63 LLM-Agent Budget-Overrun Incidents, with an Affine-Typed Rust Mitigation as a Case Study",
-      "authors": [
-        "Sajjad Khan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LLM-agent budget overruns are a documented production failure class: a single retry loop can spend thousands of dollars before an operator notices, and the in-process integrity properties that would prevent it (no aliasing, no double-spend, no use-after-delegation of a cost-bearing value) are enforced, if at all, by ad-hoc wrappers rather than by the type system. Our central contribution is empirical: a catalog of 63 confirmed production incidents from 21 orchestration frameworks (2023-2026), each backed by a quoted GitHub issue and, where repo",
-      "url": "https://huggingface.co/papers/2606.04056",
-      "pdf_url": "https://arxiv.org/pdf/2606.04056.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-06-02",
-      "added": "2026-06-05",
-      "stars": 0
-    },
-    {
-      "id": "hf-2606-03792",
-      "title": "Training-Free Multi-Concept LoRA Composition with Prompt-Aware Weighting",
-      "authors": [
-        "Georgios Tsoumplekas",
-        "Stella Bounareli",
-        "Vasileios Argyriou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Low-Rank Adaptation (LoRA) successfully enables personalization in text-to-image generation by adapting pre-trained diffusion models to specific visual concepts and styles. However, extending such models to multi-concept customization remains challenging. Naively combining multiple LoRA weights or their outputs often leads to interference among concepts, resulting in degraded visual quality and reduced fidelity to the reference images of individual concepts. This paper proposes a simple yet effective approach for multi-concept customization by",
-      "url": "https://huggingface.co/papers/2606.03792",
-      "pdf_url": "https://arxiv.org/pdf/2606.03792.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-06-02",
-      "added": "2026-06-05",
-      "stars": 0
     }
   ]
 }

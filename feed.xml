@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 07 Jun 2026 02:05:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 02:10:13 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-08</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-08</link>
+      <guid isPermaLink="false">2026-06-08</guid>
+      <pubDate>Mon, 08 Jun 2026 10:00:00 +0800</pubDate>
+      <description>苹果 WWDC 2026 今晚开幕，Siri 2.0 与 Apple Intelligence 全面 AI 重构成最大看点；Supabase 5 亿美元 F 轮融资将估值推至 105 亿美元，AI 后端赛道再起涟漪。
+• 苹果 WWDC 2026 今夜开幕，Siri 2.0 押注 AI 大重构
+• 微软 Build 2026：发布 7 款自研模型，宣告 &quot;Agent 优先&quot; 时代
+• 腾讯云数据库面向 Agent 全面升级，&quot;三件套&quot; 对标 Snowflake Cortex
+• 高通 CEO 安蒙定义 &quot;2026 是智能体之年&quot;
+• 香港发布首个 &quot;生产力级超级智能体&quot;，单次稳定运行 28 小时</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-07</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-07</link>
