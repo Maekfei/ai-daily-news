@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 08 Jun 2026 02:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 02:10:35 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-09</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-09</link>
+      <guid isPermaLink="false">2026-06-09</guid>
+      <pubDate>Tue, 09 Jun 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 当日同步苹果 WWDC 2026 提交 IPO 保密草案，全球资本与产品叙事同框；Anthropic 发布递归自我改进（RSI）警告报告引爆行业安全大讨论。
+• OpenAI 提交 IPO 保密 S-1 草案，与苹果 WWDC 同日造势
+• 苹果 WWDC 2026 今夜开幕，Siri 2.0 全面 AI 重构
+• Anthropic 发布 RSI 报告，呼吁全球暂停前沿研究
+• xAI Grok Build 0.2.7 发布：子代理共享终端架构
+• Microsoft AI 加速&quot;去 OpenAI 化&quot;，宣告冲刺超级智能</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-08</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-08</link>
