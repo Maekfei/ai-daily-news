@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 02:06:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 02:09:07 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-11</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-11</link>
+      <guid isPermaLink="false">2026-06-11</guid>
+      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Sam Altman 内部信定调 OpenAI&quot;未来一年内&quot;IPO 并预告本月推出 GPT-5.6；德国具身智能公司 Neura Robotics 完成最高 14 亿美元融资，Tether/Qualcomm/Amazon/NVIDIA 联合下注。
+• OpenAI 预告 GPT-5.6 本月发布，Altman 称 IPO 推迟至&quot;未来一年内&quot;
+• Neura Robotics 拿下最高 14 亿美元融资，Tether/Qualcomm/Amazon/NVIDIA 集体下注
+• 微软 Build 2026 全面押注 Agent：Windows Agent Framework + Azure Agent Mesh GA
+• 华为云发布 Agentic Infra 新范式与 CloudRobo 具身智能开发平台
+• 中国发布人形机器人国家行动：2026 年底前商用部署 1 万台 — 财新 6 月 10 日援引官方文件，中国启动加速人形机器人与具身智能落地的国家计划，明确 2026 年末实现 1 万台商用目标，覆盖工厂、物流与家庭。Caixin Global</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-10</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-10</link>
