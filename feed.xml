@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 02:09:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 02:09:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-12</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-12</link>
+      <guid isPermaLink="false">2026-06-12</guid>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <description>第 8 届智源大会今日在北京开幕，全球 200+ 学者与 40+ AI 企业 CEO 集结围绕 Agent / 世界模型 / 具身智能展开两日议程；UC Berkeley 联合 300 位领域专家上线 **Agents&#x27; Last Exam (ALE)** 基准，GPT-5.5 在 Agent 评测上首次反超 Claude Fable 5。
+• 第 8 届北京智源大会开幕，主轴锁定 Agent / 世界模型 / 具身智能
+• UC Berkeley 推出 Agents&#x27; Last Exam (ALE)：GPT-5.5 反超 Claude Fable 5
+• Anthropic 发布 Claude Fable 5 / Mythos 5：自主运行时长大幅延长
+• 阿里千问上线&quot;国内首个全周期高考志愿填报 Agent&quot;
+• DeepSeek 首轮外部融资 70 亿美元，估值最高 590 亿美元 — 路透社 6 月 3 日披露，DeepSeek 启动首轮外部融资，规模约 500 亿元人民币（70 亿美元），投后估值 3500–4000 亿元（最高 590 亿美元），刷新国产大模型单笔融资纪录；投资方包括腾讯、宁德时代、国家大基金、网易、京东，创始人梁文锋个人出资 200 亿元。知乎专栏</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-11</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-11</link>
