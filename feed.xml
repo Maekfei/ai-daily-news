@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 02:09:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 02:04:19 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-13</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-13</link>
+      <guid isPermaLink="false">2026-06-13</guid>
+      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
+      <description>第八届北京智源大会今日进入第二天，&quot;悟道&quot;升级为&quot;悟界&quot;主打 Agent 与世界模型；OpenAI 内部备战 GPT-5.6，Codex 与第三方应用全面整合，ChatGPT 进入&quot;超级应用&quot;阶段。
+• 北京智源大会开幕：从&quot;悟道&quot;到&quot;悟界&quot;押注 Agent 与世界模型
+• OpenAI 启动 ChatGPT 超级应用化：Codex 与 Agent、第三方应用深度整合
+• Apple WWDC 2026：Siri 进入 Agent 时代，Foundation Models 对第三方开放
+• Anthropic 推出 Claude Fable 5：首个面向公众的 Mythos 级旗舰
+• 中国官宣 2 万亿元 AI 数据中心五年规划，国产化率瞄准 80% — 中国发布国家级 AI 基础设施计划，预计五年投入约 2 万亿元人民币（约 2,950 亿美元），目标以国产芯片为主降低对美依赖。TechStartups</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-12</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-12</link>
