@@ -24,7 +24,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 105
+      "stars": 118
     },
     {
       "id": "hf-2606-13392",
@@ -52,7 +52,34 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 83
+      "stars": 103
+    },
+    {
+      "id": "hf-2606-09426",
+      "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "authors": [
+        "Wanli Li",
+        "Bowen Zhou",
+        "Yunyao Yu",
+        "Zhou Xu",
+        "Yifan Yang",
+        "Dongsheng Li",
+        "Caihua Shan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Computer-use agents (CUAs) increasingly operate in runtimes that combine visual desktop control, command-line execution, code editing, browsers, and external tools. Existing benchmarks, however, often evaluate these interfaces as separable capabilities, leaving long-horizon cross-interface orchestration under-tested. Thus, we introduce WeaveBench, a long-horizon hybrid-interface benchmark with 114 tasks across 8 real-world work domains, grounded in real user requests and publicly verifiable artifacts. Each task requires agents to combine GUI ob",
+      "url": "https://huggingface.co/papers/2606.09426",
+      "pdf_url": "https://arxiv.org/pdf/2606.09426.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-06-08",
+      "added": "2026-06-13",
+      "stars": 94
     },
     {
       "id": "hf-2606-13673",
@@ -111,7 +138,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 73
+      "stars": 74
     },
     {
       "id": "hf-2606-08063",
@@ -140,7 +167,33 @@
       ],
       "published": "2026-06-06",
       "added": "2026-06-13",
-      "stars": 71
+      "stars": 74
+    },
+    {
+      "id": "hf-2606-13473",
+      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+      "authors": [
+        "Jiacheng Chen",
+        "Xinyu Zhang",
+        "Shunkai Zhang",
+        "Yanmohan Wang",
+        "Lin Li",
+        "Tiancheng Qin",
+        "Qin Wang",
+        "Zhengmao Zhu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generative verifier engineered for low false-positive rate. These capabilities are merged into a single released M3 model. At test time, MaxProof treats the model as a generator, verifier, refiner, and ranker, searches over a population of candidate proofs,",
+      "url": "https://huggingface.co/papers/2606.13473",
+      "pdf_url": "https://arxiv.org/pdf/2606.13473.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-06-11",
+      "added": "2026-06-13",
+      "stars": 74
     },
     {
       "id": "hf-2606-12087",
@@ -169,59 +222,6 @@
       "stars": 71
     },
     {
-      "id": "hf-2606-13473",
-      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
-      "authors": [
-        "Jiacheng Chen",
-        "Xinyu Zhang",
-        "Shunkai Zhang",
-        "Yanmohan Wang",
-        "Lin Li",
-        "Tiancheng Qin",
-        "Qin Wang",
-        "Zhengmao Zhu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generative verifier engineered for low false-positive rate. These capabilities are merged into a single released M3 model. At test time, MaxProof treats the model as a generator, verifier, refiner, and ranker, searches over a population of candidate proofs,",
-      "url": "https://huggingface.co/papers/2606.13473",
-      "pdf_url": "https://arxiv.org/pdf/2606.13473.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-06-11",
-      "added": "2026-06-13",
-      "stars": 69
-    },
-    {
-      "id": "hf-2606-09426",
-      "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
-      "authors": [
-        "Wanli Li",
-        "Bowen Zhou",
-        "Yunyao Yu",
-        "Zhou Xu",
-        "Yifan Yang",
-        "Dongsheng Li",
-        "Caihua Shan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Computer-use agents (CUAs) increasingly operate in runtimes that combine visual desktop control, command-line execution, code editing, browsers, and external tools. Existing benchmarks, however, often evaluate these interfaces as separable capabilities, leaving long-horizon cross-interface orchestration under-tested. Thus, we introduce WeaveBench, a long-horizon hybrid-interface benchmark with 114 tasks across 8 real-world work domains, grounded in real user requests and publicly verifiable artifacts. Each task requires agents to combine GUI ob",
-      "url": "https://huggingface.co/papers/2606.09426",
-      "pdf_url": "https://arxiv.org/pdf/2606.09426.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-06-08",
-      "added": "2026-06-13",
-      "stars": 55
-    },
-    {
       "id": "hf-2606-13578",
       "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
       "authors": [
@@ -247,7 +247,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 50
+      "stars": 52
     },
     {
       "id": "hf-2606-10768",
@@ -298,7 +298,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 19
+      "stars": 21
     },
     {
       "id": "hf-2606-13106",
@@ -324,7 +324,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 16
+      "stars": 18
     },
     {
       "id": "hf-2606-11662",
@@ -449,7 +449,7 @@
       ],
       "published": "2026-06-10",
       "added": "2026-06-13",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-13120",
@@ -569,7 +569,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-13",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2606-13174",
@@ -761,7 +761,30 @@
       ],
       "published": "2026-06-09",
       "added": "2026-06-13",
-      "stars": 1
+      "stars": 2
+    },
+    {
+      "id": "hf-2606-08103",
+      "title": "Revisiting Articulated Parts Perception in Robot Manipulation",
+      "authors": [
+        "Xiaoqian Wu",
+        "Yejie Guo",
+        "Xiaoyang Chen",
+        "Lixin Yang",
+        "Cewu Lu",
+        "Yong-Lu Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We are surrounded by various objects with movable, articulated parts, e.g., box, handle, door. An accurate and generalizable perception of articulated parts is essential to enhance robotic manipulation capabilities. Building on this need, recent efforts in articulated parts perception have followed two main directions: One line of work uses pose-based representation, which requires high manual cost; in parallel, affordance-based methods extract future object motion from point tracking without additional manual efforts, but suffer from low-quali",
+      "url": "https://huggingface.co/papers/2606.08103",
+      "pdf_url": "https://arxiv.org/pdf/2606.08103.pdf",
+      "tags": [
+        "hf-trending",
+        "robotics"
+      ],
+      "published": "2026-06-06",
+      "added": "2026-06-13",
+      "stars": 2
     },
     {
       "id": "hf-2606-12488",
@@ -823,29 +846,6 @@
       "published": "2026-06-10",
       "added": "2026-06-13",
       "stars": 1
-    },
-    {
-      "id": "hf-2606-08103",
-      "title": "Revisiting Articulated Parts Perception in Robot Manipulation",
-      "authors": [
-        "Xiaoqian Wu",
-        "Yejie Guo",
-        "Xiaoyang Chen",
-        "Lixin Yang",
-        "Cewu Lu",
-        "Yong-Lu Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We are surrounded by various objects with movable, articulated parts, e.g., box, handle, door. An accurate and generalizable perception of articulated parts is essential to enhance robotic manipulation capabilities. Building on this need, recent efforts in articulated parts perception have followed two main directions: One line of work uses pose-based representation, which requires high manual cost; in parallel, affordance-based methods extract future object motion from point tracking without additional manual efforts, but suffer from low-quali",
-      "url": "https://huggingface.co/papers/2606.08103",
-      "pdf_url": "https://arxiv.org/pdf/2606.08103.pdf",
-      "tags": [
-        "hf-trending",
-        "robotics"
-      ],
-      "published": "2026-06-06",
-      "added": "2026-06-13",
-      "stars": 0
     },
     {
       "id": "hf-2606-12397",
@@ -1213,6 +1213,34 @@
       "stars": 16
     },
     {
+      "id": "hf-2606-08035",
+      "title": "DyCo-RL: Dynamic Cross-Modal Coordination for Visual Reasoning",
+      "authors": [
+        "Hangui Lin",
+        "Yan Shu",
+        "Zhengyang Liang",
+        "Chi Liu",
+        "Xiangrui Liu",
+        "Minghao Qin",
+        "Teng Long",
+        "Zheng Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a leading paradigm for enhancing visual reasoning in Multimodal Large Language Models (MLLMs). However, existing RLVR methods optimize primarily for the reasoning outcome, fundamentally overlooking the fine-grained cross-modal coordination required during the generation process. Through token-level analyses and controlled interventions, we reveal that during Chain-of-Thought (CoT) reasoning, MLLMs frequently fail to dynamically alternate between extracting visual evidence and",
+      "url": "https://huggingface.co/papers/2606.08035",
+      "pdf_url": "https://arxiv.org/pdf/2606.08035.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-06",
+      "added": "2026-06-12",
+      "stars": 16
+    },
+    {
       "id": "hf-2606-12412",
       "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
       "authors": [
@@ -1260,34 +1288,6 @@
       "published": "2026-06-09",
       "added": "2026-06-12",
       "stars": 15
-    },
-    {
-      "id": "hf-2606-08035",
-      "title": "DyCo-RL: Dynamic Cross-Modal Coordination for Visual Reasoning",
-      "authors": [
-        "Hangui Lin",
-        "Yan Shu",
-        "Zhengyang Liang",
-        "Chi Liu",
-        "Xiangrui Liu",
-        "Minghao Qin",
-        "Teng Long",
-        "Zheng Liu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a leading paradigm for enhancing visual reasoning in Multimodal Large Language Models (MLLMs). However, existing RLVR methods optimize primarily for the reasoning outcome, fundamentally overlooking the fine-grained cross-modal coordination required during the generation process. Through token-level analyses and controlled interventions, we reveal that during Chain-of-Thought (CoT) reasoning, MLLMs frequently fail to dynamically alternate between extracting visual evidence and",
-      "url": "https://huggingface.co/papers/2606.08035",
-      "pdf_url": "https://arxiv.org/pdf/2606.08035.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-06",
-      "added": "2026-06-12",
-      "stars": 14
     },
     {
       "id": "hf-2606-13376",
@@ -1344,6 +1344,30 @@
       "stars": 9
     },
     {
+      "id": "hf-2606-12882",
+      "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+      "authors": [
+        "Xiaoxuan Wang",
+        "Haixin Wang",
+        "Alexander Taylor",
+        "Jason Cong",
+        "Yizhou Sun",
+        "Wei Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models are increasingly deployed as agents for long-horizon tasks, yet their performance is shaped not only by model capability and environment design, but also by the harness that mediates agent--environment interaction. Existing harnesses are largely manually engineered, making them difficult to scale as trajectories grow longer and interactions become more complex. In this work, we ask whether harness can be generated by a learnable plug-in module that can be trained in an end-to-end fashion. We introduce HarnessBridge, a ligh",
+      "url": "https://huggingface.co/papers/2606.12882",
+      "pdf_url": "https://arxiv.org/pdf/2606.12882.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "code"
+      ],
+      "published": "2026-06-11",
+      "added": "2026-06-12",
+      "stars": 9
+    },
+    {
       "id": "hf-2606-11324",
       "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models",
       "authors": [
@@ -1369,30 +1393,6 @@
         "robotics"
       ],
       "published": "2026-06-09",
-      "added": "2026-06-12",
-      "stars": 8
-    },
-    {
-      "id": "hf-2606-12882",
-      "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
-      "authors": [
-        "Xiaoxuan Wang",
-        "Haixin Wang",
-        "Alexander Taylor",
-        "Jason Cong",
-        "Yizhou Sun",
-        "Wei Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models are increasingly deployed as agents for long-horizon tasks, yet their performance is shaped not only by model capability and environment design, but also by the harness that mediates agent--environment interaction. Existing harnesses are largely manually engineered, making them difficult to scale as trajectories grow longer and interactions become more complex. In this work, we ask whether harness can be generated by a learnable plug-in module that can be trained in an end-to-end fashion. We introduce HarnessBridge, a ligh",
-      "url": "https://huggingface.co/papers/2606.12882",
-      "pdf_url": "https://arxiv.org/pdf/2606.12882.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "code"
-      ],
-      "published": "2026-06-11",
       "added": "2026-06-12",
       "stars": 8
     },
@@ -1449,31 +1449,6 @@
       "stars": 6
     },
     {
-      "id": "hf-2606-11289",
-      "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
-      "authors": [
-        "Boya Zeng",
-        "Tianze Luo",
-        "Shu Pu",
-        "Jucheng Shen",
-        "Taiming Lu",
-        "Gabriel Sarch",
-        "Zhuang Liu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Diffusion models have consistently driven progress in text-to-image generation. However, it is challenging to attribute recent progress to specific modeling and data choices: state-of-the-art open-weight models provide limited ablations, and do not disclose their training data and full training details. The research community needs fully open (weights, data, and code) models as a foundation for further research; yet existing fully open models still fall significantly short of leading models in performance. In this project, we conduct a systemat",
-      "url": "https://huggingface.co/papers/2606.11289",
-      "pdf_url": "https://arxiv.org/pdf/2606.11289.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-09",
-      "added": "2026-06-12",
-      "stars": 5
-    },
-    {
       "id": "hf-2606-13674",
       "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
       "authors": [
@@ -1498,6 +1473,31 @@
         "robotics"
       ],
       "published": "2026-06-11",
+      "added": "2026-06-12",
+      "stars": 6
+    },
+    {
+      "id": "hf-2606-11289",
+      "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
+      "authors": [
+        "Boya Zeng",
+        "Tianze Luo",
+        "Shu Pu",
+        "Jucheng Shen",
+        "Taiming Lu",
+        "Gabriel Sarch",
+        "Zhuang Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Diffusion models have consistently driven progress in text-to-image generation. However, it is challenging to attribute recent progress to specific modeling and data choices: state-of-the-art open-weight models provide limited ablations, and do not disclose their training data and full training details. The research community needs fully open (weights, data, and code) models as a foundation for further research; yet existing fully open models still fall significantly short of leading models in performance. In this project, we conduct a systemat",
+      "url": "https://huggingface.co/papers/2606.11289",
+      "pdf_url": "https://arxiv.org/pdf/2606.11289.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-09",
       "added": "2026-06-12",
       "stars": 5
     },
@@ -1602,6 +1602,28 @@
       "stars": 3
     },
     {
+      "id": "hf-2606-12385",
+      "title": "Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs",
+      "authors": [
+        "Sanjay Adhikesaven",
+        "Haoxiang Sun",
+        "Sewon Min"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend on an upstream artifact whose own dependencies are documented only in separate releases and artifacts. As a result, the full dependency structure is fragmented across heterogeneous public artifacts, with complexity and recursive depth far outpacing humans' ability to trace. We introduce ModSleuth, an agentic system that recursively reconstructs LLM",
+      "url": "https://huggingface.co/papers/2606.12385",
+      "pdf_url": "https://arxiv.org/pdf/2606.12385.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-06-10",
+      "added": "2026-06-12",
+      "stars": 3
+    },
+    {
       "id": "hf-2606-12203",
       "title": "Adaptive Multi-Resolution Procedural Knowledge Compression for Large Language Models",
       "authors": [
@@ -1651,28 +1673,6 @@
         "code"
       ],
       "published": "2026-06-02",
-      "added": "2026-06-12",
-      "stars": 2
-    },
-    {
-      "id": "hf-2606-12385",
-      "title": "Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs",
-      "authors": [
-        "Sanjay Adhikesaven",
-        "Haoxiang Sun",
-        "Sewon Min"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend on an upstream artifact whose own dependencies are documented only in separate releases and artifacts. As a result, the full dependency structure is fragmented across heterogeneous public artifacts, with complexity and recursive depth far outpacing humans' ability to trace. We introduce ModSleuth, an agentic system that recursively reconstructs LLM",
-      "url": "https://huggingface.co/papers/2606.12385",
-      "pdf_url": "https://arxiv.org/pdf/2606.12385.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-10",
       "added": "2026-06-12",
       "stars": 2
     },

@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 02:04:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 02:02:57 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-14</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-14</link>
+      <guid isPermaLink="false">2026-06-14</guid>
+      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
+      <description>智源大会发布&quot;悟界&quot;系列世界基座模型与 FlagOS 2.1，月之暗面同日开源 Kimi K2.7 Code 并推出全球首张 AI 原生信用卡，国产 Agent 生态密集落子。
+• 月之暗面发布并开源 Kimi K2.7 Code，瞄准长程 Coding Agent
+• 智源研究院发布&quot;悟界&quot;系列：含全球首个通用世界基座模型 Physis-v0.1
+• MiniMax 开源 M3 旗舰多模态模型，华为云 / 摩尔线程 Day-0 适配
+• Kimi 推出全球首张 AI 原生信用卡，消费即转化为 Agent 算力额度
+• OpenAI 启动 ChatGPT × Codex 深度整合，进化为&quot;超级应用&quot; — 6 月初官宣未来数周内将 Codex、Agent 与第三方应用生态全面并入 ChatGPT，Codex 周活已超 500 万，OpenAI 内部资源向其倾斜以正面对抗 Claude Code。搜狐：OpenAI 启动战略级转型</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-13</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-13</link>
