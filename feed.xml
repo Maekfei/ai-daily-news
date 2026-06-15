@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 02:02:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 02:12:05 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-15</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-15</link>
+      <guid isPermaLink="false">2026-06-15</guid>
+      <pubDate>Mon, 15 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic Claude Fable 5 上线 72 小时遭美商务部出口管制全球下架，智谱 GLM-5.2 同期全量开放并将开源、华为盘古 2.0 与 UC Berkeley「Agent 终极考」一同把全球 Agent 竞争拉到新高度。
+• Anthropic Claude Fable 5 / Mythos 5 遭美商务部出口管制全球下架
+• 智谱 GLM-5.2 全量开放，下周 MIT 协议开源、API 同步上线
+• 华为 HDC 2026 发布开源盘古 openPangu 2.0，月底起开源 7 大组件
+• UC Berkeley 等推出「Agents&#x27; Last Exam」基准，最强模型仅 8.6%
+• Genspark 完成 1 亿美元 B 轮延长融资，估值升至 26 亿美元</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-14</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-14</link>
