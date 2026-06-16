@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 15 Jun 2026 02:12:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 02:05:12 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-16</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-16</link>
+      <guid isPermaLink="false">2026-06-16</guid>
+      <pubDate>Tue, 16 Jun 2026 10:00:00 +0800</pubDate>
+      <description>美方出口管制四天逼停 Anthropic 旗舰模型 Claude Fable 5/Mythos 5，智谱顺势开放 GLM-5.2 全量并冲刺科创板，国产与海外 Agent 生态正面对撞。
+• Claude Fable 5 / Mythos 5 上线 72 小时遭美国出口管制紧急下架
+• 智谱 GLM-5.2 全量开放，下周开源 + 1M 上下文
+• OpenAI 收购云沙箱公司 Ona，Codex 强化长任务 Agent 能力
+• Meta 完成与 Manus 业务剥离，20 亿美元收购实质撤销
+• 行业首个 Agentic AI 基准 AA-AgentPerf 发布，NVIDIA Blackwell Ultra 拿下首轮领先</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-15</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-15</link>
