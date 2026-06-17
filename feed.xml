@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 16 Jun 2026 02:05:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 02:07:05 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-17</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-17</link>
+      <guid isPermaLink="false">2026-06-17</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0800</pubDate>
+      <description>SpaceX 以 600 亿美元换股价收购 AI 编程明星 Cursor；G7 Évian 峰会闭幕，三大 AI CEO 同台推动跨国治理框架。
+• SpaceX 宣布 600 亿美元股票全额收购 Cursor，编程 Agent 赛道终局之战
+• Agentjacking 攻击横扫主流编程 Agent，2,388 家组织 Sentry DSN 暴露
+• 微软 Work IQ API 正式 GA，企业 Agent 接入&quot;组织记忆&quot;
+• G7 Évian 峰会闭幕，发布《先进 AI 治理共同声明》 — Altman、Amodei、Hassabis 三位 AI CEO 同时出席，G7 七国就前沿模型评估、跨境算力管控、版权侵权救济达成框架性共识，但未设强制条款；马克龙提议建立 G7 AI 红队互认机制。欧盟理事会公报
+• ChatGPT 全球市场份额首次跌破 50% — Sensor Tower《2026 State of AI》报告显示，到 5 月底 ChatGPT 份额降至 46.4%，Gemini 升至 27.7%，Claude 升至 10.3%，Claude 在企业付费市场居首；ChatGPT 月活仍达 11 亿。TechCrunch</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-16</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-16</link>
@@ -354,18 +366,6 @@
 • Claude Code 极简 Agent 架构源码细节流出
 • 国内&quot;AI 智能体抓取数据第一案&quot;广州落槌
 • 字节跳动 2026 年 AI 资本开支上调至 2000 亿元 — 较去年底 1600 亿初步规划增幅至少 25%（约合 300 亿美元），并将更大比例资金投向国产 AI 芯片，原因之一是 HBM 内存价格持续上涨。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-18</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-18</link>
-      <guid isPermaLink="false">2026-05-18</guid>
-      <pubDate>Mon, 18 May 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 9000 亿估值开融资，AI Agent 下沉中小企业与金融业
-• Anthropic 推出面向中小企业的 Claude 服务套餐
-• Meta 自研消费级 AI Agent &quot;Hatch&quot; 内测
-• Anthropic 同意以 9000 亿美元估值开启新一轮融资
-• arXiv 多智能体新综述：超越个体智能
-• OpenAI 与 Anthropic 同日争夺企业 AI 嵌入权 — 两家在私募股权体系开启平行动作，重心从&quot;模型谁更强&quot;转向&quot;谁能稳定嵌入业务流&quot;。来源</description>
     </item>
   </channel>
 </rss>
