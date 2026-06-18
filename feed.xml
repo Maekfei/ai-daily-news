@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 02:07:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 02:08:43 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-18</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-18</link>
+      <guid isPermaLink="false">2026-06-18</guid>
+      <pubDate>Thu, 18 Jun 2026 10:00:00 +0800</pubDate>
+      <description>SpaceX 以 600 亿美元换股收购 AI 编程独角兽 Cursor，G7 峰会三大 AI 巨头掌门人首次同台讨论 AI 治理。
+• SpaceX 以 600 亿美元换股收购 AI 编程公司 Cursor
+• 阿里发布千问首个具身智能大模型系列 Qwen-Robot
+• 智谱开源旗舰模型 GLM-5.2，主打 Coding 与长程 Agent
+• 月之暗面 Kimi K2.7 Code 高速版上线，最高 6 倍输出速度
+• G7 峰会聚焦 AI 治理，OpenAI / Anthropic / Google DeepMind 三家 CEO 同台 — Sam Altman、Dario Amodei、Demis Hassabis 6 月 17 日在法国阿尔卑斯出席 G7 闭门工作午餐，与特朗普、马克龙等领导人共同讨论 AI 安全、监管与产业地缘格局，是三大前沿 AI 实验室掌门首次在 G7 同框。CNBC 报道</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-17</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-17</link>
@@ -354,18 +366,6 @@
 • SandboxAQ 把药物发现模型接入 Claude，&quot;无需博士&quot;做药
 • Google I/O 2026 模型矩阵更新 — 谷歌同步发布 Gemini 3.5 Flash / Omni，相比 3.0 系列在多模态推理与端侧延迟上做优化，并预告下一代 Veo 视频生成与 Imagen 图像生成升级，全部纳入 Gemini Spark 的工具池。来源：Google I/O 2026 keynote · TechCrunch
 • OpenAI Codex × Dell 企业合作 — OpenAI 5 月 18 日宣布与 Dell 达成 Codex 企业部署合作，把 Codex CLI / 移动端 / 桌面 App 打包进 Dell 企业 IT 套件。Codex 周活已突破 400 万。来源：OpenAI 官方索引</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-19</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-19</link>
-      <guid isPermaLink="false">2026-05-19</guid>
-      <pubDate>Tue, 19 May 2026 10:00:00 +0800</pubDate>
-      <description>字节跳动 AI 资本开支上调至 2000 亿元加码国产芯片；Anthropic 首次反超 OpenAI 成企业 AI 付费第一。
-• Anthropic 与 SpaceX 签 22 万张 GPU 算力协议
-• Anthropic 商业付费客户份额首次反超 OpenAI
-• Claude Code 极简 Agent 架构源码细节流出
-• 国内&quot;AI 智能体抓取数据第一案&quot;广州落槌
-• 字节跳动 2026 年 AI 资本开支上调至 2000 亿元 — 较去年底 1600 亿初步规划增幅至少 25%（约合 300 亿美元），并将更大比例资金投向国产 AI 芯片，原因之一是 HBM 内存价格持续上涨。来源</description>
     </item>
   </channel>
 </rss>
