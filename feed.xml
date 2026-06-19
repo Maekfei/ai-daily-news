@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 02:08:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 02:05:14 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-19</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-19</link>
+      <guid isPermaLink="false">2026-06-19</guid>
+      <pubDate>Fri, 19 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Vercel 开源 Agent 框架 eve 引爆前端社区；G7 峰会三大 AI 实验室掌门人首次同台，AI 治理进入元首级议程。
+• Vercel 开源 Agent 框架 eve，文件驱动架构主打&quot;开发即部署&quot;
+• Databricks Data + AI Summit 2026 全面押注 Agent，发布 Agent Bricks 与 CustomerLake
+• xAI Grok 4.3 正式登陆 Amazon Bedrock，xAI 首次成为 Bedrock 模型供应商
+• G7 峰会首次邀请 OpenAI、Anthropic、Google DeepMind 三巨头同台
+• 上交所发布科创板第五套上市标准 AI 大模型企业适用指引 — 6 月 17 日证监会主席吴清在陆家嘴论坛宣布扩大第五套标准至 AI 领域；6 月 18 日 A 股昆仑万维、寒武纪盘中涨超 11%，智谱、MiniMax&quot;回 A&quot;路径打通。新华网/证券日报</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-18</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-18</link>
@@ -354,18 +366,6 @@
 • Google I/O 2026 合体亚马逊、Meta、微软推出&quot;AI 通用购物车&quot;
 • NVIDIA FY27 Q1 营收 816.2 亿美元，再超预期 — 数据中心收入创纪录 752 亿美元（compute $60.4B、networking $14.8B），同比 +77%；季度回购+分红 200 亿美元。Jensen Huang 在电话会强调 Blackwell Ultra 出货爬坡和 Rubin 架构早期发货是核心动能。来源：CNBC NVDA 财报实况 ｜ 来源：NVIDIA 官方财报通稿
 • Google I/O 2026 模型矩阵：Gemini 3.5 Flash 主推 agentic 路线 — 谷歌定位 3.5 Flash 为&quot;专为 Agent 调用优化&quot;的轻量主力，搭配 Gemini Spark 个人代理与 Project Astra 升级，3.5 Pro/Omni 同步推出。来源：TechCrunch</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-20</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-20</link>
-      <guid isPermaLink="false">2026-05-20</guid>
-      <pubDate>Wed, 20 May 2026 10:00:00 +0800</pubDate>
-      <description>Google I/O 2026 开幕，谷歌发布 Gemini 3.5 系列与全天候个人智能体 Gemini Spark；Anthropic 斥资逾 3 亿美元收购 Stainless，进一步把 OpenAI、Google 共同依赖的 SDK 工具链握在自己手里。
-• Google I/O 2026：发布 Gemini Spark 全天候个人 AI 智能体
-• Anthropic 斥资逾 3 亿美元收购 Stainless，握紧 AI SDK 命门
-• SandboxAQ 把药物发现模型接入 Claude，&quot;无需博士&quot;做药
-• Google I/O 2026 模型矩阵更新 — 谷歌同步发布 Gemini 3.5 Flash / Omni，相比 3.0 系列在多模态推理与端侧延迟上做优化，并预告下一代 Veo 视频生成与 Imagen 图像生成升级，全部纳入 Gemini Spark 的工具池。来源：Google I/O 2026 keynote · TechCrunch
-• OpenAI Codex × Dell 企业合作 — OpenAI 5 月 18 日宣布与 Dell 达成 Codex 企业部署合作，把 Codex CLI / 移动端 / 桌面 App 打包进 Dell 企业 IT 套件。Codex 周活已突破 400 万。来源：OpenAI 官方索引</description>
     </item>
   </channel>
 </rss>
