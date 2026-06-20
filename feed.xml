@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Jun 2026 02:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 02:03:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-20</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-20</link>
+      <guid isPermaLink="false">2026-06-20</guid>
+      <pubDate>Sat, 20 Jun 2026 10:00:00 +0800</pubDate>
+      <description>SpaceX 以 600 亿美元全股票收购 Cursor 母公司 Anysphere 的余波持续发酵；OpenAI o3 协助波士顿儿童医院在 376 例儿科罕见病疑案中新确诊 18 例。
+• SpaceX 600 亿美元全股票收购 AI 编程 Agent Cursor 母公司 Anysphere
+• OpenAI o3 助力哈佛 / 波士顿儿童医院破解 18 例儿科罕见病疑案
+• Anthropic 搁置 Claude Agent SDK Token 计费变更，安抚开发者
+• Gradial 完成 6500 万美元融资，押注&quot;营销 Agent OS&quot;
+• 智谱 Z.ai 开源 GLM-5.2，1M 无损上下文 + 编程优先 — 6 月 13 日上线，已在 GLM Coding Plan 全等级（Lite/Pro/Max/Team）启用，主打长程工程任务，并 Day 0 适配华为昇腾、寒武纪、摩尔线程等多家国产算力。来源：codersera</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-19</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-19</link>
@@ -354,18 +366,6 @@
 • Anthropic 收购 SDK / MCP 平台 Stainless，竞品 SDK 生成基础设施被切断
 • xAI 上线 Grok Skills：单次问答转向&quot;可配置自动化工作空间&quot;
 • OpenAI 拟数周内提交 IPO 文件，计划秋季上市 — 据多家媒体报道，OpenAI 正准备在未来数周内提交 IPO 文件，目标 2026 年秋季登陆公开市场，承销商已在协调；这将与 SpaceX 的预期 IPO（股票代码 SPCX）形成&quot;AI 双 IPO&quot;格局。来源：界面新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-21</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-21</link>
-      <guid isPermaLink="false">2026-05-21</guid>
-      <pubDate>Thu, 21 May 2026 10:00:00 +0800</pubDate>
-      <description>NVIDIA 公布 FY27 Q1 营收 816 亿美元、数据中心同比 +77%，验证 Agent 时代算力高景气；阿里云抛出&quot;真武 M890 + 128 卡超节点&quot;硬件答卷，把&quot;Agentic Cloud&quot;从概念落到芯片。
-• 阿里云正式提出 &quot;Agentic Cloud&quot;，发布真武 M890 与 128 卡超节点
-• Andrej Karpathy 加盟 Anthropic，组队用 Claude 加速预训练研究
-• Google I/O 2026 合体亚马逊、Meta、微软推出&quot;AI 通用购物车&quot;
-• NVIDIA FY27 Q1 营收 816.2 亿美元，再超预期 — 数据中心收入创纪录 752 亿美元（compute $60.4B、networking $14.8B），同比 +77%；季度回购+分红 200 亿美元。Jensen Huang 在电话会强调 Blackwell Ultra 出货爬坡和 Rubin 架构早期发货是核心动能。来源：CNBC NVDA 财报实况 ｜ 来源：NVIDIA 官方财报通稿
-• Google I/O 2026 模型矩阵：Gemini 3.5 Flash 主推 agentic 路线 — 谷歌定位 3.5 Flash 为&quot;专为 Agent 调用优化&quot;的轻量主力，搭配 Gemini Spark 个人代理与 Project Astra 升级，3.5 Pro/Omni 同步推出。来源：TechCrunch</description>
     </item>
   </channel>
 </rss>
