@@ -25,7 +25,34 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 35
+      "stars": 41
+    },
+    {
+      "id": "hf-2606-20517",
+      "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
+      "authors": [
+        "Maria Ivanova",
+        "Pavel Zadorozhny",
+        "Rodion Levichev",
+        "Ivan Petrov",
+        "Adamenko Pavel",
+        "Ivan Lopatin",
+        "Alexey Kutalev",
+        "Dmitrii Babaev"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LiveCodeBench (LCB) has recently become a widely adopted benchmark for evaluating large language models (LLMs) on code-generation tasks. By curating competitive programming problems, constantly adding fresh problems to the set, and filtering them by release dates, LCB provides contamination-aware evaluation and offers a holistic view of coding capability. However, LCB remains restricted to Python, leaving open the question of whether LLMs can generalize across the diverse programming languages required in real-world software engineering.   We i",
+      "url": "https://huggingface.co/papers/2606.20517",
+      "pdf_url": "https://arxiv.org/pdf/2606.20517.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-18",
+      "added": "2026-06-20",
+      "stars": 39
     },
     {
       "id": "hf-2606-20515",
@@ -53,34 +80,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 28
-    },
-    {
-      "id": "hf-2606-20517",
-      "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
-      "authors": [
-        "Maria Ivanova",
-        "Pavel Zadorozhny",
-        "Rodion Levichev",
-        "Ivan Petrov",
-        "Adamenko Pavel",
-        "Ivan Lopatin",
-        "Alexey Kutalev",
-        "Dmitrii Babaev"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LiveCodeBench (LCB) has recently become a widely adopted benchmark for evaluating large language models (LLMs) on code-generation tasks. By curating competitive programming problems, constantly adding fresh problems to the set, and filtering them by release dates, LCB provides contamination-aware evaluation and offers a holistic view of coding capability. However, LCB remains restricted to Python, leaving open the question of whether LLMs can generalize across the diverse programming languages required in real-world software engineering.   We i",
-      "url": "https://huggingface.co/papers/2606.20517",
-      "pdf_url": "https://arxiv.org/pdf/2606.20517.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-18",
-      "added": "2026-06-20",
-      "stars": 26
+      "stars": 34
     },
     {
       "id": "hf-2606-20563",
@@ -101,7 +101,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 17
+      "stars": 18
     },
     {
       "id": "hf-2606-19531",
@@ -128,7 +128,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 9
+      "stars": 14
     },
     {
       "id": "hf-2606-19980",
@@ -156,7 +156,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 7
+      "stars": 9
     },
     {
       "id": "hf-2606-17053",
@@ -184,57 +184,7 @@
       ],
       "published": "2026-06-15",
       "added": "2026-06-20",
-      "stars": 4
-    },
-    {
-      "id": "hf-2606-20521",
-      "title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
-      "authors": [
-        "Juncheng Ma",
-        "Jianxin Bi",
-        "Yufan Deng",
-        "Xuanran Zhai",
-        "Kewei Zhang",
-        "Ye Huang",
-        "Bo Liang",
-        "Shukai Gong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Embodied foundation models are expected to benefit from data scaling like large language models, but face a much tighter data bottleneck. Teleoperated real-robot trajectories remain the dominant pretraining source due to their precise action supervision and embodiment alignment, yet their scalability is limited by high collection cost, acquisition difficulty, and low behavioral and environmental diversity. These limitations have sparked interest in egocentric human video as a scalable, substantially lower-cost, and more diverse alternative for",
-      "url": "https://huggingface.co/papers/2606.20521",
-      "pdf_url": "https://arxiv.org/pdf/2606.20521.pdf",
-      "tags": [
-        "hf-trending",
-        "robotics"
-      ],
-      "published": "2026-06-18",
-      "added": "2026-06-20",
-      "stars": 4
-    },
-    {
-      "id": "hf-2606-16817",
-      "title": "Understanding the Behaviors of Environment-aware Information Retrieval",
-      "authors": [
-        "Ruifeng Yuan",
-        "Chaohao Yuan",
-        "David Dai",
-        "Yu Rong",
-        "Hong Cheng",
-        "Hou Pong Chan",
-        "Chenghao Xiao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent retrieval-augmented generation (RAG) approaches have demonstrated strong capability in handling complex queries, yet current research overlooks a critical challenge: different retrievers require fundamentally different query formulation strategies for optimal performance. In this work, we present the first systematic analysis of how LLMs can learn to adapt their query formulation strategies for different retrievers via reinforcement learning (RL). Our empirical study reveals that RL effectively teaches an LLM to tailor its queries to spe",
-      "url": "https://huggingface.co/papers/2606.16817",
-      "pdf_url": "https://arxiv.org/pdf/2606.16817.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "code"
-      ],
-      "published": "2026-06-15",
-      "added": "2026-06-20",
-      "stars": 4
+      "stars": 9
     },
     {
       "id": "hf-2606-19605",
@@ -260,7 +210,57 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 4
+      "stars": 9
+    },
+    {
+      "id": "hf-2606-20521",
+      "title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+      "authors": [
+        "Juncheng Ma",
+        "Jianxin Bi",
+        "Yufan Deng",
+        "Xuanran Zhai",
+        "Kewei Zhang",
+        "Ye Huang",
+        "Bo Liang",
+        "Shukai Gong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Embodied foundation models are expected to benefit from data scaling like large language models, but face a much tighter data bottleneck. Teleoperated real-robot trajectories remain the dominant pretraining source due to their precise action supervision and embodiment alignment, yet their scalability is limited by high collection cost, acquisition difficulty, and low behavioral and environmental diversity. These limitations have sparked interest in egocentric human video as a scalable, substantially lower-cost, and more diverse alternative for",
+      "url": "https://huggingface.co/papers/2606.20521",
+      "pdf_url": "https://arxiv.org/pdf/2606.20521.pdf",
+      "tags": [
+        "hf-trending",
+        "robotics"
+      ],
+      "published": "2026-06-18",
+      "added": "2026-06-20",
+      "stars": 6
+    },
+    {
+      "id": "hf-2606-16817",
+      "title": "Understanding the Behaviors of Environment-aware Information Retrieval",
+      "authors": [
+        "Ruifeng Yuan",
+        "Chaohao Yuan",
+        "David Dai",
+        "Yu Rong",
+        "Hong Cheng",
+        "Hou Pong Chan",
+        "Chenghao Xiao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent retrieval-augmented generation (RAG) approaches have demonstrated strong capability in handling complex queries, yet current research overlooks a critical challenge: different retrievers require fundamentally different query formulation strategies for optimal performance. In this work, we present the first systematic analysis of how LLMs can learn to adapt their query formulation strategies for different retrievers via reinforcement learning (RL). Our empirical study reveals that RL effectively teaches an LLM to tailor its queries to spe",
+      "url": "https://huggingface.co/papers/2606.16817",
+      "pdf_url": "https://arxiv.org/pdf/2606.16817.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "code"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-20",
+      "stars": 6
     },
     {
       "id": "hf-2606-20529",
@@ -281,7 +281,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 3
+      "stars": 6
     },
     {
       "id": "hf-2606-19334",
@@ -302,27 +302,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 3
-    },
-    {
-      "id": "hf-2606-15527",
-      "title": "Selective Synergistic Learning for Video Object-Centric Learning",
-      "authors": [
-        "WonJun Moon",
-        "Jae-Pil Heo"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Typical video object-centric learning (VOCL) approaches employ slot-based frameworks that rely on reconstruction-driven encoder-decoder architectures, where learning is mediated by two spatial maps: attention maps from the encoder and object maps from the decoder. As these two distinct maps exhibit different properties, a recent dense alignment strategy attempted to reconcile this discrepancy by enforcing agreement across all spatio-temporal patches via contrastive learning. However, this indiscriminate alignment inadvertently propagates the in",
-      "url": "https://huggingface.co/papers/2606.15527",
-      "pdf_url": "https://arxiv.org/pdf/2606.15527.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "code"
-      ],
-      "published": "2026-06-14",
-      "added": "2026-06-20",
-      "stars": 2
+      "stars": 6
     },
     {
       "id": "hf-2606-18231",
@@ -345,7 +325,7 @@
       ],
       "published": "2026-06-16",
       "added": "2026-06-20",
-      "stars": 2
+      "stars": 5
     },
     {
       "id": "hf-2606-18021",
@@ -366,30 +346,7 @@
       ],
       "published": "2026-06-16",
       "added": "2026-06-20",
-      "stars": 1
-    },
-    {
-      "id": "hf-2603-24624",
-      "title": "ReSyn: A Generalized Recursive Regular Expression Synthesis Framework",
-      "authors": [
-        "Seongmin Kim",
-        "Hyunjoon Cheon",
-        "Su-Hyeon Kim",
-        "Yo-Sub Han",
-        "Sang-Ki Ko"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing Programming-By-Example (PBE) systems often rely on simplified benchmarks that fail to capture the high structural complexity of real-world regexes, such as deeper nesting and frequent use of union operations. To overcome the resulting performance drop, we propose ReSyn, a synthesizer-agnostic divide-and-conquer framework that decomposes complex synthesis problem into manageable sub-problems. We also introduce Set2Regex, a parameter-efficient synthesizer capturing the permutation invariance of examples. Experimental results demonstrate",
-      "url": "https://huggingface.co/papers/2603.24624",
-      "pdf_url": "https://arxiv.org/pdf/2603.24624.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-13",
-      "added": "2026-06-20",
-      "stars": 0
+      "stars": 4
     },
     {
       "id": "hf-2606-19602",
@@ -416,29 +373,27 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 0
+      "stars": 4
     },
     {
-      "id": "hf-2606-16827",
-      "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+      "id": "hf-2606-15527",
+      "title": "Selective Synergistic Learning for Video Object-Centric Learning",
       "authors": [
-        "Alessandro Giagnorio",
-        "Alberto Martin-Lopez",
-        "Gabriele Bavota"
+        "WonJun Moon",
+        "Jae-Pil Heo"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Large Language Models (LLMs) have significantly advanced the automation of software engineering tasks. One prominent example is code generation, where an LLM produces code in a specified programming language based on a natural language description. Most research in this area has focused on high-resource languages, such as Python or Java, which benefit from abundant training data. A smaller body of work has explored low-resource languages, which are underrepresented in training corpora. In contrast, no-resource languages for which LLMs have seen",
-      "url": "https://huggingface.co/papers/2606.16827",
-      "pdf_url": "https://arxiv.org/pdf/2606.16827.pdf",
+      "summary": "Typical video object-centric learning (VOCL) approaches employ slot-based frameworks that rely on reconstruction-driven encoder-decoder architectures, where learning is mediated by two spatial maps: attention maps from the encoder and object maps from the decoder. As these two distinct maps exhibit different properties, a recent dense alignment strategy attempted to reconcile this discrepancy by enforcing agreement across all spatio-temporal patches via contrastive learning. However, this indiscriminate alignment inadvertently propagates the in",
+      "url": "https://huggingface.co/papers/2606.15527",
+      "pdf_url": "https://arxiv.org/pdf/2606.15527.pdf",
       "tags": [
         "hf-trending",
         "rl",
-        "benchmark",
         "code"
       ],
-      "published": "2026-06-15",
+      "published": "2026-06-14",
       "added": "2026-06-20",
-      "stars": 0
+      "stars": 3
     },
     {
       "id": "hf-2606-19830",
@@ -465,7 +420,52 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 0
+      "stars": 3
+    },
+    {
+      "id": "hf-2603-24624",
+      "title": "ReSyn: A Generalized Recursive Regular Expression Synthesis Framework",
+      "authors": [
+        "Seongmin Kim",
+        "Hyunjoon Cheon",
+        "Su-Hyeon Kim",
+        "Yo-Sub Han",
+        "Sang-Ki Ko"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing Programming-By-Example (PBE) systems often rely on simplified benchmarks that fail to capture the high structural complexity of real-world regexes, such as deeper nesting and frequent use of union operations. To overcome the resulting performance drop, we propose ReSyn, a synthesizer-agnostic divide-and-conquer framework that decomposes complex synthesis problem into manageable sub-problems. We also introduce Set2Regex, a parameter-efficient synthesizer capturing the permutation invariance of examples. Experimental results demonstrate",
+      "url": "https://huggingface.co/papers/2603.24624",
+      "pdf_url": "https://arxiv.org/pdf/2603.24624.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-13",
+      "added": "2026-06-20",
+      "stars": 2
+    },
+    {
+      "id": "hf-2606-16827",
+      "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+      "authors": [
+        "Alessandro Giagnorio",
+        "Alberto Martin-Lopez",
+        "Gabriele Bavota"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large Language Models (LLMs) have significantly advanced the automation of software engineering tasks. One prominent example is code generation, where an LLM produces code in a specified programming language based on a natural language description. Most research in this area has focused on high-resource languages, such as Python or Java, which benefit from abundant training data. A smaller body of work has explored low-resource languages, which are underrepresented in training corpora. In contrast, no-resource languages for which LLMs have seen",
+      "url": "https://huggingface.co/papers/2606.16827",
+      "pdf_url": "https://arxiv.org/pdf/2606.16827.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-20",
+      "stars": 2
     },
     {
       "id": "hf-2606-18558",
@@ -494,7 +494,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 41
+      "stars": 45
     },
     {
       "id": "hf-2606-19338",
@@ -552,6 +552,35 @@
       "stars": 29
     },
     {
+      "id": "hf-2606-19704",
+      "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+      "authors": [
+        "Dhaval C. Patel",
+        "Kaoutar El Maghraoui",
+        "Shuxin Lin",
+        "Yusheng Li",
+        "Tianjun Feng",
+        "Chun-Yi Tsai",
+        "Yihan Sun",
+        "Wei Alexander Xin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent benchmarks are growing fast, but no single benchmark touches more than four or five of the dimensions that deployment exposes. This paper aggregates the largest coordinated deep-dive of one MCP-based industrial-agent benchmark to date: fourteen parallel implementation studies covering new asset classes (including a multi-modal visual extension), alternative orchestrations, retrieval strategies, reasoning modes, infrastructure optimizations, and evaluation-methodology probes. Consolidating those studies with seven prior agent benchmarks, w",
+      "url": "https://huggingface.co/papers/2606.19704",
+      "pdf_url": "https://arxiv.org/pdf/2606.19704.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-18",
+      "added": "2026-06-19",
+      "stars": 27
+    },
+    {
       "id": "hf-2606-18363",
       "title": "Guava: An Effective and Universal Harness for Embodied Manipulation",
       "authors": [
@@ -580,33 +609,30 @@
       "stars": 23
     },
     {
-      "id": "hf-2606-19704",
-      "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+      "id": "hf-2606-19162",
+      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
       "authors": [
-        "Dhaval C. Patel",
-        "Kaoutar El Maghraoui",
-        "Shuxin Lin",
-        "Yusheng Li",
-        "Tianjun Feng",
-        "Chun-Yi Tsai",
-        "Yihan Sun",
-        "Wei Alexander Xin"
+        "Nicolas Beltran-Velez",
+        "Felix Friedrich",
+        "Zhang Xiaofeng",
+        "Reyhane Askari-Hemmat",
+        "Xiaochuang Han",
+        "Adriana Romero-Soriano",
+        "Michal Drozdzal"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Agent benchmarks are growing fast, but no single benchmark touches more than four or five of the dimensions that deployment exposes. This paper aggregates the largest coordinated deep-dive of one MCP-based industrial-agent benchmark to date: fourteen parallel implementation studies covering new asset classes (including a multi-modal visual extension), alternative orchestrations, retrieval strategies, reasoning modes, infrastructure optimizations, and evaluation-methodology probes. Consolidating those studies with seven prior agent benchmarks, w",
-      "url": "https://huggingface.co/papers/2606.19704",
-      "pdf_url": "https://arxiv.org/pdf/2606.19704.pdf",
+      "summary": "Score- and flow-matching models often rely on preference-based reinforcement learning for two purposes: aligning with subjective preferences and, surprisingly, recovering properties such as visual realism and coherent object structure that matching-based training is intended to learn from the data itself. We argue that this reflects a structural mismatch. Matching losses measure ell_2 regression error on the velocity or score field under training-time marginals, a proxy poorly aligned with the visual and semantic properties that determine sampl",
+      "url": "https://huggingface.co/papers/2606.19162",
+      "pdf_url": "https://arxiv.org/pdf/2606.19162.pdf",
       "tags": [
         "hf-trending",
-        "agent",
         "rl",
-        "reasoning",
         "benchmark",
         "multimodal"
       ],
-      "published": "2026-06-18",
+      "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 21
+      "stars": 19
     },
     {
       "id": "hf-2606-18967",
@@ -630,32 +656,6 @@
         "agent",
         "rl",
         "reasoning"
-      ],
-      "published": "2026-06-17",
-      "added": "2026-06-19",
-      "stars": 18
-    },
-    {
-      "id": "hf-2606-19162",
-      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
-      "authors": [
-        "Nicolas Beltran-Velez",
-        "Felix Friedrich",
-        "Zhang Xiaofeng",
-        "Reyhane Askari-Hemmat",
-        "Xiaochuang Han",
-        "Adriana Romero-Soriano",
-        "Michal Drozdzal"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Score- and flow-matching models often rely on preference-based reinforcement learning for two purposes: aligning with subjective preferences and, surprisingly, recovering properties such as visual realism and coherent object structure that matching-based training is intended to learn from the data itself. We argue that this reflects a structural mismatch. Matching losses measure ell_2 regression error on the velocity or score field under training-time marginals, a proxy poorly aligned with the visual and semantic properties that determine sampl",
-      "url": "https://huggingface.co/papers/2606.19162",
-      "pdf_url": "https://arxiv.org/pdf/2606.19162.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal"
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
@@ -816,6 +816,31 @@
       "stars": 11
     },
     {
+      "id": "hf-2606-16122",
+      "title": "Thinking with Visual Grounding",
+      "authors": [
+        "Junkai Zhang",
+        "Yihe Deng",
+        "Kai-Wei Chang",
+        "Wei Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Visual thinking should not only sound right; it should show its evidence. While recent vision-language models (VLMs) can produce natural-language reasoning traces, these traces often leave the supporting image regions implicit, making them hard to verify and difficult to supervise. We introduce visually grounded thinking, a reasoning process in which models interleave natural-language thoughts with explicit point or box groundings of the visual evidence used at each step. This lets the model express intermediate reasoning in language while grou",
+      "url": "https://huggingface.co/papers/2606.16122",
+      "pdf_url": "https://arxiv.org/pdf/2606.16122.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-19",
+      "stars": 10
+    },
+    {
       "id": "hf-2606-14885",
       "title": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
       "authors": [
@@ -866,7 +891,7 @@
       ],
       "published": "2026-06-16",
       "added": "2026-06-19",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2606-19236",
@@ -961,7 +986,7 @@
       ],
       "published": "2026-06-12",
       "added": "2026-06-19",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2606-18543",
@@ -1013,6 +1038,27 @@
       "stars": 5
     },
     {
+      "id": "hf-2606-19495",
+      "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+      "authors": [
+        "Shariq Farooq Bhat",
+        "Niloy J. Mitra",
+        "Kalyan Sunkavalli"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Precise 3D spatial orchestration in text-to-video generation remains a significant challenge, particularly for multi-object scenes where semantic layout and temporal dynamics are often entangled. While existing depth-conditioned models achieve good structural fidelity, they necessitate dense, frame-accurate guidance that is labor-intensive to author for dynamic events involving deformable objects. We present LooseControlVideo, a framework that enables intuitive and expressive control by using sparse, oriented 3D boxes as a \"blocking\" proxy. Thi",
+      "url": "https://huggingface.co/papers/2606.19495",
+      "pdf_url": "https://arxiv.org/pdf/2606.19495.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-17",
+      "added": "2026-06-19",
+      "stars": 5
+    },
+    {
       "id": "hf-2606-15872",
       "title": "SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks",
       "authors": [
@@ -1042,31 +1088,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2606-16122",
-      "title": "Thinking with Visual Grounding",
-      "authors": [
-        "Junkai Zhang",
-        "Yihe Deng",
-        "Kai-Wei Chang",
-        "Wei Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Visual thinking should not only sound right; it should show its evidence. While recent vision-language models (VLMs) can produce natural-language reasoning traces, these traces often leave the supporting image regions implicit, making them hard to verify and difficult to supervise. We introduce visually grounded thinking, a reasoning process in which models interleave natural-language thoughts with explicit point or box groundings of the visual evidence used at each step. This lets the model express intermediate reasoning in language while grou",
-      "url": "https://huggingface.co/papers/2606.16122",
-      "pdf_url": "https://arxiv.org/pdf/2606.16122.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-15",
-      "added": "2026-06-19",
-      "stars": 4
-    },
-    {
       "id": "hf-2606-18531",
       "title": "When Does Trajectory-Level Supervision Permit Efficient Offline Reinforcement Learning?",
       "authors": [
@@ -1083,7 +1104,7 @@
       ],
       "published": "2026-06-16",
       "added": "2026-06-19",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2606-19047",
@@ -1105,7 +1126,54 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 3
+      "stars": 4
+    },
+    {
+      "id": "hf-2606-16748",
+      "title": "MyPCBench: A Benchmark for Personally Intelligent Computer-Use Agents",
+      "authors": [
+        "Lawrence Keunho Jang",
+        "Andrew Keunwoo Jang",
+        "Jing Yu Koh",
+        "Ruslan Salakhutdinov"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Current benchmarks for computer-use agents evaluate models in impersonal environments. This leaves a gap between evaluation and deployment where personal assistants are expected to work across a user's whole digital life, including their context, historical data, and logged-in accounts. This gap is widest on web tasks, where live web evaluations cannot exercise sites that require logging in or personal information, the kind of site a real personal assistant has to drive. We introduce MyPCBench, which tests computer-use agents as personal assist",
+      "url": "https://huggingface.co/papers/2606.16748",
+      "pdf_url": "https://arxiv.org/pdf/2606.16748.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-19",
+      "stars": 4
+    },
+    {
+      "id": "hf-2606-13898",
+      "title": "HiLo-Token: Input-Adaptive High-Low Frequency Token Compression for Efficient Image Editing",
+      "authors": [
+        "Haoran You",
+        "Yotam Nitzan",
+        "Lingzhi Zhang",
+        "Yifan Gong",
+        "Mang-Tik Chiu",
+        "Connelly Barnes",
+        "Yan Kang",
+        "Yuqian Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Creative image editing tools, such as Photoshop's Remove or Generative Fill buttons, are central to everyday customer use and account for a major share of traffic in Photoshop and Lightroom. However, current generative AI models face significant latency challenges, which become even more pronounced when transitioning from convolution-based U-Nets to Diffusion Transformers (DiTs). In our evaluation on hundreds of representative image editing samples spanning a wide range of mask ratios, the DiT module alone accounts for an average of 73% of the",
+      "url": "https://huggingface.co/papers/2606.13898",
+      "pdf_url": "https://arxiv.org/pdf/2606.13898.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-06-11",
+      "added": "2026-06-19",
+      "stars": 4
     },
     {
       "id": "hf-2606-16905",
@@ -1183,7 +1251,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2606-09764",
@@ -1207,29 +1275,28 @@
       ],
       "published": "2026-06-08",
       "added": "2026-06-19",
-      "stars": 2
+      "stars": 3
     },
     {
-      "id": "hf-2606-16748",
-      "title": "MyPCBench: A Benchmark for Personally Intelligent Computer-Use Agents",
+      "id": "hf-2606-19808",
+      "title": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning",
       "authors": [
-        "Lawrence Keunho Jang",
-        "Andrew Keunwoo Jang",
-        "Jing Yu Koh",
-        "Ruslan Salakhutdinov"
+        "Sajib Acharjee Dip",
+        "Dawei Zhou",
+        "Liqing Zhang"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Current benchmarks for computer-use agents evaluate models in impersonal environments. This leaves a gap between evaluation and deployment where personal assistants are expected to work across a user's whole digital life, including their context, historical data, and logged-in accounts. This gap is widest on web tasks, where live web evaluations cannot exercise sites that require logging in or personal information, the kind of site a real personal assistant has to drive. We introduce MyPCBench, which tests computer-use agents as personal assist",
-      "url": "https://huggingface.co/papers/2606.16748",
-      "pdf_url": "https://arxiv.org/pdf/2606.16748.pdf",
+      "summary": "Test-time reasoning is increasingly used as a serving-time control knob, but extra reasoning is not uniformly valuable: it can repair failed attempts, waste compute on already-correct answers, or introduce harmful answer changes. We study this as a deployment allocation problem rather than a new-verifier problem. We introduce \\sevra, Selective Verification for Reasoning Allocation, a serving-layer controller that decides whether to preserve a frozen solver's initial answer or invoke active verification. Using a frozen Qwen3-4B solver, we log in",
+      "url": "https://huggingface.co/papers/2606.19808",
+      "pdf_url": "https://arxiv.org/pdf/2606.19808.pdf",
       "tags": [
         "hf-trending",
-        "agent",
+        "reasoning",
         "benchmark"
       ],
-      "published": "2026-06-15",
+      "published": "2026-06-18",
       "added": "2026-06-19",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2606-14383",
@@ -1360,31 +1427,6 @@
       "stars": 2
     },
     {
-      "id": "hf-2606-13898",
-      "title": "HiLo-Token: Input-Adaptive High-Low Frequency Token Compression for Efficient Image Editing",
-      "authors": [
-        "Haoran You",
-        "Yotam Nitzan",
-        "Lingzhi Zhang",
-        "Yifan Gong",
-        "Mang-Tik Chiu",
-        "Connelly Barnes",
-        "Yan Kang",
-        "Yuqian Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Creative image editing tools, such as Photoshop's Remove or Generative Fill buttons, are central to everyday customer use and account for a major share of traffic in Photoshop and Lightroom. However, current generative AI models face significant latency challenges, which become even more pronounced when transitioning from convolution-based U-Nets to Diffusion Transformers (DiTs). In our evaluation on hundreds of representative image editing samples spanning a wide range of mask ratios, the DiT module alone accounts for an average of 73% of the",
-      "url": "https://huggingface.co/papers/2606.13898",
-      "pdf_url": "https://arxiv.org/pdf/2606.13898.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-06-11",
-      "added": "2026-06-19",
-      "stars": 2
-    },
-    {
       "id": "hf-2606-19120",
       "title": "Seeing Before Reasoning: Decoupling Perception and Reasoning for Shortcut-Resilient Multimodal On-Policy Self-Distillation",
       "authors": [
@@ -1405,7 +1447,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2606-12629",
@@ -1422,7 +1464,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2606-18717",
@@ -1441,48 +1483,6 @@
       "published": "2026-06-17",
       "added": "2026-06-19",
       "stars": 1
-    },
-    {
-      "id": "hf-2606-19495",
-      "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
-      "authors": [
-        "Shariq Farooq Bhat",
-        "Niloy J. Mitra",
-        "Kalyan Sunkavalli"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Precise 3D spatial orchestration in text-to-video generation remains a significant challenge, particularly for multi-object scenes where semantic layout and temporal dynamics are often entangled. While existing depth-conditioned models achieve good structural fidelity, they necessitate dense, frame-accurate guidance that is labor-intensive to author for dynamic events involving deformable objects. We present LooseControlVideo, a framework that enables intuitive and expressive control by using sparse, oriented 3D boxes as a \"blocking\" proxy. Thi",
-      "url": "https://huggingface.co/papers/2606.19495",
-      "pdf_url": "https://arxiv.org/pdf/2606.19495.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-06-17",
-      "added": "2026-06-19",
-      "stars": 1
-    },
-    {
-      "id": "hf-2606-19808",
-      "title": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning",
-      "authors": [
-        "Sajib Acharjee Dip",
-        "Dawei Zhou",
-        "Liqing Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Test-time reasoning is increasingly used as a serving-time control knob, but extra reasoning is not uniformly valuable: it can repair failed attempts, waste compute on already-correct answers, or introduce harmful answer changes. We study this as a deployment allocation problem rather than a new-verifier problem. We introduce \\sevra, Selective Verification for Reasoning Allocation, a serving-layer controller that decides whether to preserve a frozen solver's initial answer or invoke active verification. Using a frozen Qwen3-4B solver, we log in",
-      "url": "https://huggingface.co/papers/2606.19808",
-      "pdf_url": "https://arxiv.org/pdf/2606.19808.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-06-18",
-      "added": "2026-06-19",
-      "stars": 0
     },
     {
       "id": "hf-2606-15514",
@@ -1505,7 +1505,7 @@
       ],
       "published": "2026-06-13",
       "added": "2026-06-19",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2606-13802",
@@ -1527,7 +1527,7 @@
       ],
       "published": "2026-06-11",
       "added": "2026-06-19",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2606-11877",
