@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 21 Jun 2026 02:04:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 02:04:12 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-22</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-22</link>
+      <guid isPermaLink="false">2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
+      <description>《自然》同期发表的 MIRA 与谷歌 AMIE 两套自主医疗智能体在诊断—治疗全流程上比肩内科医生；与此同时 AlphaFold 之父 John Jumper 出走谷歌 DeepMind 加入 Anthropic，AI 顶级人才迁徙再起波澜。
+• MIRA 与 AMIE 登上《自然》——首批端到端医疗 AI 智能体表现追平内科医生
+• AlphaFold 之父 John Jumper 离开谷歌 DeepMind，加盟 Anthropic
+• 支付宝&quot;阿宝&quot;内测：超级 App 正式迈向超级 Agent
+• OpenAI 据报最快下周推出 GPT-5.6（mini / 标准 / Pro 三档）
+• 美团 LongCat 开源推理评测集 General-365 — 在 26 款主流模型实测中，目前&quot;地表最强&quot;的 Gemini 3 Pro 准确率仅 62.8%，多数模型在通用推理任务上跌破 60 分。来源：美团技术团队</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-21</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-21</link>
@@ -354,18 +366,6 @@
 • Cursor Composer 2.5 上线，基于 Moonshot Kimi K2.5 持续预训练
 • OpenAI 发布 MRC（Mesh Routing for Compute）协议 — OpenAI 5 月 22 日开源 MRC 协议初稿，定位为 AI 集群跨万卡规模下的网络路由 / KV-Cache 共享层标准；与智谱当日落地的 ZCube 网络拓扑共同标志着行业从&quot;算力堆叠&quot;转向&quot;系统效率&quot;。来源：智东西
 • 黄仁勋承认&quot;华为已在中国市场替代英伟达&quot; — 在亚洲行程中，NVIDIA CEO 黄仁勋公开承认在美国出口管制下，华为昇腾已在中国实质替代英伟达高端 AI GPU 直接销售份额（从 2021 年峰值 95% 下降至 0%）；评论同时提及国内 H200 出口许可被中方拒购的最新进展。来源：观察者网</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-23</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-23</link>
-      <guid isPermaLink="false">2026-05-23</guid>
-      <pubDate>Sat, 23 May 2026 10:00:00 +0800</pubDate>
-      <description>NVIDIA FY2027 Q1 营收 816 亿美元再破纪录、数据中心暴增 92%；OpenAI Codex 入选 Gartner AI 编码 Agent 魔力象限领导者，Anthropic 深夜挖角 Karpathy 余波未平。
-• OpenAI Codex 入选 Gartner AI 编码 Agent 魔力象限领导者
-• NVIDIA FY2027 Q1 营收 816 亿美元创纪录，数据中心同比暴增 92%
-• Andrej Karpathy 正式加入 Anthropic Pretraining 团队
-• 阿里 Qwen3.7-Max 自主 35 小时编写芯片软件，登顶国产模型 Arena 榜
-• OpenAI 拟 9 月 IPO，加快冲刺公开市场 — TechCrunch 援引消息人士称 OpenAI 正在加速推进 IPO，最快今年 9 月完成挂牌；公司一季度营收已达 57 亿美元（含 Codex、企业销售、ChatGPT 广告），较同期 Anthropic 高出近 10 亿美元。来源：TechCrunch</description>
     </item>
   </channel>
 </rss>

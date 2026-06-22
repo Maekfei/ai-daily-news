@@ -1,33 +1,6 @@
 {
   "papers": [
     {
-      "id": "hf-2606-19419",
-      "title": "Playful Agentic Robot Learning",
-      "authors": [
-        "Junyi Zhang",
-        "Jiaxin Ge",
-        "Hanjun Yoo",
-        "Letian Fu",
-        "Zihan Yang",
-        "Yaowei Liu",
-        "Raj Saravanan",
-        "Shaofeng Yin"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Current agentic robot systems can write executable Code-as-Policy programs, observe feedback, and revise behavior across multiple attempts, but they remain largely task-driven: reusable skills are acquired only after explicit instructions. We study Playful Agentic Robot Learning, where an embodied coding agent uses self-directed play as a continual skill-learning stage before downstream tasks arrive. We introduce RATs, Robotics Agent Teams designed for play-time skill acquisition. During play, RATs proposes novel yet learnable exploratory tasks",
-      "url": "https://huggingface.co/papers/2606.19419",
-      "pdf_url": "https://arxiv.org/pdf/2606.19419.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-06-17",
-      "added": "2026-06-20",
-      "stars": 41
-    },
-    {
       "id": "hf-2606-20517",
       "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
       "authors": [
@@ -52,7 +25,34 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 39
+      "stars": 49
+    },
+    {
+      "id": "hf-2606-19419",
+      "title": "Playful Agentic Robot Learning",
+      "authors": [
+        "Junyi Zhang",
+        "Jiaxin Ge",
+        "Hanjun Yoo",
+        "Letian Fu",
+        "Zihan Yang",
+        "Yaowei Liu",
+        "Raj Saravanan",
+        "Shaofeng Yin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Current agentic robot systems can write executable Code-as-Policy programs, observe feedback, and revise behavior across multiple attempts, but they remain largely task-driven: reusable skills are acquired only after explicit instructions. We study Playful Agentic Robot Learning, where an embodied coding agent uses self-directed play as a continual skill-learning stage before downstream tasks arrive. We introduce RATs, Robotics Agent Teams designed for play-time skill acquisition. During play, RATs proposes novel yet learnable exploratory tasks",
+      "url": "https://huggingface.co/papers/2606.19419",
+      "pdf_url": "https://arxiv.org/pdf/2606.19419.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-06-17",
+      "added": "2026-06-20",
+      "stars": 44
     },
     {
       "id": "hf-2606-20515",
@@ -80,7 +80,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 34
+      "stars": 35
     },
     {
       "id": "hf-2606-20563",
@@ -101,7 +101,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 18
+      "stars": 19
     },
     {
       "id": "hf-2606-19531",
@@ -156,7 +156,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2606-17053",
@@ -184,7 +184,7 @@
       ],
       "published": "2026-06-15",
       "added": "2026-06-20",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2606-19605",
@@ -210,7 +210,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2606-20521",
@@ -235,7 +235,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2606-16817",
@@ -346,7 +346,7 @@
       ],
       "published": "2026-06-16",
       "added": "2026-06-20",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-19602",
@@ -373,7 +373,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-15527",
@@ -423,6 +423,28 @@
       "stars": 3
     },
     {
+      "id": "hf-2606-16827",
+      "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+      "authors": [
+        "Alessandro Giagnorio",
+        "Alberto Martin-Lopez",
+        "Gabriele Bavota"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large Language Models (LLMs) have significantly advanced the automation of software engineering tasks. One prominent example is code generation, where an LLM produces code in a specified programming language based on a natural language description. Most research in this area has focused on high-resource languages, such as Python or Java, which benefit from abundant training data. A smaller body of work has explored low-resource languages, which are underrepresented in training corpora. In contrast, no-resource languages for which LLMs have seen",
+      "url": "https://huggingface.co/papers/2606.16827",
+      "pdf_url": "https://arxiv.org/pdf/2606.16827.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-20",
+      "stars": 3
+    },
+    {
       "id": "hf-2603-24624",
       "title": "ReSyn: A Generalized Recursive Regular Expression Synthesis Framework",
       "authors": [
@@ -442,28 +464,6 @@
         "code"
       ],
       "published": "2026-06-13",
-      "added": "2026-06-20",
-      "stars": 2
-    },
-    {
-      "id": "hf-2606-16827",
-      "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
-      "authors": [
-        "Alessandro Giagnorio",
-        "Alberto Martin-Lopez",
-        "Gabriele Bavota"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large Language Models (LLMs) have significantly advanced the automation of software engineering tasks. One prominent example is code generation, where an LLM produces code in a specified programming language based on a natural language description. Most research in this area has focused on high-resource languages, such as Python or Java, which benefit from abundant training data. A smaller body of work has explored low-resource languages, which are underrepresented in training corpora. In contrast, no-resource languages for which LLMs have seen",
-      "url": "https://huggingface.co/papers/2606.16827",
-      "pdf_url": "https://arxiv.org/pdf/2606.16827.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-15",
       "added": "2026-06-20",
       "stars": 2
     },
@@ -494,7 +494,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-19",
-      "stars": 45
+      "stars": 47
     },
     {
       "id": "hf-2606-19338",
@@ -578,7 +578,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-19",
-      "stars": 27
+      "stars": 29
     },
     {
       "id": "hf-2606-18363",
@@ -816,6 +816,33 @@
       "stars": 11
     },
     {
+      "id": "hf-2606-17800",
+      "title": "MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model",
+      "authors": [
+        "Lichen Bai",
+        "Tianhao Zhang",
+        "Shitong Shao",
+        "Dingwei Tan",
+        "Qiyu Zhong",
+        "Zhengpeng Xie",
+        "Haopeng Li",
+        "Qinghao Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "As an increasing majority of global video content is consumed on social platforms for interactive social purposes, video generation models built for social worlds are important but largely overlooked by previous studies. In this work, we define the position of social world models and build a prototype model as the first step towards this goal. While previous world models successfully simulate physical environments or gaming world exploration, they remain fundamentally detached from human-centric social dynamics. To bridge this gap as the first",
+      "url": "https://huggingface.co/papers/2606.17800",
+      "pdf_url": "https://arxiv.org/pdf/2606.17800.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-06-16",
+      "added": "2026-06-19",
+      "stars": 11
+    },
+    {
       "id": "hf-2606-16122",
       "title": "Thinking with Visual Grounding",
       "authors": [
@@ -863,33 +890,6 @@
         "benchmark"
       ],
       "published": "2026-06-12",
-      "added": "2026-06-19",
-      "stars": 9
-    },
-    {
-      "id": "hf-2606-17800",
-      "title": "MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model",
-      "authors": [
-        "Lichen Bai",
-        "Tianhao Zhang",
-        "Shitong Shao",
-        "Dingwei Tan",
-        "Qiyu Zhong",
-        "Zhengpeng Xie",
-        "Haopeng Li",
-        "Qinghao Huang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As an increasing majority of global video content is consumed on social platforms for interactive social purposes, video generation models built for social worlds are important but largely overlooked by previous studies. In this work, we define the position of social world models and build a prototype model as the first step towards this goal. While previous world models successfully simulate physical environments or gaming world exploration, they remain fundamentally detached from human-centric social dynamics. To bridge this gap as the first",
-      "url": "https://huggingface.co/papers/2606.17800",
-      "pdf_url": "https://arxiv.org/pdf/2606.17800.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-16",
       "added": "2026-06-19",
       "stars": 9
     },
@@ -986,7 +986,7 @@
       ],
       "published": "2026-06-12",
       "added": "2026-06-19",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2606-18543",
@@ -1059,6 +1059,28 @@
       "stars": 5
     },
     {
+      "id": "hf-2606-16748",
+      "title": "MyPCBench: A Benchmark for Personally Intelligent Computer-Use Agents",
+      "authors": [
+        "Lawrence Keunho Jang",
+        "Andrew Keunwoo Jang",
+        "Jing Yu Koh",
+        "Ruslan Salakhutdinov"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Current benchmarks for computer-use agents evaluate models in impersonal environments. This leaves a gap between evaluation and deployment where personal assistants are expected to work across a user's whole digital life, including their context, historical data, and logged-in accounts. This gap is widest on web tasks, where live web evaluations cannot exercise sites that require logging in or personal information, the kind of site a real personal assistant has to drive. We introduce MyPCBench, which tests computer-use agents as personal assist",
+      "url": "https://huggingface.co/papers/2606.16748",
+      "pdf_url": "https://arxiv.org/pdf/2606.16748.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-15",
+      "added": "2026-06-19",
+      "stars": 5
+    },
+    {
       "id": "hf-2606-15872",
       "title": "SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks",
       "authors": [
@@ -1125,28 +1147,6 @@
         "rl"
       ],
       "published": "2026-06-17",
-      "added": "2026-06-19",
-      "stars": 4
-    },
-    {
-      "id": "hf-2606-16748",
-      "title": "MyPCBench: A Benchmark for Personally Intelligent Computer-Use Agents",
-      "authors": [
-        "Lawrence Keunho Jang",
-        "Andrew Keunwoo Jang",
-        "Jing Yu Koh",
-        "Ruslan Salakhutdinov"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Current benchmarks for computer-use agents evaluate models in impersonal environments. This leaves a gap between evaluation and deployment where personal assistants are expected to work across a user's whole digital life, including their context, historical data, and logged-in accounts. This gap is widest on web tasks, where live web evaluations cannot exercise sites that require logging in or personal information, the kind of site a real personal assistant has to drive. We introduce MyPCBench, which tests computer-use agents as personal assist",
-      "url": "https://huggingface.co/papers/2606.16748",
-      "pdf_url": "https://arxiv.org/pdf/2606.16748.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-06-15",
       "added": "2026-06-19",
       "stars": 4
     },
