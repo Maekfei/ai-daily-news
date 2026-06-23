@@ -25,7 +25,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 49
+      "stars": 56
     },
     {
       "id": "hf-2606-19419",
@@ -52,7 +52,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 44
+      "stars": 45
     },
     {
       "id": "hf-2606-20515",
@@ -80,7 +80,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 35
+      "stars": 39
     },
     {
       "id": "hf-2606-20563",
@@ -128,7 +128,7 @@
       ],
       "published": "2026-06-17",
       "added": "2026-06-20",
-      "stars": 14
+      "stars": 15
     },
     {
       "id": "hf-2606-19980",
@@ -156,7 +156,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2606-17053",
@@ -184,7 +184,7 @@
       ],
       "published": "2026-06-15",
       "added": "2026-06-20",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2606-19605",
@@ -235,7 +235,7 @@
       ],
       "published": "2026-06-18",
       "added": "2026-06-20",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2606-16817",
@@ -523,35 +523,6 @@
       "stars": 38
     },
     {
-      "id": "hf-2606-16533",
-      "title": "Kairos: A Native World Model Stack for Physical AI",
-      "authors": [
-        "Kairos Team",
-        "Fei Wang",
-        "Shan You",
-        "Qiming Zhang",
-        "Tao Huang",
-        "Zuoyi Fu",
-        "Zhisheng Zheng",
-        "Yunlong Xi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "World models are transitioning from passive visual generators to foundational, operational infrastructure for Physical AI: they must natively acquire world knowledge from heterogeneous experience, maintain persistent states over long horizons, and execute efficiently within real deployment constraints. We introduce Kairos, a native world model stack designed around these requirements. (1) Kairos learns the world by pioneering a Native Pre-training Paradigm governed by a Cross-Embodiment Data Curriculum, which organizes open-world videos, human",
-      "url": "https://huggingface.co/papers/2606.16533",
-      "pdf_url": "https://arxiv.org/pdf/2606.16533.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-06-16",
-      "added": "2026-06-19",
-      "stars": 29
-    },
-    {
       "id": "hf-2606-19704",
       "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
       "authors": [
@@ -577,6 +548,35 @@
         "multimodal"
       ],
       "published": "2026-06-18",
+      "added": "2026-06-19",
+      "stars": 37
+    },
+    {
+      "id": "hf-2606-16533",
+      "title": "Kairos: A Native World Model Stack for Physical AI",
+      "authors": [
+        "Kairos Team",
+        "Fei Wang",
+        "Shan You",
+        "Qiming Zhang",
+        "Tao Huang",
+        "Zuoyi Fu",
+        "Zhisheng Zheng",
+        "Yunlong Xi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "World models are transitioning from passive visual generators to foundational, operational infrastructure for Physical AI: they must natively acquire world knowledge from heterogeneous experience, maintain persistent states over long horizons, and execute efficiently within real deployment constraints. We introduce Kairos, a native world model stack designed around these requirements. (1) Kairos learns the world by pioneering a Native Pre-training Paradigm governed by a Cross-Embodiment Data Curriculum, which organizes open-world videos, human",
+      "url": "https://huggingface.co/papers/2606.16533",
+      "pdf_url": "https://arxiv.org/pdf/2606.16533.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-06-16",
       "added": "2026-06-19",
       "stars": 29
     },

@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 22 Jun 2026 02:04:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 02:07:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-23</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-23</link>
+      <guid isPermaLink="false">2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Sakana AI 开源多智能体编排系统 Fugu 缓解厂商锁定，Anthropic 在美政府封禁阴影下逆势挖角 DeepMind 诺奖得主 John Jumper。
+• Sakana AI 发布 Fugu：用一个 API 端点编排所有大模型
+• AlphaFold 缔造者、诺奖得主 John Jumper 离开 DeepMind 加盟 Anthropic
+• 自主医疗 AI 智能体首达内科医生水平：MIRA 与 Google AMIE 登上 Nature
+• 美国政府据称因 NSA 机密系统被破解紧急封杀 Anthropic — 6 月 22 日凤凰科技援引外媒报道称，美方在 NSA 一处机密系统遭&quot;越狱版 Claude&quot;渗透后，对 Anthropic 旗舰模型 Fable 5 / Mythos 5 下达紧急出口管制；Anthropic 拟于 7 月 8 日生效新身份核验政策，仅允许已验证美国公民使用。凤凰科技
+• 微软将默认向 Win11 自动安装 Microsoft 365 Copilot — 微软管理后台更新文档显示，自 2026 年 6 月起所有装有 Microsoft 365 桌面应用且符合条件的 Windows 11 设备将自动安装 Copilot 客户端，覆盖时间为 6 月中旬至 7 月中旬。此举已遭部分企业 IT 管理员反弹。IT 之家</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-22</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-22</link>
@@ -354,18 +366,6 @@
 • 高德地图发布 amap-lbs-skill：把 LBS 数据全面开放给中文 AI Agent
 • 阿里云发布平头哥真武 M890 + 128 卡超节点服务器 — 5 月 20 日 2026 阿里云杭州峰会上，阿里云推出训推一体 AI 芯片真武 M890，144GB 显存、800GB/s 互联，性能为上一代真武 810E 的 3 倍；同步发布 ICN Switch 1.0 互联芯片，可将 128 张 AI 芯片组成&quot;一台计算机&quot;，通信时延压缩至百纳秒级，并已应用于磐久 AL128 节点服务器。来源：IT 之家
 • 阿里云同步发布 Qwen3.7-Max 与 AI 产品官网&quot;千问云&quot; — 在同一场峰会上阿里云宣布完成&quot;芯片-云-模型-推理&quot;全栈 Agent 化升级，推出旗舰模型 Qwen3.7-Max、AI 产品门户千问云，并升级模型服务平台百炼。今年以来阿里云大模型业务呈现爆发式增长，Q1 起算力订单出现&quot;龙虾热潮&quot;。来源：财新网</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-24</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-24</link>
-      <guid isPermaLink="false">2026-05-24</guid>
-      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
-      <description>DeepSeek 700 亿元人民币首轮融资接近敲定、宁德时代拟参投并继续坚守开源路线；智谱 GLM-5.1 高速版以 400 tokens/s 刷新全球大模型 API 输出速度上限。
-• DeepSeek 700 亿元首轮融资接近敲定，宁德时代拟参投，承诺继续开源
-• 智谱发布 GLM-5.1 高速版，400 tokens/s 刷新全球大模型 API 速度上限
-• Cursor Composer 2.5 上线，基于 Moonshot Kimi K2.5 持续预训练
-• OpenAI 发布 MRC（Mesh Routing for Compute）协议 — OpenAI 5 月 22 日开源 MRC 协议初稿，定位为 AI 集群跨万卡规模下的网络路由 / KV-Cache 共享层标准；与智谱当日落地的 ZCube 网络拓扑共同标志着行业从&quot;算力堆叠&quot;转向&quot;系统效率&quot;。来源：智东西
-• 黄仁勋承认&quot;华为已在中国市场替代英伟达&quot; — 在亚洲行程中，NVIDIA CEO 黄仁勋公开承认在美国出口管制下，华为昇腾已在中国实质替代英伟达高端 AI GPU 直接销售份额（从 2021 年峰值 95% 下降至 0%）；评论同时提及国内 H200 出口许可被中方拒购的最新进展。来源：观察者网</description>
     </item>
   </channel>
 </rss>
