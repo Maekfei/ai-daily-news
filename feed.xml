@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 02:07:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 02:11:19 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-24</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-24</link>
+      <guid isPermaLink="false">2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
+      <description>智谱港股市值首破万亿港元，国产大模型获稀缺性溢价；OpenAI 安全专用 GPT-5.5-Cyber 完整版在 CyberGym 上刷新 SOTA。
+• 智谱港股市值首破万亿港元，GLM-5.2 跻身全球第一梯队
+• OpenAI 安全专用 GPT-5.5-Cyber 完整版上线，CyberGym 得分 85.6%
+• SpaceX 600 亿美元全股票收购 AI 编程独角兽 Cursor
+• AI 版支付宝&quot;阿宝&quot;正式开启邀请内测，超级 App 启动 Agent 重构
+• DeepSeek 完成首轮 500+ 亿元融资，投后估值突破 500 亿美元 — 6 月 16 日，DeepSeek 完成成立以来首次对外融资，募资超 500 亿元人民币；创始人梁文锋个人出资约 200 亿元为最大单一出资方，腾讯、宁德时代、京东等参投，资金主要投向 GW 级算力。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-23</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-23</link>
@@ -354,18 +366,6 @@
 • 月之暗面 Kimi 完成 20 亿美元新融资，估值 200 亿、冲刺港股 IPO
 • 阿里 Qwen3.7-Max 登顶 Arena 国产榜，主打 35 小时长 horizon Agent
 • DeepSeek-V4-Pro API 永久降价 25%，并推进 700 亿元新一轮融资 — 5 月 24 日晚间宣布，配合本月 LiveCodeBench 93.5% 的开源记录，进一步压低 Agent 推理成本。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-25</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-25</link>
-      <guid isPermaLink="false">2026-05-25</guid>
-      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
-      <description>Karpathy 加盟 Anthropic、Google Antigravity 2.0 把 Agent 拉出 IDE 独立成桌面工作台——本周 AI 行业的&quot;人才与平台&quot;两条主线在周一继续发酵。
-• Andrej Karpathy 正式加盟 Anthropic，强化前沿 LLM 研究阵容
-• Google Antigravity 2.0 把 Agent 拉出 IDE，独立成跨平台桌面工作台
-• 高德地图发布 amap-lbs-skill：把 LBS 数据全面开放给中文 AI Agent
-• 阿里云发布平头哥真武 M890 + 128 卡超节点服务器 — 5 月 20 日 2026 阿里云杭州峰会上，阿里云推出训推一体 AI 芯片真武 M890，144GB 显存、800GB/s 互联，性能为上一代真武 810E 的 3 倍；同步发布 ICN Switch 1.0 互联芯片，可将 128 张 AI 芯片组成&quot;一台计算机&quot;，通信时延压缩至百纳秒级，并已应用于磐久 AL128 节点服务器。来源：IT 之家
-• 阿里云同步发布 Qwen3.7-Max 与 AI 产品官网&quot;千问云&quot; — 在同一场峰会上阿里云宣布完成&quot;芯片-云-模型-推理&quot;全栈 Agent 化升级，推出旗舰模型 Qwen3.7-Max、AI 产品门户千问云，并升级模型服务平台百炼。今年以来阿里云大模型业务呈现爆发式增长，Q1 起算力订单出现&quot;龙虾热潮&quot;。来源：财新网</description>
     </item>
   </channel>
 </rss>
