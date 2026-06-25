@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jun 2026 02:11:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 02:04:10 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-25</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-25</link>
+      <guid isPermaLink="false">2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 与博通联合发布首款自研推理芯片 Jalapeño，9 个月完成流片；字节豆包 2.1 Pro 全面押注 Coding 与 Agent，日均 Token 调用量两年增长 1500 倍。
+• 字节火山引擎发布豆包 2.1 Pro，All-in Coding 与 Agent
+• OpenAI 与博通联合发布首款自研推理芯片 Jalapeño
+• 豆包推出付费专业版，可直接操作本地电脑
+• ISC.AI 2026 大会聚焦 &quot;AI 对 AI&quot; 安全范式
+• DeepSeek 完成超 500 亿元首轮外部融资，估值最高 590 亿美元 — 腾讯、宁德时代等产业资本入场，刷新国内开源大模型估值纪录。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-24</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-24</link>
@@ -354,18 +366,6 @@
 • 谷歌 I/O 2026 把&quot;Agent 工具栈&quot;摆到 C 位：Gemini 3.5 Flash + Antigravity 2.0
 • Anthropic 准备公开上线最强模型 Claude Mythos 预览版
 • 新华社：AI 智能体正从&quot;对话 AI&quot;迈向&quot;行动 AI&quot; — 5 月 27 日新华社科技观察文章指出，2026 年 Agent 已实现规模化变革，重点提到支付宝、科大讯飞 Loomy、腾讯云雀等代表案例。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-26</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-26</link>
-      <guid isPermaLink="false">2026-05-26</guid>
-      <pubDate>Tue, 26 May 2026 10:00:00 +0800</pubDate>
-      <description>谷歌 I/O 余热未退、Agent 工具栈竞争升级；华为在 ISCAS 2026 抛出&quot;韬（τ）定律&quot;，从摩尔的&quot;几何缩微&quot;转向&quot;时间缩微&quot;，国产半导体路线之争升温。
-• Google DeepMind 公开&quot;大规模 Agent 系统&quot;工程实践
-• Anthropic 完成 3 亿美元收购 Stainless，收紧 SDK 与 MCP 控制权
-• 月之暗面 Kimi 完成 20 亿美元新融资，估值 200 亿、冲刺港股 IPO
-• 阿里 Qwen3.7-Max 登顶 Arena 国产榜，主打 35 小时长 horizon Agent
-• DeepSeek-V4-Pro API 永久降价 25%，并推进 700 亿元新一轮融资 — 5 月 24 日晚间宣布，配合本月 LiveCodeBench 93.5% 的开源记录，进一步压低 Agent 推理成本。来源</description>
     </item>
   </channel>
 </rss>

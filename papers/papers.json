@@ -609,6 +609,31 @@
       "stars": 4
     },
     {
+      "id": "hf-2606-18831",
+      "title": "Beyond Reward Engineering: A Data Recipe for Long-Context Reinforcement Learning",
+      "authors": [
+        "Xiaoyue Xu",
+        "Sikui Zhang",
+        "Xiaorong Wang",
+        "Xu Han",
+        "Chaojun Xiao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Long-context reasoning is an essential capability for large language models, particularly when they are deployed as autonomous agents that must reason over lengthy trajectories. Reinforcement learning (RL) has recently emerged as a dominant paradigm for improving this ability, yet existing work largely focuses on reward engineering while diverse training data remains scarce. We revisit this problem from a data-centric perspective and show that a simple yet effective data recipe alone, paired with a minimal outcome-based GRPO setup, suffices to",
+      "url": "https://huggingface.co/papers/2606.18831",
+      "pdf_url": "https://arxiv.org/pdf/2606.18831.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-06-17",
+      "added": "2026-06-24",
+      "stars": 4
+    },
+    {
       "id": "hf-2606-21884",
       "title": "A Verifiable Search Is Not a Learnable Chain-of-Thought",
       "authors": [
@@ -655,6 +680,28 @@
       "stars": 3
     },
     {
+      "id": "hf-2606-16246",
+      "title": "Demystifying Training-Time Augmentation for Data-Constrained Language Model Pretraining",
+      "authors": [
+        "Michael K. Chen",
+        "Xikun Zhang",
+        "Fan Bai",
+        "Zhengding Hu",
+        "Zhen Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "As AI labs approach a data ceiling where compute capacity outpaces the rate of new high-quality text generation, language model pretraining is shifting toward a data-constrained, compute-abundant regime that demands productive multi-epoch training on fixed corpora. Standard autoregressive (AR) pretraining overfits severely in this setting, reaching its optimum early and then continuously deteriorating. We investigate training-time data augmentation as a regularizer to mitigate this overfitting and enable productive training for hundreds of epoc",
+      "url": "https://huggingface.co/papers/2606.16246",
+      "pdf_url": "https://arxiv.org/pdf/2606.16246.pdf",
+      "tags": [
+        "hf-trending",
+        "code"
+      ],
+      "published": "2026-06-19",
+      "added": "2026-06-24",
+      "stars": 3
+    },
+    {
       "id": "hf-2606-20891",
       "title": "Go-with-the-Track: Video Compositing and Motion Control with Point Tracking",
       "authors": [
@@ -675,28 +722,6 @@
         "hf-trending"
       ],
       "published": "2026-06-18",
-      "added": "2026-06-24",
-      "stars": 2
-    },
-    {
-      "id": "hf-2606-16246",
-      "title": "Demystifying Training-Time Augmentation for Data-Constrained Language Model Pretraining",
-      "authors": [
-        "Michael K. Chen",
-        "Xikun Zhang",
-        "Fan Bai",
-        "Zhengding Hu",
-        "Zhen Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As AI labs approach a data ceiling where compute capacity outpaces the rate of new high-quality text generation, language model pretraining is shifting toward a data-constrained, compute-abundant regime that demands productive multi-epoch training on fixed corpora. Standard autoregressive (AR) pretraining overfits severely in this setting, reaching its optimum early and then continuously deteriorating. We investigate training-time data augmentation as a regularizer to mitigate this overfitting and enable productive training for hundreds of epoc",
-      "url": "https://huggingface.co/papers/2606.16246",
-      "pdf_url": "https://arxiv.org/pdf/2606.16246.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
-      ],
-      "published": "2026-06-19",
       "added": "2026-06-24",
       "stars": 2
     },
@@ -725,48 +750,29 @@
       "stars": 2
     },
     {
-      "id": "hf-2606-18831",
-      "title": "Beyond Reward Engineering: A Data Recipe for Long-Context Reinforcement Learning",
+      "id": "hf-2606-20980",
+      "title": "Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City",
       "authors": [
-        "Xiaoyue Xu",
-        "Sikui Zhang",
-        "Xiaorong Wang",
-        "Xu Han",
-        "Chaojun Xiao"
+        "Adrian Cespedes",
+        "Marcelo Chincha",
+        "Dunant Cusipuma",
+        "Victor Flores-Benites",
+        "David Ortega",
+        "Arturo Deza"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Long-context reasoning is an essential capability for large language models, particularly when they are deployed as autonomous agents that must reason over lengthy trajectories. Reinforcement learning (RL) has recently emerged as a dominant paradigm for improving this ability, yet existing work largely focuses on reward engineering while diverse training data remains scarce. We revisit this problem from a data-centric perspective and show that a simple yet effective data recipe alone, paired with a minimal outcome-based GRPO setup, suffices to",
-      "url": "https://huggingface.co/papers/2606.18831",
-      "pdf_url": "https://arxiv.org/pdf/2606.18831.pdf",
+      "summary": "As Self-Driving Cars continue to expand internationally and use multi-modal systems such as VLMs as a cognitive backbone for their Action models; how well will these systems generalize in new settings, in particular out-of-distribution (OOD) edge-case scenarios in new geographies? In this paper, we study this open question by providing a full factorial analysis with human drivers of Lima, human drivers from New York City, and VLMs and showing them dashcam footage collected from Lima and New York City -- prompting them with a variety of question",
+      "url": "https://huggingface.co/papers/2606.20980",
+      "pdf_url": "https://arxiv.org/pdf/2606.20980.pdf",
       "tags": [
         "hf-trending",
-        "agent",
-        "rl",
         "reasoning",
-        "benchmark"
+        "benchmark",
+        "multimodal"
       ],
-      "published": "2026-06-17",
+      "published": "2026-06-18",
       "added": "2026-06-24",
-      "stars": 1
-    },
-    {
-      "id": "hf-2606-23496",
-      "title": "TROPT: An Open Framework for Unifying and Advancing Discrete Text Optimization",
-      "authors": [
-        "Matan Ben-Tov",
-        "Mahmood Sharif"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Discrete text-trigger optimization -- searching for text sequences that, when ingested by a model, steer it toward a specified objective -- underpins model red-teaming (e.g., LLM jailbreaks), as well as auditing and interpretability. However, the current state of discrete optimizers hinders their adoption and progress. First, existing optimizers, when open-sourced at all, are scattered across research codebases tied to specific models, objectives, and problem domains. Second, optimizer variants proliferate, each requiring engineering overhead t",
-      "url": "https://huggingface.co/papers/2606.23496",
-      "pdf_url": "https://arxiv.org/pdf/2606.23496.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-06-22",
-      "added": "2026-06-24",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2606-22936",
@@ -805,31 +811,6 @@
         "benchmark"
       ],
       "published": "2026-06-21",
-      "added": "2026-06-24",
-      "stars": 1
-    },
-    {
-      "id": "hf-2606-20980",
-      "title": "Robusto-2: Benchmarking Humans & VLMs for Autonomous Driving in Lima & New York City",
-      "authors": [
-        "Adrian Cespedes",
-        "Marcelo Chincha",
-        "Dunant Cusipuma",
-        "Victor Flores-Benites",
-        "David Ortega",
-        "Arturo Deza"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As Self-Driving Cars continue to expand internationally and use multi-modal systems such as VLMs as a cognitive backbone for their Action models; how well will these systems generalize in new settings, in particular out-of-distribution (OOD) edge-case scenarios in new geographies? In this paper, we study this open question by providing a full factorial analysis with human drivers of Lima, human drivers from New York City, and VLMs and showing them dashcam footage collected from Lima and New York City -- prompting them with a variety of question",
-      "url": "https://huggingface.co/papers/2606.20980",
-      "pdf_url": "https://arxiv.org/pdf/2606.20980.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-18",
       "added": "2026-06-24",
       "stars": 1
     },
@@ -892,6 +873,25 @@
       "published": "2026-06-22",
       "added": "2026-06-24",
       "stars": 1
+    },
+    {
+      "id": "hf-2606-23496",
+      "title": "TROPT: An Open Framework for Unifying and Advancing Discrete Text Optimization",
+      "authors": [
+        "Matan Ben-Tov",
+        "Mahmood Sharif"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Discrete text-trigger optimization -- searching for text sequences that, when ingested by a model, steer it toward a specified objective -- underpins model red-teaming (e.g., LLM jailbreaks), as well as auditing and interpretability. However, the current state of discrete optimizers hinders their adoption and progress. First, existing optimizers, when open-sourced at all, are scattered across research codebases tied to specific models, objectives, and problem domains. Second, optimizer variants proliferate, each requiring engineering overhead t",
+      "url": "https://huggingface.co/papers/2606.23496",
+      "pdf_url": "https://arxiv.org/pdf/2606.23496.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-06-22",
+      "added": "2026-06-24",
+      "stars": 0
     },
     {
       "id": "hf-2606-23152",
