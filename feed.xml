@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Jun 2026 02:04:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 02:10:12 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-26</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-26</link>
+      <guid isPermaLink="false">2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 10:00:00 +0800</pubDate>
+      <description>中科闻歌&quot;通用决策大模型第一股&quot;今日登陆港交所，AI 国家队正式入场资本市场；Patronus AI 完成 5000 万美元 B 轮，押注&quot;数字世界模型&quot;为 Agent 提供仿真训练沙盒。
+• 中科闻歌登陆港交所，&quot;通用决策大模型第一股&quot;开盘大涨
+• Patronus AI 完成 5000 万美元 B 轮，发布首个&quot;数字世界模型&quot;训练 Agent
+• Anthropic 发布 Claude Tag：让 Claude 以&quot;虚拟员工&quot;身份常驻 Slack
+• Google DeepMind 把 Native Computer Use 集成进 Gemini 3.5 Flash
+• 新华社&quot;新华语典&quot;权威 AI 时政智能体正式上线</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-25</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-25</link>
@@ -354,18 +366,6 @@
 • Fireworks AI 估值四倍跳涨至 150 亿美元，推理基础设施再受热捧
 • xAI 推出 Grok Skills，把&quot;持久记忆 + 可编程工作空间&quot;塞进 Agent
 • OpenAI GPT-5.6 后端日志泄露：上下文窗口冲到 150 万 tokens — 多名开发者在 Codex 后端发现内部代号 iris-alpha / ember-alpha / beacon-alpha，预计 6 月发布；GPT-5.5 仅 4 月底才上线，迭代节奏明显加快。来源（IT之家）</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-27</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-27</link>
-      <guid isPermaLink="false">2026-05-27</guid>
-      <pubDate>Wed, 27 May 2026 10:00:00 +0800</pubDate>
-      <description>支付宝公布**3 亿笔智能体支付**并发布 TokenPay/AI 钱包，把 Agent Pay 做成新支付基础设施；OpenRouter 完成 1.13 亿美元 B 轮、估值越过 10 亿美元，&quot;模型路由&quot;上升为 AI 第二层基础设施。
-• 支付宝发布 AI 原生支付体系，3 亿笔智能体支付落地
-• OpenRouter 完成 1.13 亿美元 B 轮，估值跃过 10 亿美元
-• 谷歌 I/O 2026 把&quot;Agent 工具栈&quot;摆到 C 位：Gemini 3.5 Flash + Antigravity 2.0
-• Anthropic 准备公开上线最强模型 Claude Mythos 预览版
-• 新华社：AI 智能体正从&quot;对话 AI&quot;迈向&quot;行动 AI&quot; — 5 月 27 日新华社科技观察文章指出，2026 年 Agent 已实现规模化变革，重点提到支付宝、科大讯飞 Loomy、腾讯云雀等代表案例。来源</description>
     </item>
   </channel>
 </rss>
