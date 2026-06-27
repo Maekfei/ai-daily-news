@@ -26,7 +26,7 @@
       ],
       "published": "2026-06-23",
       "added": "2026-06-26",
-      "stars": 91
+      "stars": 102
     },
     {
       "id": "hf-2606-25041",
@@ -80,7 +80,59 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-26",
-      "stars": 38
+      "stars": 42
+    },
+    {
+      "id": "hf-2606-26907",
+      "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "authors": [
+        "Zekai Zhang",
+        "Jiahao Li",
+        "Jie Zhang",
+        "Kaiyuan Gao",
+        "Kun Yan",
+        "Lihan Jiang",
+        "Ningyuan Tang",
+        "Shengming Yin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "While text-to-image (T2I) models have achieved remarkable progress, they struggle with real-world requests that are often underspecified, implicit, or dependent on up-to-date knowledge. We identify this challenge as the Context Gap: the mismatch between the user context and the sufficient generation context for T2I models. To bridge this gap, we propose Qwen-Image-Agent, a unified agentic framework that integrates plan, reason, search, memory and feedback in a context-centric manner. Qwen-Image-Agent treats user input as partial context and pro",
+      "url": "https://huggingface.co/papers/2606.26907",
+      "pdf_url": "https://arxiv.org/pdf/2606.26907.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-25",
+      "added": "2026-06-26",
+      "stars": 35
+    },
+    {
+      "id": "hf-2606-26087",
+      "title": "MVTrack4Gen: Multi-View Point Tracking as Geometric Supervision for 4D Video Generation",
+      "authors": [
+        "JoungBin Lee",
+        "Jaewoo Jung",
+        "Jongmin Lee",
+        "Tongmin Kim",
+        "Hyunsung Kim",
+        "Takuya Narihira",
+        "Kazumi Fukuda",
+        "Jahyeok Koo"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Synthesizing a novel-view video from a monocular reference video along a target camera trajectory requires both geometric consistency and motion fidelity with respect to the reference video. Existing methods based on explicit 3D representations are limited by the accuracy of off-the-shelf reconstruction modules, which often produce inaccurate geometry for dynamic objects in monocular videos. In contrast, camera-conditioning-only methods can achieve high visual quality but often struggle to preserve geometric and motion consistency. In this work",
+      "url": "https://huggingface.co/papers/2606.26087",
+      "pdf_url": "https://arxiv.org/pdf/2606.26087.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-24",
+      "added": "2026-06-26",
+      "stars": 33
     },
     {
       "id": "hf-2606-25331",
@@ -108,32 +160,6 @@
       "published": "2026-06-24",
       "added": "2026-06-26",
       "stars": 32
-    },
-    {
-      "id": "hf-2606-26087",
-      "title": "MVTrack4Gen: Multi-View Point Tracking as Geometric Supervision for 4D Video Generation",
-      "authors": [
-        "JoungBin Lee",
-        "Jaewoo Jung",
-        "Jongmin Lee",
-        "Tongmin Kim",
-        "Hyunsung Kim",
-        "Takuya Narihira",
-        "Kazumi Fukuda",
-        "Jahyeok Koo"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Synthesizing a novel-view video from a monocular reference video along a target camera trajectory requires both geometric consistency and motion fidelity with respect to the reference video. Existing methods based on explicit 3D representations are limited by the accuracy of off-the-shelf reconstruction modules, which often produce inaccurate geometry for dynamic objects in monocular videos. In contrast, camera-conditioning-only methods can achieve high visual quality but often struggle to preserve geometric and motion consistency. In this work",
-      "url": "https://huggingface.co/papers/2606.26087",
-      "pdf_url": "https://arxiv.org/pdf/2606.26087.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-24",
-      "added": "2026-06-26",
-      "stars": 27
     },
     {
       "id": "hf-2606-15932",
@@ -166,6 +192,36 @@
       "stars": 27
     },
     {
+      "id": "hf-2606-25319",
+      "title": "V-Zero: Answer-Label-Free On-Policy Distillation with Contrastive Evidence Gating for Fine-Grained Visual Reasoning",
+      "authors": [
+        "Haoxiang Sun",
+        "Zhihang Yi",
+        "Langxuan Deng",
+        "Yuhao Zhou",
+        "Peiqi Jia",
+        "Jian Zhao",
+        "Li Yuan",
+        "Jiancheng Lv"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Fine-grained visual reasoning requires multimodal large language models (MLLMs) to identify task-relevant visual evidence and ground their reasoning in local image regions. Existing agentic methods typically rely on reinforcement learning with verifiable rewards or supervised fine-tuning on large-scale annotated reasoning traces, leading to costly exploration, hand-designed verification rules, or heavy dependence on textual supervision. A natural way to avoid such external answer labels is to learn from trajectories sampled by the student itsel",
+      "url": "https://huggingface.co/papers/2606.25319",
+      "pdf_url": "https://arxiv.org/pdf/2606.25319.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-06-24",
+      "added": "2026-06-26",
+      "stars": 24
+    },
+    {
       "id": "hf-2602-09379",
       "title": "LingxiDiagBench: A Multi-Agent Framework for Benchmarking LLMs in Chinese Psychiatric Consultation and Diagnosis",
       "authors": [
@@ -194,36 +250,6 @@
       "stars": 21
     },
     {
-      "id": "hf-2606-25319",
-      "title": "V-Zero: Answer-Label-Free On-Policy Distillation with Contrastive Evidence Gating for Fine-Grained Visual Reasoning",
-      "authors": [
-        "Haoxiang Sun",
-        "Zhihang Yi",
-        "Langxuan Deng",
-        "Yuhao Zhou",
-        "Peiqi Jia",
-        "Jian Zhao",
-        "Li Yuan",
-        "Jiancheng Lv"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Fine-grained visual reasoning requires multimodal large language models (MLLMs) to identify task-relevant visual evidence and ground their reasoning in local image regions. Existing agentic methods typically rely on reinforcement learning with verifiable rewards or supervised fine-tuning on large-scale annotated reasoning traces, leading to costly exploration, hand-designed verification rules, or heavy dependence on textual supervision. A natural way to avoid such external answer labels is to learn from trajectories sampled by the student itsel",
-      "url": "https://huggingface.co/papers/2606.25319",
-      "pdf_url": "https://arxiv.org/pdf/2606.25319.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-06-24",
-      "added": "2026-06-26",
-      "stars": 20
-    },
-    {
       "id": "hf-2606-24876",
       "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
       "authors": [
@@ -247,6 +273,26 @@
       "published": "2026-06-23",
       "added": "2026-06-26",
       "stars": 18
+    },
+    {
+      "id": "hf-2606-26217",
+      "title": "Fast LeWorldModel",
+      "authors": [
+        "Yuntian Gao",
+        "Xiangyu Xu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Joint-Embedding Predictive Architectures (JEPAs), including recent LeWorldModel (LeWM), have become a promising foundation for reconstruction-free visual world models. For visual planning, however, LeWM evaluates candidate action sequences by repeatedly applying a local one-step latent transition model. This autoregressive rollout makes planning computationally expensive and exposes the predicted trajectory to accumulated latent errors as the horizon grows. We propose Fast LeWorldModel (Fast-LeWM), a fast latent world model that replaces repeat",
+      "url": "https://huggingface.co/papers/2606.26217",
+      "pdf_url": "https://arxiv.org/pdf/2606.26217.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-24",
+      "added": "2026-06-26",
+      "stars": 17
     },
     {
       "id": "hf-2606-23991",
@@ -343,33 +389,6 @@
       "stars": 11
     },
     {
-      "id": "hf-2606-22565",
-      "title": "Look Light, Think Heavy: What Multimodal Chain-of-Thought Reasoning Can and Cannot Do",
-      "authors": [
-        "Zhuoran Jin",
-        "Kejian Zhu",
-        "Hongbang Yuan",
-        "Yupu Hao",
-        "Pengfei Cao",
-        "Yubo Chen",
-        "Kang Liu",
-        "Jun Zhao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Chain-of-Thought (CoT) has become a standard method for improving reasoning capabilities in large language models (LLMs) by eliciting step-by-step thinking, but its effectiveness in multimodal tasks remains unclear. In this paper, we aim to systematically investigate the key question: What can multimodal Chain-of-Thought reasoning do, and where and why does it fall short? To this end, we evaluate 12 multimodal tasks across perception and reasoning categories using both 14 non-reasoning models and 8 reasoning models. Our analysis reveals several",
-      "url": "https://huggingface.co/papers/2606.22565",
-      "pdf_url": "https://arxiv.org/pdf/2606.22565.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-21",
-      "added": "2026-06-26",
-      "stars": 8
-    },
-    {
       "id": "hf-2606-25996",
       "title": "Autodata: An agentic data scientist to create high quality synthetic data",
       "authors": [
@@ -393,6 +412,33 @@
         "benchmark"
       ],
       "published": "2026-06-24",
+      "added": "2026-06-26",
+      "stars": 9
+    },
+    {
+      "id": "hf-2606-22565",
+      "title": "Look Light, Think Heavy: What Multimodal Chain-of-Thought Reasoning Can and Cannot Do",
+      "authors": [
+        "Zhuoran Jin",
+        "Kejian Zhu",
+        "Hongbang Yuan",
+        "Yupu Hao",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Chain-of-Thought (CoT) has become a standard method for improving reasoning capabilities in large language models (LLMs) by eliciting step-by-step thinking, but its effectiveness in multimodal tasks remains unclear. In this paper, we aim to systematically investigate the key question: What can multimodal Chain-of-Thought reasoning do, and where and why does it fall short? To this end, we evaluate 12 multimodal tasks across perception and reasoning categories using both 14 non-reasoning models and 8 reasoning models. Our analysis reveals several",
+      "url": "https://huggingface.co/papers/2606.22565",
+      "pdf_url": "https://arxiv.org/pdf/2606.22565.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-21",
       "added": "2026-06-26",
       "stars": 8
     },
@@ -448,6 +494,28 @@
         "multimodal"
       ],
       "published": "2026-06-22",
+      "added": "2026-06-26",
+      "stars": 6
+    },
+    {
+      "id": "hf-2606-27364",
+      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+      "authors": [
+        "Yiming Chen",
+        "Yushi Lan",
+        "Andrea Vedaldi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as object material type, rigid or elastic, the model samples future vertex trajectories. While related neural physics approaches build on ad-hoc latent spaces or explicitly enforce rigidity and causality, PhysiFormer shows that excellent results can be o",
+      "url": "https://huggingface.co/papers/2606.27364",
+      "pdf_url": "https://arxiv.org/pdf/2606.27364.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-06-25",
       "added": "2026-06-26",
       "stars": 6
     },
@@ -573,32 +641,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2606-26907",
-      "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
-      "authors": [
-        "Zekai Zhang",
-        "Jiahao Li",
-        "Jie Zhang",
-        "Kaiyuan Gao",
-        "Kun Yan",
-        "Lihan Jiang",
-        "Ningyuan Tang",
-        "Shengming Yin"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "While text-to-image (T2I) models have achieved remarkable progress, they struggle with real-world requests that are often underspecified, implicit, or dependent on up-to-date knowledge. We identify this challenge as the Context Gap: the mismatch between the user context and the sufficient generation context for T2I models. To bridge this gap, we propose Qwen-Image-Agent, a unified agentic framework that integrates plan, reason, search, memory and feedback in a context-centric manner. Qwen-Image-Agent treats user input as partial context and pro",
-      "url": "https://huggingface.co/papers/2606.26907",
-      "pdf_url": "https://arxiv.org/pdf/2606.26907.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-06-25",
-      "added": "2026-06-26",
-      "stars": 3
-    },
-    {
       "id": "hf-2606-24457",
       "title": "Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching",
       "authors": [
@@ -670,6 +712,30 @@
       "stars": 3
     },
     {
+      "id": "hf-2606-14740",
+      "title": "GridVQA-X: A Framework for Evaluating Multimodal Explainability Methods",
+      "authors": [
+        "Sujay Belsare",
+        "Sudarshan Nikhil",
+        "Sushant Kumar",
+        "Ponnurangam Kumaraguru",
+        "Chirag Agarwal"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "With the increasing development of Vision-Language Models, it becomes imperative that their predictions are readily explainable to relevant stakeholders. However, the field of explainability has not kept pace with the multimodal surge. While recent Multimodal Explainable AI (MxAI) methods generate explanations to attribute the interaction between different modalities, current evaluation protocols lack the ground truth required to distinguish between true cross-modal reasoning (e.g., spatial composition) and shallow cross-modal shortcuts (e.g.,",
+      "url": "https://huggingface.co/papers/2606.14740",
+      "pdf_url": "https://arxiv.org/pdf/2606.14740.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-02",
+      "added": "2026-06-26",
+      "stars": 3
+    },
+    {
       "id": "hf-2606-23997",
       "title": "ChartWalker: Benchmarking the Cross-Chart RAG Task",
       "authors": [
@@ -724,48 +790,32 @@
       "stars": 2
     },
     {
-      "id": "hf-2606-26217",
-      "title": "Fast LeWorldModel",
+      "id": "hf-2606-26299",
+      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
       "authors": [
-        "Yuntian Gao",
-        "Xiangyu Xu"
+        "Tom Zahavy",
+        "Shaobo Hou",
+        "Thomas Tumiel",
+        "James Doran",
+        "Francesco Faccio",
+        "Xidong Feng",
+        "Alex Havrilla",
+        "Igor Khytryi"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Joint-Embedding Predictive Architectures (JEPAs), including recent LeWorldModel (LeWM), have become a promising foundation for reconstruction-free visual world models. For visual planning, however, LeWM evaluates candidate action sequences by repeatedly applying a local one-step latent transition model. This autoregressive rollout makes planning computationally expensive and exposes the predicted trajectory to accumulated latent errors as the horizon grows. We propose Fast LeWorldModel (Fast-LeWM), a fast latent world model that replaces repeat",
-      "url": "https://huggingface.co/papers/2606.26217",
-      "pdf_url": "https://arxiv.org/pdf/2606.26217.pdf",
+      "summary": "While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics remains a challenge. This paper presents an approach to tackle these difficulties in the domain of computational origami, a mathematically rigid environment that grounds artistic design within the equations of flat foldability. We present COrigami, an end-to-end AI-driven pipeline that assists the design cycle by generating crease patterns fro",
+      "url": "https://huggingface.co/papers/2606.26299",
+      "pdf_url": "https://arxiv.org/pdf/2606.26299.pdf",
       "tags": [
         "hf-trending",
+        "rl",
+        "reasoning",
         "benchmark",
         "multimodal"
       ],
       "published": "2026-06-24",
       "added": "2026-06-26",
-      "stars": 1
-    },
-    {
-      "id": "hf-2606-14740",
-      "title": "GridVQA-X: A Framework for Evaluating Multimodal Explainability Methods",
-      "authors": [
-        "Sujay Belsare",
-        "Sudarshan Nikhil",
-        "Sushant Kumar",
-        "Ponnurangam Kumaraguru",
-        "Chirag Agarwal"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "With the increasing development of Vision-Language Models, it becomes imperative that their predictions are readily explainable to relevant stakeholders. However, the field of explainability has not kept pace with the multimodal surge. While recent Multimodal Explainable AI (MxAI) methods generate explanations to attribute the interaction between different modalities, current evaluation protocols lack the ground truth required to distinguish between true cross-modal reasoning (e.g., spatial composition) and shallow cross-modal shortcuts (e.g.,",
-      "url": "https://huggingface.co/papers/2606.14740",
-      "pdf_url": "https://arxiv.org/pdf/2606.14740.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-02",
-      "added": "2026-06-26",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2606-25013",
@@ -857,56 +907,6 @@
       "stars": 1
     },
     {
-      "id": "hf-2606-26299",
-      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
-      "authors": [
-        "Tom Zahavy",
-        "Shaobo Hou",
-        "Thomas Tumiel",
-        "James Doran",
-        "Francesco Faccio",
-        "Xidong Feng",
-        "Alex Havrilla",
-        "Igor Khytryi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics remains a challenge. This paper presents an approach to tackle these difficulties in the domain of computational origami, a mathematically rigid environment that grounds artistic design within the equations of flat foldability. We present COrigami, an end-to-end AI-driven pipeline that assists the design cycle by generating crease patterns fro",
-      "url": "https://huggingface.co/papers/2606.26299",
-      "pdf_url": "https://arxiv.org/pdf/2606.26299.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-24",
-      "added": "2026-06-26",
-      "stars": 0
-    },
-    {
-      "id": "hf-2606-27364",
-      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
-      "authors": [
-        "Yiming Chen",
-        "Yushi Lan",
-        "Andrea Vedaldi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as object material type, rigid or elastic, the model samples future vertex trajectories. While related neural physics approaches build on ad-hoc latent spaces or explicitly enforce rigidity and causality, PhysiFormer shows that excellent results can be o",
-      "url": "https://huggingface.co/papers/2606.27364",
-      "pdf_url": "https://arxiv.org/pdf/2606.27364.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-06-25",
-      "added": "2026-06-26",
-      "stars": 0
-    },
-    {
       "id": "hf-2606-11445",
       "title": "Forecasting Future Behavior as a Learning Task",
       "authors": [
@@ -925,7 +925,7 @@
       ],
       "published": "2026-06-09",
       "added": "2026-06-26",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2606-25605",

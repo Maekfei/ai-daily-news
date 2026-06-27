@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Jun 2026 02:10:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 02:02:40 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-27</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-27</link>
+      <guid isPermaLink="false">2026-06-27</guid>
+      <pubDate>Sat, 27 Jun 2026 10:00:00 +0800</pubDate>
+      <description>美国政府要求 OpenAI 分阶段发布 GPT-5.6，监管之手从 Anthropic 延伸至 OpenAI；编程 Agent 赛道融资潮持续，Cognition（Devin）刚以 250 亿美元估值拿下超 10 亿美元。
+• 美国政府要求 OpenAI 分阶段放出 GPT-5.6
+• Cognition（Devin 母公司）超 10 亿美元融资落定，估值 250 亿美元
+• OpenCode 登顶 LogRocket《AI 开发工具实力榜》榜首
+• OpenAI 倾向于 2027 年 IPO — Altman 在内部会议表示，OpenAI 有可能在未来一年内 IPO，但也保留推迟选项；公司对 2026 年 5860 亿美元估值后的下一轮融资节奏保持开放。来源
+• OpenAI 自研芯片 Jalapeño 流片 — 6 月 24 日 OpenAI 与博通在旧金山联合发布首款自研推理芯片 Jalapeño，TSMC 3nm + HBM3E/4，从设计到流片仅 9 个月，每瓦推理性能官方称大幅优于现役最先进产品，2026 年底起部署于 GW 级数据中心。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-26</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-26</link>
@@ -354,18 +366,6 @@
 • DeepSeek 组建 Harness 团队对标 Claude Code
 • Anthropic 同步上线 Claude Code Dynamic Workflows 研究预览 — 单任务可调度数百并行子 Agent，支持完成数十万行代码库迁移，定价沿用 Opus 4.8 主线。来源
 • 腾讯科技：Claude Opus 4.8&quot;更诚实、可控制 effort&quot; — 用户可在 claude.ai 直接调节模型投入任务的算力，配合 Fast Mode 形成成本-性能可调档位。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-28</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-28</link>
-      <guid isPermaLink="false">2026-05-28</guid>
-      <pubDate>Thu, 28 May 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 即将以 **9000 亿美元**估值收尾新一轮 300 亿美元融资，超越 OpenAI 登顶全球 AI 初创估值榜首；阿里云 Qwen Cloud 正式出海，把&quot;Agent 时代的云入口&quot;摆到全球开发者面前。
-• Anthropic 即将以 9000 亿美元估值收尾 300 亿美元巨额融资
-• 阿里云 Qwen Cloud 出海，全栈 Agent 云入口同步登场
-• Fireworks AI 估值四倍跳涨至 150 亿美元，推理基础设施再受热捧
-• xAI 推出 Grok Skills，把&quot;持久记忆 + 可编程工作空间&quot;塞进 Agent
-• OpenAI GPT-5.6 后端日志泄露：上下文窗口冲到 150 万 tokens — 多名开发者在 Codex 后端发现内部代号 iris-alpha / ember-alpha / beacon-alpha，预计 6 月发布；GPT-5.5 仅 4 月底才上线，迭代节奏明显加快。来源（IT之家）</description>
     </item>
   </channel>
 </rss>
