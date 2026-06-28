@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 02:02:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 02:05:35 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-28</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-28</link>
+      <guid isPermaLink="false">2026-06-28</guid>
+      <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 限量预览 GPT-5.6 三件套（Sol/Terra/Luna）但发布权交美政府把关；Anthropic Mythos 5 解禁、却同步指控阿里巴巴用 25,000 假账号&quot;蒸馏&quot;Claude，地缘 AI 战火烧到模型权重。
+• OpenAI 启动 GPT-5.6 限量预览，三档模型主打 Agent 编程
+• 美政府部分解禁 Anthropic Mythos 5，100+ 公司机构获授权使用
+• Anthropic 指控阿里巴巴用 25,000 个假账号&quot;蒸馏&quot; Claude 编程能力
+• DeepSeek 完成首轮 74 亿美元外部融资，估值约 590 亿美元 — Hangzhou 总部的 DeepSeek 于 6 月 16 日完成成立以来首次外部融资，募资约 50,000,000,000 元人民币（约 74 亿美元），投后估值 520–590 亿美元，由腾讯、CATL 领投；条款不附带投资者投票权，创始人保留绝对控制权。finsmes 报道 · VKTR：投资者无投票权细节
+• Anthropic 发布 6 月 Economic Index：Claude 影响经济活动小时级采样研究 — Anthropic 官方于 6 月 26 日发布最新一期&quot;经济影响指数&quot;，首次以小时为粒度采样 Claude 在编程、写作、客服等场景下的使用分布，为政策制定者提供 Agent 渗透率参考。Anthropic Research</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-27</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-27</link>
@@ -354,18 +366,6 @@
 • 阿里 Qoder 上线 Cloud Agents，企业 Agent 上线周期从 1 月压到 1 天
 • 腾讯混元发布 Hy-Memory，长期协作型 Agent 的&quot;第二大脑&quot;
 • Anthropic Claude Opus 4.8 全平台上线，新增 Dynamic Workflows — 单次会话调度数百并行子 Agent，11 天重写 75 万行代码、99.8% 测试通过；定价仍为 $5/$25 per M tokens。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-29</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-29</link>
-      <guid isPermaLink="false">2026-05-29</guid>
-      <pubDate>Fri, 29 May 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 旗舰模型 Claude Opus 4.8 正式上线，编程与 Agent 能力刷新榜单；DeepSeek 组建 Harness 团队对标 Claude Code，国产 Agent 产品化进入加速期。
-• Anthropic 发布 Claude Opus 4.8，强化 Agent 与编程能力
-• 昆仑万维发布 SkyClaw-v1.0，国产 Agent 模型杀入第一梯队
-• DeepSeek 组建 Harness 团队对标 Claude Code
-• Anthropic 同步上线 Claude Code Dynamic Workflows 研究预览 — 单任务可调度数百并行子 Agent，支持完成数十万行代码库迁移，定价沿用 Opus 4.8 主线。来源
-• 腾讯科技：Claude Opus 4.8&quot;更诚实、可控制 effort&quot; — 用户可在 claude.ai 直接调节模型投入任务的算力，配合 Fast Mode 形成成本-性能可调档位。来源</description>
     </item>
   </channel>
 </rss>
