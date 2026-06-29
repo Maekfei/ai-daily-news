@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 Jun 2026 02:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 02:09:17 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-29</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-29</link>
+      <guid isPermaLink="false">2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
+      <description>Cursor 在 Compile 大会推出首款 1.5T 自训模型与 Agent 原生 Git 平台 Origin，正面狙击 GitHub；马斯克透露 SpaceX 将&quot;月度从零训练全新模型&quot;，算力军备进入新节奏。
+• Cursor 发布首款自研大模型，同步推出 Agent 原生 Git 平台 Origin
+• xAI/SpaceX 宣布&quot;月度从头训练全新大模型&quot;路线图
+• OpenAI × 博通自研推理芯片 Jalapeño 落地，瞄准推理成本砍半
+• OpenAI 发布 GPT-5.6 系列（Sol / Terra / Luna） — 旗舰版 Sol 在 Terminal-Bench 2.1 标准模式拿下 88.8%，开启 Ultra 子智能体模式后达 91.9%，超过 Claude Mythos 5（88.0%）；Sol API 定价 5/30 美元每百万 token，约为 Claude Fable 5 的一半，但全系首次被标记网络安全 + 生化 &quot;高风险&quot; 等级。新浪财经
+• 智谱 GLM-5.2 全量开放并开源 — 6 月 17 日上线，专攻 Coding 与长程任务，在百万用户参与的 Code Arena 盲测中位列全球可用模型第一，参数规模与训练细节同步发布；继 GLM-4.5/4.7 后再迭代。腾讯新闻</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-28</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-28</link>
@@ -354,18 +366,6 @@
 • OpenAI GPT-5.6 下月发布，150 万 Token 上下文剑指&quot;超级智能体&quot;
 • 中国信通院联合三大运营商发布 ATH 1.0：全球首个 Agent 可信握手协议
 • DeepSeek 联合 CodeAgent 发布《From Copilots to Coworkers》：99% 由 AI 自己写</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-30</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-30</link>
-      <guid isPermaLink="false">2026-05-30</guid>
-      <pubDate>Sat, 30 May 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 完成 650 亿美元 H 轮融资、9650 亿美元投后估值首次反超 OpenAI；阶跃星辰开源 Step 3.7 Flash，国内 Agent 模型供给端再加一把火。
-• Anthropic 完成 650 亿美元 H 轮，估值反超 OpenAI 登顶 AI
-• 阶跃星辰开源 Step 3.7 Flash，瞄准生产级 Agent 工作流
-• 阿里 Qoder 上线 Cloud Agents，企业 Agent 上线周期从 1 月压到 1 天
-• 腾讯混元发布 Hy-Memory，长期协作型 Agent 的&quot;第二大脑&quot;
-• Anthropic Claude Opus 4.8 全平台上线，新增 Dynamic Workflows — 单次会话调度数百并行子 Agent，11 天重写 75 万行代码、99.8% 测试通过；定价仍为 $5/$25 per M tokens。来源</description>
     </item>
   </channel>
 </rss>

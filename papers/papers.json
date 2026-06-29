@@ -1,6 +1,132 @@
 {
   "papers": [
     {
+      "id": "hf-2606-27608",
+      "title": "Qwen-Image-2.0-RL Technical Report",
+      "authors": [
+        "Yixian Xu",
+        "Kaiyuan Gao",
+        "Yuxiang Chen",
+        "Yilei Chen",
+        "Zecheng Tang",
+        "Zihao Liu",
+        "Zikai Zhou",
+        "Deqing Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present Qwen-Image-2.0-RL, a post-training pipeline that applies reinforcement learning from human feedback (RLHF) and on-policy distillation (OPD) to improve both the visual quality and instruction-following capability of the Qwen-Image-2.0 diffusion model. To provide reliable reward signals, we construct task-specific composite reward models by fine-tuning vision-language models with a pointwise scoring paradigm and chain-of-thought reasoning. For text-to-image generation, the reward models cover alignment, aesthetics, and portrait fidelit",
+      "url": "https://huggingface.co/papers/2606.27608",
+      "pdf_url": "https://arxiv.org/pdf/2606.27608.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-25",
+      "added": "2026-06-29",
+      "stars": 1
+    },
+    {
+      "id": "hf-2606-27378",
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "authors": [
+        "Fahd Seddik",
+        "Fatemeh Fard"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We introduce an axiomatic evaluation framework for latent thought representations in LLMs, comprising metrics that are independent of downstream benchmark scores and reveal representational failures that benchmark accuracy masks. Existing evaluations conflate representation quality with model capacity. Therefore, failures cannot be attributed to the representation rather than to the model that processes it. We formalize four functional axioms (Causality, Minimality, Separability, and Stability) and define a quantitative measure for each, comput",
+      "url": "https://huggingface.co/papers/2606.27378",
+      "pdf_url": "https://arxiv.org/pdf/2606.27378.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-05-07",
+      "added": "2026-06-29",
+      "stars": 1
+    },
+    {
+      "id": "hf-2606-28128",
+      "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+      "authors": [
+        "Peiwen Zhang",
+        "Yufan Deng",
+        "Shangkun Sun",
+        "Juncheng Ma",
+        "Duomin Wang",
+        "Jonas Du",
+        "Zilin Pan",
+        "Ye Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Video generation models have emerged as a promising paradigm for embodied world simulation. However, both general-domain video generators and robot-specific data fine-tuned models can still produce physically implausible manipulations, including discontinuous motion trajectories and inconsistent robot-object interactions, which limits their reliability as world simulators. Through extensive experiments, we find that such physical instability mainly arises from two factors: deformation of moving objects and implausible spatio-temporal correlatio",
+      "url": "https://huggingface.co/papers/2606.28128",
+      "pdf_url": "https://arxiv.org/pdf/2606.28128.pdf",
+      "tags": [
+        "hf-trending",
+        "robotics"
+      ],
+      "published": "2026-06-26",
+      "added": "2026-06-29",
+      "stars": 1
+    },
+    {
+      "id": "hf-2606-28277",
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "authors": [
+        "Rajesh Jayaram",
+        "Drew Tyler",
+        "David Woodruff",
+        "Corinna Cortes",
+        "Yossi Matias",
+        "Vahab Mirrokni",
+        "Vincent Cohen-Addad"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verification and review process itself. To frame the discussion around this transition, we propose a taxonomy consisting of four progressive levels of AI-human c",
+      "url": "https://huggingface.co/papers/2606.28277",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-06-26",
+      "added": "2026-06-29",
+      "stars": 0
+    },
+    {
+      "id": "hf-2606-28276",
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "authors": [
+        "Nadun Ranawaka",
+        "Josiah Wong",
+        "Wei-Lin Pai",
+        "Wei-Teng Chu",
+        "Tianyuan Dai",
+        "Masoud Moghani",
+        "Hang Yin",
+        "Yunfan Jiang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Training and evaluating robot policies in the real world is costly and difficult to scale. We introduce SimFoundry, a modular and automated system for zero-shot real-to-sim scene construction from a video. SimFoundry generates sim-ready digital twins and supports object, scene, and task editing, enabling the automated generation of diverse digital cousins: affordance-preserving variations of reconstructed real-world scenes. Policies trained on SimFoundry data transfer zero-shot to challenging real tasks involving multi-step manipulation, articu",
+      "url": "https://huggingface.co/papers/2606.28276",
+      "pdf_url": "https://arxiv.org/pdf/2606.28276.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-06-26",
+      "added": "2026-06-29",
+      "stars": 0
+    },
+    {
       "id": "hf-2606-26025",
       "title": "In-Context World Modeling for Robotic Control",
       "authors": [
@@ -23,7 +149,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-28",
-      "stars": 42
+      "stars": 51
     },
     {
       "id": "hf-2606-26790",
@@ -50,7 +176,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-28",
-      "stars": 40
+      "stars": 46
     },
     {
       "id": "hf-2606-26300",
@@ -77,7 +203,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-28",
-      "stars": 38
+      "stars": 41
     },
     {
       "id": "hf-2606-27313",
@@ -103,7 +229,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-28",
-      "stars": 37
+      "stars": 38
     },
     {
       "id": "hf-2606-18394",
@@ -130,7 +256,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-28",
-      "stars": 29
+      "stars": 31
     },
     {
       "id": "hf-2606-24551",
@@ -156,7 +282,7 @@
       ],
       "published": "2026-06-22",
       "added": "2026-06-28",
-      "stars": 25
+      "stars": 28
     },
     {
       "id": "hf-2606-14397",
@@ -183,7 +309,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-28",
-      "stars": 15
+      "stars": 17
     },
     {
       "id": "hf-2606-26027",
@@ -208,7 +334,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-28",
-      "stars": 15
+      "stars": 16
     },
     {
       "id": "hf-2606-27192",
@@ -233,6 +359,31 @@
       "published": "2026-06-25",
       "added": "2026-06-28",
       "stars": 13
+    },
+    {
+      "id": "hf-2606-21795",
+      "title": "Discretizing Reward Models",
+      "authors": [
+        "Vijay Viswanathan",
+        "Shiqi Wang",
+        "Devamanyu Hazarika",
+        "Chirag Nagpal",
+        "Tongshuang Wu",
+        "Graham Neubig",
+        "Yuning Mao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Despite their widespread use, the role of reward models in shaping reinforcement learning is poorly understood. Reward models offer a tempting promise: they automatically estimate response quality in the absence of verifiers or human judges. Unlike \"verifiable rewards\" which typically produce binary scores, reward models typically produce continuous scores, allowing them to be sensitive to fine-grained differences in responses. However, we show this apparent strength is a serious weakness: many popular reward models are oversensitive, assigning",
+      "url": "https://huggingface.co/papers/2606.21795",
+      "pdf_url": "https://arxiv.org/pdf/2606.21795.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-06-19",
+      "added": "2026-06-28",
+      "stars": 10
     },
     {
       "id": "hf-2606-26875",
@@ -304,7 +455,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-28",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2606-16613",
@@ -332,32 +483,7 @@
       ],
       "published": "2026-06-15",
       "added": "2026-06-28",
-      "stars": 7
-    },
-    {
-      "id": "hf-2606-21795",
-      "title": "Discretizing Reward Models",
-      "authors": [
-        "Vijay Viswanathan",
-        "Shiqi Wang",
-        "Devamanyu Hazarika",
-        "Chirag Nagpal",
-        "Tongshuang Wu",
-        "Graham Neubig",
-        "Yuning Mao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Despite their widespread use, the role of reward models in shaping reinforcement learning is poorly understood. Reward models offer a tempting promise: they automatically estimate response quality in the absence of verifiers or human judges. Unlike \"verifiable rewards\" which typically produce binary scores, reward models typically produce continuous scores, allowing them to be sensitive to fine-grained differences in responses. However, we show this apparent strength is a serious weakness: many popular reward models are oversensitive, assigning",
-      "url": "https://huggingface.co/papers/2606.21795",
-      "pdf_url": "https://arxiv.org/pdf/2606.21795.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-19",
-      "added": "2026-06-28",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2606-27288",
@@ -507,7 +633,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-26",
-      "stars": 44
+      "stars": 45
     },
     {
       "id": "hf-2606-26907",
@@ -533,7 +659,7 @@
       ],
       "published": "2026-06-25",
       "added": "2026-06-26",
-      "stars": 40
+      "stars": 42
     },
     {
       "id": "hf-2606-26087",
@@ -646,7 +772,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-26",
-      "stars": 25
+      "stars": 26
     },
     {
       "id": "hf-2606-26217",
@@ -666,7 +792,7 @@
       ],
       "published": "2026-06-24",
       "added": "2026-06-26",
-      "stars": 22
+      "stars": 24
     },
     {
       "id": "hf-2602-09379",
@@ -1880,135 +2006,6 @@
       "published": "2026-06-22",
       "added": "2026-06-24",
       "stars": 7
-    },
-    {
-      "id": "hf-2606-20002",
-      "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning",
-      "authors": [
-        "Yanxi Chen",
-        "Weijie Shi",
-        "Yuexiang Xie",
-        "Boyi Hu",
-        "Yaliang Li",
-        "Bolin Ding",
-        "Jingren Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "This work presents a general framework for training large language models (LLMs) to \"Connect the Dots\" (CoD), a meta-capability required by long-lifecycle agents: as an LLM-based AI agent gets deployed in an environment, it solves a long sequence of tasks while continuously exploring the environment, learning from its own experiences, and iteratively self-updating its context about the environment, thereby achieving progressively better performance on future tasks conditioned on the updated context. Major components of the CoD framework include",
-      "url": "https://huggingface.co/papers/2606.20002",
-      "pdf_url": "https://arxiv.org/pdf/2606.20002.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-06-18",
-      "added": "2026-06-24",
-      "stars": 7
-    },
-    {
-      "id": "hf-2606-23608",
-      "title": "Causal Discovery in the Era of Agents",
-      "authors": [
-        "Yujia Zheng",
-        "Vishal Verma",
-        "Mantej Gill",
-        "Haoyue Dai",
-        "Peter Spirtes",
-        "Kun Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent attempts to combine large language models (LLMs) with causal discovery ask models to infer pairwise directions, propose graph structures, or inject language-model outputs as priors and constraints. These approaches promise faster analysis, but they also obscure whether a causal evidence is supported by data and assumptions or by textual associations, prompt artifacts and hallucinated mechanisms. We argue for a different role for agents in causal discovery. Agents should inspect data, retrieve context, explain method assumptions and clari",
-      "url": "https://huggingface.co/papers/2606.23608",
-      "pdf_url": "https://arxiv.org/pdf/2606.23608.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-06-22",
-      "added": "2026-06-24",
-      "stars": 6
-    },
-    {
-      "id": "hf-2606-21627",
-      "title": "Counsel: A Meta-Evaluation Dataset for Agentic Tasks",
-      "authors": [
-        "Sashank Pisupati",
-        "Henry Broomfield",
-        "Eujeong Choi",
-        "Antonia Calvi",
-        "Charlie Wang",
-        "Roman Engeler",
-        "Max Bartolo",
-        "Patrick Lewis"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As agentic systems tackle increasingly complex multi-step tasks, evaluating their trajectories presents a major bottleneck - human annotation of a single trajectory on popular agentic benchmarks can take hours, making it difficult to scale evaluations for measuring performance or curating training data. This has driven widespread reliance on automated approaches such as LLM-as-a-judge (LLMJ) to critique agents at the process and outcome-levels at scale, however, the soundness of LLMJ critiques often goes unmeasured. Here, we introduce Counsel,",
-      "url": "https://huggingface.co/papers/2606.21627",
-      "pdf_url": "https://arxiv.org/pdf/2606.21627.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-06-19",
-      "added": "2026-06-24",
-      "stars": 5
-    },
-    {
-      "id": "hf-2606-23557",
-      "title": "Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views",
-      "authors": [
-        "Jiho Choi",
-        "Seonho Lee",
-        "Seojeong Park",
-        "Hyunjung Shim"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multi-view 3D Visual Question Answering (MV3D-VQA) requires integrating partial observations into a coherent 3D scene representation and selecting informative viewpoints for multi-step spatial reasoning. However, current multimodal LLMs are typically trained with sparse, answer-level supervision, which often yields inconsistent cross-view reasoning and brittle view selection. We present DR-MV3D (Dense Reward for MV3D-VQA), a map-grounded learning framework that provides dense, verifiable rewards to supervise the reasoning process. Our approach",
-      "url": "https://huggingface.co/papers/2606.23557",
-      "pdf_url": "https://arxiv.org/pdf/2606.23557.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "multimodal"
-      ],
-      "published": "2026-06-22",
-      "added": "2026-06-24",
-      "stars": 4
-    },
-    {
-      "id": "hf-2606-22540",
-      "title": "PolicyTrim: Boosting Intrinsic Policy Efficiency of Vision-Language-Action Models",
-      "authors": [
-        "Xianghui Wang",
-        "Feng Chen",
-        "Wenbo Zhang",
-        "Hua Yan",
-        "Zixuan Wang",
-        "Changsheng Li",
-        "Yinjie Lei"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models provide a unified paradigm for robotic manipulation, yet their real-world deployment is often bottlenecked by execution efficiency. While existing efforts predominantly focus on compute-centric efficiency to reduce per-step inference latency, the intrinsic policy efficiency of these models remains largely unexplored. Policy efficiency is fundamentally affected by two factors, namely the effective executable length of predicted action chunks and the total physical steps required to complete a task. These two f",
-      "url": "https://huggingface.co/papers/2606.22540",
-      "pdf_url": "https://arxiv.org/pdf/2606.22540.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-06-21",
-      "added": "2026-06-24",
-      "stars": 4
     }
   ]
 }
