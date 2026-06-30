@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 02:09:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 02:08:13 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-06-30</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-30</link>
+      <guid isPermaLink="false">2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
+      <description>国家市场监管总局发布《人工智能 智能体互联》7 项国家标准；General Intuition 完成 3.2 亿美元 A 轮融资，估值 23 亿美元，押注游戏数据训练具身智能体。
+• 中国发布《人工智能 智能体互联》系列 7 项国家标准
+• General Intuition 完成 3.2 亿美元 A 轮，估值 23 亿美元
+• OpenAI 发布 GPT-5.6 系列：Sol/Terra/Luna 三档登场
+• 英伟达×剑桥发布&quot;红皇后哥德尔机&quot;：Agent 与评测器协同进化
+• Liblib 母公司演语科技完成近 3 亿美元 B+ 轮，估值超 20 亿美元 — 由 Granite Asia、腾讯、顺为联合领投，距上一轮仅 8 个月，ARR 突破 3 亿美元，跻身 AI 应用层独角兽。腾讯新闻</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-29</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-29</link>
@@ -354,18 +366,6 @@
 • OpenRouter 完成 1.13 亿美元 B 轮融资，估值翻倍至 13 亿美元
 • DeepSeek-V4-Pro API 永久降价 75% — 5 月 22 日 DeepSeek 官网更新定价：原 5 月 31 日到期的 2.5 折促销活动结束后，V4-Pro 输入价格永久从 $1.74/M tokens 调整为 $0.435/M tokens、输出从 $3.48 降至 $0.87，正式将促销价&quot;焊死&quot;为长期定价，引发全球 LLM API 价格战新一轮重定价讨论。来源
 • 月之暗面（Moonshot AI）启动赴港 IPO 评估 — 据彭博，Kimi 母公司估值 3 个月内从 43 亿美元飙升至 180 亿美元，已与中金、高盛接洽上市事宜，可能与智谱、MiniMax 同台竞争&quot;A 股/港股大模型第一股&quot;。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-05-31</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-05-31</link>
-      <guid isPermaLink="false">2026-05-31</guid>
-      <pubDate>Sun, 31 May 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 凭借企业端高增长把估值推过 OpenAI、成全球最贵 AI 公司；Claude Opus 4.8 携 Dynamic Workflows 把 Agent 编排带进生产环境。
-• Anthropic 估值反超 OpenAI，Claude 在企业端跑通商业闭环
-• Anthropic 推出 Claude Opus 4.8 与 Dynamic Workflows，Agent 进入&quot;动态编排&quot;时代
-• OpenAI GPT-5.6 下月发布，150 万 Token 上下文剑指&quot;超级智能体&quot;
-• 中国信通院联合三大运营商发布 ATH 1.0：全球首个 Agent 可信握手协议
-• DeepSeek 联合 CodeAgent 发布《From Copilots to Coworkers》：99% 由 AI 自己写</description>
     </item>
   </channel>
 </rss>
