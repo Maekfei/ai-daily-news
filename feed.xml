@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 02:08:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 02:04:33 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-01</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-01</link>
+      <guid isPermaLink="false">2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 传出通过软硬件协同将模型推理成本压缩一半的内部方案；Om AI 联汇发布端侧原生「物理 AI」VLX 系列，Agent 从虚拟走向物理世界的节奏加快。
+• Om AI 联汇发布端侧原生 VLX 系列，主打物理 AI 三段闭环
+• OpenAI 内部：多项优化叠加自研 Jalapeño 芯片，推理成本可降 50%+
+• Cognition 完成 10 亿美元融资，Devin 年化收入 12 个月暴涨 12 倍
+• Google DeepMind 发布 Nano Banana 2 Lite 与 Gemini Omni Flash — 6 月 30 日推出两款生成式模型，Nano Banana 2 Lite 主打轻量图像生成，Omni Flash 面向低延迟视频合成，均已开放开发者预览。hyper.ai 报道
+• DeepSeek 低调更新论文 DSpark，梁文锋署名 — 6 月 27 日在 GitHub 发布推理加速框架 DSpark，聚焦高并发场景 tokens/s 提升，延续「让模型更快」而非「让模型更大」的路线。新浪科技</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-06-30</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-06-30</link>
@@ -354,18 +366,6 @@
 • Anthropic 发布 Claude Opus 4.8，Coding 与 Agent 能力再升级
 • Anthropic 完成 650 亿美元融资，估值 9650 亿美元逼近万亿 — H 轮新融资完成后估值约 965 billion，为 IPO 铺路；Claude API 需求暴涨被列为主要驱动。TechCrunch
 • NVIDIA 在 GTC Taipei 2026 发布 Nemotron 3 Ultra — 千亿参数级开源混合 SSM-MoE 架构模型，专为智能体推理与行动场景优化，推理速度提升 5 倍、成本下降约 30%。每经/搜狐科技转载</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-01</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-01</link>
-      <guid isPermaLink="false">2026-06-01</guid>
-      <pubDate>Mon, 01 Jun 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 完成 650 亿美元 H 轮融资、估值 9650 亿美元首次反超 OpenAI；DeepSeek 将 V4-Pro API 永久降至原价 1/4，全球 LLM API 价格战进入新阶段。
-• Anthropic（Claude 母公司）完成 650 亿美元 H 轮融资，估值 9650 亿美元
-• Anthropic 发布 Claude Opus 4.8，主打动态工作流与 Agent 编码
-• OpenRouter 完成 1.13 亿美元 B 轮融资，估值翻倍至 13 亿美元
-• DeepSeek-V4-Pro API 永久降价 75% — 5 月 22 日 DeepSeek 官网更新定价：原 5 月 31 日到期的 2.5 折促销活动结束后，V4-Pro 输入价格永久从 $1.74/M tokens 调整为 $0.435/M tokens、输出从 $3.48 降至 $0.87，正式将促销价&quot;焊死&quot;为长期定价，引发全球 LLM API 价格战新一轮重定价讨论。来源
-• 月之暗面（Moonshot AI）启动赴港 IPO 评估 — 据彭博，Kimi 母公司估值 3 个月内从 43 亿美元飙升至 180 亿美元，已与中金、高盛接洽上市事宜，可能与智谱、MiniMax 同台竞争&quot;A 股/港股大模型第一股&quot;。来源</description>
     </item>
   </channel>
 </rss>
