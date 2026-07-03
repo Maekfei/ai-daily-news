@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 02:05:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 02:05:10 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-03</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-03</link>
+      <guid isPermaLink="false">2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 10:00:00 +0800</pubDate>
+      <description>快手可灵 AI 敲定 30 亿美元融资、估值 180 亿冲刺港股 IPO；OpenAI 提议向美国政府无偿划转 5% 股权，AI 治理进入&quot;公共持股&quot;新叙事。
+• 阿里整合 QoderWork / 悟空 / MuleRun 三大 Agent 产品线
+• xAI 发布 Voice Agent Builder 测试版：2 分钟搭建生产级语音 Agent
+• 2026 中国 AI 智能体大会杭州开幕：Agent 从概念转入工程化
+• OpenAI 提议无偿划转 5% 股权设立&quot;全民 AI 基金&quot; — 据金融时报，Sam Altman 已就此与特朗普、商务部长卢特尼克、财长贝森特沟通；按 8000 亿美元估值折合约 400 亿美元，参照阿拉斯加永久基金模式。同时呼吁谷歌、Meta、Anthropic 效仿。IT之家
+• Anthropic 恢复 Claude Fable 5 全球访问 — 6 月 30 日美方解除因亚马逊报告的 jailbreak 而设置的出口管制，历时 20 天。Anthropic 补充新分类器，声称对该越狱手法拦截率超过 99%。The Hacker News</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-02</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-02</link>
@@ -354,18 +366,6 @@
 • Anthropic 秘密递交 S-1，估值约 9650 亿美元
 • 腾讯微信 AI 智能体进入内测，开放超十亿用户入口
 • 特朗普签署 AI 自愿审查行政令 — 6 月 2 日特朗普正式签署&quot;妥协版&quot;行政令，要求前沿 AI 模型发布前 30 天自愿向政府提交安全测试评估，原计划的 90 天强制访问期在业界游说后被缩短。钛媒体 / 今日头条</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-03</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-03</link>
-      <guid isPermaLink="false">2026-06-03</guid>
-      <pubDate>Wed, 03 Jun 2026 10:00:00 +0800</pubDate>
-      <description>微软 Build 2026 全面押注「Windows 即 Agent 平台」并端出自研 MAI 模型家族；OpenAI 时隔六年重启机器人业务，AI Agent 战火从云端烧向操作系统与物理世界。
-• 微软 Build 2026：Windows 升级为 Agent 平台，开源 Agent Framework
-• 微软发布自研 MAI 模型家族，Project Polaris 取代 GPT-4 Turbo 驱动 Copilot
-• OpenAI 时隔六年重启机器人业务，组建 OpenAI Robotics 团队
-• OpenAI 把 Codex Computer Use 上线 Windows，加入移动端控制
-• Anthropic 完成 65 亿美元 Series H，估值 9650 亿 — 上一周官宣的 Series H 仍是本周资金面支柱，965B 后估值首次让 Anthropic 在私募估值上超越 OpenAI，被普遍视为 IPO 前最后一轮。来源</description>
     </item>
   </channel>
 </rss>
