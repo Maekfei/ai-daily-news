@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 02:05:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 02:05:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-04</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-04</link>
+      <guid isPermaLink="false">2026-07-04</guid>
+      <pubDate>Sat, 04 Jul 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 提议向美国政府赠予 5% 股权（约 426 亿美元）以化解政治压力；Anthropic 发布 Claude Sonnet 5，主打最强 Agent 属性。
+• Anthropic 发布 Claude Sonnet 5，主打 Agent 能力
+• OpenAI 提议美国政府持股 5%，估值 852 亿美元
+• Together AI 完成 8 亿美元 C 轮，估值 83 亿美元
+• Meta 筹建云业务，拟对外出售富余 AI 算力
+• Anthropic 同步发布 Claude Science 科研工作台 — 与 Sonnet 5 同一天推出面向科研人员的 AI 工作台，主打文献综述、假设生成与代码验证一体化。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-03</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-03</link>
@@ -354,18 +366,6 @@
 • 多家手机厂商与微信合作落地 AI 智能体
 • 博通（Broadcom）Q3 AI 营收指引 160 亿美元低于预期 — Broadcom 公布 FY2026 Q2 财报，AI 半导体营收 108 亿美元同比 +143%，但 Q3 AI 营收指引&quot;仅&quot;160 亿美元（市场预期 163 亿美元），股价 6 月 4 日单日暴跌 12.6%，引发市场对 AI 资本支出兑现节奏的重新定价。Broadcom IR 公告 / 财新
 • Anthropic 企业 ARR 跃升至约 400 亿美元 — The Information 数据：Anthropic 企业级年化收入从 2025 年 12 月的 90 亿美元飙升至 2026 年 5 月的约 400 亿美元，已超过 OpenAI 同期约 250 亿美元的 ARR，成为首个企业市场反超 OpenAI 的玩家；Anthropic 同期估值已达 9650 亿美元。The Information 数据综合</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-04</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-04</link>
-      <guid isPermaLink="false">2026-06-04</guid>
-      <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
-      <description>微软 Build 2026 一口气发七款 MAI 自研模型并宣告 &quot;Agent 优先&quot; 时代；特朗普签署 AI 模型上市前 30 天自愿审查行政令，全球 Agent 与监管同步加速。
-• 微软 Build 2026：发布 MAI 全系自研模型，宣告&quot;Agent 优先&quot;时代
-• OpenAI&quot;Intelligence at Work&quot;发布会：Codex 全面并入 ChatGPT
-• Anthropic 秘密递交 S-1，估值约 9650 亿美元
-• 腾讯微信 AI 智能体进入内测，开放超十亿用户入口
-• 特朗普签署 AI 自愿审查行政令 — 6 月 2 日特朗普正式签署&quot;妥协版&quot;行政令，要求前沿 AI 模型发布前 30 天自愿向政府提交安全测试评估，原计划的 90 天强制访问期在业界游说后被缩短。钛媒体 / 今日头条</description>
     </item>
   </channel>
 </rss>
