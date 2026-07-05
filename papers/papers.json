@@ -25,7 +25,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 41
+      "stars": 44
     },
     {
       "id": "hf-2607-02440",
@@ -52,7 +52,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 40
+      "stars": 41
     },
     {
       "id": "hf-2606-31825",
@@ -81,7 +81,7 @@
       ],
       "published": "2026-06-30",
       "added": "2026-07-04",
-      "stars": 15
+      "stars": 18
     },
     {
       "id": "hf-2607-01874",
@@ -127,27 +127,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
-      "stars": 12
-    },
-    {
-      "id": "hf-2607-02508",
-      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
-      "authors": [
-        "Dengyang Jiang",
-        "Mengmeng Wang",
-        "Harry Yang",
-        "Jingdong Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling, remains under-examined: Self-Flow attributes its gain to interactions between tokens at different noise levels, where cleaner tokens help infer nois",
-      "url": "https://huggingface.co/papers/2607.02508",
-      "pdf_url": "https://arxiv.org/pdf/2607.02508.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 10
+      "stars": 14
     },
     {
       "id": "hf-2607-02271",
@@ -172,7 +152,50 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 9
+      "stars": 13
+    },
+    {
+      "id": "hf-2607-01224",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "authors": [
+        "Shengguang Wu",
+        "Hao Zhu",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exer",
+      "url": "https://huggingface.co/papers/2607.01224",
+      "pdf_url": "https://arxiv.org/pdf/2607.01224.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl"
+      ],
+      "published": "2026-07-01",
+      "added": "2026-07-04",
+      "stars": 12
+    },
+    {
+      "id": "hf-2607-02508",
+      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+      "authors": [
+        "Dengyang Jiang",
+        "Mengmeng Wang",
+        "Harry Yang",
+        "Jingdong Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling, remains under-examined: Self-Flow attributes its gain to interactions between tokens at different noise levels, where cleaner tokens help infer nois",
+      "url": "https://huggingface.co/papers/2607.02508",
+      "pdf_url": "https://arxiv.org/pdf/2607.02508.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-04",
+      "stars": 10
     },
     {
       "id": "hf-2606-27669",
@@ -200,29 +223,6 @@
       "stars": 8
     },
     {
-      "id": "hf-2607-01224",
-      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
-      "authors": [
-        "Shengguang Wu",
-        "Hao Zhu",
-        "Yuhui Zhang",
-        "Xiaohan Wang",
-        "Serena Yeung-Levy"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exer",
-      "url": "https://huggingface.co/papers/2607.01224",
-      "pdf_url": "https://arxiv.org/pdf/2607.01224.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-04",
-      "stars": 6
-    },
-    {
       "id": "hf-2607-02032",
       "title": "PACE: A Proxy for Agentic Capability Evaluation",
       "authors": [
@@ -248,30 +248,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-02375",
-      "title": "Representation Distribution Matching for One-Step Visual Generation",
-      "authors": [
-        "Lan Feng",
-        "Wuyang Li",
-        "Eloi Zablocki",
-        "Matthieu Cord",
-        "Alexandre Alahi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong and scalable objective once estimated right. Seco",
-      "url": "https://huggingface.co/papers/2607.02375",
-      "pdf_url": "https://arxiv.org/pdf/2607.02375.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 4
+      "stars": 6
     },
     {
       "id": "hf-2607-02466",
@@ -296,7 +273,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2607-01763",
@@ -322,7 +299,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-29961",
@@ -349,7 +326,30 @@
       ],
       "published": "2026-06-29",
       "added": "2026-07-04",
-      "stars": 3
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-02375",
+      "title": "Representation Distribution Matching for One-Step Visual Generation",
+      "authors": [
+        "Lan Feng",
+        "Wuyang Li",
+        "Eloi Zablocki",
+        "Matthieu Cord",
+        "Alexandre Alahi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong and scalable objective once estimated right. Seco",
+      "url": "https://huggingface.co/papers/2607.02375",
+      "pdf_url": "https://arxiv.org/pdf/2607.02375.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-04",
+      "stars": 4
     },
     {
       "id": "hf-2606-25178",
@@ -398,7 +398,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2607-02512",
@@ -421,7 +421,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 58
+      "stars": 72
     },
     {
       "id": "hf-2606-28322",
@@ -448,50 +448,7 @@
       ],
       "published": "2026-06-26",
       "added": "2026-07-03",
-      "stars": 36
-    },
-    {
-      "id": "hf-2607-00466",
-      "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
-      "authors": [
-        "Sangjin Choi",
-        "Sukmin Cho",
-        "Yifan Xiong",
-        "Ziyue Yang",
-        "Youngjin Kwon",
-        "Peng Cheng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router for PD-disaggregated MoE serving. From a request's prefill expert activations, ELDR builds an expert signature predicting the experts it will activate du",
-      "url": "https://huggingface.co/papers/2607.00466",
-      "pdf_url": "https://arxiv.org/pdf/2607.00466.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-03",
-      "stars": 23
-    },
-    {
-      "id": "hf-2607-00248",
-      "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
-      "authors": [
-        "Bytedance Seed"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users' genuine needs and constructing a reliable, forward-looking evaluation system by selecting and abstracting benchmarks grounded in these needs and in realistic, complex scenarios. Guided by this evaluation system, Seed2.0 targets two persistent challenges, long-tail knowledge and complex instruction following, substantially improving the model's reliability on intricate, long-horizon tasks. Beyond t",
-      "url": "https://huggingface.co/papers/2607.00248",
-      "pdf_url": "https://arxiv.org/pdf/2607.00248.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-03",
-      "stars": 23
+      "stars": 38
     },
     {
       "id": "hf-2607-01647",
@@ -516,6 +473,49 @@
         "benchmark"
       ],
       "published": "2026-07-02",
+      "added": "2026-07-03",
+      "stars": 25
+    },
+    {
+      "id": "hf-2607-00466",
+      "title": "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving",
+      "authors": [
+        "Sangjin Choi",
+        "Sukmin Cho",
+        "Yifan Xiong",
+        "Ziyue Yang",
+        "Youngjin Kwon",
+        "Peng Cheng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router for PD-disaggregated MoE serving. From a request's prefill expert activations, ELDR builds an expert signature predicting the experts it will activate du",
+      "url": "https://huggingface.co/papers/2607.00466",
+      "pdf_url": "https://arxiv.org/pdf/2607.00466.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-01",
+      "added": "2026-07-03",
+      "stars": 24
+    },
+    {
+      "id": "hf-2607-00248",
+      "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+      "authors": [
+        "Bytedance Seed"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users' genuine needs and constructing a reliable, forward-looking evaluation system by selecting and abstracting benchmarks grounded in these needs and in realistic, complex scenarios. Guided by this evaluation system, Seed2.0 targets two persistent challenges, long-tail knowledge and complex instruction following, substantially improving the model's reliability on intricate, long-horizon tasks. Beyond t",
+      "url": "https://huggingface.co/papers/2607.00248",
+      "pdf_url": "https://arxiv.org/pdf/2607.00248.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-06-30",
       "added": "2026-07-03",
       "stars": 23
     },
@@ -602,29 +602,6 @@
       "stars": 20
     },
     {
-      "id": "hf-2607-00666",
-      "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
-      "authors": [
-        "Taewook Kang",
-        "Taeheon Kim",
-        "Donghyun Shin",
-        "Jonghyun Choi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires training on multiple demonstrations for each task, which are costly to collect. To reduce the burden of data curation and training, we propose an analogy-based method that adapts VLA models under environmental shifts through weight vector arithmetic wi",
-      "url": "https://huggingface.co/papers/2607.00666",
-      "pdf_url": "https://arxiv.org/pdf/2607.00666.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-03",
-      "stars": 16
-    },
-    {
       "id": "hf-2607-00272",
       "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
       "authors": [
@@ -650,6 +627,29 @@
         "robotics"
       ],
       "published": "2026-06-30",
+      "added": "2026-07-03",
+      "stars": 18
+    },
+    {
+      "id": "hf-2607-00666",
+      "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
+      "authors": [
+        "Taewook Kang",
+        "Taeheon Kim",
+        "Donghyun Shin",
+        "Jonghyun Choi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires training on multiple demonstrations for each task, which are costly to collect. To reduce the burden of data curation and training, we propose an analogy-based method that adapts VLA models under environmental shifts through weight vector arithmetic wi",
+      "url": "https://huggingface.co/papers/2607.00666",
+      "pdf_url": "https://arxiv.org/pdf/2607.00666.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-07-01",
       "added": "2026-07-03",
       "stars": 16
     },
@@ -677,7 +677,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 12
+      "stars": 14
     },
     {
       "id": "hf-2607-01191",
@@ -733,6 +733,28 @@
       "published": "2026-07-01",
       "added": "2026-07-03",
       "stars": 11
+    },
+    {
+      "id": "hf-2607-00924",
+      "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
+      "authors": [
+        "Subhadeep Pal",
+        "Shashwat Sourav",
+        "Tirthankar Ghosal",
+        "Markus J. Buehler"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Accelerating materials discovery requires AI systems that can generate scientifically valid hypotheses through multi-step, domain-grounded reasoning. Standard large language models often produce fluent but weakly traceable responses to open-ended materials design problems, making it difficult to determine whether final answers are supported by coherent intermediate reasoning. We develop Graph-PRefLexOR, a family of graph-native reasoning models fine-tuned with Group Relative Policy Optimization (GRPO) to organize reasoning into explicit phases",
+      "url": "https://huggingface.co/papers/2607.00924",
+      "pdf_url": "https://arxiv.org/pdf/2607.00924.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-07-01",
+      "added": "2026-07-03",
+      "stars": 9
     },
     {
       "id": "hf-2606-31551",
@@ -801,28 +823,6 @@
       "stars": 7
     },
     {
-      "id": "hf-2607-00924",
-      "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
-      "authors": [
-        "Subhadeep Pal",
-        "Shashwat Sourav",
-        "Tirthankar Ghosal",
-        "Markus J. Buehler"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Accelerating materials discovery requires AI systems that can generate scientifically valid hypotheses through multi-step, domain-grounded reasoning. Standard large language models often produce fluent but weakly traceable responses to open-ended materials design problems, making it difficult to determine whether final answers are supported by coherent intermediate reasoning. We develop Graph-PRefLexOR, a family of graph-native reasoning models fine-tuned with Group Relative Policy Optimization (GRPO) to organize reasoning into explicit phases",
-      "url": "https://huggingface.co/papers/2607.00924",
-      "pdf_url": "https://arxiv.org/pdf/2607.00924.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-03",
-      "stars": 7
-    },
-    {
       "id": "hf-2607-02269",
       "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
       "authors": [
@@ -879,30 +879,6 @@
       "stars": 7
     },
     {
-      "id": "hf-2607-01211",
-      "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
-      "authors": [
-        "Zhi Chen",
-        "Zhensu Sun",
-        "Yuling Shi",
-        "David Lo",
-        "Lingxiao Jiang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized baselines and official reference patches. Their leaderboard scores are increasingly used as evidence of coding-agent progress, but those scores can conflate runtime instability, benchmark-specific scoring rules, and how many tasks are already solved by at least one public submission. We audit these issues across the three benchmarks. First, we repla",
-      "url": "https://huggingface.co/papers/2607.01211",
-      "pdf_url": "https://arxiv.org/pdf/2607.01211.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-03",
-      "stars": 6
-    },
-    {
       "id": "hf-2606-32029",
       "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
       "authors": [
@@ -925,6 +901,30 @@
         "benchmark"
       ],
       "published": "2026-06-30",
+      "added": "2026-07-03",
+      "stars": 7
+    },
+    {
+      "id": "hf-2607-01211",
+      "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
+      "authors": [
+        "Zhi Chen",
+        "Zhensu Sun",
+        "Yuling Shi",
+        "David Lo",
+        "Lingxiao Jiang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized baselines and official reference patches. Their leaderboard scores are increasingly used as evidence of coding-agent progress, but those scores can conflate runtime instability, benchmark-specific scoring rules, and how many tasks are already solved by at least one public submission. We audit these issues across the three benchmarks. First, we repla",
+      "url": "https://huggingface.co/papers/2607.01211",
+      "pdf_url": "https://arxiv.org/pdf/2607.01211.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-01",
       "added": "2026-07-03",
       "stars": 6
     },
