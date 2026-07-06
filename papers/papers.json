@@ -25,7 +25,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 44
+      "stars": 49
     },
     {
       "id": "hf-2607-02440",
@@ -52,7 +52,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 41
+      "stars": 43
     },
     {
       "id": "hf-2606-31825",
@@ -81,7 +81,7 @@
       ],
       "published": "2026-06-30",
       "added": "2026-07-04",
-      "stars": 18
+      "stars": 20
     },
     {
       "id": "hf-2607-01874",
@@ -106,7 +106,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 14
+      "stars": 15
     },
     {
       "id": "hf-2607-01002",
@@ -124,6 +124,29 @@
         "hf-trending",
         "reasoning",
         "benchmark"
+      ],
+      "published": "2026-07-01",
+      "added": "2026-07-04",
+      "stars": 15
+    },
+    {
+      "id": "hf-2607-01224",
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "authors": [
+        "Shengguang Wu",
+        "Hao Zhu",
+        "Yuhui Zhang",
+        "Xiaohan Wang",
+        "Serena Yeung-Levy"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exer",
+      "url": "https://huggingface.co/papers/2607.01224",
+      "pdf_url": "https://arxiv.org/pdf/2607.01224.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl"
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
@@ -153,29 +176,6 @@
       "published": "2026-07-02",
       "added": "2026-07-04",
       "stars": 13
-    },
-    {
-      "id": "hf-2607-01224",
-      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
-      "authors": [
-        "Shengguang Wu",
-        "Hao Zhu",
-        "Yuhui Zhang",
-        "Xiaohan Wang",
-        "Serena Yeung-Levy"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exer",
-      "url": "https://huggingface.co/papers/2607.01224",
-      "pdf_url": "https://arxiv.org/pdf/2607.01224.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-07-01",
-      "added": "2026-07-04",
-      "stars": 12
     },
     {
       "id": "hf-2607-02508",
@@ -220,7 +220,7 @@
       ],
       "published": "2026-06-26",
       "added": "2026-07-04",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2607-02032",
@@ -248,32 +248,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 6
-    },
-    {
-      "id": "hf-2607-02466",
-      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
-      "authors": [
-        "Junhao Shi",
-        "Siyin Wang",
-        "Xiaopeng Yu",
-        "Li Ji",
-        "Jingjing Gong",
-        "Xipeng Qiu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models are fundamentally bottlenecked by the scarcity of expert demonstrations -- triplets of observations, instructions, and actions that are costly to collect at scale. We argue that this bottleneck stems from conflating two distinct learning objectives: acquiring physical competence (how to move) and acquiring semantic alignment (what to do). Crucially, only the latter requires language supervision. Building on this Decomposition Hypothesis, we propose Task-Agnostic Pretraining (TAP), a two-stage framework that f",
-      "url": "https://huggingface.co/papers/2607.02466",
-      "pdf_url": "https://arxiv.org/pdf/2607.02466.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 5
+      "stars": 7
     },
     {
       "id": "hf-2607-01763",
@@ -299,7 +274,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "hf-2606-29961",
@@ -325,6 +300,31 @@
         "robotics"
       ],
       "published": "2026-06-29",
+      "added": "2026-07-04",
+      "stars": 6
+    },
+    {
+      "id": "hf-2607-02466",
+      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+      "authors": [
+        "Junhao Shi",
+        "Siyin Wang",
+        "Xiaopeng Yu",
+        "Li Ji",
+        "Jingjing Gong",
+        "Xipeng Qiu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models are fundamentally bottlenecked by the scarcity of expert demonstrations -- triplets of observations, instructions, and actions that are costly to collect at scale. We argue that this bottleneck stems from conflating two distinct learning objectives: acquiring physical competence (how to move) and acquiring semantic alignment (what to do). Crucially, only the latter requires language supervision. Building on this Decomposition Hypothesis, we propose Task-Agnostic Pretraining (TAP), a two-stage framework that f",
+      "url": "https://huggingface.co/papers/2607.02466",
+      "pdf_url": "https://arxiv.org/pdf/2607.02466.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-02",
       "added": "2026-07-04",
       "stars": 5
     },
@@ -421,7 +421,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 72
+      "stars": 83
     },
     {
       "id": "hf-2606-28322",
@@ -474,7 +474,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 25
+      "stars": 29
     },
     {
       "id": "hf-2607-00466",
@@ -545,7 +545,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-03",
-      "stars": 22
+      "stars": 23
     },
     {
       "id": "hf-2607-00461",
@@ -947,7 +947,7 @@
       ],
       "published": "2026-06-26",
       "added": "2026-07-03",
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "hf-2606-26040",
@@ -971,6 +971,34 @@
         "benchmark"
       ],
       "published": "2026-06-24",
+      "added": "2026-07-03",
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-00407",
+      "title": "Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising",
+      "authors": [
+        "Tianci Liu",
+        "Zihan Dong",
+        "Linjun Zhang",
+        "Haoyu Wang",
+        "jing Gao",
+        "Emre Kiciman",
+        "Ranveer Chandra",
+        "Wei-Ting Chen"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Slide design requires personalizing both deck themes and page layouts. Yet, current AI agent-based methods struggle with fine-grained, page-level design. Solely relying on prespecified templates or user verbose instructions, they fail to capture latent design intents, leaving Page-level Slide Personalization (PSP) unresolved. To close this gap, this work formulates PSP as an inverse planning problem. We propose to learn a design intent without assuming any knowledge of the specific executing tools (e.g., PowerPoint, Beamer) being used. However,",
+      "url": "https://huggingface.co/papers/2607.00407",
+      "pdf_url": "https://arxiv.org/pdf/2607.00407.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-07-01",
       "added": "2026-07-03",
       "stars": 5
     },
@@ -1020,34 +1048,6 @@
         "multimodal"
       ],
       "published": "2026-06-29",
-      "added": "2026-07-03",
-      "stars": 4
-    },
-    {
-      "id": "hf-2607-00407",
-      "title": "Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising",
-      "authors": [
-        "Tianci Liu",
-        "Zihan Dong",
-        "Linjun Zhang",
-        "Haoyu Wang",
-        "jing Gao",
-        "Emre Kiciman",
-        "Ranveer Chandra",
-        "Wei-Ting Chen"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Slide design requires personalizing both deck themes and page layouts. Yet, current AI agent-based methods struggle with fine-grained, page-level design. Solely relying on prespecified templates or user verbose instructions, they fail to capture latent design intents, leaving Page-level Slide Personalization (PSP) unresolved. To close this gap, this work formulates PSP as an inverse planning problem. We propose to learn a design intent without assuming any knowledge of the specific executing tools (e.g., PowerPoint, Beamer) being used. However,",
-      "url": "https://huggingface.co/papers/2607.00407",
-      "pdf_url": "https://arxiv.org/pdf/2607.00407.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "multimodal"
-      ],
-      "published": "2026-07-01",
       "added": "2026-07-03",
       "stars": 4
     },
