@@ -1,6 +1,259 @@
 {
   "papers": [
     {
+      "id": "hf-2606-29526",
+      "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
+      "authors": [
+        "Jing Liang",
+        "Hongyao Tang",
+        "Yi Ma",
+        "Yancheng He",
+        "Weixun Wang",
+        "Xiaoyang Li",
+        "Ju Huang",
+        "Wenbo Su"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning (RL) has gained growing attention in large language model (LLM) post-training, yet RL training remains fragile and can suffer from instability or collapse. One vital cause is training-inference mismatch: LLM adopts separate inference and training engines for generation efficiency and training precision, which in practice exhibits inconsistent probabilities for the same trajectories on training and inference sides, even with synchronized model parameters. This naturally induces a special type of off-policyness ever existin",
+      "url": "https://huggingface.co/papers/2606.29526",
+      "pdf_url": "https://arxiv.org/pdf/2606.29526.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-06-28",
+      "added": "2026-07-07",
+      "stars": 142
+    },
+    {
+      "id": "hf-2607-02501",
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "authors": [
+        "Ling Xu",
+        "Chuyu Han",
+        "Borui Li",
+        "Hao Wu",
+        "Shiqi Jiang",
+        "Ting Cao",
+        "Chuanyou Li",
+        "Sheng Zhong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are designed mainly for request-response serving and therefore do not satisfy the runtime contract of embodied deployment: multi-rate execution inside closed-loop control, latency-first batch-1 inference on heterogeneous hardware, and extensible embodied i",
+      "url": "https://huggingface.co/papers/2607.02501",
+      "pdf_url": "https://arxiv.org/pdf/2607.02501.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-07",
+      "stars": 37
+    },
+    {
+      "id": "hf-2607-02461",
+      "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+      "authors": [
+        "Donghyun Lee",
+        "Jitesh Chavan",
+        "Duy Nguyen",
+        "Sam Huang",
+        "Liming Jiang",
+        "Priyadarshini Panda",
+        "Timo Mertens",
+        "Saurabh Shukla"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, forcing prior methods to re-fit calibration data for every new checkpoint or modality. We present OrbitQuant, a data-agnostic weight-activation quantizer that bypasses range estimation by quantizing in a normalized, rotated basis. In this basis, a ran",
+      "url": "https://huggingface.co/papers/2607.02461",
+      "pdf_url": "https://arxiv.org/pdf/2607.02461.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-07",
+      "stars": 28
+    },
+    {
+      "id": "hf-2607-01804",
+      "title": "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon",
+      "authors": [
+        "Yi Pan",
+        "Miao Pan",
+        "Qi Lu",
+        "Jiaming Huang",
+        "Man Zhang",
+        "Siteng Huang",
+        "Xin Li",
+        "Jie Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) foundation models have recently achieved strong progress in embodied intelligence. To reduce policy-call frequency while preserving temporal coherence, most generative policies adopt an action chunk mechanism, executing multiple future actions in an open-loop manner under a fixed action horizon. However, this \"predict-then-blindly-execute\" paradigm sacrifices closed-loop reactivity: in contact-rich physical interactions, even small local perturbations can rapidly amplify within the open-loop blind spot, leading to c",
+      "url": "https://huggingface.co/papers/2607.01804",
+      "pdf_url": "https://arxiv.org/pdf/2607.01804.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-07",
+      "stars": 23
+    },
+    {
+      "id": "hf-2606-31227",
+      "title": "Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming",
+      "authors": [
+        "Yong Yang",
+        "Xing Zheng",
+        "Huiyu Wu",
+        "Huangsheng Cheng",
+        "Xiaorong Shi",
+        "Jing Guo",
+        "Bo Yang",
+        "Yi Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The fast growth of open-source AI infrastructure, from model serving engines and agent platforms to the Model Context Protocol (MCP) ecosystem and the language models themselves, has outpaced the security tooling available to defend it. We present AI-Infra-Guard, an open-source framework that organizes AI red teaming around a single observation: the attack surface of an AI agent is stratified across layers (infrastructure, protocol/tool, agent behavior, and model), and no single detection paradigm fits all of them. The framework therefore match",
+      "url": "https://huggingface.co/papers/2606.31227",
+      "pdf_url": "https://arxiv.org/pdf/2606.31227.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-07",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-02471",
+      "title": "Interpretation-Oriented Cloud Removal via Observation-Anchored Residual Flow with Geo-Contextual Alignment",
+      "authors": [
+        "Ziyao Wang",
+        "Maonan Wang",
+        "Yucheng He",
+        "Xianping Ma",
+        "Ziyi Wang",
+        "Hongyang Zhang",
+        "Yirong Cheng",
+        "Man-on Pun"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Cloud removal (CR) is essential for optical remote sensing, serving as a prerequisite for reliable downstream interpretation, such as semantic segmentation and change detection. However, existing CR approaches often prioritize visual realism while overlooking their impact on subsequent analytical tasks, leading to semantic drift and degraded downstream performance. To address this issue, we propose Geo-Anchored Cloud Removal (GACR), a unified framework that jointly ensures faithful reconstruction and robust interpretability. At its core, GACR i",
+      "url": "https://huggingface.co/papers/2607.02471",
+      "pdf_url": "https://arxiv.org/pdf/2607.02471.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-07",
+      "stars": 4
+    },
+    {
+      "id": "hf-2607-00052",
+      "title": "AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation",
+      "authors": [
+        "Bao Long Nguyen Huu",
+        "Atsushi Hashimoto"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "GraphRAG is an extension of retrieval-augmented generation (RAG) that supports large language models (LLMs) by referring to graph-structured data as external knowledge. While this technique ideally captures intricate relationships, it often struggles with graph representations for LLMs, particularly for frozen LLMs, due to the misalignment between graph-based and text-based latent features. We tackle this issue by introducing the {\\it Adaptive-masking for Graph Embedding (AGE)}. AGE employs a Transformer in a mask-based self-supervised learning",
+      "url": "https://huggingface.co/papers/2607.00052",
+      "pdf_url": "https://arxiv.org/pdf/2607.00052.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-07",
+      "stars": 3
+    },
+    {
+      "id": "hf-2606-31959",
+      "title": "AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer",
+      "authors": [
+        "Xinyu Hou",
+        "Xiaoming Li",
+        "Zongsheng Yue",
+        "Chen Change Loy"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Depth-of-field control is a fundamental tool in photography, yet post-capture bokeh editing from a single image remains challenging. A practical editor should handle images captured under arbitrary focus and aperture settings. Existing methods typically assume an all-in-focus input, or first recover an all-in-focus image before rendering new bokeh. Such pipelines can discard useful blur cues from the source image and propagate reconstruction artifacts into the final edit. We introduce AnyBokeh, a physics-guided framework for any-to-any bokeh ed",
+      "url": "https://huggingface.co/papers/2606.31959",
+      "pdf_url": "https://arxiv.org/pdf/2606.31959.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-07",
+      "stars": 2
+    },
+    {
+      "id": "hf-2606-31036",
+      "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
+      "authors": [
+        "Shreyas Rajesh",
+        "Kartik Sharma",
+        "Tonmoy Monsoor",
+        "Mehmet Yigit Turali",
+        "Richard Idro",
+        "Juliana Kayaga",
+        "Robert Sebunya",
+        "Tracy Tushabe Namata"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Specialist epilepsy expertise is scarce in resource-constrained settings, making LLM-based decision support attractive for frontline clinicians managing longitudinal treatment. Such systems must adapt to local prescribing practice and know when to defer. We study this problem in Ugandan pediatric epilepsy care, predicting anti-seizure medication regimens from longitudinal unstructured clinic notes. Standard prompting achieves non-trivial agreement with physician prescriptions, but neurologist review shows that many errors reflect distribution-m",
+      "url": "https://huggingface.co/papers/2606.31036",
+      "pdf_url": "https://arxiv.org/pdf/2606.31036.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-07",
+      "stars": 1
+    },
+    {
+      "id": "hf-2607-01764",
+      "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
+      "authors": [
+        "Mingzhe Du",
+        "Luu Anh Tuan",
+        "Tianyi Wu",
+        "Renyang Liu",
+        "Zhijiang Guo",
+        "Dong Huang",
+        "See-Kiong Ng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Repository-level vulnerability reproduction is a demanding software engineering (SE) task: an agent must inspect a codebase, infer the input grammar that reaches a vulnerable path, construct a proof-of-conceptv(PoC), and verify that the crash disappears on the patched build. Recent LLM agents can often execute these steps when the approach is correct, yet they still fail by choosing the wrong strategy. This paper argues that strategy, rather than the full action trajectory, is the right learning unit for such SE agents: it is compact enough to",
+      "url": "https://huggingface.co/papers/2607.01764",
+      "pdf_url": "https://arxiv.org/pdf/2607.01764.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-07",
+      "stars": 0
+    },
+    {
       "id": "hf-2607-02255",
       "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
       "authors": [
@@ -25,7 +278,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 49
+      "stars": 55
     },
     {
       "id": "hf-2607-02440",
@@ -52,7 +305,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 43
+      "stars": 45
     },
     {
       "id": "hf-2606-31825",
@@ -106,7 +359,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 15
+      "stars": 17
     },
     {
       "id": "hf-2607-01002",
@@ -127,7 +380,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
-      "stars": 15
+      "stars": 17
     },
     {
       "id": "hf-2607-01224",
@@ -150,7 +403,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
-      "stars": 14
+      "stars": 17
     },
     {
       "id": "hf-2607-02271",
@@ -175,7 +428,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 13
+      "stars": 15
     },
     {
       "id": "hf-2607-02508",
@@ -195,7 +448,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2606-27669",
@@ -220,7 +473,7 @@
       ],
       "published": "2026-06-26",
       "added": "2026-07-04",
-      "stars": 9
+      "stars": 11
     },
     {
       "id": "hf-2607-02032",
@@ -248,33 +501,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 7
-    },
-    {
-      "id": "hf-2607-01763",
-      "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
-      "authors": [
-        "Meng Wang",
-        "Haohan Zhao",
-        "Wenzhuo Liu",
-        "Lu Yang",
-        "Geng Liu",
-        "Haiyang Guo",
-        "Guo-Sen Xie",
-        "Gaofeng Meng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Continual post-training enables foundation models to acquire new knowledge while preserving existing capabilities. Recent work suggests that on-policy learning can mitigate forgetting, with on-policy self-distillation emerging as a particularly attractive approach. In this work, we revisit this optimistic view through self-distillation policy optimization (SDPO). Our experiments show that SDPO can accelerate in-domain specialization when teacher signals are stable and well aligned, but it struggles to generalize to out-of-distribution scenarios",
-      "url": "https://huggingface.co/papers/2607.01763",
-      "pdf_url": "https://arxiv.org/pdf/2607.01763.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "code"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 6
+      "stars": 11
     },
     {
       "id": "hf-2606-29961",
@@ -301,7 +528,56 @@
       ],
       "published": "2026-06-29",
       "added": "2026-07-04",
-      "stars": 6
+      "stars": 9
+    },
+    {
+      "id": "hf-2607-02375",
+      "title": "Representation Distribution Matching for One-Step Visual Generation",
+      "authors": [
+        "Lan Feng",
+        "Wuyang Li",
+        "Eloi Zablocki",
+        "Matthieu Cord",
+        "Alexandre Alahi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong and scalable objective once estimated right. Seco",
+      "url": "https://huggingface.co/papers/2607.02375",
+      "pdf_url": "https://arxiv.org/pdf/2607.02375.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-04",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-01763",
+      "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+      "authors": [
+        "Meng Wang",
+        "Haohan Zhao",
+        "Wenzhuo Liu",
+        "Lu Yang",
+        "Geng Liu",
+        "Haiyang Guo",
+        "Guo-Sen Xie",
+        "Gaofeng Meng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Continual post-training enables foundation models to acquire new knowledge while preserving existing capabilities. Recent work suggests that on-policy learning can mitigate forgetting, with on-policy self-distillation emerging as a particularly attractive approach. In this work, we revisit this optimistic view through self-distillation policy optimization (SDPO). Our experiments show that SDPO can accelerate in-domain specialization when teacher signals are stable and well aligned, but it struggles to generalize to out-of-distribution scenarios",
+      "url": "https://huggingface.co/papers/2607.01763",
+      "pdf_url": "https://arxiv.org/pdf/2607.01763.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "code"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-04",
+      "stars": 7
     },
     {
       "id": "hf-2607-02466",
@@ -326,30 +602,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-04",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-02375",
-      "title": "Representation Distribution Matching for One-Step Visual Generation",
-      "authors": [
-        "Lan Feng",
-        "Wuyang Li",
-        "Eloi Zablocki",
-        "Matthieu Cord",
-        "Alexandre Alahi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong and scalable objective once estimated right. Seco",
-      "url": "https://huggingface.co/papers/2607.02375",
-      "pdf_url": "https://arxiv.org/pdf/2607.02375.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 4
+      "stars": 6
     },
     {
       "id": "hf-2606-25178",
@@ -374,7 +627,7 @@
       ],
       "published": "2026-06-27",
       "added": "2026-07-04",
-      "stars": 3
+      "stars": 5
     },
     {
       "id": "hf-2607-01283",
@@ -398,7 +651,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-04",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2607-02512",
@@ -421,7 +674,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 83
+      "stars": 107
     },
     {
       "id": "hf-2606-28322",
@@ -474,7 +727,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 29
+      "stars": 31
     },
     {
       "id": "hf-2607-00466",
@@ -677,7 +930,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-03",
-      "stars": 14
+      "stars": 15
     },
     {
       "id": "hf-2607-01191",
@@ -781,6 +1034,33 @@
       "stars": 8
     },
     {
+      "id": "hf-2607-02269",
+      "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
+      "authors": [
+        "Rintaro Otsubo",
+        "Ryo Fujii",
+        "Reina Ishikawa",
+        "Taiki Kanaya",
+        "Kanta Sawafuji",
+        "Hiroki Kajita",
+        "Shigeki Sakai",
+        "Hideo Saito"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critical disconnect from real-world applications in specialized fields, where models inevitably encounter rare visual concepts and complex spatio-temporal dynamics. Since exhaustive pre-training across infinite data distributions is infeasible, the ability to adapt to novel domains is essential. To bridge th",
+      "url": "https://huggingface.co/papers/2607.02269",
+      "pdf_url": "https://arxiv.org/pdf/2607.02269.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-03",
+      "stars": 8
+    },
+    {
       "id": "hf-2607-00917",
       "title": "Valdi: Value Diffusion World Models",
       "authors": [
@@ -819,33 +1099,6 @@
         "multimodal"
       ],
       "published": "2026-06-29",
-      "added": "2026-07-03",
-      "stars": 7
-    },
-    {
-      "id": "hf-2607-02269",
-      "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
-      "authors": [
-        "Rintaro Otsubo",
-        "Ryo Fujii",
-        "Reina Ishikawa",
-        "Taiki Kanaya",
-        "Kanta Sawafuji",
-        "Hiroki Kajita",
-        "Shigeki Sakai",
-        "Hideo Saito"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critical disconnect from real-world applications in specialized fields, where models inevitably encounter rare visual concepts and complex spatio-temporal dynamics. Since exhaustive pre-training across infinite data distributions is infeasible, the ability to adapt to novel domains is essential. To bridge th",
-      "url": "https://huggingface.co/papers/2607.02269",
-      "pdf_url": "https://arxiv.org/pdf/2607.02269.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-07-02",
       "added": "2026-07-03",
       "stars": 7
     },
@@ -926,7 +1179,7 @@
       ],
       "published": "2026-07-01",
       "added": "2026-07-03",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2606-28430",
@@ -947,7 +1200,7 @@
       ],
       "published": "2026-06-26",
       "added": "2026-07-03",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2606-26040",
@@ -1003,28 +1256,6 @@
       "stars": 5
     },
     {
-      "id": "hf-2606-32033",
-      "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
-      "authors": [
-        "Or Hirschorn",
-        "Aaron Olender",
-        "Eli Alshan",
-        "Ianir Ideses",
-        "Lior Fritz",
-        "Sagie Benaim"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that contemporary generative models natively exhibit some panoramic priors from large-scale training. However, these emergent capabilities are insufficient, as",
-      "url": "https://huggingface.co/papers/2606.32033",
-      "pdf_url": "https://arxiv.org/pdf/2606.32033.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-03",
-      "stars": 4
-    },
-    {
       "id": "hf-2606-30124",
       "title": "SciIR: A Large-scale Training Dataset and Benchmark for Scientific Image Reasoning Generation",
       "authors": [
@@ -1049,7 +1280,7 @@
       ],
       "published": "2026-06-29",
       "added": "2026-07-03",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2606-28661",
@@ -1069,33 +1300,7 @@
       ],
       "published": "2026-06-27",
       "added": "2026-07-03",
-      "stars": 4
-    },
-    {
-      "id": "hf-2606-30599",
-      "title": "Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing",
-      "authors": [
-        "Sen Liang",
-        "Cong Wang",
-        "Zhentao Yu",
-        "Fengbin Guan",
-        "Zhengguang Zhou",
-        "Teng Hu",
-        "Youliang Zhang",
-        "Yuan Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing instruction-based video editing datasets commonly focus on single-task appearance editing, failing to meet the complex creative demands of real-world scenarios. To bridge this gap, we present Goku, a large-scale dataset featuring 2 million high-quality, instruction-aligned video editing pairs, which is the first to extend task boundaries from basic appearance editing to multi-task and structural manipulations(e.g., precise control of subject movement). To tackle the data synthesis challenges inherent in these complex tasks, we design a",
-      "url": "https://huggingface.co/papers/2606.30599",
-      "pdf_url": "https://arxiv.org/pdf/2606.30599.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-03",
-      "stars": 3
+      "stars": 5
     },
     {
       "id": "hf-2606-31179",
@@ -1120,6 +1325,54 @@
         "reasoning",
         "benchmark",
         "code"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-03",
+      "stars": 5
+    },
+    {
+      "id": "hf-2606-32033",
+      "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
+      "authors": [
+        "Or Hirschorn",
+        "Aaron Olender",
+        "Eli Alshan",
+        "Ianir Ideses",
+        "Lior Fritz",
+        "Sagie Benaim"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that contemporary generative models natively exhibit some panoramic priors from large-scale training. However, these emergent capabilities are insufficient, as",
+      "url": "https://huggingface.co/papers/2606.32033",
+      "pdf_url": "https://arxiv.org/pdf/2606.32033.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-06-30",
+      "added": "2026-07-03",
+      "stars": 4
+    },
+    {
+      "id": "hf-2606-30599",
+      "title": "Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing",
+      "authors": [
+        "Sen Liang",
+        "Cong Wang",
+        "Zhentao Yu",
+        "Fengbin Guan",
+        "Zhengguang Zhou",
+        "Teng Hu",
+        "Youliang Zhang",
+        "Yuan Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing instruction-based video editing datasets commonly focus on single-task appearance editing, failing to meet the complex creative demands of real-world scenarios. To bridge this gap, we present Goku, a large-scale dataset featuring 2 million high-quality, instruction-aligned video editing pairs, which is the first to extend task boundaries from basic appearance editing to multi-task and structural manipulations(e.g., precise control of subject movement). To tackle the data synthesis challenges inherent in these complex tasks, we design a",
+      "url": "https://huggingface.co/papers/2606.30599",
+      "pdf_url": "https://arxiv.org/pdf/2606.30599.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "robotics"
       ],
       "published": "2026-06-30",
       "added": "2026-07-03",
@@ -1737,266 +1990,6 @@
       "published": "2026-06-20",
       "added": "2026-07-02",
       "stars": 1
-    },
-    {
-      "id": "hf-2606-28733",
-      "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
-      "authors": [
-        "Han Luo",
-        "Bingbing Wen",
-        "Lucy Lu Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LLM agents are expected to act over multiple turns, using search, browsing interfaces, and terminal tools to complete user goals. Yet not every goal is well specified or achievable in the available environment. In such cases, a reliable agent should recognize that further interaction is unlikely to help and abstain from additional tool calls. We define Agentic Abstention, the problem of deciding when an agent should stop acting under uncertainty. Unlike standard LLM abstention, which is usually evaluated as a single-turn answer-or-abstain decis",
-      "url": "https://huggingface.co/papers/2606.28733",
-      "pdf_url": "https://arxiv.org/pdf/2606.28733.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-27",
-      "added": "2026-07-01",
-      "stars": 121
-    },
-    {
-      "id": "hf-2606-28436",
-      "title": "Dockerless: Environment-Free Program Verifier for Coding Agents",
-      "authors": [
-        "Wenhao Zeng",
-        "Yuling Shi",
-        "Xiaodong Gu",
-        "Chao Hu",
-        "Chaofan Wang",
-        "Yuhao Cui",
-        "Hongting Zhou",
-        "Mengnan Qi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Program verifiers play a central role in training coding agents, including selecting trajectories for supervised fine-tuning (SFT) and providing rewards for reinforcement learning (RL). Standard execution-based verification requires running unit tests inside per-repository environments such as Docker images, incurring substantial environment setup costs. We propose Dockerless, an environment-free agentic patch verifier that evaluates generated code patches without executing them. Rather than simply matching candidate patches to references, Dock",
-      "url": "https://huggingface.co/papers/2606.28436",
-      "pdf_url": "https://arxiv.org/pdf/2606.28436.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-26",
-      "added": "2026-07-01",
-      "stars": 86
-    },
-    {
-      "id": "hf-2606-30616",
-      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
-      "authors": [
-        "Lei Bai",
-        "Zongsheng Cao",
-        "Yang Chen",
-        "Zhiyao Cui",
-        "Shangheng Du",
-        "Yue Fan",
-        "Shiyang Feng",
-        "Zijie Guo"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a th",
-      "url": "https://huggingface.co/papers/2606.30616",
-      "pdf_url": "https://arxiv.org/pdf/2606.30616.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-29",
-      "added": "2026-07-01",
-      "stars": 67
-    },
-    {
-      "id": "hf-2606-28480",
-      "title": "TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents",
-      "authors": [
-        "Shoufa Chen",
-        "Luyuan Wang",
-        "Xuan Yang",
-        "Zhiheng Liu",
-        "Yuren Cong",
-        "Yuanfeng Ji",
-        "Feiyan Zhou",
-        "Xiaohui Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As large language models and harness frameworks continue to advance, agents operating in terminals are increasingly capable of performing a broader range of general computer-use tasks beyond coding. However, existing benchmarks do not adequately evaluate general-purpose terminal computer-use agents (TUAs): general computer-use benchmarks primarily target graphical user interfaces (GUIs), whereas terminal-based benchmarks largely emphasize technical and programming-centric workflows historically native to the shell. We introduce TUA-Bench, a gen",
-      "url": "https://huggingface.co/papers/2606.28480",
-      "pdf_url": "https://arxiv.org/pdf/2606.28480.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-26",
-      "added": "2026-07-01",
-      "stars": 44
-    },
-    {
-      "id": "hf-2502-16886",
-      "title": "ReFreeKV: Towards Threshold-Free KV Cache Compression",
-      "authors": [
-        "Xuanfan Ni",
-        "Liyan Xu",
-        "Chenyang Lyu",
-        "Longyue Wang",
-        "Mo Yu",
-        "Lemao Liu",
-        "Fandong Meng",
-        "Jie Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "To reduce memory consumption during LLM inference, a handful of methods have been proposed for KV cache pruning. While these techniques can accomplish lossless memory reduction on many datasets, they often hinge on an under-emphasized condition: an input/domain-specific threshold for KV cache budget needs to be pre-determined to achieve the optimal performance. However, such input-sensitive design may be considerably limited in real-world scenarios, as open-domain inputs span diverse domains, lengths and difficulty levels, without clear boundar",
-      "url": "https://huggingface.co/papers/2502.16886",
-      "pdf_url": "https://arxiv.org/pdf/2502.16886.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
-      ],
-      "published": "2026-06-26",
-      "added": "2026-07-01",
-      "stars": 43
-    },
-    {
-      "id": "hf-2606-24256",
-      "title": "Trimming the Long-Tail of Visual World Modeling Evaluation",
-      "authors": [
-        "Bingxuan Li",
-        "Yining Hong",
-        "Cheng Qian",
-        "Hyeonjeong Ha",
-        "Jiateng Liu",
-        "Zhenhailong Wang",
-        "Yue Guo",
-        "Yunzhu Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Physical interactions follow a long-tailed distribution: a set of common and regular interactions dominates human experience and visual data, while a broad spectrum of rare and irregular interactions remains underrepresented. Although recent visual world models, including image and video generation models, achieve impressive realism on existing benchmarks, they primarily focus on simulating common physical interactions. This raises a central question: Do current visual world models internalize and generalize physical principles? In this work, w",
-      "url": "https://huggingface.co/papers/2606.24256",
-      "pdf_url": "https://arxiv.org/pdf/2606.24256.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-23",
-      "added": "2026-07-01",
-      "stars": 35
-    },
-    {
-      "id": "hf-2606-27828",
-      "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
-      "authors": [
-        "Hohin Kwan",
-        "Hongyu Li",
-        "Ray Zhang",
-        "Manyuan Zhang",
-        "Xianghao Kong",
-        "Anyi Rao",
-        "Jiahao Xie",
-        "Si Liu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent interest in multimodal large language models (MLLMs) raises a central question: can they reason over dynamic visual evidence rather than merely recognize objects or events in individual frames? This ability, which we refer to as video temporal-logical reasoning, requires models to maintain, update, and compose evidence as visual states evolve across frames. Existing video benchmarks often conflate this capability with scene complexity, static recognition, or uncontrolled temporal variation. To isolate this capability, we introduce Video-",
-      "url": "https://huggingface.co/papers/2606.27828",
-      "pdf_url": "https://arxiv.org/pdf/2606.27828.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-26",
-      "added": "2026-07-01",
-      "stars": 23
-    },
-    {
-      "id": "hf-2606-29082",
-      "title": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
-      "authors": [
-        "Young-Jun Lee",
-        "Seungone Kim",
-        "Minki Kang",
-        "Alistair Cheong Liang Chuen",
-        "Zerui Chen",
-        "Seungho Han",
-        "Taehee Jung",
-        "Dongyeop Kang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Would experience designing faster GPU kernels also help close in on a long-standing open mathematical conjecture? Large Language Models (LLMs) integrated into evolutionary search have recently produced state-of-the-art solutions on optimization tasks, including open mathematical conjectures, GPU kernel design, scientific law discovery, and combinatorial puzzles. To achieve this, prior work applied search scaffolds to one target task at a time, so every new problem is approached from scratch and the experience accumulated during search is discar",
-      "url": "https://huggingface.co/papers/2606.29082",
-      "pdf_url": "https://arxiv.org/pdf/2606.29082.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning"
-      ],
-      "published": "2026-06-27",
-      "added": "2026-07-01",
-      "stars": 23
-    },
-    {
-      "id": "hf-2606-29445",
-      "title": "Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction",
-      "authors": [
-        "Sunqi Fan",
-        "Qingle Liu",
-        "Runqi Yin",
-        "Meng-Hao Guo",
-        "Shuojin Yang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Video understanding is a fundamental capability for multimodal intelligence, and recent Multimodal Large Language Models (MLLMs) have achieved remarkable performance on Video Question Answering (VideoQA) benchmarks. However, existing benchmarks primarily evaluate whether models can perceive shallow visual cues, while rarely examining whether MLLMs can learn deeper knowledge or procedural skills from video tutorials and generalize them to downstream long-horizon agentic tasks. To address this gap, we introduce VG-GUIBench (Video-Guided GUI Bench",
-      "url": "https://huggingface.co/papers/2606.29445",
-      "pdf_url": "https://arxiv.org/pdf/2606.29445.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-06-28",
-      "added": "2026-07-01",
-      "stars": 22
-    },
-    {
-      "id": "hf-2606-25621",
-      "title": "One Model, Many Latencies: Universal Speech Enhancement for Diverse Real-Time Applications",
-      "authors": [
-        "Szu-Wei Fu",
-        "Rong Chao",
-        "Xuesong Yang",
-        "Sung-Feng Huang",
-        "Ante Jukić",
-        "Yu Tsao",
-        "Yu-Chiang Frank Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Different real-time speech applications impose distinct latency budgets, often requiring separately trained enhancement models for each scenario. In this paper, we propose a one-for-all, real-time universal speech enhancement model that provides explicit control over both algorithmic and computational latency. Algorithmic latency is flexibly adjusted via configurable look-ahead frames. To avoid learning inefficiency caused by varying padding configurations, we introduce parallel convolutional layers corresponding to different look-ahead setting",
-      "url": "https://huggingface.co/papers/2606.25621",
-      "pdf_url": "https://arxiv.org/pdf/2606.25621.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-06-24",
-      "added": "2026-07-01",
-      "stars": 16
     }
   ]
 }

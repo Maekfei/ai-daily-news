@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Jul 2026 02:05:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 02:08:19 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-07</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-07</link>
+      <guid isPermaLink="false">2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 10:00:00 +0800</pubDate>
+      <description>腾讯正式发布混元 Hy3 并首次向元宝用户免费开放 Agent 能力；ICML 2026 首尔开幕，Agentic AI 成为核心议题。
+• 腾讯发布混元 Hy3 正式版，元宝上线免费 Agent 功能
+• 阿里整合 QoderWork/悟空/MuleRun，推出企业级 Agent 桌面
+• ICML 2026 首尔开幕，Agentic AI 成年度核心议题
+• Anthropic Claude Sonnet 5 发布一周，agentic 基准表现追平 Opus
+• 摩根士丹利发布 AI 十大投资真相报告 — 7 月 6 日发布，提出 AI 从&quot;分析经济&quot;进入&quot;运行经济&quot;阶段，Token 经济崛起、算力资本开支进入新周期，具身智能延伸至交通、物流、制造、医疗等实体产业。投资界（清科）</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-06</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-06</link>
@@ -354,18 +366,6 @@
 • 腾讯云数据库面向 Agent 全面升级，&quot;三件套&quot; 对标 Snowflake Cortex
 • 高通 CEO 安蒙定义 &quot;2026 是智能体之年&quot;
 • 香港发布首个 &quot;生产力级超级智能体&quot;，单次稳定运行 28 小时</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-07</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-07</link>
-      <guid isPermaLink="false">2026-06-07</guid>
-      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
-      <description>一周内全球 AI 产业向资本市场要走超 1600 亿美元；苹果 WWDC 倒计时两天，Siri 重构 + 第三方 AI 开放成为 Agent 分发新变量。
-• AI 产业单周融资逼近 1600 亿美元，IPO/股权融资齐发
-• Anthropic 警告&quot;前沿 AI 已现脱离人类控制迹象&quot;，呼吁全球放缓
-• Cloudflare Agents Week 收官：智能体可自主开账户、买域名、部署应用
-• Anthropic Claude Opus 4.7 上线 Claude Design，Agent 进入&quot;可视化交付&quot;阶段
-• 苹果 WWDC 2026 倒计时 2 天，Siri 重构 + 第三方 AI 开放成最大看点 — 北京时间 6 月 9 日凌晨 1 点开幕，业界普遍预期苹果将公布 Siri 的 LLM 重构方案、开放 iOS 端第三方 AI 模型挂载入口（含 Gemini / Claude / 文心），并发布 Apple Intelligence 27 与设备端 Agent 框架，是端侧 Agent 分发格局的关键拐点。TechCrunch · Apple WWDC 6/8–12 AI advancements &amp; Siri</description>
     </item>
   </channel>
 </rss>
