@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Jul 2026 02:08:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 02:04:08 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-08</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-08</link>
+      <guid isPermaLink="false">2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 10:00:00 +0800</pubDate>
+      <description>法律 AI 独角兽 Norm 单日跨过 12 亿美元估值门槛；Bespoke Labs 拿下 4000 万美元专门做&quot;训练可靠 Agent 的强化学习环境&quot;，Agent 训练基础设施赛道正式成型。
+• Norm Ai 完成 1.2 亿美元 C 轮，法律 AI 又一独角兽
+• Bespoke Labs 获 4000 万美元，专攻&quot;训练可靠 Agent 的强化学习环境&quot;
+• Anaplan 发布 &quot;Agentic Enterprise&quot;，把 Agent 塞进企业决策链
+• 2026 世界人工智能大会（WAIC）7 月 17 日开幕，规模创历届之最
+• John Jumper 转投 Anthropic，Google DeepMind 顶级人才继续流失 — 诺贝尔化学奖得主、AlphaFold 核心开发者 John Jumper 正式离开 Google DeepMind 加盟 Anthropic，前 OpenAI 联合创始人 Andrej Karpathy 此前已加盟 Anthropic。业内解读：顶级预训练人才正在向 Anthropic 聚拢，加剧三家前沿实验室的人才竞赛。TechCrunch</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-07</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-07</link>
@@ -354,18 +366,6 @@
 • Anthropic 发布 RSI 报告，呼吁全球暂停前沿研究
 • xAI Grok Build 0.2.7 发布：子代理共享终端架构
 • Microsoft AI 加速&quot;去 OpenAI 化&quot;，宣告冲刺超级智能</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-08</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-08</link>
-      <guid isPermaLink="false">2026-06-08</guid>
-      <pubDate>Mon, 08 Jun 2026 10:00:00 +0800</pubDate>
-      <description>苹果 WWDC 2026 今晚开幕，Siri 2.0 与 Apple Intelligence 全面 AI 重构成最大看点；Supabase 5 亿美元 F 轮融资将估值推至 105 亿美元，AI 后端赛道再起涟漪。
-• 苹果 WWDC 2026 今夜开幕，Siri 2.0 押注 AI 大重构
-• 微软 Build 2026：发布 7 款自研模型，宣告 &quot;Agent 优先&quot; 时代
-• 腾讯云数据库面向 Agent 全面升级，&quot;三件套&quot; 对标 Snowflake Cortex
-• 高通 CEO 安蒙定义 &quot;2026 是智能体之年&quot;
-• 香港发布首个 &quot;生产力级超级智能体&quot;，单次稳定运行 28 小时</description>
     </item>
   </channel>
 </rss>
