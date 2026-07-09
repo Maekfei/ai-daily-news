@@ -1,6 +1,30 @@
 {
   "papers": [
     {
+      "id": "hf-2607-06559",
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "authors": [
+        "Haoyu Zhao",
+        "Xingyue Zhao",
+        "Siteng Huang",
+        "Xin Li",
+        "Deli Zhao",
+        "Zhongyu Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significantly closer to the low-level end-effector actions de",
+      "url": "https://huggingface.co/papers/2607.06559",
+      "pdf_url": "https://arxiv.org/pdf/2607.06559.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-07",
+      "added": "2026-07-08",
+      "stars": 72
+    },
+    {
       "id": "hf-2607-04425",
       "title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
       "authors": [
@@ -125,6 +149,34 @@
       "stars": 31
     },
     {
+      "id": "hf-2607-03748",
+      "title": "Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process",
+      "authors": [
+        "Zican Hu",
+        "Xuyang Hu",
+        "Yiming Liu",
+        "Zuwei Long",
+        "Wei Liu",
+        "Yunzhuo Hao",
+        "Jiawei Gu",
+        "Linjie Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Unified multi-modal models (UMMs) have shown promising interleaved text-image reasoning capabilities, yet effectively optimizing such multi-turn generation via reinforcement learning (RL) remains an open challenge. Existing approaches apply RL exclusively to text steps, relegating image generation to supervised surrogates, preventing policy gradients from propagating through the full interleaved trajectory across heterogeneous modalities. This leaves the potential of RL for UMMs largely untapped. In the paper, we introduce BRAID (Bridging inteR",
+      "url": "https://huggingface.co/papers/2607.03748",
+      "pdf_url": "https://arxiv.org/pdf/2607.03748.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-04",
+      "added": "2026-07-08",
+      "stars": 29
+    },
+    {
       "id": "hf-2607-04443",
       "title": "Wan-Streamer v0.2: Higher Resolution, Same Latency",
       "authors": [
@@ -232,6 +284,31 @@
       "stars": 19
     },
     {
+      "id": "hf-2607-05511",
+      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+      "authors": [
+        "Chang Nie",
+        "Jiaju Wei",
+        "Junlan Feng",
+        "Chaoyou Fu",
+        "Caifeng Shan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, long-horizon multimodal streams. However, advanced video agents often rely on ``detective-style'' iterative reasoning for action control (e.g., search) and evidence aggregation, incurring prohibitive costs and latency. We argue that such heavy reasoning primarily compensates for the lack of global context and semantic misalignment in retrieval. This paper introduces Light-Omni, a multimodal agent framework for reflexive and lightwe",
+      "url": "https://huggingface.co/papers/2607.05511",
+      "pdf_url": "https://arxiv.org/pdf/2607.05511.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-06",
+      "added": "2026-07-08",
+      "stars": 19
+    },
+    {
       "id": "hf-2607-05061",
       "title": "KVpop -- Key-Value Cache Compression with Predictive Online Pruning",
       "authors": [
@@ -280,6 +357,34 @@
       "stars": 15
     },
     {
+      "id": "hf-2607-03751",
+      "title": "Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models",
+      "authors": [
+        "Xinyi Xie",
+        "Zican Hu",
+        "Zhanyu Liu",
+        "Yicheng Dong",
+        "Wenhao Wu",
+        "Zhenhong Sun",
+        "Haoran Li",
+        "Chunlin Chen"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models acquire broad embodied capabilities through large-scale pretraining, yet their generalization remains far more fragile than that of LLMs and VLMs. The prevailing remedy, post-training via supervised fine-tuning or reinforcement learning, improves task-specific performance but narrows the generalist capability that makes pretraining valuable. We identify a key bottleneck: VLA failures stem not only from action generation but also from action evaluation. A diagnostic pass@k study confirms that frozen VLAs alrea",
+      "url": "https://huggingface.co/papers/2607.03751",
+      "pdf_url": "https://arxiv.org/pdf/2607.03751.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-04",
+      "added": "2026-07-08",
+      "stars": 15
+    },
+    {
       "id": "hf-2607-05352",
       "title": "Multiplayer Interactive World Models with Representation Autoencoders",
       "authors": [
@@ -306,6 +411,27 @@
       "published": "2026-07-06",
       "added": "2026-07-08",
       "stars": 14
+    },
+    {
+      "id": "hf-2607-02403",
+      "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
+      "authors": [
+        "Gawon Seo",
+        "Dongwon Kim",
+        "Suha Kwak"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Decision-time planning with action-conditioned world models has become a popular paradigm for embodied control. However, the standard planning cost judges a candidate solely by how close its predicted terminal state lies to the goal, leaving the realizability of the intermediate transitions unchecked -- a predicted trajectory can look convincing while the environment rollout drifts away from it. In this paper, we propose ACID, a decision-time planning framework that introduces cycle action consistency: the action inferred backward from a predic",
+      "url": "https://huggingface.co/papers/2607.02403",
+      "pdf_url": "https://arxiv.org/pdf/2607.02403.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-08",
+      "stars": 13
     },
     {
       "id": "hf-2607-05155",
@@ -466,80 +592,6 @@
       "stars": 7
     },
     {
-      "id": "hf-2607-05511",
-      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
-      "authors": [
-        "Chang Nie",
-        "Jiaju Wei",
-        "Junlan Feng",
-        "Chaoyou Fu",
-        "Caifeng Shan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, long-horizon multimodal streams. However, advanced video agents often rely on ``detective-style'' iterative reasoning for action control (e.g., search) and evidence aggregation, incurring prohibitive costs and latency. We argue that such heavy reasoning primarily compensates for the lack of global context and semantic misalignment in retrieval. This paper introduces Light-Omni, a multimodal agent framework for reflexive and lightwe",
-      "url": "https://huggingface.co/papers/2607.05511",
-      "pdf_url": "https://arxiv.org/pdf/2607.05511.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-07-06",
-      "added": "2026-07-08",
-      "stars": 6
-    },
-    {
-      "id": "hf-2607-02403",
-      "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
-      "authors": [
-        "Gawon Seo",
-        "Dongwon Kim",
-        "Suha Kwak"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Decision-time planning with action-conditioned world models has become a popular paradigm for embodied control. However, the standard planning cost judges a candidate solely by how close its predicted terminal state lies to the goal, leaving the realizability of the intermediate transitions unchecked -- a predicted trajectory can look convincing while the environment rollout drifts away from it. In this paper, we propose ACID, a decision-time planning framework that introduces cycle action consistency: the action inferred backward from a predic",
-      "url": "https://huggingface.co/papers/2607.02403",
-      "pdf_url": "https://arxiv.org/pdf/2607.02403.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-08",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-03748",
-      "title": "Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process",
-      "authors": [
-        "Zican Hu",
-        "Xuyang Hu",
-        "Yiming Liu",
-        "Zuwei Long",
-        "Wei Liu",
-        "Yunzhuo Hao",
-        "Jiawei Gu",
-        "Linjie Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Unified multi-modal models (UMMs) have shown promising interleaved text-image reasoning capabilities, yet effectively optimizing such multi-turn generation via reinforcement learning (RL) remains an open challenge. Existing approaches apply RL exclusively to text steps, relegating image generation to supervised surrogates, preventing policy gradients from propagating through the full interleaved trajectory across heterogeneous modalities. This leaves the potential of RL for UMMs largely untapped. In the paper, we introduce BRAID (Bridging inteR",
-      "url": "https://huggingface.co/papers/2607.03748",
-      "pdf_url": "https://arxiv.org/pdf/2607.03748.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-07-04",
-      "added": "2026-07-08",
-      "stars": 5
-    },
-    {
       "id": "hf-2606-28393",
       "title": "Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports",
       "authors": [
@@ -631,32 +683,32 @@
       "stars": 4
     },
     {
-      "id": "hf-2607-03751",
-      "title": "Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models",
+      "id": "hf-2607-05369",
+      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
       "authors": [
-        "Xinyi Xie",
-        "Zican Hu",
-        "Zhanyu Liu",
-        "Yicheng Dong",
-        "Wenhao Wu",
-        "Zhenhong Sun",
-        "Haoran Li",
-        "Chunlin Chen"
+        "Kaiyuan Chen",
+        "Shuangyu Xie",
+        "Letian Fu",
+        "Justin Yu",
+        "William Pacini",
+        "Sandeep Bajamahal",
+        "Hudson Kim",
+        "Jaimyn Drake"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models acquire broad embodied capabilities through large-scale pretraining, yet their generalization remains far more fragile than that of LLMs and VLMs. The prevailing remedy, post-training via supervised fine-tuning or reinforcement learning, improves task-specific performance but narrows the generalist capability that makes pretraining valuable. We identify a key bottleneck: VLA failures stem not only from action generation but also from action evaluation. A diagnostic pass@k study confirms that frozen VLAs alrea",
-      "url": "https://huggingface.co/papers/2607.03751",
-      "pdf_url": "https://arxiv.org/pdf/2607.03751.pdf",
+      "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\" (VA), a class of tasks that have larger variations in object geometry and pose than fixed automation. Model-free policies often struggle to close the reliability gap for VA tasks, which must be executed persistently and reliably in commercial and industrial applications. Motivated by prior work on",
+      "url": "https://huggingface.co/papers/2607.05369",
+      "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
       "tags": [
         "hf-trending",
-        "rl",
+        "agent",
         "benchmark",
-        "multimodal",
+        "code",
         "robotics"
       ],
-      "published": "2026-07-04",
+      "published": "2026-07-06",
       "added": "2026-07-08",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2607-02904",
@@ -701,34 +753,6 @@
       "stars": 3
     },
     {
-      "id": "hf-2607-05369",
-      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-      "authors": [
-        "Kaiyuan Chen",
-        "Shuangyu Xie",
-        "Letian Fu",
-        "Justin Yu",
-        "William Pacini",
-        "Sandeep Bajamahal",
-        "Hudson Kim",
-        "Jaimyn Drake"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\" (VA), a class of tasks that have larger variations in object geometry and pose than fixed automation. Model-free policies often struggle to close the reliability gap for VA tasks, which must be executed persistently and reliably in commercial and industrial applications. Motivated by prior work on",
-      "url": "https://huggingface.co/papers/2607.05369",
-      "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-07-06",
-      "added": "2026-07-08",
-      "stars": 2
-    },
-    {
       "id": "hf-2606-23993",
       "title": "Learning to Trigger: Reinforcement Learning at the Large Hadron Collider",
       "authors": [
@@ -754,7 +778,7 @@
       ],
       "published": "2026-06-27",
       "added": "2026-07-08",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2607-03296",
@@ -774,30 +798,6 @@
       "published": "2026-07-03",
       "added": "2026-07-08",
       "stars": 2
-    },
-    {
-      "id": "hf-2607-06559",
-      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
-      "authors": [
-        "Haoyu Zhao",
-        "Xingyue Zhao",
-        "Siteng Huang",
-        "Xin Li",
-        "Deli Zhao",
-        "Zhongyu Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significantly closer to the low-level end-effector actions de",
-      "url": "https://huggingface.co/papers/2607.06559",
-      "pdf_url": "https://arxiv.org/pdf/2607.06559.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-07",
-      "added": "2026-07-08",
-      "stars": 0
     },
     {
       "id": "hf-2606-29526",

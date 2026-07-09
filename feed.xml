@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 02:04:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 02:05:16 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-09</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-09</link>
+      <guid isPermaLink="false">2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 +0800</pubDate>
+      <description>工信部 NVDB 通报 Claude Code 存在后门风险、阿里 7 月 10 日全员卸载；美中双线 Agent 战线同日升级：阿里合并三大 Agent 产品线，微软自研 MAI 模型开始接手 Excel/Outlook。
+• 工信部 NVDB 通报 Claude Code 存在安全后门，阿里 7 月 10 日全员卸载
+• 阿里巴巴合并 QoderWork/悟空/MuleRun 三大 Agent 产品，港股飙升 12.2%
+• 微软自研 MAI 模型开始接手 Excel/Outlook，逐步替换 OpenAI 与 Anthropic
+• Norm AI 完成 1.2 亿美元 C 轮，法律 Agent 独角兽估值 12 亿美元
+• Meta 超级智能实验室首个自研图像模型 Muse Image 全球上线 — Meta 7 月 7 日宣布推出图像生成模型 Muse Image（内部代号 Mango），由前 Scale AI CEO Alexandr Wang 领导的 Meta Superintelligence Labs（MSL） 打造。模型强调&quot;高级推理理解复杂 prompt&quot;，现已通过 Meta AI 应用免费提供，并同步接入 Instagram 与 WhatsApp，同时公开 Muse Video 早期预览。Meta 官方：Introducing Muse Image</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-08</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-08</link>
@@ -354,18 +366,6 @@
 • Microsoft Build 2026 公布 Agent Framework 多智能体新进展
 • Cognition（Devin 母公司）完成 10 亿美元融资，估值 260 亿美元 — Lux Capital 与 General Catalyst 领投，距上一轮 102 亿美元估值仅 8 个月，资本对 AI 编程 Agent 赛道押注再创新高。搜狐财经
 • Anthropic 在最新 AI 估值榜单升至全球第一 — AI Funding Tracker 6 月榜显示 Anthropic 完成 650 亿美元 H 轮融资后估值达 9650 亿美元，首次超过 OpenAI 成为全球最贵 AI 私营公司。AI Funding Tracker 6 月榜</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-09</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-09</link>
-      <guid isPermaLink="false">2026-06-09</guid>
-      <pubDate>Tue, 09 Jun 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 当日同步苹果 WWDC 2026 提交 IPO 保密草案，全球资本与产品叙事同框；Anthropic 发布递归自我改进（RSI）警告报告引爆行业安全大讨论。
-• OpenAI 提交 IPO 保密 S-1 草案，与苹果 WWDC 同日造势
-• 苹果 WWDC 2026 今夜开幕，Siri 2.0 全面 AI 重构
-• Anthropic 发布 RSI 报告，呼吁全球暂停前沿研究
-• xAI Grok Build 0.2.7 发布：子代理共享终端架构
-• Microsoft AI 加速&quot;去 OpenAI 化&quot;，宣告冲刺超级智能</description>
     </item>
   </channel>
 </rss>
