@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 02:05:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 02:08:24 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-10</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-10</link>
+      <guid isPermaLink="false">2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 完成 GPT-5.6 全球全量开放并把 Codex 与 ChatGPT Work 智能体合并进主客户端；同一天阶跃星辰官宣全球首款「AI 智能体手机」，硬件层的 Agent 竞赛正式开跑。
+• OpenAI 完成 GPT-5.6 全球全量开放，ChatGPT Work 与 Codex 智能体合并
+• 阶跃星辰宣布 7 月 13 日发布全球首款「AI 智能体手机」，代工方为华勤技术
+• xAI 首个编程智能体模型 Grok 4.5 发布，联合 Cursor 训练
+• SemiAnalysis 曝 Anthropic Q3 GAAP 利润破 10 亿美元，已秘密递交 IPO 申请
+• 物理 AI 公司「深度智控」完成数亿元 B 轮融资，晶科能源战略投资 — 深圳深度智控（DeepCtrls）7 月 9 日宣布完成数亿元 B 轮融资，由全球光伏龙头晶科能源战略投资，国投创新、招银国际联合领投，红杉中国、源码资本、招商局创投、光远资本等老股东持续跟投。这是公司成立以来第 6 轮融资，主攻物理 AI 在算力/能源基础设施的落地。中国日报：深度智控完成数亿元 B 轮融资 / 投资界：融资详情</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-09</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-09</link>
@@ -354,18 +366,6 @@
 • 微软 Build 2026 全面押注 Agent：Windows Agent Framework + Azure Agent Mesh GA
 • 华为云发布 Agentic Infra 新范式与 CloudRobo 具身智能开发平台
 • 中国发布人形机器人国家行动：2026 年底前商用部署 1 万台 — 财新 6 月 10 日援引官方文件，中国启动加速人形机器人与具身智能落地的国家计划，明确 2026 年末实现 1 万台商用目标，覆盖工厂、物流与家庭。Caixin Global</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-10</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-10</link>
-      <guid isPermaLink="false">2026-06-10</guid>
-      <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 深夜发布最强 Mythos 级模型 Claude Fable 5 / Mythos 5，全面开放普通用户；恒生电子在雄安峰会发布 LIGHT 6.0 全链路智能体生态架构，宣布转型 AI 金融科技公司。
-• Anthropic 发布 Mythos 级模型 Claude Fable 5 / Mythos 5
-• 恒生电子发布 LIGHT 6.0 AI 生态架构，启动 AI 金融科技公司转型
-• Microsoft Build 2026 公布 Agent Framework 多智能体新进展
-• Cognition（Devin 母公司）完成 10 亿美元融资，估值 260 亿美元 — Lux Capital 与 General Catalyst 领投，距上一轮 102 亿美元估值仅 8 个月，资本对 AI 编程 Agent 赛道押注再创新高。搜狐财经
-• Anthropic 在最新 AI 估值榜单升至全球第一 — AI Funding Tracker 6 月榜显示 Anthropic 完成 650 亿美元 H 轮融资后估值达 9650 亿美元，首次超过 OpenAI 成为全球最贵 AI 私营公司。AI Funding Tracker 6 月榜</description>
     </item>
   </channel>
 </rss>
