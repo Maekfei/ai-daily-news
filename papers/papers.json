@@ -1,6 +1,230 @@
 {
   "papers": [
     {
+      "id": "hf-2603-29616",
+      "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+      "authors": [
+        "Geuntaek Lim",
+        "Sungjune Park",
+        "Jaeyun Lee",
+        "Inwoong Lee",
+        "Taeoh Kim",
+        "Dongyoon Wee",
+        "Minho Shim",
+        "Yukyung Choi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The inherent complexity of video understanding makes it difficult to determine whether Video-LLM benchmark performance stems from visual perception, linguistic reasoning, or knowledge priors. While many benchmarks have emerged to assess high-level reasoning, shared criteria for evaluating video understanding remain largely overlooked. Instead of introducing yet another benchmark, we take a step back to re-examine the criteria for evaluating video understanding. In this work, we introduce Video-Oasis, a sustainable diagnostic suite for systemati",
+      "url": "https://huggingface.co/papers/2603.29616",
+      "pdf_url": "https://arxiv.org/pdf/2603.29616.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-02",
+      "added": "2026-07-11",
+      "stars": 43
+    },
+    {
+      "id": "hf-2607-08768",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "authors": [
+        "Zhekai Chen",
+        "Chengqi Duan",
+        "Kaiyue Sun",
+        "Bohao Li",
+        "Yuqing Wang",
+        "Manyuan Zhang",
+        "Xihui Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it difficult to identify the root causes of agent failure",
+      "url": "https://huggingface.co/papers/2607.08768",
+      "pdf_url": "https://arxiv.org/pdf/2607.08768.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-11",
+      "stars": 22
+    },
+    {
+      "id": "hf-2607-08404",
+      "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
+      "authors": [
+        "Ali Motahharynia",
+        "Mohammadreza Ghaffarzadeh-Esfahani",
+        "Mahsa Sheikholeslami",
+        "Navid Mazrouei",
+        "Matin Irajpour",
+        "Yousof Gheisari",
+        "Hajar Sirous"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a novel generative model that designs small molecules conditioned on both disease ontology and target protein sequences. DrugGen-2 was developed by fine-tuning a pre-trained GPT-2 model on a curated dataset of approved drugs linked to their diseases and ta",
+      "url": "https://huggingface.co/papers/2607.08404",
+      "pdf_url": "https://arxiv.org/pdf/2607.08404.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-11",
+      "stars": 12
+    },
+    {
+      "id": "hf-2607-03803",
+      "title": "CineMobile: On-Device Image-to-Video Diffusion for Cinematic Camera Motion Generation",
+      "authors": [
+        "Xuyao Huang",
+        "Zelai Deng",
+        "Xu Wang",
+        "Xizhong Xiao",
+        "Zhijie Deng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The growing demand for image-to-video creation on mobile devices has increasingly focused on cinematic motion effects like bullet time, dolly zoom, slow motion, etc. While Diffusion Transformers (DiTs) exhibit strong performance in video generation, their large parameter sizes and multi-step iterative denoising processes lead to substantial computational overhead, making efficient generation on mobile devices challenging. We propose CineMobile to bridge the gap. In particular, CineMobile adopts a three-fold optimization strategy: (1) leveraging",
+      "url": "https://huggingface.co/papers/2607.03803",
+      "pdf_url": "https://arxiv.org/pdf/2607.03803.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-07-04",
+      "added": "2026-07-11",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-08716",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "authors": [
+        "Yifan Wu",
+        "Lizhu Zhang",
+        "Yuhang Zhou",
+        "Mingyi Wang",
+        "Bo Peng",
+        "Serena Li",
+        "Xiangjun Fan",
+        "Zhuokai Zhao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action age",
+      "url": "https://huggingface.co/papers/2607.08716",
+      "pdf_url": "https://arxiv.org/pdf/2607.08716.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-11",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-06987",
+      "title": "UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma",
+      "authors": [
+        "Chongyu Fan",
+        "Pengfei Liu",
+        "Jingjia Huang",
+        "Sijia Liu",
+        "Yi Lin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning (RL) has become the standard paradigm for enhancing the complex reasoning capabilities of large language models (LLMs). To achieve sample efficiency, modern RL frameworks rely on importance sampling (IS). However, these algorithms suffer from an exploration-stability dilemma. Pure IS often leads to catastrophic training instability, while standard clipping mechanisms used to mitigate this instability strictly constrain the policy update budget. By formalizing the concept of Probability Capacity (Cap), we reveal that conse",
+      "url": "https://huggingface.co/papers/2607.06987",
+      "pdf_url": "https://arxiv.org/pdf/2607.06987.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-11",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-04461",
+      "title": "Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models",
+      "authors": [
+        "Ruchit Rawal",
+        "Reza Shirkavand",
+        "Sayak Paul",
+        "Yuxin Wen",
+        "Heng Huang",
+        "Yizheng Chen",
+        "Tom Goldstein",
+        "Gowthami Somepalli"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Inference-time scaling for text-to-image generation has progressed from simple Best-of-N (BoN) sampling to guided search methods that verify and steer candidate trajectories at intermediate denoising steps. These approaches focus on when and how often to verify during denoising but largely treat the cost of generation itself as fixed. Moreover, the standard practice of comparing methods by number of function evaluations (NFEs) counts only denoising forward passes and ignores verifier overhead, which can distort efficiency rankings. We show that",
+      "url": "https://huggingface.co/papers/2607.04461",
+      "pdf_url": "https://arxiv.org/pdf/2607.04461.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-07-05",
+      "added": "2026-07-11",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-08093",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "authors": [
+        "Andrej Leban",
+        "Yuekai Sun"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without a principled causal data-generating structure. Furthermore, existing causal evaluation datasets are often restricted to curated examples from existing sources, with diversity coming from limited templatized variations rather than from systematic generat",
+      "url": "https://huggingface.co/papers/2607.08093",
+      "pdf_url": "https://arxiv.org/pdf/2607.08093.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-11",
+      "stars": 1
+    },
+    {
+      "id": "hf-2607-03936",
+      "title": "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs",
+      "authors": [
+        "Kareem Elozeiri",
+        "Mervat Abassy",
+        "Omar Kallas",
+        "Fahim Dalvi",
+        "Preslav Nakov",
+        "Kentaro Inui",
+        "Nadir Durrani"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "A key challenge in Arabic NLP is the scarcity of dialectal data relative to Modern Standard Arabic (MSA), causing LLMs to overproduce MSA and struggle with dialectally accurate generation. From an interpretability perspective, this raises a fundamental question: where and how are dialectal features encoded within model internals, and can these representations be leveraged to improve dialect generation without fine-tuning? This study investigates two complementary inference-time approaches that serve simultaneously as interpretability probes and",
+      "url": "https://huggingface.co/papers/2607.03936",
+      "pdf_url": "https://arxiv.org/pdf/2607.03936.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-04",
+      "added": "2026-07-11",
+      "stars": 0
+    },
+    {
       "id": "hf-2607-07708",
       "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
       "authors": [
@@ -26,7 +250,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 71
+      "stars": 77
     },
     {
       "id": "hf-2607-07608",
@@ -53,7 +277,34 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 45
+      "stars": 50
+    },
+    {
+      "id": "hf-2607-07675",
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "authors": [
+        "Shuailei Ma",
+        "Jiaqi Liao",
+        "Xinyang Wang",
+        "Jingjing Wang",
+        "Chaoran Feng",
+        "Zijing Hu",
+        "Chong Bao",
+        "Zichen Xi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, framework to achieve a better trade-off between mod",
+      "url": "https://huggingface.co/papers/2607.07675",
+      "pdf_url": "https://arxiv.org/pdf/2607.07675.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-10",
+      "stars": 43
     },
     {
       "id": "hf-2607-02770",
@@ -83,31 +334,30 @@
       "stars": 40
     },
     {
-      "id": "hf-2607-07675",
-      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "id": "hf-2607-07534",
+      "title": "Infinite Worlds with Versatile Interactions",
       "authors": [
-        "Shuailei Ma",
-        "Jiaqi Liao",
-        "Xinyang Wang",
-        "Jingjing Wang",
-        "Chaoran Feng",
-        "Zijing Hu",
-        "Chong Bao",
-        "Zichen Xi"
+        "Zelin Gao",
+        "Qiuyu Wang",
+        "Jiapeng Zhu",
+        "Jingye Chen",
+        "Zichen Liu",
+        "Qingyan Bai",
+        "Jiahao Wang",
+        "Yufeng Yuan"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, framework to achieve a better trade-off between mod",
-      "url": "https://huggingface.co/papers/2607.07675",
-      "pdf_url": "https://arxiv.org/pdf/2607.07675.pdf",
+      "summary": "We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining paradigm. (2) Through distilling a real-time variant from the base model, our system guarantees rapid response time, sufficient to drive 720p video streams at 60 fps. (3) Compared to the previous version, this update introduces highly diverse interacti",
+      "url": "https://huggingface.co/papers/2607.07534",
+      "pdf_url": "https://arxiv.org/pdf/2607.07534.pdf",
       "tags": [
         "hf-trending",
-        "benchmark",
-        "multimodal",
-        "robotics"
+        "agent",
+        "rl"
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 39
+      "stars": 27
     },
     {
       "id": "hf-2607-04412",
@@ -133,33 +383,34 @@
       ],
       "published": "2026-07-05",
       "added": "2026-07-10",
-      "stars": 22
+      "stars": 25
     },
     {
-      "id": "hf-2607-07534",
-      "title": "Infinite Worlds with Versatile Interactions",
+      "id": "hf-2607-08758",
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
       "authors": [
-        "Zelin Gao",
-        "Qiuyu Wang",
-        "Jiapeng Zhu",
-        "Jingye Chen",
-        "Zichen Liu",
-        "Qingyan Bai",
-        "Jiahao Wang",
-        "Yufeng Yuan"
+        "Yifan Zhou",
+        "Qihao Yang",
+        "Yan Li",
+        "Donggang Li",
+        "Xiru Hu",
+        "Hokin Deng",
+        "Ziyang Gong",
+        "Xuanyi Zhou"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining paradigm. (2) Through distilling a real-time variant from the base model, our system guarantees rapid response time, sufficient to drive 720p video streams at 60 fps. (3) Compared to the previous version, this update introduces highly diverse interacti",
-      "url": "https://huggingface.co/papers/2607.07534",
-      "pdf_url": "https://arxiv.org/pdf/2607.07534.pdf",
+      "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal, typed, evidence-grounded Idea Genome objects, and",
+      "url": "https://huggingface.co/papers/2607.08758",
+      "pdf_url": "https://arxiv.org/pdf/2607.08758.pdf",
       "tags": [
         "hf-trending",
-        "agent",
-        "rl"
+        "rl",
+        "reasoning",
+        "benchmark"
       ],
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "added": "2026-07-10",
-      "stars": 21
+      "stars": 22
     },
     {
       "id": "hf-2606-28070",
@@ -185,7 +436,7 @@
       ],
       "published": "2026-06-29",
       "added": "2026-07-10",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2607-05804",
@@ -267,6 +518,31 @@
       "stars": 11
     },
     {
+      "id": "hf-2607-07508",
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "authors": [
+        "Zhenyu Hou",
+        "Yujiang Li",
+        "Jie Tang",
+        "Yuxiao Dong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged as a more efficient alternative by updating the model as rollouts arrive. However, existing asynchronous RL systems often emphasize throughput, while leaving training stability and task effectiveness largely underexplored. For example, a key challenge is that group-wise",
+      "url": "https://huggingface.co/papers/2607.07508",
+      "pdf_url": "https://arxiv.org/pdf/2607.07508.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-10",
+      "stars": 10
+    },
+    {
       "id": "hf-2607-05465",
       "title": "CanvasAgent: Enabling Complex Image Creation and Editing via Visual Tool Orchestration",
       "authors": [
@@ -297,25 +573,51 @@
       "stars": 9
     },
     {
-      "id": "hf-2607-07508",
-      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "id": "hf-2607-04434",
+      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
       "authors": [
-        "Zhenyu Hou",
-        "Yujiang Li",
-        "Jie Tang",
-        "Yuxiao Dong"
+        "Tianxing Chen",
+        "Yue Chen",
+        "Zixuan Li",
+        "Junyuan Tang",
+        "Kailun Su",
+        "Haoran Lu",
+        "Weijie Wan",
+        "Baijun Chen"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged as a more efficient alternative by updating the model as rollouts arrive. However, existing asynchronous RL systems often emphasize throughput, while leaving training stability and task effectiveness largely underexplored. For example, a key challenge is that group-wise",
-      "url": "https://huggingface.co/papers/2607.07508",
-      "pdf_url": "https://arxiv.org/pdf/2607.07508.pdf",
+      "summary": "Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capability coverage, and are often conducted only in simulation or only in the real world. Simulation enables scalable feedback but misses physical deployment challenges, while real-world evaluation is costly, time-consuming, and difficult to reproduce. We introduce RoboDojo, a unified sim-and-real benchmark for comprehensive e",
+      "url": "https://huggingface.co/papers/2607.04434",
+      "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-07-07",
+      "added": "2026-07-10",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-07740",
+      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+      "authors": [
+        "Haozhan Tang",
+        "Zerui Wang",
+        "Yuxian Gu",
+        "Song Han",
+        "Han Cai"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulated reasoning and tool traces routinely push the input an order of magnitude past the pretraining window, making zero-shot context extension the dominant deployment path for open-weight checkpoints. Most existing zero-shot methods fix a single rescaling factor up front, so an aggressive factor sacrifices short-context fidelity while a conservative one breaks down at long contexts",
+      "url": "https://huggingface.co/papers/2607.07740",
+      "pdf_url": "https://arxiv.org/pdf/2607.07740.pdf",
       "tags": [
         "hf-trending",
         "agent",
-        "rl",
         "reasoning",
-        "benchmark",
-        "code"
+        "benchmark"
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
@@ -349,31 +651,29 @@
       "stars": 7
     },
     {
-      "id": "hf-2607-04434",
-      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "id": "hf-2607-07386",
+      "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
       "authors": [
-        "Tianxing Chen",
-        "Yue Chen",
-        "Zixuan Li",
-        "Junyuan Tang",
-        "Kailun Su",
-        "Haoran Lu",
-        "Weijie Wan",
-        "Baijun Chen"
+        "Loïc Cabannes",
+        "Pierre-Emmanuel Mazaré",
+        "Gergely Szilvasy",
+        "Matthijs Douze",
+        "Maria Lomeli",
+        "Ilze Amanda Auzina",
+        "Justin Carpentier",
+        "Gabriel Synnaeve"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capability coverage, and are often conducted only in simulation or only in the real world. Simulation enables scalable feedback but misses physical deployment challenges, while real-world evaluation is costly, time-consuming, and difficult to reproduce. We introduce RoboDojo, a unified sim-and-real benchmark for comprehensive e",
-      "url": "https://huggingface.co/papers/2607.04434",
-      "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
+      "summary": "Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-attention-based transformer architectures. Increasing the state size of linear attention improves recall performance but at the cost of higher FLOPs. In this work, we introduce Sparse Delta Memory (SDM), an architecture that scales the hidden state of gated linear RNNs to orders of magnitude higher capacity using a sparse addressing sche",
+      "url": "https://huggingface.co/papers/2607.07386",
+      "pdf_url": "https://arxiv.org/pdf/2607.07386.pdf",
       "tags": [
         "hf-trending",
-        "rl",
-        "benchmark",
-        "robotics"
+        "reasoning"
       ],
-      "published": "2026-07-07",
+      "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2607-01897",
@@ -399,29 +699,55 @@
       "stars": 6
     },
     {
-      "id": "hf-2607-07386",
-      "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
+      "id": "hf-2607-06624",
+      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
       "authors": [
-        "Loïc Cabannes",
-        "Pierre-Emmanuel Mazaré",
-        "Gergely Szilvasy",
-        "Matthijs Douze",
-        "Maria Lomeli",
-        "Ilze Amanda Auzina",
-        "Justin Carpentier",
-        "Gabriel Synnaeve"
+        "Andrey Podivilov",
+        "Vadim Lomshakov",
+        "Sergey Savin",
+        "Matvei Startsev",
+        "Roman Pozharskiy",
+        "Maksim Parshin",
+        "Sergey Nikolenko"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-attention-based transformer architectures. Increasing the state size of linear attention improves recall performance but at the cost of higher FLOPs. In this work, we introduce Sparse Delta Memory (SDM), an architecture that scales the hidden state of gated linear RNNs to orders of magnitude higher capacity using a sparse addressing sche",
-      "url": "https://huggingface.co/papers/2607.07386",
-      "pdf_url": "https://arxiv.org/pdf/2607.07386.pdf",
+      "summary": "We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents experience the entire trajectory: how the agent follows instructions, uses its tools, verifies its own work, recovers from mistakes, and talks to them along the way. AgentLens evaluates that whole trajectory. It pairs formal verification, where an objective check exists, with LLM-written trajectory reviews and side-by-side comparisons, so",
+      "url": "https://huggingface.co/papers/2607.06624",
+      "pdf_url": "https://arxiv.org/pdf/2607.06624.pdf",
       "tags": [
         "hf-trending",
-        "reasoning"
+        "agent",
+        "benchmark",
+        "code"
       ],
-      "published": "2026-07-08",
+      "published": "2026-07-07",
       "added": "2026-07-10",
-      "stars": 5
+      "stars": 6
+    },
+    {
+      "id": "hf-2607-08763",
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "authors": [
+        "Xinyan Chen",
+        "Ziyu Guo",
+        "Renrui Zhang",
+        "Dongzhi Jiang",
+        "Hongsheng Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework c",
+      "url": "https://huggingface.co/papers/2607.08763",
+      "pdf_url": "https://arxiv.org/pdf/2607.08763.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-10",
+      "stars": 6
     },
     {
       "id": "hf-2607-06065",
@@ -556,32 +882,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2607-06624",
-      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
-      "authors": [
-        "Andrey Podivilov",
-        "Vadim Lomshakov",
-        "Sergey Savin",
-        "Matvei Startsev",
-        "Roman Pozharskiy",
-        "Maksim Parshin",
-        "Sergey Nikolenko"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents experience the entire trajectory: how the agent follows instructions, uses its tools, verifies its own work, recovers from mistakes, and talks to them along the way. AgentLens evaluates that whole trajectory. It pairs formal verification, where an objective check exists, with LLM-written trajectory reviews and side-by-side comparisons, so",
-      "url": "https://huggingface.co/papers/2607.06624",
-      "pdf_url": "https://arxiv.org/pdf/2607.06624.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-07",
-      "added": "2026-07-10",
-      "stars": 4
-    },
-    {
       "id": "hf-2607-00394",
       "title": "When Classic Cache Policies Fail: Learning-Augmented Replacement for Semantic Retrieval Buffers",
       "authors": [
@@ -680,30 +980,6 @@
       "published": "2026-07-06",
       "added": "2026-07-10",
       "stars": 2
-    },
-    {
-      "id": "hf-2607-07740",
-      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
-      "authors": [
-        "Haozhan Tang",
-        "Zerui Wang",
-        "Yuxian Gu",
-        "Song Han",
-        "Han Cai"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulated reasoning and tool traces routinely push the input an order of magnitude past the pretraining window, making zero-shot context extension the dominant deployment path for open-weight checkpoints. Most existing zero-shot methods fix a single rescaling factor up front, so an aggressive factor sacrifices short-context fidelity while a conservative one breaks down at long contexts",
-      "url": "https://huggingface.co/papers/2607.07740",
-      "pdf_url": "https://arxiv.org/pdf/2607.07740.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-08",
-      "added": "2026-07-10",
-      "stars": 1
     },
     {
       "id": "hf-2607-03949",
@@ -840,59 +1116,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-10",
-      "stars": 0
-    },
-    {
-      "id": "hf-2607-08758",
-      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
-      "authors": [
-        "Yifan Zhou",
-        "Qihao Yang",
-        "Yan Li",
-        "Donggang Li",
-        "Xiru Hu",
-        "Hokin Deng",
-        "Ziyang Gong",
-        "Xuanyi Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal, typed, evidence-grounded Idea Genome objects, and",
-      "url": "https://huggingface.co/papers/2607.08758",
-      "pdf_url": "https://arxiv.org/pdf/2607.08758.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-09",
-      "added": "2026-07-10",
-      "stars": 0
-    },
-    {
-      "id": "hf-2607-08763",
-      "title": "OpenCoF: Learning to Reason Through Video Generation",
-      "authors": [
-        "Xinyan Chen",
-        "Ziyu Guo",
-        "Renrui Zhang",
-        "Dongzhi Jiang",
-        "Hongsheng Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework c",
-      "url": "https://huggingface.co/papers/2607.08763",
-      "pdf_url": "https://arxiv.org/pdf/2607.08763.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-09",
-      "added": "2026-07-10",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2607-04044",
@@ -1787,232 +2011,6 @@
       "published": "2026-07-02",
       "added": "2026-07-07",
       "stars": 37
-    },
-    {
-      "id": "hf-2607-02461",
-      "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
-      "authors": [
-        "Donghyun Lee",
-        "Jitesh Chavan",
-        "Duy Nguyen",
-        "Sam Huang",
-        "Liming Jiang",
-        "Priyadarshini Panda",
-        "Timo Mertens",
-        "Saurabh Shukla"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, forcing prior methods to re-fit calibration data for every new checkpoint or modality. We present OrbitQuant, a data-agnostic weight-activation quantizer that bypasses range estimation by quantizing in a normalized, rotated basis. In this basis, a ran",
-      "url": "https://huggingface.co/papers/2607.02461",
-      "pdf_url": "https://arxiv.org/pdf/2607.02461.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-07",
-      "stars": 33
-    },
-    {
-      "id": "hf-2607-01804",
-      "title": "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon",
-      "authors": [
-        "Yi Pan",
-        "Miao Pan",
-        "Qi Lu",
-        "Jiaming Huang",
-        "Man Zhang",
-        "Siteng Huang",
-        "Xin Li",
-        "Jie Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) foundation models have recently achieved strong progress in embodied intelligence. To reduce policy-call frequency while preserving temporal coherence, most generative policies adopt an action chunk mechanism, executing multiple future actions in an open-loop manner under a fixed action horizon. However, this \"predict-then-blindly-execute\" paradigm sacrifices closed-loop reactivity: in contact-rich physical interactions, even small local perturbations can rapidly amplify within the open-loop blind spot, leading to c",
-      "url": "https://huggingface.co/papers/2607.01804",
-      "pdf_url": "https://arxiv.org/pdf/2607.01804.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-07",
-      "stars": 23
-    },
-    {
-      "id": "hf-2606-31227",
-      "title": "Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming",
-      "authors": [
-        "Yong Yang",
-        "Xing Zheng",
-        "Huiyu Wu",
-        "Huangsheng Cheng",
-        "Xiaorong Shi",
-        "Jing Guo",
-        "Bo Yang",
-        "Yi Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The fast growth of open-source AI infrastructure, from model serving engines and agent platforms to the Model Context Protocol (MCP) ecosystem and the language models themselves, has outpaced the security tooling available to defend it. We present AI-Infra-Guard, an open-source framework that organizes AI red teaming around a single observation: the attack surface of an AI agent is stratified across layers (infrastructure, protocol/tool, agent behavior, and model), and no single detection paradigm fits all of them. The framework therefore match",
-      "url": "https://huggingface.co/papers/2606.31227",
-      "pdf_url": "https://arxiv.org/pdf/2606.31227.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-07",
-      "stars": 8
-    },
-    {
-      "id": "hf-2606-31959",
-      "title": "AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer",
-      "authors": [
-        "Xinyu Hou",
-        "Xiaoming Li",
-        "Zongsheng Yue",
-        "Chen Change Loy"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Depth-of-field control is a fundamental tool in photography, yet post-capture bokeh editing from a single image remains challenging. A practical editor should handle images captured under arbitrary focus and aperture settings. Existing methods typically assume an all-in-focus input, or first recover an all-in-focus image before rendering new bokeh. Such pipelines can discard useful blur cues from the source image and propagate reconstruction artifacts into the final edit. We introduce AnyBokeh, a physics-guided framework for any-to-any bokeh ed",
-      "url": "https://huggingface.co/papers/2606.31959",
-      "pdf_url": "https://arxiv.org/pdf/2606.31959.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-07",
-      "stars": 8
-    },
-    {
-      "id": "hf-2606-31036",
-      "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
-      "authors": [
-        "Shreyas Rajesh",
-        "Kartik Sharma",
-        "Tonmoy Monsoor",
-        "Mehmet Yigit Turali",
-        "Richard Idro",
-        "Juliana Kayaga",
-        "Robert Sebunya",
-        "Tracy Tushabe Namata"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Specialist epilepsy expertise is scarce in resource-constrained settings, making LLM-based decision support attractive for frontline clinicians managing longitudinal treatment. Such systems must adapt to local prescribing practice and know when to defer. We study this problem in Ugandan pediatric epilepsy care, predicting anti-seizure medication regimens from longitudinal unstructured clinic notes. Standard prompting achieves non-trivial agreement with physician prescriptions, but neurologist review shows that many errors reflect distribution-m",
-      "url": "https://huggingface.co/papers/2606.31036",
-      "pdf_url": "https://arxiv.org/pdf/2606.31036.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-07",
-      "stars": 6
-    },
-    {
-      "id": "hf-2607-01764",
-      "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
-      "authors": [
-        "Mingzhe Du",
-        "Luu Anh Tuan",
-        "Tianyi Wu",
-        "Renyang Liu",
-        "Zhijiang Guo",
-        "Dong Huang",
-        "See-Kiong Ng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Repository-level vulnerability reproduction is a demanding software engineering (SE) task: an agent must inspect a codebase, infer the input grammar that reaches a vulnerable path, construct a proof-of-conceptv(PoC), and verify that the crash disappears on the patched build. Recent LLM agents can often execute these steps when the approach is correct, yet they still fail by choosing the wrong strategy. This paper argues that strategy, rather than the full action trajectory, is the right learning unit for such SE agents: it is compact enough to",
-      "url": "https://huggingface.co/papers/2607.01764",
-      "pdf_url": "https://arxiv.org/pdf/2607.01764.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-07",
-      "stars": 6
-    },
-    {
-      "id": "hf-2607-02471",
-      "title": "Interpretation-Oriented Cloud Removal via Observation-Anchored Residual Flow with Geo-Contextual Alignment",
-      "authors": [
-        "Ziyao Wang",
-        "Maonan Wang",
-        "Yucheng He",
-        "Xianping Ma",
-        "Ziyi Wang",
-        "Hongyang Zhang",
-        "Yirong Cheng",
-        "Man-on Pun"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Cloud removal (CR) is essential for optical remote sensing, serving as a prerequisite for reliable downstream interpretation, such as semantic segmentation and change detection. However, existing CR approaches often prioritize visual realism while overlooking their impact on subsequent analytical tasks, leading to semantic drift and degraded downstream performance. To address this issue, we propose Geo-Anchored Cloud Removal (GACR), a unified framework that jointly ensures faithful reconstruction and robust interpretability. At its core, GACR i",
-      "url": "https://huggingface.co/papers/2607.02471",
-      "pdf_url": "https://arxiv.org/pdf/2607.02471.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-07",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-00052",
-      "title": "AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation",
-      "authors": [
-        "Bao Long Nguyen Huu",
-        "Atsushi Hashimoto"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "GraphRAG is an extension of retrieval-augmented generation (RAG) that supports large language models (LLMs) by referring to graph-structured data as external knowledge. While this technique ideally captures intricate relationships, it often struggles with graph representations for LLMs, particularly for frozen LLMs, due to the misalignment between graph-based and text-based latent features. We tackle this issue by introducing the {\\it Adaptive-masking for Graph Embedding (AGE)}. AGE employs a Transformer in a mask-based self-supervised learning",
-      "url": "https://huggingface.co/papers/2607.00052",
-      "pdf_url": "https://arxiv.org/pdf/2607.00052.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-07",
-      "stars": 3
-    },
-    {
-      "id": "hf-2607-02255",
-      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
-      "authors": [
-        "Xiangchen Cheng",
-        "Yunwei Jiang",
-        "Jianwen Sun",
-        "Zizhen Li",
-        "Chuanhao Li",
-        "Xiangcheng Cao",
-        "Yihao Liu",
-        "Fanrui Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thu",
-      "url": "https://huggingface.co/papers/2607.02255",
-      "pdf_url": "https://arxiv.org/pdf/2607.02255.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-04",
-      "stars": 55
     }
   ]
 }

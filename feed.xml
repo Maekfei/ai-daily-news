@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 02:08:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 02:06:35 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-11</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-11</link>
+      <guid isPermaLink="false">2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 10:00:00 +0800</pubDate>
+      <description>苹果正式起诉 OpenAI「系统性窃取硬件商业机密」，把两家 2024 年的合作伙伴关系推向法庭；Meta Superintelligence Labs 同期发布 Muse Spark 1.1 编程 Agent，正面切入 Claude Code / Codex 战场。
+• 苹果正式起诉 OpenAI 及 Tang Tan：指控系统性窃取硬件商业机密
+• Meta Superintelligence Labs 发布 Muse Spark 1.1，正面切入 AI 编程 Agent 市场
+• Agent 赛道单周三笔关键融资：Norm Ai / Bespoke Labs / Alta 合计 1.85 亿美元
+• 山东发布首批 100 个「AI+制造」重点应用场景 + 100 个垂域大模型 — 7 月 9 日，山东省政府新闻办发布首批「双百清单」：100 个 AI+制造重点建设应用场景（山钢集团、济南二机床等）与 100 个重点推广的垂直领域大模型，同期公布省级 AI 应用示范项目名单。这是国内首个省级层面把「产业场景 × 垂域大模型」做成清单化政策的省份，为 WAIC 2026 前的地方 AI 政策竞赛定下基调。山东省政府官网 / 搜狐：山东&quot;双百清单&quot;
+• Meta 股价创 2024 年初以来最佳单周表现，市场为 AI 战略投票 — 7 月 11 日多家美股观察机构指出，随 Muse Spark 1.1 发布、Scale AI 整合完成、以及 Alexandr Wang 团队公开路线图，Meta（$META）股价周涨幅创下自 2024 年初以来最大单周涨幅；华尔街主要分析师上调对 Meta 家庭 AI（Family of Apps）+ Muse 系列 API 收入 2027 年预测。iWiki 每日资讯：Meta AI 战略乐观情绪升温</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-10</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-10</link>
@@ -354,18 +366,6 @@
 • Anthropic 发布 Claude Fable 5 / Mythos 5：自主运行时长大幅延长
 • 阿里千问上线&quot;国内首个全周期高考志愿填报 Agent&quot;
 • DeepSeek 首轮外部融资 70 亿美元，估值最高 590 亿美元 — 路透社 6 月 3 日披露，DeepSeek 启动首轮外部融资，规模约 500 亿元人民币（70 亿美元），投后估值 3500–4000 亿元（最高 590 亿美元），刷新国产大模型单笔融资纪录；投资方包括腾讯、宁德时代、国家大基金、网易、京东，创始人梁文锋个人出资 200 亿元。知乎专栏</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-11</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-11</link>
-      <guid isPermaLink="false">2026-06-11</guid>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <description>Sam Altman 内部信定调 OpenAI&quot;未来一年内&quot;IPO 并预告本月推出 GPT-5.6；德国具身智能公司 Neura Robotics 完成最高 14 亿美元融资，Tether/Qualcomm/Amazon/NVIDIA 联合下注。
-• OpenAI 预告 GPT-5.6 本月发布，Altman 称 IPO 推迟至&quot;未来一年内&quot;
-• Neura Robotics 拿下最高 14 亿美元融资，Tether/Qualcomm/Amazon/NVIDIA 集体下注
-• 微软 Build 2026 全面押注 Agent：Windows Agent Framework + Azure Agent Mesh GA
-• 华为云发布 Agentic Infra 新范式与 CloudRobo 具身智能开发平台
-• 中国发布人形机器人国家行动：2026 年底前商用部署 1 万台 — 财新 6 月 10 日援引官方文件，中国启动加速人形机器人与具身智能落地的国家计划，明确 2026 年末实现 1 万台商用目标，覆盖工厂、物流与家庭。Caixin Global</description>
     </item>
   </channel>
 </rss>
