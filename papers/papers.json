@@ -1,6 +1,84 @@
 {
   "papers": [
     {
+      "id": "hf-2607-09024",
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "authors": [
+        "Letian Wang",
+        "Chuhan Zhang",
+        "Rishabh Kabra",
+        "Jasper Uijlings",
+        "Steven Waslander",
+        "Andrew Zisserman",
+        "Joao Carreira",
+        "Kaiming He"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this paper, we contend that large-scale text-to-video generation serves as a strong pre-training paradigm for computer vision, providing the necessary spatiotemporal priors, vision-language alignment, and scalability required for general visual intelligence. We introduce GenCeption, which leverages a pre-trained video generative",
+      "url": "https://huggingface.co/papers/2607.09024",
+      "pdf_url": "https://arxiv.org/pdf/2607.09024.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-10",
+      "added": "2026-07-13",
+      "stars": 1
+    },
+    {
+      "id": "hf-2607-09415",
+      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+      "authors": [
+        "Xinyu Zhu",
+        "Zhe Xu",
+        "Xiaohan Wei",
+        "Yunchen Pu",
+        "Fei Tian",
+        "Chonglin Sun",
+        "Kaushik Rangadurai",
+        "Hua Zhi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy often degrades, indicating that models still struggle to identify and use the evidence most relevant to a question. A promising way to improve long-context utilization is test-time training (TTT), which treats the test context as a training example for instance-specific parameter adaptation. However, applying TTT to the entire",
+      "url": "https://huggingface.co/papers/2607.09415",
+      "pdf_url": "https://arxiv.org/pdf/2607.09415.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-10",
+      "added": "2026-07-13",
+      "stars": 0
+    },
+    {
+      "id": "hf-2607-09424",
+      "title": "A Sovereign, Open-Source Foundation Model for German and English",
+      "authors": [
+        "The Soofi-Team",
+        "Benedikt Droste",
+        "David Fitzek",
+        "Ruben Härle",
+        "Lukas Helff",
+        "Maximilian Idahl",
+        "Alex Jude",
+        "Abbas Goher Khan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present Soofi S 30B-A3B, a sovereign, open-source Mixture-of-Experts (MoE) hybrid Mamba Transformer foundation model for German and English. Its hybrid design activates only 3B of 30B parameters per token and keeps the inference cache near-constant as context grows, giving it a decisive throughput advantage over dense models for long-context, high-concurrency deployment. Pretrained on roughly 27 trillion tokens with deliberately up-weighted German, Soofi S matches dense 14 to 27B models on aggregate English and German benchmarks while achiev",
+      "url": "https://huggingface.co/papers/2607.09424",
+      "pdf_url": "https://arxiv.org/pdf/2607.09424.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-10",
+      "added": "2026-07-13",
+      "stars": 0
+    },
+    {
       "id": "hf-2603-29616",
       "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
       "authors": [
@@ -26,7 +104,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-11",
-      "stars": 50
+      "stars": 55
     },
     {
       "id": "hf-2607-08768",
@@ -54,7 +132,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-11",
-      "stars": 26
+      "stars": 27
     },
     {
       "id": "hf-2607-08404",
@@ -79,7 +157,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-11",
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "hf-2607-03803",
@@ -102,7 +180,7 @@
       ],
       "published": "2026-07-04",
       "added": "2026-07-11",
-      "stars": 11
+      "stars": 12
     },
     {
       "id": "hf-2607-08716",
@@ -128,7 +206,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-11",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2607-06987",
@@ -152,7 +230,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-11",
-      "stars": 5
+      "stars": 7
     },
     {
       "id": "hf-2607-04461",
@@ -250,7 +328,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 83
+      "stars": 84
     },
     {
       "id": "hf-2607-07608",
@@ -304,7 +382,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 46
+      "stars": 49
     },
     {
       "id": "hf-2607-02770",
@@ -358,7 +436,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-10",
-      "stars": 30
+      "stars": 31
     },
     {
       "id": "hf-2607-07534",
@@ -384,7 +462,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 29
+      "stars": 31
     },
     {
       "id": "hf-2607-04412",
@@ -410,7 +488,7 @@
       ],
       "published": "2026-07-05",
       "added": "2026-07-10",
-      "stars": 26
+      "stars": 27
     },
     {
       "id": "hf-2606-28070",
@@ -460,30 +538,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 14
-    },
-    {
-      "id": "hf-2607-05804",
-      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
-      "authors": [
-        "Yuhang Zhou",
-        "Kai Zheng",
-        "Haoling Li",
-        "Dengyun Peng",
-        "Can Xu",
-        "Jingjing Chen"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-policy distillation (OPD) trains a student policy by matching a stronger teacher on the student's own trajectories, offering a promising framework for language agent training. However, its application to long-horizon agentic tasks remains insufficiently explored. We identify two key inefficiencies in vanilla agent OPD: (1) full-horizon rollouts often waste wall-clock resources on tail turns that provide weak and noisy KL supervision, and (2) trajectory-level KL objectives concentrate most of the loss on shallow tokens, leaving deeper decisio",
-      "url": "https://huggingface.co/papers/2607.05804",
-      "pdf_url": "https://arxiv.org/pdf/2607.05804.pdf",
-      "tags": [
-        "hf-trending",
-        "agent"
-      ],
-      "published": "2026-07-07",
-      "added": "2026-07-10",
-      "stars": 13
+      "stars": 15
     },
     {
       "id": "hf-2607-07508",
@@ -507,6 +562,54 @@
         "code"
       ],
       "published": "2026-07-08",
+      "added": "2026-07-10",
+      "stars": 14
+    },
+    {
+      "id": "hf-2607-08763",
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "authors": [
+        "Xinyan Chen",
+        "Ziyu Guo",
+        "Renrui Zhang",
+        "Dongzhi Jiang",
+        "Hongsheng Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework c",
+      "url": "https://huggingface.co/papers/2607.08763",
+      "pdf_url": "https://arxiv.org/pdf/2607.08763.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-10",
+      "stars": 14
+    },
+    {
+      "id": "hf-2607-05804",
+      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+      "authors": [
+        "Yuhang Zhou",
+        "Kai Zheng",
+        "Haoling Li",
+        "Dengyun Peng",
+        "Can Xu",
+        "Jingjing Chen"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "On-policy distillation (OPD) trains a student policy by matching a stronger teacher on the student's own trajectories, offering a promising framework for language agent training. However, its application to long-horizon agentic tasks remains insufficiently explored. We identify two key inefficiencies in vanilla agent OPD: (1) full-horizon rollouts often waste wall-clock resources on tail turns that provide weak and noisy KL supervision, and (2) trajectory-level KL objectives concentrate most of the loss on shallow tokens, leaving deeper decisio",
+      "url": "https://huggingface.co/papers/2607.05804",
+      "pdf_url": "https://arxiv.org/pdf/2607.05804.pdf",
+      "tags": [
+        "hf-trending",
+        "agent"
+      ],
+      "published": "2026-07-07",
       "added": "2026-07-10",
       "stars": 13
     },
@@ -594,31 +697,6 @@
       "stars": 11
     },
     {
-      "id": "hf-2607-08763",
-      "title": "OpenCoF: Learning to Reason Through Video Generation",
-      "authors": [
-        "Xinyan Chen",
-        "Ziyu Guo",
-        "Renrui Zhang",
-        "Dongzhi Jiang",
-        "Hongsheng Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework c",
-      "url": "https://huggingface.co/papers/2607.08763",
-      "pdf_url": "https://arxiv.org/pdf/2607.08763.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-09",
-      "added": "2026-07-10",
-      "stars": 11
-    },
-    {
       "id": "hf-2607-07386",
       "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
       "authors": [
@@ -640,6 +718,33 @@
         "reasoning"
       ],
       "published": "2026-07-08",
+      "added": "2026-07-10",
+      "stars": 10
+    },
+    {
+      "id": "hf-2606-30111",
+      "title": "Automating the Design of Embodied Agent Architectures",
+      "authors": [
+        "Jian Zhou",
+        "Sihao Lin",
+        "Jin Li",
+        "Shuai Fu",
+        "Gengze Zhou",
+        "Qi Wu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are processed, and how model calls are connected. Agent Architecture Search (AAS) automates such design for text-domain agents, but has not been systematically evaluated on perceptual embodied agents through simulator rollouts. We study this transfer. We intro",
+      "url": "https://huggingface.co/papers/2606.30111",
+      "pdf_url": "https://arxiv.org/pdf/2606.30111.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-07-03",
       "added": "2026-07-10",
       "stars": 10
     },
@@ -670,33 +775,6 @@
         "robotics"
       ],
       "published": "2026-07-06",
-      "added": "2026-07-10",
-      "stars": 9
-    },
-    {
-      "id": "hf-2606-30111",
-      "title": "Automating the Design of Embodied Agent Architectures",
-      "authors": [
-        "Jian Zhou",
-        "Sihao Lin",
-        "Jin Li",
-        "Shuai Fu",
-        "Gengze Zhou",
-        "Qi Wu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are processed, and how model calls are connected. Agent Architecture Search (AAS) automates such design for text-domain agents, but has not been systematically evaluated on perceptual embodied agents through simulator rollouts. We study this transfer. We intro",
-      "url": "https://huggingface.co/papers/2606.30111",
-      "pdf_url": "https://arxiv.org/pdf/2606.30111.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-07-03",
       "added": "2026-07-10",
       "stars": 9
     },
@@ -1938,79 +2016,6 @@
       "published": "2026-06-27",
       "added": "2026-07-08",
       "stars": 3
-    },
-    {
-      "id": "hf-2607-03296",
-      "title": "Taste-aware music retrieval from audio embeddings",
-      "authors": [
-        "Matteo Spanio",
-        "Antonio Rodà"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Crossmodal correspondences between sound and taste are well established in psychology and neuroscience, but largely absent from content-based multimedia retrieval. We formalise taste-from-audio prediction as a content-based music information retrieval benchmark over a perceptually validated multi-source corpus, comparing ten frozen audio encoders from the four HEAR families under a shared multi-task regression head, with gated late-fusion as a configurable variant. In order to assess the effectiveness of the models, we compute absolute error an",
-      "url": "https://huggingface.co/papers/2607.03296",
-      "pdf_url": "https://arxiv.org/pdf/2607.03296.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-03",
-      "added": "2026-07-08",
-      "stars": 2
-    },
-    {
-      "id": "hf-2606-29526",
-      "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
-      "authors": [
-        "Jing Liang",
-        "Hongyao Tang",
-        "Yi Ma",
-        "Yancheng He",
-        "Weixun Wang",
-        "Xiaoyang Li",
-        "Ju Huang",
-        "Wenbo Su"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning (RL) has gained growing attention in large language model (LLM) post-training, yet RL training remains fragile and can suffer from instability or collapse. One vital cause is training-inference mismatch: LLM adopts separate inference and training engines for generation efficiency and training precision, which in practice exhibits inconsistent probabilities for the same trajectories on training and inference sides, even with synchronized model parameters. This naturally induces a special type of off-policyness ever existin",
-      "url": "https://huggingface.co/papers/2606.29526",
-      "pdf_url": "https://arxiv.org/pdf/2606.29526.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-06-28",
-      "added": "2026-07-07",
-      "stars": 142
-    },
-    {
-      "id": "hf-2607-02501",
-      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
-      "authors": [
-        "Ling Xu",
-        "Chuyu Han",
-        "Borui Li",
-        "Hao Wu",
-        "Shiqi Jiang",
-        "Ting Cao",
-        "Chuanyou Li",
-        "Sheng Zhong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are designed mainly for request-response serving and therefore do not satisfy the runtime contract of embodied deployment: multi-rate execution inside closed-loop control, latency-first batch-1 inference on heterogeneous hardware, and extensible embodied i",
-      "url": "https://huggingface.co/papers/2607.02501",
-      "pdf_url": "https://arxiv.org/pdf/2607.02501.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-02",
-      "added": "2026-07-07",
-      "stars": 37
     }
   ]
 }

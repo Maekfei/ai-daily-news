@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 02:05:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 02:09:11 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-13</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-13</link>
+      <guid isPermaLink="false">2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 10:00:00 +0800</pubDate>
+      <description>斯坦福 Biomni 登上《Science》——通用生物医学 AI 智能体首次证明可在真实科研工作流中媲美人类专家；同一天 Prime Intellect 发布 Verifiers v1，把 Agent RL 训练从「黑盒脚本」重写成「可组合任务集」，Agent 生产化与训练侧同时进入新范式。
+• 斯坦福 Biomni 登《Science》：通用生物医学 AI 智能体自主完成科研任务
+• Prime Intellect 发布 Verifiers v1：Agent RL 训练框架首次「任务/沙盒/环境」三层解耦
+• Meta 开放 Muse Spark 1.1 API：正式加入编程与 Agent 商业化战局
+• 美团 AI 亮相 ACL 2026：Self-Evolving Agent、Agentic RL、履约领域 CPT 三项研究入选 — 7 月 13 日，美团履约 AI 团队宣布共有多篇论文入选 ACL 2026，聚焦自演化 Agent 系统、Agentic 强化学习、履约场景 continual pre-training 三大方向；这是国内互联网大厂首次以「履约业务 Agent」为主题在 ACL 系统性亮相，反映本地生活与即时零售场景的 Agent 落地正在从「试点」走向「有论文可循」。Aitoolly：Meituan AI at ACL 2026
+• Alta AI 完成 2500 万美元 A 轮，构建面向收入团队的「AI-Native GTM 操作层」 — 7 月 8 日，以色列特拉维夫的 Alta AI 宣布 A 轮 2500 万美元融资，由 IN Venture 领投；产品定位是把销售、市场、客户成功三条线上的 SDR、CRM、Marketing Automation 收编到一个 Agent-Native 操作层，取代 Salesforce/HubSpot 的「记录 + 人操作」范式。这是 2026 Q3 首笔亮眼的 Agentic GTM 融资。SiliconANGLE：With $25M in funding, Alta AI aims to accelerate go-to-market automation / Unite.AI：Alta Raises $25M Series A</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-12</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-12</link>
@@ -354,18 +366,6 @@
 • MiniMax 开源 M3 旗舰多模态模型，华为云 / 摩尔线程 Day-0 适配
 • Kimi 推出全球首张 AI 原生信用卡，消费即转化为 Agent 算力额度
 • OpenAI 启动 ChatGPT × Codex 深度整合，进化为&quot;超级应用&quot; — 6 月初官宣未来数周内将 Codex、Agent 与第三方应用生态全面并入 ChatGPT，Codex 周活已超 500 万，OpenAI 内部资源向其倾斜以正面对抗 Claude Code。搜狐：OpenAI 启动战略级转型</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-13</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-13</link>
-      <guid isPermaLink="false">2026-06-13</guid>
-      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
-      <description>第八届北京智源大会今日进入第二天，&quot;悟道&quot;升级为&quot;悟界&quot;主打 Agent 与世界模型；OpenAI 内部备战 GPT-5.6，Codex 与第三方应用全面整合，ChatGPT 进入&quot;超级应用&quot;阶段。
-• 北京智源大会开幕：从&quot;悟道&quot;到&quot;悟界&quot;押注 Agent 与世界模型
-• OpenAI 启动 ChatGPT 超级应用化：Codex 与 Agent、第三方应用深度整合
-• Apple WWDC 2026：Siri 进入 Agent 时代，Foundation Models 对第三方开放
-• Anthropic 推出 Claude Fable 5：首个面向公众的 Mythos 级旗舰
-• 中国官宣 2 万亿元 AI 数据中心五年规划，国产化率瞄准 80% — 中国发布国家级 AI 基础设施计划，预计五年投入约 2 万亿元人民币（约 2,950 亿美元），目标以国产芯片为主降低对美依赖。TechStartups</description>
     </item>
   </channel>
 </rss>
