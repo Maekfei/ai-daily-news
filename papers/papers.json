@@ -1,6 +1,201 @@
 {
   "papers": [
     {
+      "id": "hf-2607-08964",
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "authors": [
+        "Zongxia Li",
+        "Zhongzhi Li",
+        "Yucheng Shi",
+        "Ruhan Wang",
+        "Junyao Yang",
+        "Zhichao Liu",
+        "Xiyang Wu",
+        "Anhao Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluated only by their final outcome. This setup overlooks intermediate progress and partial solutions, yielding sparse reward signals and an incomplete picture of agent capability. We introduce Long-Horizon-Terminal-Bench, a terminal benchmark of 46 long-horizon tasks spanning nine categories, including experiment reproduction, software engineering, mult",
+      "url": "https://huggingface.co/papers/2607.08964",
+      "pdf_url": "https://arxiv.org/pdf/2607.08964.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-14",
+      "stars": 48
+    },
+    {
+      "id": "hf-2607-04751",
+      "title": "Trust Region Policy Distillation",
+      "authors": [
+        "Zhengpeng Xie",
+        "Li Lyna Zhang",
+        "Zeke Xie",
+        "Mao Yang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Big goals are hard to achieve all at once; breaking them into small steps is wiser. We present Trust Region Policy Distillation (TOP-D), which transforms the notoriously unstable, high-variance On-Policy Distillation (OPD) into a stable training paradigm by dynamically constructing a proximal teacher. Theoretically, we establish a rigorous framework demonstrating that TOP-D inherently controls gradient variance. By providing a formal global convergence analysis alongside a monotonic improvement bound, we mathematically formalize the reliability",
+      "url": "https://huggingface.co/papers/2607.04751",
+      "pdf_url": "https://arxiv.org/pdf/2607.04751.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning"
+      ],
+      "published": "2026-07-06",
+      "added": "2026-07-14",
+      "stars": 17
+    },
+    {
+      "id": "hf-2607-06553",
+      "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+      "authors": [
+        "Zanyi Wang",
+        "Xin Lin",
+        "Haodong Li",
+        "Dengyang Jiang",
+        "Yijiang Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large-scale text-to-image models are attractive backbones for dense prediction because RGB generation pretraining learns rich semantic, structural, and geometric priors. Existing generative and editing approaches reuse these priors by casting dense prediction as target generation: annotations such as depth, normals, alpha mattes, masks, and heatmaps are encoded into an RGB-trained VAE latent space and decoded back as image-like targets. We argue this inherits more of the generative output interface than dense prediction requires: unlike RGB syn",
+      "url": "https://huggingface.co/papers/2607.06553",
+      "pdf_url": "https://arxiv.org/pdf/2607.06553.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-14",
+      "stars": 10
+    },
+    {
+      "id": "hf-2607-08393",
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "authors": [
+        "Lu Dai",
+        "Ziyang Rao",
+        "Yili Wang",
+        "Hanqing Wang",
+        "Hao Liu",
+        "Hui Xiong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks. We formalize this failure as the \\textbf{Knowing--Using Gap}, characterized by an accuracy gap and a temporal lag between memorization and generalization. To understand this phenomenon, we fine-tune LLMs with unseen knowledge and monitor the spatial permeation dynamics of the knowledge internally using a novel intervention technique called self-patching. Self-patching identifies activatio",
+      "url": "https://huggingface.co/papers/2607.08393",
+      "pdf_url": "https://arxiv.org/pdf/2607.08393.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning"
+      ],
+      "published": "2026-07-09",
+      "added": "2026-07-14",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-09661",
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "authors": [
+        "Haoyuan Li",
+        "Dizhe Zhang",
+        "Yuemei Zhou",
+        "Xiangkai Zhang",
+        "Haoran Feng",
+        "Xiaofan Lin",
+        "Wenjie Jiang",
+        "Bo Du"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which simplifies camera trajectories into translations via fixed headings for both current-action modeling and long-range memory through Dense Panoramic Ray-Conditioning (DPRC) and Geometry-aware Memory Augmentation (GMA).Then, a three-stage training pipe",
+      "url": "https://huggingface.co/papers/2607.09661",
+      "pdf_url": "https://arxiv.org/pdf/2607.09661.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-10",
+      "added": "2026-07-14",
+      "stars": 7
+    },
+    {
+      "id": "hf-2607-06957",
+      "title": "Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation",
+      "authors": [
+        "Seulbin Hwang",
+        "Kiyoung Om",
+        "Daejung Kim",
+        "Jinhan Lee"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Realistic and diverse traffic simulation is essential to autonomous driving development. Yet prevailing benchmarks predominantly reward realism, and recent methods have optimized accordingly, leaving diversity underexplored. We introduce Flow-ERD, a multi-agent simulator that pursues realism and diversity jointly. Its backbone, Agent-Type Aware Flow Matching (AFM), couples flow matching's multi-modal expressiveness with type-specific kinematic execution. It preserves fine-grained diversity while keeping motions consistent with each agent type.",
+      "url": "https://huggingface.co/papers/2607.06957",
+      "pdf_url": "https://arxiv.org/pdf/2607.06957.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-14",
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-07673",
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "authors": [
+        "Hyunjae Kim",
+        "Dain Kim",
+        "Pan Xiao",
+        "Serina S. Applebaum",
+        "Younjoon Chung",
+        "Xuguang Ai",
+        "Yu Yin",
+        "Roy Jiang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a complementary source of expert-authored image-text data, existing PMC-derived resources remain limited in fidelity, reproducibility, and clinical validation. We introduce MedPMC, an automated, continuously updatable framework that transforms permissively licensed literat",
+      "url": "https://huggingface.co/papers/2607.07673",
+      "pdf_url": "https://arxiv.org/pdf/2607.07673.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-14",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-06374",
+      "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
+      "authors": [
+        "Jiazi Wang",
+        "Nonghai Zhang",
+        "Qiushi Xie",
+        "Zeyu Zhang",
+        "Yufeng Chen",
+        "Yang Zhao",
+        "Ling Shao",
+        "Hao Tang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-language models (VLMs) have made interactive digital museums increasingly feasible by connecting 3D digitization with natural-language artifact exploration. However, in cultural heritage domains such as ancient Greek pottery, reliable VLM assistance is limited by two challenges. First, open-ended interpretation requires grounding fine-grained 2D/3D visual evidence in specialized curatorial knowledge, yet the retrieval process may introduce weak sources and unverifiable references. Second, when the available evidence is incomplete, noisy,",
+      "url": "https://huggingface.co/papers/2607.06374",
+      "pdf_url": "https://arxiv.org/pdf/2607.06374.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-07-07",
+      "added": "2026-07-14",
+      "stars": 1
+    },
+    {
       "id": "hf-2607-09024",
       "title": "Video Generation Models are General-Purpose Vision Learners",
       "authors": [
@@ -24,7 +219,7 @@
       ],
       "published": "2026-07-10",
       "added": "2026-07-13",
-      "stars": 1
+      "stars": 42
     },
     {
       "id": "hf-2607-09415",
@@ -50,7 +245,7 @@
       ],
       "published": "2026-07-10",
       "added": "2026-07-13",
-      "stars": 0
+      "stars": 7
     },
     {
       "id": "hf-2607-09424",
@@ -76,7 +271,7 @@
       ],
       "published": "2026-07-10",
       "added": "2026-07-13",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2603-29616",
@@ -104,7 +299,7 @@
       ],
       "published": "2026-07-02",
       "added": "2026-07-11",
-      "stars": 55
+      "stars": 58
     },
     {
       "id": "hf-2607-08768",
@@ -132,7 +327,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-11",
-      "stars": 27
+      "stars": 31
     },
     {
       "id": "hf-2607-08404",
@@ -157,7 +352,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-11",
-      "stars": 17
+      "stars": 18
     },
     {
       "id": "hf-2607-03803",
@@ -180,7 +375,7 @@
       ],
       "published": "2026-07-04",
       "added": "2026-07-11",
-      "stars": 12
+      "stars": 14
     },
     {
       "id": "hf-2607-08716",
@@ -256,7 +451,7 @@
       ],
       "published": "2026-07-05",
       "added": "2026-07-11",
-      "stars": 4
+      "stars": 6
     },
     {
       "id": "hf-2607-08093",
@@ -328,7 +523,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 84
+      "stars": 85
     },
     {
       "id": "hf-2607-07608",
@@ -436,7 +631,7 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-10",
-      "stars": 31
+      "stars": 32
     },
     {
       "id": "hf-2607-07534",
@@ -491,56 +686,6 @@
       "stars": 27
     },
     {
-      "id": "hf-2606-28070",
-      "title": "JD Oxygen AI Item Center (Oxygen AIIC) V1: An Industrial-Scale LLM/VLM-Centric Solution for Item Understanding, Management, and Applications",
-      "authors": [
-        "Oxygen AIIC",
-        "Chan Long",
-        "Chao Liu",
-        "Chaofan Chen",
-        "Chaohui Dong",
-        "Chunyuan Guo",
-        "Danping Liu",
-        "Debin Liu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "JD.com, one of the world's largest e-commerce platforms, serves over 700 million active users and millions of merchants, with a catalog of tens of billions of SKUs. At this scale, high-quality, structured item knowledge underpins a better consumer experience, lower management costs, and higher operational efficiency-yet producing and serving it poses three industrial-scale challenges: fast-emerging concepts, high-quality knowledge production for massive SKUs, and diverse downstream requirements. To address these challenges, we present the JD Ox",
-      "url": "https://huggingface.co/papers/2606.28070",
-      "pdf_url": "https://arxiv.org/pdf/2606.28070.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-06-29",
-      "added": "2026-07-10",
-      "stars": 15
-    },
-    {
-      "id": "hf-2607-07740",
-      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
-      "authors": [
-        "Haozhan Tang",
-        "Zerui Wang",
-        "Yuxian Gu",
-        "Song Han",
-        "Han Cai"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulated reasoning and tool traces routinely push the input an order of magnitude past the pretraining window, making zero-shot context extension the dominant deployment path for open-weight checkpoints. Most existing zero-shot methods fix a single rescaling factor up front, so an aggressive factor sacrifices short-context fidelity while a conservative one breaks down at long contexts",
-      "url": "https://huggingface.co/papers/2607.07740",
-      "pdf_url": "https://arxiv.org/pdf/2607.07740.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-08",
-      "added": "2026-07-10",
-      "stars": 15
-    },
-    {
       "id": "hf-2607-07508",
       "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
       "authors": [
@@ -563,7 +708,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-10",
-      "stars": 14
+      "stars": 17
     },
     {
       "id": "hf-2607-08763",
@@ -588,7 +733,57 @@
       ],
       "published": "2026-07-09",
       "added": "2026-07-10",
-      "stars": 14
+      "stars": 17
+    },
+    {
+      "id": "hf-2607-07740",
+      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+      "authors": [
+        "Haozhan Tang",
+        "Zerui Wang",
+        "Yuxian Gu",
+        "Song Han",
+        "Han Cai"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulated reasoning and tool traces routinely push the input an order of magnitude past the pretraining window, making zero-shot context extension the dominant deployment path for open-weight checkpoints. Most existing zero-shot methods fix a single rescaling factor up front, so an aggressive factor sacrifices short-context fidelity while a conservative one breaks down at long contexts",
+      "url": "https://huggingface.co/papers/2607.07740",
+      "pdf_url": "https://arxiv.org/pdf/2607.07740.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-08",
+      "added": "2026-07-10",
+      "stars": 16
+    },
+    {
+      "id": "hf-2606-28070",
+      "title": "JD Oxygen AI Item Center (Oxygen AIIC) V1: An Industrial-Scale LLM/VLM-Centric Solution for Item Understanding, Management, and Applications",
+      "authors": [
+        "Oxygen AIIC",
+        "Chan Long",
+        "Chao Liu",
+        "Chaofan Chen",
+        "Chaohui Dong",
+        "Chunyuan Guo",
+        "Danping Liu",
+        "Debin Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "JD.com, one of the world's largest e-commerce platforms, serves over 700 million active users and millions of merchants, with a catalog of tens of billions of SKUs. At this scale, high-quality, structured item knowledge underpins a better consumer experience, lower management costs, and higher operational efficiency-yet producing and serving it poses three industrial-scale challenges: fast-emerging concepts, high-quality knowledge production for massive SKUs, and diverse downstream requirements. To address these challenges, we present the JD Ox",
+      "url": "https://huggingface.co/papers/2606.28070",
+      "pdf_url": "https://arxiv.org/pdf/2606.28070.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-06-29",
+      "added": "2026-07-10",
+      "stars": 15
     },
     {
       "id": "hf-2607-05804",
@@ -637,6 +832,33 @@
         "robotics"
       ],
       "published": "2026-07-07",
+      "added": "2026-07-10",
+      "stars": 12
+    },
+    {
+      "id": "hf-2606-30111",
+      "title": "Automating the Design of Embodied Agent Architectures",
+      "authors": [
+        "Jian Zhou",
+        "Sihao Lin",
+        "Jin Li",
+        "Shuai Fu",
+        "Gengze Zhou",
+        "Qi Wu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are processed, and how model calls are connected. Agent Architecture Search (AAS) automates such design for text-domain agents, but has not been systematically evaluated on perceptual embodied agents through simulator rollouts. We study this transfer. We intro",
+      "url": "https://huggingface.co/papers/2606.30111",
+      "pdf_url": "https://arxiv.org/pdf/2606.30111.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-07-03",
       "added": "2026-07-10",
       "stars": 12
     },
@@ -722,33 +944,6 @@
       "stars": 10
     },
     {
-      "id": "hf-2606-30111",
-      "title": "Automating the Design of Embodied Agent Architectures",
-      "authors": [
-        "Jian Zhou",
-        "Sihao Lin",
-        "Jin Li",
-        "Shuai Fu",
-        "Gengze Zhou",
-        "Qi Wu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are processed, and how model calls are connected. Agent Architecture Search (AAS) automates such design for text-domain agents, but has not been systematically evaluated on perceptual embodied agents through simulator rollouts. We study this transfer. We intro",
-      "url": "https://huggingface.co/papers/2606.30111",
-      "pdf_url": "https://arxiv.org/pdf/2606.30111.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-07-03",
-      "added": "2026-07-10",
-      "stars": 10
-    },
-    {
       "id": "hf-2607-05465",
       "title": "CanvasAgent: Enabling Complex Image Creation and Editing via Visual Tool Orchestration",
       "authors": [
@@ -802,7 +997,7 @@
       ],
       "published": "2026-07-07",
       "added": "2026-07-10",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2607-06065",
@@ -1827,195 +2022,6 @@
       "published": "2026-07-04",
       "added": "2026-07-08",
       "stars": 7
-    },
-    {
-      "id": "hf-2606-28393",
-      "title": "Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports",
-      "authors": [
-        "Halil Ibrahim Gulluk",
-        "Max Van Puyvelde",
-        "Wim Van Criekinge",
-        "Olivier Gevaert"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "In longitudinal clinical practice, every chest X-ray is read in the context of the patients prior exam, and much of what the radiologist communicates is the change from one visit to the next. To the best of our knowledge, we present the first training-free best-of-N sampling scheme for pre-trained chest X-ray report generators that is explicitly aware of this longitudinal prior to current transition. We call it transition-aware best-of-N sampling, each report is split into sentences and embedded into an unordered set in Rd; each (prior, current",
-      "url": "https://huggingface.co/papers/2606.28393",
-      "pdf_url": "https://arxiv.org/pdf/2606.28393.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-06-23",
-      "added": "2026-07-08",
-      "stars": 5
-    },
-    {
-      "id": "hf-2602-11688",
-      "title": "GORGO: Online Tuning for Cross-Region Network-Aware LLM Serving",
-      "authors": [
-        "Alessio Ricci Toniolo",
-        "Rome Thorstenson",
-        "Abinaya Dinesh"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Increasingly, LLM inference services proxy client requests to engine replicas distributed globally. Load-balancing policies must jointly account for factors including KV-cache locality, replica load, and variable network latency when optimizing for metrics like latency and TTFT. However, existing systems only evaluate a subset of these factors in their cost model, leading to uneven concentrations of load and KV-cache across replicas. We present GORGO, a proxy architecture that holistically factors network latency, prefill cost, and queueing del",
-      "url": "https://huggingface.co/papers/2602.11688",
-      "pdf_url": "https://arxiv.org/pdf/2602.11688.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-30",
-      "added": "2026-07-08",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-05390",
-      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
-      "authors": [
-        "Hongyu Li",
-        "Wanjia Fu",
-        "Xiaoyan Cong",
-        "Zekun Li",
-        "Binghao Huang",
-        "Hanxiao Jiang",
-        "Xintong He",
-        "Yiqing Liang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. While current world models approach this through two distinct paradigms: learning the dynamics over the 2D pixel space or more explicit 3D geometric space. A systematic understanding of their relative strengths and limitations remains elusive due to the lack of diverse, large-scale real-world data.",
-      "url": "https://huggingface.co/papers/2607.05390",
-      "pdf_url": "https://arxiv.org/pdf/2607.05390.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-07-06",
-      "added": "2026-07-08",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-04410",
-      "title": "AI Wizards at EXIST 2026: Hierarchical Soft-Label Learning for Multimodal Sexism Identification in Memes",
-      "authors": [
-        "Matteo Fasulo",
-        "Antonio Gravina",
-        "Luca Tedeschini",
-        "Luca Babboni"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present the AI Wizards submission to EXIST 2026 for multimodal sexism identification in memes. The task is composed of three, increasingly harder subtasks. We model them hierarchically as conditional soft-label prediction over empirical annotator distributions. Our system maps fixed Gemini Embedding 2 vision-language representations through a lightweight Gated MLP trained with KL divergence and homoscedastic uncertainty weighting. Our submissions ranked first on Task 2.3 and fourth on Tasks 2.1 and 2.2 on the official Soft-Soft leaderboards.",
-      "url": "https://huggingface.co/papers/2607.04410",
-      "pdf_url": "https://arxiv.org/pdf/2607.04410.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-05",
-      "added": "2026-07-08",
-      "stars": 4
-    },
-    {
-      "id": "hf-2607-05369",
-      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-      "authors": [
-        "Kaiyuan Chen",
-        "Shuangyu Xie",
-        "Letian Fu",
-        "Justin Yu",
-        "William Pacini",
-        "Sandeep Bajamahal",
-        "Hudson Kim",
-        "Jaimyn Drake"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\" (VA), a class of tasks that have larger variations in object geometry and pose than fixed automation. Model-free policies often struggle to close the reliability gap for VA tasks, which must be executed persistently and reliably in commercial and industrial applications. Motivated by prior work on",
-      "url": "https://huggingface.co/papers/2607.05369",
-      "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-07-06",
-      "added": "2026-07-08",
-      "stars": 4
-    },
-    {
-      "id": "hf-2607-02904",
-      "title": "Speaker-Aware Temporal Aggregation Strategies on Segment Representations for Depression Detection in Dyadic Interaction: A Benchmark Study",
-      "authors": [
-        "Anisha Pattanayak",
-        "Huang-Cheng Chou",
-        "Shrikanth Narayanan",
-        "Sudarsana Reddy Kadiri"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Speech-based depression detection compresses features from short audio segments into one speaker-level decision, a step called temporal aggregation rarely studied on its own. Most benchmarks fix a single self-supervised encoder and a single hand-picked layer, so a reported gain may reflect the pipeline rather than the aggregation method itself. We introduce DEPOOL, a controlled benchmark that compares six aggregation architectures with six frozen speech backbones on an English and a Mandarin depression corpus, where each configuration learns wh",
-      "url": "https://huggingface.co/papers/2607.02904",
-      "pdf_url": "https://arxiv.org/pdf/2607.02904.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-03",
-      "added": "2026-07-08",
-      "stars": 3
-    },
-    {
-      "id": "hf-2607-02998",
-      "title": "CONFLUX: A Latent Diusion Model for 3D Chest-CT Synthesis with RL Post-Training",
-      "authors": [
-        "Max Van Puyvelde",
-        "Halil Ibrahim Gulluk",
-        "Wim Van Criekinge",
-        "Olivier Gevaert"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Controllable generative models of 3D medical images can synthesize volumes with specified clinical attributes, but this demands samples that are simultaneously high-fidelity, natively 3D, and faithful to the requested conditioning. We present CONFLUX, a latent diffusion model for chest computed tomography (CT): a 3D variational autoencoder compresses each volume, and a rectified-flow transformer generates in the latent space. Generation is conditioned on structured radiological metadata (18 abnormality findings, sex, age, and reconstruction ker",
-      "url": "https://huggingface.co/papers/2607.02998",
-      "pdf_url": "https://arxiv.org/pdf/2607.02998.pdf",
-      "tags": [
-        "hf-trending",
-        "rl"
-      ],
-      "published": "2026-07-03",
-      "added": "2026-07-08",
-      "stars": 3
-    },
-    {
-      "id": "hf-2606-23993",
-      "title": "Learning to Trigger: Reinforcement Learning at the Large Hadron Collider",
-      "authors": [
-        "Zixin Ding",
-        "Shaghayegh Emami",
-        "Giovanna Salvi",
-        "Cecilia Tosciri",
-        "Abhijith Gandrakota",
-        "Jennifer Ngadiuba",
-        "Nhan Tran",
-        "Christian Herwig"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "High-throughput scientific facilities such as the Large Hadron Collider depend on real-time event filtering (triggering) under tight constraints on bandwidth, latency, and storage. In practice, trigger menus are largely static and hand-tuned and can become suboptimal as detector conditions, pileup, and background composition drift over time. We cast online threshold tuning as a sequential decision-making problem: a reinforcement learning agent ingests streaming summaries of recent rates and signal-sensitive features and updates trigger threshol",
-      "url": "https://huggingface.co/papers/2606.23993",
-      "pdf_url": "https://arxiv.org/pdf/2606.23993.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-27",
-      "added": "2026-07-08",
-      "stars": 3
     }
   ]
 }

@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Jul 2026 02:09:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 02:05:49 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-14</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-14</link>
+      <guid isPermaLink="false">2026-07-14</guid>
+      <pubDate>Tue, 14 Jul 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 把 Claude Artifacts 升级为「多人实时协作」，Agent 从个人助理正式迈入团队生产力；OpenAI ChatGPT Work 与 Tencent-Manus 反收购则从两个方向定义 Agent 商业化与主权化格局。
+• Anthropic 让 Claude Artifacts「多人化」，Agent 首次进入实时协同白板
+• OpenAI 发布 ChatGPT Work：跨邮件/Slack/日历的云端 Agent，正式对标 Copilot 与 Cowork
+• 腾讯牵头 20 亿美元回购 Manus：北京把 Agent 公司列为「主权资产」
+• AI 编程助手曝「HalluSquatting」新型攻击，9 款主流工具中招 — 特拉维夫大学、Technion 与 Intuit 研究团队 7 月 9-10 日披露 HalluSquatting 攻击：攻击者提前注册 LLM 「常见幻觉」出的假包名与假域名，等 Cursor / Cursor CLI / Gemini CLI / Windsurf / GitHub Copilot / Claude Code 等 9 款工具自动 fetch。研究实测 幻觉命中率 85%+，最高 100%；已被证实可用于组建僵尸网络。The Hacker News：New HalluSquatting Attack Could Trick AI Coding Assistants / 钛媒体：9 款 AI 编码助手成黑客武器
+• Lyzr 用自家 AI Agent 完成 1 亿美元融资，Agent 首次「参与自己的路演」 — 印度 Agent 初创 Lyzr 宣布其 SivaClaw Agent 全程参与 CEO 与投资人对接会议——回答尽调问题、生成商业模型模拟、准备投资协议；轮次 1 亿美元，公司估值未披露。业内人士称这是 Agent 从「劳动力」进入「资本运作」的标志性案例。The Silicon Review：AI Startup Uses AI Agent to Raise $100M Funding</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-13</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-13</link>
@@ -354,18 +366,6 @@
 • 华为 HDC 2026 发布开源盘古 openPangu 2.0，月底起开源 7 大组件
 • UC Berkeley 等推出「Agents&#x27; Last Exam」基准，最强模型仅 8.6%
 • Genspark 完成 1 亿美元 B 轮延长融资，估值升至 26 亿美元</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-14</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-14</link>
-      <guid isPermaLink="false">2026-06-14</guid>
-      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
-      <description>智源大会发布&quot;悟界&quot;系列世界基座模型与 FlagOS 2.1，月之暗面同日开源 Kimi K2.7 Code 并推出全球首张 AI 原生信用卡，国产 Agent 生态密集落子。
-• 月之暗面发布并开源 Kimi K2.7 Code，瞄准长程 Coding Agent
-• 智源研究院发布&quot;悟界&quot;系列：含全球首个通用世界基座模型 Physis-v0.1
-• MiniMax 开源 M3 旗舰多模态模型，华为云 / 摩尔线程 Day-0 适配
-• Kimi 推出全球首张 AI 原生信用卡，消费即转化为 Agent 算力额度
-• OpenAI 启动 ChatGPT × Codex 深度整合，进化为&quot;超级应用&quot; — 6 月初官宣未来数周内将 Codex、Agent 与第三方应用生态全面并入 ChatGPT，Codex 周活已超 500 万，OpenAI 内部资源向其倾斜以正面对抗 Claude Code。搜狐：OpenAI 启动战略级转型</description>
     </item>
   </channel>
 </rss>
