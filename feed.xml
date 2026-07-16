@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Jul 2026 02:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 02:05:15 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-16</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-16</link>
+      <guid isPermaLink="false">2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 10:00:00 +0800</pubDate>
+      <description>WAIC 2026 明日在上海开幕，习近平将出席并发表主旨讲话；xAI 开源 Grok Build 编程代理，AI Coding Agent 竞争进入开源新阶段。
+• xAI 正式开源 Grok Build，Rust 版终端编程代理入场
+• OpenAI 首款硬件 Codex Micro 键盘今日发售，$230 定价
+• 阿里发布 Qwen-Audio-3.0-Realtime，Agent 工具调用能力对标 GPT-Realtime-2
+• Apple Intelligence 在华获批，阿里 Qwen 成 iPhone 端侧 AI 底座 — 国家网信办 7 月 15 日公示 7 款端侧生成式 AI 备案，Apple 智能于 7 月 8 日完成备案；阿里巴巴确认 千问（Qwen）作为 AI 能力集成至苹果国行 iPhone。TechCrunch 同步报道，该合作历时约一年谈判，是 Apple 打入中国 AI 市场的关键一步。TechCrunch · IT之家
+• DeepSeek 传启动 A 股 IPO 筹备，投前估值约 4800 亿元人民币 — 7 月 15 日据深圳商报、财联社等多方披露，DeepSeek（杭州深度求索）计划年内递交申报、2027 年完成上市；刚落地首轮 超 500 亿元人民币融资，投前估值约 710 亿美元，腾讯、宁德时代、国家人工智能产业基金参投；证监会 6 月已宣布科创板第五套上市标准扩大至人工智能领域。新浪财经</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-15</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-15</link>
@@ -354,18 +366,6 @@
 • 微软 Work IQ API 正式 GA，企业 Agent 接入&quot;组织记忆&quot;
 • G7 Évian 峰会闭幕，发布《先进 AI 治理共同声明》 — Altman、Amodei、Hassabis 三位 AI CEO 同时出席，G7 七国就前沿模型评估、跨境算力管控、版权侵权救济达成框架性共识，但未设强制条款；马克龙提议建立 G7 AI 红队互认机制。欧盟理事会公报
 • ChatGPT 全球市场份额首次跌破 50% — Sensor Tower《2026 State of AI》报告显示，到 5 月底 ChatGPT 份额降至 46.4%，Gemini 升至 27.7%，Claude 升至 10.3%，Claude 在企业付费市场居首；ChatGPT 月活仍达 11 亿。TechCrunch</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-16</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-16</link>
-      <guid isPermaLink="false">2026-06-16</guid>
-      <pubDate>Tue, 16 Jun 2026 10:00:00 +0800</pubDate>
-      <description>美方出口管制四天逼停 Anthropic 旗舰模型 Claude Fable 5/Mythos 5，智谱顺势开放 GLM-5.2 全量并冲刺科创板，国产与海外 Agent 生态正面对撞。
-• Claude Fable 5 / Mythos 5 上线 72 小时遭美国出口管制紧急下架
-• 智谱 GLM-5.2 全量开放，下周开源 + 1M 上下文
-• OpenAI 收购云沙箱公司 Ona，Codex 强化长任务 Agent 能力
-• Meta 完成与 Manus 业务剥离，20 亿美元收购实质撤销
-• 行业首个 Agentic AI 基准 AA-AgentPerf 发布，NVIDIA Blackwell Ultra 拿下首轮领先</description>
     </item>
   </channel>
 </rss>
