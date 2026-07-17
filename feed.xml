@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 02:05:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 02:06:07 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-17</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-17</link>
+      <guid isPermaLink="false">2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0800</pubDate>
+      <description>月之暗面（Moonshot AI）发布 2.8 万亿参数开源模型 Kimi K3，同日 2026 世界人工智能大会（WAIC）在上海开幕，习近平将出席并发表主旨讲话——中国 AI 生态迎来&quot;开源+治理&quot;双主场时刻。
+• 月之暗面（Moonshot AI）发布全球最大开源模型 Kimi K3
+• WAIC 2026 上海开幕，&quot;智能体手机 + 十万卡集群&quot;入选十大镇馆之宝
+• Anthropic 推 Claude Code Ultra：多智能体舰队并行验证每个 Bug
+• OpenAI 全量推 GPT-5.6 三兄弟，ChatGPT Work 智能体亮相 — Sol / Terra / Luna 三档模型完成 rollout；ChatGPT 桌面端整合为 Chat、ChatGPT Work、Codex 三大模块，正式进军企业级 Agent 市场对标 Claude Cowork。VentureBeat
+• LM Studio 发布 Bionic：基于本地开源模型的完整 AI Agent — 让开源模型在本地机器上跑出完整的工具调用、规划与执行循环，对企业内网/隐私场景友好。AlphaSignal</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-16</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-16</link>
@@ -354,18 +366,6 @@
 • 智谱开源旗舰模型 GLM-5.2，主打 Coding 与长程 Agent
 • 月之暗面 Kimi K2.7 Code 高速版上线，最高 6 倍输出速度
 • G7 峰会聚焦 AI 治理，OpenAI / Anthropic / Google DeepMind 三家 CEO 同台 — Sam Altman、Dario Amodei、Demis Hassabis 6 月 17 日在法国阿尔卑斯出席 G7 闭门工作午餐，与特朗普、马克龙等领导人共同讨论 AI 安全、监管与产业地缘格局，是三大前沿 AI 实验室掌门首次在 G7 同框。CNBC 报道</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-17</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-17</link>
-      <guid isPermaLink="false">2026-06-17</guid>
-      <pubDate>Wed, 17 Jun 2026 10:00:00 +0800</pubDate>
-      <description>SpaceX 以 600 亿美元换股价收购 AI 编程明星 Cursor；G7 Évian 峰会闭幕，三大 AI CEO 同台推动跨国治理框架。
-• SpaceX 宣布 600 亿美元股票全额收购 Cursor，编程 Agent 赛道终局之战
-• Agentjacking 攻击横扫主流编程 Agent，2,388 家组织 Sentry DSN 暴露
-• 微软 Work IQ API 正式 GA，企业 Agent 接入&quot;组织记忆&quot;
-• G7 Évian 峰会闭幕，发布《先进 AI 治理共同声明》 — Altman、Amodei、Hassabis 三位 AI CEO 同时出席，G7 七国就前沿模型评估、跨境算力管控、版权侵权救济达成框架性共识，但未设强制条款；马克龙提议建立 G7 AI 红队互认机制。欧盟理事会公报
-• ChatGPT 全球市场份额首次跌破 50% — Sensor Tower《2026 State of AI》报告显示，到 5 月底 ChatGPT 份额降至 46.4%，Gemini 升至 27.7%，Claude 升至 10.3%，Claude 在企业付费市场居首；ChatGPT 月活仍达 11 亿。TechCrunch</description>
     </item>
   </channel>
 </rss>
