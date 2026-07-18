@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 Jul 2026 02:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 02:03:22 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-18</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-18</link>
+      <guid isPermaLink="false">2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 10:00:00 +0800</pubDate>
+      <description>WAIC 2026 上海开幕次日，AI 行业信号明确：从&quot;参数内卷&quot;切换到&quot;智能体落地&quot;，Kimi K3 以 2.8 万亿参数刷新全球开源纪录，人形机器人加速万台量产。
+• Kimi K3 开源发布：2.8 万亿参数刷新全球开源纪录
+• WAIC 2026 上海开幕：300+ 全球首发，AI 从参数内卷转向智能体兑现
+• 金山办公同日发布双智能体：灵犀专业版 + WPS Comate
+• 群核科技 LuxReal 接入自研世界模型 SpatialGen，AI 视频 Agent 升级
+• 普渡机器人提出&quot;一脑多形&quot;Physical Agent，首发类人形 PUDU D7</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-17</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-17</link>
@@ -354,18 +366,6 @@
 • xAI Grok 4.3 正式登陆 Amazon Bedrock，xAI 首次成为 Bedrock 模型供应商
 • G7 峰会首次邀请 OpenAI、Anthropic、Google DeepMind 三巨头同台
 • 上交所发布科创板第五套上市标准 AI 大模型企业适用指引 — 6 月 17 日证监会主席吴清在陆家嘴论坛宣布扩大第五套标准至 AI 领域；6 月 18 日 A 股昆仑万维、寒武纪盘中涨超 11%，智谱、MiniMax&quot;回 A&quot;路径打通。新华网/证券日报</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-18</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-18</link>
-      <guid isPermaLink="false">2026-06-18</guid>
-      <pubDate>Thu, 18 Jun 2026 10:00:00 +0800</pubDate>
-      <description>SpaceX 以 600 亿美元换股收购 AI 编程独角兽 Cursor，G7 峰会三大 AI 巨头掌门人首次同台讨论 AI 治理。
-• SpaceX 以 600 亿美元换股收购 AI 编程公司 Cursor
-• 阿里发布千问首个具身智能大模型系列 Qwen-Robot
-• 智谱开源旗舰模型 GLM-5.2，主打 Coding 与长程 Agent
-• 月之暗面 Kimi K2.7 Code 高速版上线，最高 6 倍输出速度
-• G7 峰会聚焦 AI 治理，OpenAI / Anthropic / Google DeepMind 三家 CEO 同台 — Sam Altman、Dario Amodei、Demis Hassabis 6 月 17 日在法国阿尔卑斯出席 G7 闭门工作午餐，与特朗普、马克龙等领导人共同讨论 AI 安全、监管与产业地缘格局，是三大前沿 AI 实验室掌门首次在 G7 同框。CNBC 报道</description>
     </item>
   </channel>
 </rss>
