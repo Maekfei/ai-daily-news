@@ -1,6 +1,33 @@
 {
   "papers": [
     {
+      "id": "hf-2607-14952",
+      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "authors": [
+        "Changhai Zhou",
+        "Kieran Liu",
+        "Yuhua Zhou",
+        "Qian Qiao",
+        "Jun Gao",
+        "Harry Zhang",
+        "Irvine Lu",
+        "Nolan Ho"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length generalization at deployment. The gap is especially important for AI agents, whose observations, tool outputs, documents, and prior decisions accumulate over long trajectories. LongStraw is an architecture-aware execution stack for million-token RL post-training under a fixed GPU budget, instantiated with Group Relative Policy Opti",
+      "url": "https://huggingface.co/papers/2607.14952",
+      "pdf_url": "https://arxiv.org/pdf/2607.14952.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 172
+    },
+    {
       "id": "hf-2607-14935",
       "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
       "authors": [
@@ -23,7 +50,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 108
+      "stars": 120
     },
     {
       "id": "hf-2607-14777",
@@ -50,7 +77,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 67
+      "stars": 83
     },
     {
       "id": "hf-2607-15257",
@@ -76,34 +103,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 49
-    },
-    {
-      "id": "hf-2607-14952",
-      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
-      "authors": [
-        "Changhai Zhou",
-        "Kieran Liu",
-        "Yuhua Zhou",
-        "Qian Qiao",
-        "Jun Gao",
-        "Harry Zhang",
-        "Irvine Lu",
-        "Nolan Ho"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length generalization at deployment. The gap is especially important for AI agents, whose observations, tool outputs, documents, and prior decisions accumulate over long trajectories. LongStraw is an architecture-aware execution stack for million-token RL post-training under a fixed GPU budget, instantiated with Group Relative Policy Opti",
-      "url": "https://huggingface.co/papers/2607.14952",
-      "pdf_url": "https://arxiv.org/pdf/2607.14952.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 43
+      "stars": 58
     },
     {
       "id": "hf-2607-15207",
@@ -125,7 +125,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 36
+      "stars": 44
     },
     {
       "id": "hf-2607-13188",
@@ -152,7 +152,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-18",
-      "stars": 23
+      "stars": 28
     },
     {
       "id": "hf-2607-12800",
@@ -181,7 +181,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-18",
-      "stars": 22
+      "stars": 28
     },
     {
       "id": "hf-2607-03065",
@@ -209,152 +209,7 @@
       ],
       "published": "2026-07-03",
       "added": "2026-07-18",
-      "stars": 20
-    },
-    {
-      "id": "hf-2607-15038",
-      "title": "Video = World + Event Stream",
-      "authors": [
-        "Lianghua Huang",
-        "Zhi-Fan Wu",
-        "Yupeng Shi",
-        "Wei Wang",
-        "Mengyang Feng",
-        "Cheng Yu",
-        "Chen Liang",
-        "Junjie He"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a video is a world plus an event stream. The world is the persistent context in which a video unfolds, including the environment, scene, subjects, ambient acoustic conditions, voice characteristics, and other relatively stable conditions. The event stream is everything that changes over time within that world, including scene or environmental changes, subject behavior, speech, and other sounds. This yields a general-purpose pretra",
-      "url": "https://huggingface.co/papers/2607.15038",
-      "pdf_url": "https://arxiv.org/pdf/2607.15038.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "multimodal"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 15
-    },
-    {
-      "id": "hf-2607-13399",
-      "title": "Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations",
-      "authors": [
-        "Rui Wang",
-        "Hongru Wang",
-        "Yi Chen",
-        "Boyang Xue",
-        "Tianqing Fang",
-        "Wenhao Yu",
-        "Kam-Fai Wong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-policy distillation (OPD) has become a key paradigm in LLM post-training, yet its training dynamics remain poorly understood. We present a systematic study examining the role, pathologies, and regulations of OPD. We first clarify the role of OPD as an exploration catalyst: it steers the student toward correct reasoning paths via dense token-level guidance, without expanding capability ceiling. We confirm this by showing that prompt diversity matters more than per-problem sampling numbers, and critically, that the effectiveness of OPD hinges",
-      "url": "https://huggingface.co/papers/2607.13399",
-      "pdf_url": "https://arxiv.org/pdf/2607.13399.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-18",
-      "stars": 14
-    },
-    {
-      "id": "hf-2607-15275",
-      "title": "RoboTTT: Context Scaling for Robot Policies",
-      "authors": [
-        "Yunfan Jiang",
-        "Yevgen Chebotar",
-        "Ruijie Zheng",
-        "Fengyuan Hu",
-        "Yunhao Ge",
-        "Jimmy Wu",
-        "Tianyuan Dai",
-        "Scott Reed"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, l",
-      "url": "https://huggingface.co/papers/2607.15275",
-      "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 12
-    },
-    {
-      "id": "hf-2607-15273",
-      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
-      "authors": [
-        "Yushi Huang",
-        "Xiangxin Zhou",
-        "Jun Zhang",
-        "Liefeng Bo",
-        "Tianyu Pang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require reverse-process trajectories or likelihood estimation. However, applying such RL methods to MeanFlow remains underexplored. DiffusionNFT optimizes instanta",
-      "url": "https://huggingface.co/papers/2607.15273",
-      "pdf_url": "https://arxiv.org/pdf/2607.15273.pdf",
-      "tags": [
-        "hf-trending",
-        "rl"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 9
-    },
-    {
-      "id": "hf-2607-14660",
-      "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
-      "authors": [
-        "Yunfeng Liu",
-        "Yuandong Yang",
-        "Jiarui Han",
-        "Zhenpeng Huang",
-        "Yuqing Tang",
-        "Xiangyu Zeng",
-        "Gangshan Wu",
-        "Limin Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Visually impaired individuals (VIIs) encounter significant daily challenges due to limited access to visual information. Although Multimodal Large Language Models (MLLMs) have achieved impressive results on general vision and language tasks, their practical utility in real-world blind assistance still remains largely underexplored. To fill this gap, we introduce VIABench, a comprehensive video benchmark specifically designed to evaluate MLLMs in Visually Impaired Assistance scenarios using first-person videos recorded or shared by VIIs themselv",
-      "url": "https://huggingface.co/papers/2607.14660",
-      "pdf_url": "https://arxiv.org/pdf/2607.14660.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 7
-    },
-    {
-      "id": "hf-2607-14431",
-      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
-      "authors": [
-        "Sietse Schelpe"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified knowledge is deposited once as a byte-exact key-value (KV) state artifact and later restored, by graft, into a fresh inference context. The restore is bit-exact: under a pinned deterministic configuration, the grafted logits are byte-for-byte identical to a fresh computation (SHA-256 equality), with zero KL divergence and 100% argmax agreement over fifty samples. We show that own-position graft is the",
-      "url": "https://huggingface.co/papers/2607.14431",
-      "pdf_url": "https://arxiv.org/pdf/2607.14431.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-18",
-      "stars": 5
+      "stars": 22
     },
     {
       "id": "hf-2607-14187",
@@ -384,7 +239,177 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-18",
-      "stars": 4
+      "stars": 21
+    },
+    {
+      "id": "hf-2607-15038",
+      "title": "Video = World + Event Stream",
+      "authors": [
+        "Lianghua Huang",
+        "Zhi-Fan Wu",
+        "Yupeng Shi",
+        "Wei Wang",
+        "Mengyang Feng",
+        "Cheng Yu",
+        "Chen Liang",
+        "Junjie He"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a video is a world plus an event stream. The world is the persistent context in which a video unfolds, including the environment, scene, subjects, ambient acoustic conditions, voice characteristics, and other relatively stable conditions. The event stream is everything that changes over time within that world, including scene or environmental changes, subject behavior, speech, and other sounds. This yields a general-purpose pretra",
+      "url": "https://huggingface.co/papers/2607.15038",
+      "pdf_url": "https://arxiv.org/pdf/2607.15038.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "multimodal"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 17
+    },
+    {
+      "id": "hf-2607-13399",
+      "title": "Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations",
+      "authors": [
+        "Rui Wang",
+        "Hongru Wang",
+        "Yi Chen",
+        "Boyang Xue",
+        "Tianqing Fang",
+        "Wenhao Yu",
+        "Kam-Fai Wong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "On-policy distillation (OPD) has become a key paradigm in LLM post-training, yet its training dynamics remain poorly understood. We present a systematic study examining the role, pathologies, and regulations of OPD. We first clarify the role of OPD as an exploration catalyst: it steers the student toward correct reasoning paths via dense token-level guidance, without expanding capability ceiling. We confirm this by showing that prompt diversity matters more than per-problem sampling numbers, and critically, that the effectiveness of OPD hinges",
+      "url": "https://huggingface.co/papers/2607.13399",
+      "pdf_url": "https://arxiv.org/pdf/2607.13399.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-18",
+      "stars": 17
+    },
+    {
+      "id": "hf-2607-15275",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge",
+        "Jimmy Wu",
+        "Tianyuan Dai",
+        "Scott Reed"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, l",
+      "url": "https://huggingface.co/papers/2607.15275",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 16
+    },
+    {
+      "id": "hf-2607-15273",
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "authors": [
+        "Yushi Huang",
+        "Xiangxin Zhou",
+        "Jun Zhang",
+        "Liefeng Bo",
+        "Tianyu Pang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require reverse-process trajectories or likelihood estimation. However, applying such RL methods to MeanFlow remains underexplored. DiffusionNFT optimizes instanta",
+      "url": "https://huggingface.co/papers/2607.15273",
+      "pdf_url": "https://arxiv.org/pdf/2607.15273.pdf",
+      "tags": [
+        "hf-trending",
+        "rl"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 12
+    },
+    {
+      "id": "hf-2607-14431",
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "authors": [
+        "Sietse Schelpe"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified knowledge is deposited once as a byte-exact key-value (KV) state artifact and later restored, by graft, into a fresh inference context. The restore is bit-exact: under a pinned deterministic configuration, the grafted logits are byte-for-byte identical to a fresh computation (SHA-256 equality), with zero KL divergence and 100% argmax agreement over fifty samples. We show that own-position graft is the",
+      "url": "https://huggingface.co/papers/2607.14431",
+      "pdf_url": "https://arxiv.org/pdf/2607.14431.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-18",
+      "stars": 10
+    },
+    {
+      "id": "hf-2607-14660",
+      "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
+      "authors": [
+        "Yunfeng Liu",
+        "Yuandong Yang",
+        "Jiarui Han",
+        "Zhenpeng Huang",
+        "Yuqing Tang",
+        "Xiangyu Zeng",
+        "Gangshan Wu",
+        "Limin Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Visually impaired individuals (VIIs) encounter significant daily challenges due to limited access to visual information. Although Multimodal Large Language Models (MLLMs) have achieved impressive results on general vision and language tasks, their practical utility in real-world blind assistance still remains largely underexplored. To fill this gap, we introduce VIABench, a comprehensive video benchmark specifically designed to evaluate MLLMs in Visually Impaired Assistance scenarios using first-person videos recorded or shared by VIIs themselv",
+      "url": "https://huggingface.co/papers/2607.14660",
+      "pdf_url": "https://arxiv.org/pdf/2607.14660.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-15058",
+      "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+      "authors": [
+        "Saad Ejaz",
+        "Miguel Fernandez-Cortizas",
+        "Javier Civera",
+        "Holger Voos",
+        "Jose Luis Sanchez-Lopez"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, enabling applications in robotics and augmented reality. Recent zero-shot methods use visual foundation models to match image regions to CAD models, yet typically their correspondences are appearance-driven and degrade under occlusion or sim-to-real domain shift. To address these limitations, we introduce SUFLECA (Scaling Up Feature LEarning for CAD Alignment), a weakly-supervised framework for zero-shot CAD alignm",
+      "url": "https://huggingface.co/papers/2607.15058",
+      "pdf_url": "https://arxiv.org/pdf/2607.15058.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "code",
+        "robotics"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 7
     },
     {
       "id": "hf-2607-10463",
@@ -411,32 +436,59 @@
       ],
       "published": "2026-07-11",
       "added": "2026-07-18",
-      "stars": 4
+      "stars": 5
     },
     {
-      "id": "hf-2607-15058",
-      "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+      "id": "hf-2607-12227",
+      "title": "Rethinking the Evaluation of Harness Evolution for Agents",
       "authors": [
-        "Saad Ejaz",
-        "Miguel Fernandez-Cortizas",
-        "Javier Civera",
-        "Holger Voos",
-        "Jose Luis Sanchez-Lopez"
+        "Yike Wang",
+        "Huaisheng Zhu",
+        "Zhengyu Hu",
+        "Yige Yuan",
+        "Zhengyu Chen",
+        "Shakti Senthil",
+        "Hannaneh Hajishirzi",
+        "Yulia Tsvetkov"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, enabling applications in robotics and augmented reality. Recent zero-shot methods use visual foundation models to match image regions to CAD models, yet typically their correspondences are appearance-driven and degrade under occlusion or sim-to-real domain shift. To address these limitations, we introduce SUFLECA (Scaling Up Feature LEarning for CAD Alignment), a weakly-supervised framework for zero-shot CAD alignm",
-      "url": "https://huggingface.co/papers/2607.15058",
-      "pdf_url": "https://arxiv.org/pdf/2607.15058.pdf",
+      "summary": "We revisit the evaluation of automatic harness evolution for LLM agents. Existing harness evolution methods use unit test cases to search for harness configurations and then report final performance on the same public benchmark. This protocol raises two fundamental concerns. First, harness evolution is itself an iterative search procedure that repeatedly evaluates and revises candidate harnesses using task feedback. As in agentic test-time scaling, it should therefore be compared with simple task-level search baselines under matched feedback an",
+      "url": "https://huggingface.co/papers/2607.12227",
+      "pdf_url": "https://arxiv.org/pdf/2607.12227.pdf",
       "tags": [
         "hf-trending",
+        "agent",
         "benchmark",
-        "multimodal",
-        "code",
-        "robotics"
+        "code"
       ],
-      "published": "2026-07-16",
+      "published": "2026-07-14",
       "added": "2026-07-18",
-      "stars": 3
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-14387",
+      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+      "authors": [
+        "Yuan Gao",
+        "Wenting Miao",
+        "Mattia Piccinini",
+        "Haoyu Wang",
+        "Qunying Song",
+        "Johannes Betz"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing approaches face fundamental trade-offs. Retrieval-assemble methods achieve reasonable compilation rates but lack scalability, whereas retrieval-based full-script generation suffers from low compilation success rates. We present Chat2Scenic, the first iterative retrieval-a",
+      "url": "https://huggingface.co/papers/2607.14387",
+      "pdf_url": "https://arxiv.org/pdf/2607.14387.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-18",
+      "stars": 4
     },
     {
       "id": "hf-2607-15278",
@@ -464,32 +516,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 2
-    },
-    {
-      "id": "hf-2607-14387",
-      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
-      "authors": [
-        "Yuan Gao",
-        "Wenting Miao",
-        "Mattia Piccinini",
-        "Haoyu Wang",
-        "Qunying Song",
-        "Johannes Betz"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing approaches face fundamental trade-offs. Retrieval-assemble methods achieve reasonable compilation rates but lack scalability, whereas retrieval-based full-script generation suffers from low compilation success rates. We present Chat2Scenic, the first iterative retrieval-a",
-      "url": "https://huggingface.co/papers/2607.14387",
-      "pdf_url": "https://arxiv.org/pdf/2607.14387.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-18",
-      "stars": 1
+      "stars": 3
     },
     {
       "id": "hf-2607-09061",
@@ -513,34 +540,7 @@
       ],
       "published": "2026-07-10",
       "added": "2026-07-18",
-      "stars": 0
-    },
-    {
-      "id": "hf-2607-12227",
-      "title": "Rethinking the Evaluation of Harness Evolution for Agents",
-      "authors": [
-        "Yike Wang",
-        "Huaisheng Zhu",
-        "Zhengyu Hu",
-        "Yige Yuan",
-        "Zhengyu Chen",
-        "Shakti Senthil",
-        "Hannaneh Hajishirzi",
-        "Yulia Tsvetkov"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We revisit the evaluation of automatic harness evolution for LLM agents. Existing harness evolution methods use unit test cases to search for harness configurations and then report final performance on the same public benchmark. This protocol raises two fundamental concerns. First, harness evolution is itself an iterative search procedure that repeatedly evaluates and revises candidate harnesses using task feedback. As in agentic test-time scaling, it should therefore be compared with simple task-level search baselines under matched feedback an",
-      "url": "https://huggingface.co/papers/2607.12227",
-      "pdf_url": "https://arxiv.org/pdf/2607.12227.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-14",
-      "added": "2026-07-18",
-      "stars": 0
+      "stars": 2
     },
     {
       "id": "hf-2607-13285",
@@ -594,7 +594,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 122
+      "stars": 125
     },
     {
       "id": "hf-2607-12395",
@@ -621,7 +621,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 84
+      "stars": 90
     },
     {
       "id": "hf-2607-12625",
@@ -703,7 +703,7 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-17",
-      "stars": 35
+      "stars": 38
     },
     {
       "id": "hf-2607-12000",
@@ -727,7 +727,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-17",
-      "stars": 30
+      "stars": 33
     },
     {
       "id": "hf-2607-13960",
@@ -754,7 +754,7 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-17",
-      "stars": 25
+      "stars": 26
     },
     {
       "id": "hf-2607-13104",
@@ -781,7 +781,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 22
+      "stars": 24
     },
     {
       "id": "hf-2607-13124",
@@ -807,7 +807,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 15
+      "stars": 17
     },
     {
       "id": "hf-2607-12747",
@@ -828,7 +828,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 12
+      "stars": 14
     },
     {
       "id": "hf-2607-11523",
@@ -857,7 +857,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-17",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2607-13027",
@@ -880,7 +880,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 8
+      "stars": 11
     },
     {
       "id": "hf-2607-07702",
@@ -904,7 +904,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-17",
-      "stars": 7
+      "stars": 9
     },
     {
       "id": "hf-2607-09786",
@@ -924,7 +924,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-17",
-      "stars": 6
+      "stars": 8
     },
     {
       "id": "hf-2607-12477",
@@ -952,7 +952,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 6
+      "stars": 8
     },
     {
       "id": "hf-2607-06701",
@@ -980,7 +980,30 @@
       ],
       "published": "2026-07-07",
       "added": "2026-07-17",
-      "stars": 5
+      "stars": 6
+    },
+    {
+      "id": "hf-2607-13921",
+      "title": "Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code",
+      "authors": [
+        "Niels Mündler-Sasahara",
+        "Hristo Venev",
+        "Dawn Song",
+        "Martin Vechev",
+        "Jingxuan He"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Languages with rich static semantics, such as Rust, provide stronger guarantees for AI-generated code, but their strictness makes generation more difficult. Off-the-shelf compilers can provide useful feedback post-generation, but does not guide intermediate generation steps, such as those during autoregressive LLM decoding. Constrained decoding intervenes earlier by rejecting invalid tokens during sampling, but requires white-box model access and costly reimplementation for semantic constraints.We introduce generative compilation, the first app",
+      "url": "https://huggingface.co/papers/2607.13921",
+      "pdf_url": "https://arxiv.org/pdf/2607.13921.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-17",
+      "stars": 6
     },
     {
       "id": "hf-2605-10834",
@@ -1005,30 +1028,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 4
-    },
-    {
-      "id": "hf-2607-13921",
-      "title": "Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code",
-      "authors": [
-        "Niels Mündler-Sasahara",
-        "Hristo Venev",
-        "Dawn Song",
-        "Martin Vechev",
-        "Jingxuan He"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Languages with rich static semantics, such as Rust, provide stronger guarantees for AI-generated code, but their strictness makes generation more difficult. Off-the-shelf compilers can provide useful feedback post-generation, but does not guide intermediate generation steps, such as those during autoregressive LLM decoding. Constrained decoding intervenes earlier by rejecting invalid tokens during sampling, but requires white-box model access and costly reimplementation for semantic constraints.We introduce generative compilation, the first app",
-      "url": "https://huggingface.co/papers/2607.13921",
-      "pdf_url": "https://arxiv.org/pdf/2607.13921.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-17",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2607-12463",
