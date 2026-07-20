@@ -1,6 +1,57 @@
 {
   "papers": [
     {
+      "id": "hf-2607-16097",
+      "title": "Understanding Reasoning from Pretraining to Post-Training",
+      "authors": [
+        "Jingyan Shen",
+        "Ang Li",
+        "Salman Rahman",
+        "Yifan Sun",
+        "Micah Goldblum",
+        "Matus Telgarsky",
+        "Pavel Izmailov"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? These questions are difficult to study in the standard LLM setting: pretraining corpora are vast and uncontrolled, making it hard to attribute behaviors to pretraini",
+      "url": "https://huggingface.co/papers/2607.16097",
+      "pdf_url": "https://arxiv.org/pdf/2607.16097.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-07-17",
+      "added": "2026-07-20",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-15591",
+      "title": "RecGPT-V3 Technical Report",
+      "authors": [
+        "Bowen Zheng",
+        "Chao Yi",
+        "Dian Chen",
+        "Gaoyang Guo",
+        "Han Zhu",
+        "Jiakai Tang",
+        "Jian Wu",
+        "Mao Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models (LLMs) are transforming recommender systems from matching co-occurrence patterns in historical behavior toward reasoning about the intent that drives it. RecGPT-V1 pioneered this paradigm on Taobao by centering user understanding, and RecGPT-V2 scaled it via coordinated multi-agent reasoning; both are deployed in production with consistent gains in user experience and commercial outcomes. However, operating RecGPT at scale reveals three challenges: (1) stateless behavior modeling, where each request reprocesses full user h",
+      "url": "https://huggingface.co/papers/2607.15591",
+      "pdf_url": "https://arxiv.org/pdf/2607.15591.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning"
+      ],
+      "published": "2026-07-17",
+      "added": "2026-07-20",
+      "stars": 0
+    },
+    {
       "id": "hf-2607-14952",
       "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
       "authors": [
@@ -25,7 +76,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 172
+      "stars": 176
     },
     {
       "id": "hf-2607-14935",
@@ -50,7 +101,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 120
+      "stars": 146
     },
     {
       "id": "hf-2607-14777",
@@ -77,7 +128,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 83
+      "stars": 87
     },
     {
       "id": "hf-2607-15257",
@@ -103,7 +154,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 58
+      "stars": 60
     },
     {
       "id": "hf-2607-15207",
@@ -125,7 +176,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 44
+      "stars": 46
     },
     {
       "id": "hf-2607-13188",
@@ -152,7 +203,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-18",
-      "stars": 28
+      "stars": 29
     },
     {
       "id": "hf-2607-12800",
@@ -209,7 +260,7 @@
       ],
       "published": "2026-07-03",
       "added": "2026-07-18",
-      "stars": 22
+      "stars": 23
     },
     {
       "id": "hf-2607-14187",
@@ -239,7 +290,58 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-18",
-      "stars": 21
+      "stars": 23
+    },
+    {
+      "id": "hf-2607-13399",
+      "title": "Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations",
+      "authors": [
+        "Rui Wang",
+        "Hongru Wang",
+        "Yi Chen",
+        "Boyang Xue",
+        "Tianqing Fang",
+        "Wenhao Yu",
+        "Kam-Fai Wong"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "On-policy distillation (OPD) has become a key paradigm in LLM post-training, yet its training dynamics remain poorly understood. We present a systematic study examining the role, pathologies, and regulations of OPD. We first clarify the role of OPD as an exploration catalyst: it steers the student toward correct reasoning paths via dense token-level guidance, without expanding capability ceiling. We confirm this by showing that prompt diversity matters more than per-problem sampling numbers, and critically, that the effectiveness of OPD hinges",
+      "url": "https://huggingface.co/papers/2607.13399",
+      "pdf_url": "https://arxiv.org/pdf/2607.13399.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-18",
+      "stars": 18
+    },
+    {
+      "id": "hf-2607-15275",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge",
+        "Jimmy Wu",
+        "Tianyuan Dai",
+        "Scott Reed"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, l",
+      "url": "https://huggingface.co/papers/2607.15275",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-07-16",
+      "added": "2026-07-18",
+      "stars": 18
     },
     {
       "id": "hf-2607-15038",
@@ -266,57 +368,6 @@
       "published": "2026-07-16",
       "added": "2026-07-18",
       "stars": 17
-    },
-    {
-      "id": "hf-2607-13399",
-      "title": "Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations",
-      "authors": [
-        "Rui Wang",
-        "Hongru Wang",
-        "Yi Chen",
-        "Boyang Xue",
-        "Tianqing Fang",
-        "Wenhao Yu",
-        "Kam-Fai Wong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-policy distillation (OPD) has become a key paradigm in LLM post-training, yet its training dynamics remain poorly understood. We present a systematic study examining the role, pathologies, and regulations of OPD. We first clarify the role of OPD as an exploration catalyst: it steers the student toward correct reasoning paths via dense token-level guidance, without expanding capability ceiling. We confirm this by showing that prompt diversity matters more than per-problem sampling numbers, and critically, that the effectiveness of OPD hinges",
-      "url": "https://huggingface.co/papers/2607.13399",
-      "pdf_url": "https://arxiv.org/pdf/2607.13399.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-18",
-      "stars": 17
-    },
-    {
-      "id": "hf-2607-15275",
-      "title": "RoboTTT: Context Scaling for Robot Policies",
-      "authors": [
-        "Yunfan Jiang",
-        "Yevgen Chebotar",
-        "Ruijie Zheng",
-        "Fengyuan Hu",
-        "Yunhao Ge",
-        "Jimmy Wu",
-        "Tianyuan Dai",
-        "Scott Reed"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, l",
-      "url": "https://huggingface.co/papers/2607.15275",
-      "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 16
     },
     {
       "id": "hf-2607-15273",
@@ -355,7 +406,7 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-18",
-      "stars": 10
+      "stars": 9
     },
     {
       "id": "hf-2607-14660",
@@ -412,33 +463,6 @@
       "stars": 7
     },
     {
-      "id": "hf-2607-10463",
-      "title": "GRASP: GRanularity-Aware Search Policy for Agentic RAG",
-      "authors": [
-        "Varun Gandhi",
-        "Jaewook Lee",
-        "Shantanu Todmal",
-        "Franck Dernoncourt",
-        "Ryan Rossi",
-        "Zichao Wang",
-        "Andrew Lan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Agentic retrieval-augmented generation (RAG) extends static RAG by allowing language models to iteratively reason, generate search queries, retrieve evidence, and predict answers. However, it remains challenging for models to decide when to retrieve, whether to use lexical matching or semantic similarity, and how to control context granularity to prevent irrelevant tokens from interfering with agent reasoning. In this paper, we introduce GRASP, a reinforcement learning (RL) framework for training agents to adaptively coordinate complementary re",
-      "url": "https://huggingface.co/papers/2607.10463",
-      "pdf_url": "https://arxiv.org/pdf/2607.10463.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-11",
-      "added": "2026-07-18",
-      "stars": 5
-    },
-    {
       "id": "hf-2607-12227",
       "title": "Rethinking the Evaluation of Harness Evolution for Agents",
       "authors": [
@@ -462,6 +486,33 @@
         "code"
       ],
       "published": "2026-07-14",
+      "added": "2026-07-18",
+      "stars": 6
+    },
+    {
+      "id": "hf-2607-10463",
+      "title": "GRASP: GRanularity-Aware Search Policy for Agentic RAG",
+      "authors": [
+        "Varun Gandhi",
+        "Jaewook Lee",
+        "Shantanu Todmal",
+        "Franck Dernoncourt",
+        "Ryan Rossi",
+        "Zichao Wang",
+        "Andrew Lan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agentic retrieval-augmented generation (RAG) extends static RAG by allowing language models to iteratively reason, generate search queries, retrieve evidence, and predict answers. However, it remains challenging for models to decide when to retrieve, whether to use lexical matching or semantic similarity, and how to control context granularity to prevent irrelevant tokens from interfering with agent reasoning. In this paper, we introduce GRASP, a reinforcement learning (RL) framework for training agents to adaptively coordinate complementary re",
+      "url": "https://huggingface.co/papers/2607.10463",
+      "pdf_url": "https://arxiv.org/pdf/2607.10463.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-11",
       "added": "2026-07-18",
       "stars": 5
     },
@@ -516,7 +567,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-18",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2607-09061",
@@ -594,7 +645,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 125
+      "stars": 126
     },
     {
       "id": "hf-2607-12395",
@@ -727,7 +778,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-17",
-      "stars": 33
+      "stars": 34
     },
     {
       "id": "hf-2607-13960",
@@ -781,7 +832,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 24
+      "stars": 25
     },
     {
       "id": "hf-2607-13124",
@@ -828,7 +879,7 @@
       ],
       "published": "2026-07-14",
       "added": "2026-07-17",
-      "stars": 14
+      "stars": 16
     },
     {
       "id": "hf-2607-11523",
@@ -904,7 +955,7 @@
       ],
       "published": "2026-07-08",
       "added": "2026-07-17",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2607-09786",
@@ -2004,54 +2055,6 @@
       "published": "2026-07-09",
       "added": "2026-07-11",
       "stars": 32
-    },
-    {
-      "id": "hf-2607-08404",
-      "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
-      "authors": [
-        "Ali Motahharynia",
-        "Mohammadreza Ghaffarzadeh-Esfahani",
-        "Mahsa Sheikholeslami",
-        "Navid Mazrouei",
-        "Matin Irajpour",
-        "Yousof Gheisari",
-        "Hajar Sirous"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a novel generative model that designs small molecules conditioned on both disease ontology and target protein sequences. DrugGen-2 was developed by fine-tuning a pre-trained GPT-2 model on a curated dataset of approved drugs linked to their diseases and ta",
-      "url": "https://huggingface.co/papers/2607.08404",
-      "pdf_url": "https://arxiv.org/pdf/2607.08404.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-07-09",
-      "added": "2026-07-11",
-      "stars": 19
-    },
-    {
-      "id": "hf-2607-03803",
-      "title": "CineMobile: On-Device Image-to-Video Diffusion for Cinematic Camera Motion Generation",
-      "authors": [
-        "Xuyao Huang",
-        "Zelai Deng",
-        "Xu Wang",
-        "Xizhong Xiao",
-        "Zhijie Deng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The growing demand for image-to-video creation on mobile devices has increasingly focused on cinematic motion effects like bullet time, dolly zoom, slow motion, etc. While Diffusion Transformers (DiTs) exhibit strong performance in video generation, their large parameter sizes and multi-step iterative denoising processes lead to substantial computational overhead, making efficient generation on mobile devices challenging. We propose CineMobile to bridge the gap. In particular, CineMobile adopts a three-fold optimization strategy: (1) leveraging",
-      "url": "https://huggingface.co/papers/2607.03803",
-      "pdf_url": "https://arxiv.org/pdf/2607.03803.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-07-04",
-      "added": "2026-07-11",
-      "stars": 15
     }
   ]
 }

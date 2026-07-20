@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Jul 2026 02:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 02:05:11 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-20</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-20</link>
+      <guid isPermaLink="false">2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 10:00:00 +0800</pubDate>
+      <description>WAIC 2026 今日闭幕，「智能体」正式取代「百模大战」成为主线；Kimi K3 爆火 48 小时算力告急，月之暗面暂停 C 端新用户订阅。
+• WAIC 2026 闭幕：智能体成绝对主角，162 亿元意向合作落地
+• Kimi K3 爆火 48 小时算力告急，月之暗面暂停 C 端新用户订阅
+• 阿里千问首款 AI 智能体耳机 Qwen Clip 在 WAIC 亮相
+• 腾讯发布企业级智能体平台 ADP 4.0 海外版与 WorkBuddy App
+• WAIC 2026 具身智能告别&quot;秀场时代&quot; — 走访百余家参展商后，具身智能赛道从&quot;翻跟头炫技&quot;转向常态化服务与工业化落地，60 台人形机器人现场承担导览等真实岗位。2026 上半年国内具身智能领域披露融资超 460 亿元，千寻智能 4 轮累计融资近 50 亿，估值突破 200 亿。腾讯新闻/科创板日报</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-19</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-19</link>
@@ -354,18 +366,6 @@
 • 阿里通义千问开源具身世界模型 Qwen-RobotWorld 与 Qwen-Robot 矩阵
 • SpaceX 600 亿美元收购 Cursor 母公司 Anysphere（余波）
 • 商务部等 8 部门发布&quot;人工智能+消费&quot;17 条举措 — 6 月 18 日印发《关于加快&quot;人工智能+消费&quot;发展的实施意见》，覆盖 AI 手机/PC、智能汽车、人形机器人、AI 养老/文旅/零售等 5 大领域、17 条具体举措，将&quot;人工智能+消费&quot;提质明确为&quot;十五五&quot;重点。来源：新华社</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-20</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-20</link>
-      <guid isPermaLink="false">2026-06-20</guid>
-      <pubDate>Sat, 20 Jun 2026 10:00:00 +0800</pubDate>
-      <description>SpaceX 以 600 亿美元全股票收购 Cursor 母公司 Anysphere 的余波持续发酵；OpenAI o3 协助波士顿儿童医院在 376 例儿科罕见病疑案中新确诊 18 例。
-• SpaceX 600 亿美元全股票收购 AI 编程 Agent Cursor 母公司 Anysphere
-• OpenAI o3 助力哈佛 / 波士顿儿童医院破解 18 例儿科罕见病疑案
-• Anthropic 搁置 Claude Agent SDK Token 计费变更，安抚开发者
-• Gradial 完成 6500 万美元融资，押注&quot;营销 Agent OS&quot;
-• 智谱 Z.ai 开源 GLM-5.2，1M 无损上下文 + 编程优先 — 6 月 13 日上线，已在 GLM Coding Plan 全等级（Lite/Pro/Max/Team）启用，主打长程工程任务，并 Day 0 适配华为昇腾、寒武纪、摩尔线程等多家国产算力。来源：codersera</description>
     </item>
   </channel>
 </rss>
