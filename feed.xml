@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 02:05:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 02:05:24 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-21</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-21</link>
+      <guid isPermaLink="false">2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 10:00:00 +0800</pubDate>
+      <description>WAIC 2026 收官次日，AI Agent 生态进入「基础设施 + 出海」双主线：英伟达把 Agent 塞进 DGX Station 本地工作站，阿里云 Agent Native Cloud 与腾讯 ADP 4.0 海外版正面开火。
+• NVIDIA（英伟达）推出 Agent Toolkit：DGX Station 本地 30 分钟部署智能体
+• 阿里云在 WAIC 发布 Agent Native Cloud：智能体成为企业「原生」能力
+• WAIC 2026 闭幕次日盘点：AI 从「能对话」全面走向「会干活」
+• 腾讯云 ADP 4.0 海外版正式发布：中国 Agent 平台联手出海东南亚
+• Cursor 用 AI Swarm 从零重构 SQLite，成本降为传统方案的 1/15 — Cursor 官方博客披露最新实验：调度多个编码 Agent 组成 Swarm，端到端重写 SQLite 核心模块，工程成本仅为人工团队的约 6.7%，验证了「AI 群体编程」在系统级软件上的可行性。AlphaSignal</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-20</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-20</link>
@@ -354,18 +366,6 @@
 • 支付宝&quot;阿宝&quot;内测：超级 App 正式迈向超级 Agent
 • OpenAI 据报最快下周推出 GPT-5.6（mini / 标准 / Pro 三档）
 • 美团 LongCat 开源推理评测集 General-365 — 在 26 款主流模型实测中，目前&quot;地表最强&quot;的 Gemini 3 Pro 准确率仅 62.8%，多数模型在通用推理任务上跌破 60 分。来源：美团技术团队</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-21</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-21</link>
-      <guid isPermaLink="false">2026-06-21</guid>
-      <pubDate>Sun, 21 Jun 2026 10:00:00 +0800</pubDate>
-      <description>周末 AI 圈余波延续：诺奖得主 John Jumper 离开 DeepMind 加盟 Anthropic；商务部等八部门 17 条举措力推&quot;人工智能+消费&quot;落地。
-• AlphaFold 之父 John Jumper 离开 Google DeepMind 加盟 Anthropic
-• OpenAI 联合 Molecule.one：GPT-5.4 近乎自主改进药物合成关键反应
-• 阿里通义千问开源具身世界模型 Qwen-RobotWorld 与 Qwen-Robot 矩阵
-• SpaceX 600 亿美元收购 Cursor 母公司 Anysphere（余波）
-• 商务部等 8 部门发布&quot;人工智能+消费&quot;17 条举措 — 6 月 18 日印发《关于加快&quot;人工智能+消费&quot;发展的实施意见》，覆盖 AI 手机/PC、智能汽车、人形机器人、AI 养老/文旅/零售等 5 大领域、17 条具体举措，将&quot;人工智能+消费&quot;提质明确为&quot;十五五&quot;重点。来源：新华社</description>
     </item>
   </channel>
 </rss>
