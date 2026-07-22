@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 Jul 2026 02:05:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 02:06:34 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-22</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-22</link>
+      <guid isPermaLink="false">2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
+      <description>WAIC 2026 收官余温未散，全球 Agent 战线在 24 小时内完成三次同步：Anthropic 让 Claude Cowork「看屏幕学技能」、Google 推出为 Agent 定价的 Gemini 3.5 Flash-Lite、OpenAI 与 Apollo 联手发布奖励寻求测试。
+• Anthropic 推出 Claude Cowork「Record a Skill」：录屏 + 口述即可教 AI 干活
+• Google 发布 Gemini 3.6 Flash / 3.5 Flash-Lite / Flash Cyber：为 Agent 明码标价
+• OpenAI 联手 Apollo Research 发布 Contrastive SDF：给 Agent 的「奖励寻求」测谎
+• 面壁智能开源 MiniCPM-Robot 系列：1.5B VLA 模型让个人开发者「买机器人就能跑」
+• 2026 上半年中国 AI 一级市场融资突破 3000 亿元 — 雪球 7 月 21 日发布报告：2026 上半年中国人工智能行业一级市场融资总额已 超过 2025 年全年，占全赛道融资比重大幅攀升，AI 基础设施、大模型、Agent 应用为三大主赛道。雪球</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-21</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-21</link>
@@ -354,18 +366,6 @@
 • 自主医疗 AI 智能体首达内科医生水平：MIRA 与 Google AMIE 登上 Nature
 • 美国政府据称因 NSA 机密系统被破解紧急封杀 Anthropic — 6 月 22 日凤凰科技援引外媒报道称，美方在 NSA 一处机密系统遭&quot;越狱版 Claude&quot;渗透后，对 Anthropic 旗舰模型 Fable 5 / Mythos 5 下达紧急出口管制；Anthropic 拟于 7 月 8 日生效新身份核验政策，仅允许已验证美国公民使用。凤凰科技
 • 微软将默认向 Win11 自动安装 Microsoft 365 Copilot — 微软管理后台更新文档显示，自 2026 年 6 月起所有装有 Microsoft 365 桌面应用且符合条件的 Windows 11 设备将自动安装 Copilot 客户端，覆盖时间为 6 月中旬至 7 月中旬。此举已遭部分企业 IT 管理员反弹。IT 之家</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-22</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-22</link>
-      <guid isPermaLink="false">2026-06-22</guid>
-      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
-      <description>《自然》同期发表的 MIRA 与谷歌 AMIE 两套自主医疗智能体在诊断—治疗全流程上比肩内科医生；与此同时 AlphaFold 之父 John Jumper 出走谷歌 DeepMind 加入 Anthropic，AI 顶级人才迁徙再起波澜。
-• MIRA 与 AMIE 登上《自然》——首批端到端医疗 AI 智能体表现追平内科医生
-• AlphaFold 之父 John Jumper 离开谷歌 DeepMind，加盟 Anthropic
-• 支付宝&quot;阿宝&quot;内测：超级 App 正式迈向超级 Agent
-• OpenAI 据报最快下周推出 GPT-5.6（mini / 标准 / Pro 三档）
-• 美团 LongCat 开源推理评测集 General-365 — 在 26 款主流模型实测中，目前&quot;地表最强&quot;的 Gemini 3 Pro 准确率仅 62.8%，多数模型在通用推理任务上跌破 60 分。来源：美团技术团队</description>
     </item>
   </channel>
 </rss>

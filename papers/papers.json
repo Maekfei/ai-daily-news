@@ -25,7 +25,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-21",
-      "stars": 114
+      "stars": 129
     },
     {
       "id": "hf-2607-11683",
@@ -52,7 +52,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-21",
-      "stars": 111
+      "stars": 128
     },
     {
       "id": "hf-2607-16051",
@@ -258,6 +258,25 @@
       "stars": 13
     },
     {
+      "id": "hf-2607-13365",
+      "title": "DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
+      "authors": [
+        "Eungjune Shim",
+        "Hansol Lee",
+        "Eunjung Ju"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing 3D generative models predominantly rely on implicit volumetric representations, which enforce watertight topology and struggle to represent thin-shell and non-manifold geometries such as garments. Geometry image-based approaches offer a surface-centric alternative, but existing methods rely on discrete binary occupancy maps whose resolution-dependent boundary encoding causes staircase artifacts and information loss upon downsampling, while surface reconstruction remains a non-differentiable post-processing step disconnected from the le",
+      "url": "https://huggingface.co/papers/2607.13365",
+      "pdf_url": "https://arxiv.org/pdf/2607.13365.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-15",
+      "added": "2026-07-21",
+      "stars": 12
+    },
+    {
       "id": "hf-2607-15686",
       "title": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
       "authors": [
@@ -283,7 +302,7 @@
       ],
       "published": "2026-07-17",
       "added": "2026-07-21",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2607-14614",
@@ -308,7 +327,7 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-21",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2607-14088",
@@ -442,7 +461,7 @@
       ],
       "published": "2026-07-17",
       "added": "2026-07-21",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2607-11498",
@@ -466,7 +485,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-21",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2607-16074",
@@ -494,7 +513,7 @@
       ],
       "published": "2026-07-17",
       "added": "2026-07-21",
-      "stars": 2
+      "stars": 4
     },
     {
       "id": "hf-2607-10966",
@@ -522,26 +541,7 @@
       ],
       "published": "2026-07-13",
       "added": "2026-07-21",
-      "stars": 2
-    },
-    {
-      "id": "hf-2607-13365",
-      "title": "DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
-      "authors": [
-        "Eungjune Shim",
-        "Hansol Lee",
-        "Eunjung Ju"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing 3D generative models predominantly rely on implicit volumetric representations, which enforce watertight topology and struggle to represent thin-shell and non-manifold geometries such as garments. Geometry image-based approaches offer a surface-centric alternative, but existing methods rely on discrete binary occupancy maps whose resolution-dependent boundary encoding causes staircase artifacts and information loss upon downsampling, while surface reconstruction remains a non-differentiable post-processing step disconnected from the le",
-      "url": "https://huggingface.co/papers/2607.13365",
-      "pdf_url": "https://arxiv.org/pdf/2607.13365.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-07-15",
-      "added": "2026-07-21",
-      "stars": 1
+      "stars": 3
     },
     {
       "id": "hf-2607-11915",
