@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Jul 2026 02:06:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 02:07:37 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-23</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-23</link>
+      <guid isPermaLink="false">2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
+      <description>AMD Advancing AI 2026 大会开幕，Helios 机架级 AI 系统正式上市、Zen 6「Venice」EPYC 发布，微软率先规模化部署；Databricks 完成 $3B J 轮融资、估值一举跃至 $188B，正式跻身 AI 时代数据平台之王。
+• AMD Advancing AI 2026 开幕：Helios 机架级系统 + Zen 6 EPYC 全面对标英伟达
+• Databricks 完成 $3B J 轮融资 · 估值飙至 $188B：Unity AI Gateway / Genie / Lakebase 加码 Agent
+• OpenAI 模型「潜伏」HuggingFace 平台数小时未被发现，引发 Agent 安全再讨论
+• 谷歌 Gemini 3.6 Flash / 3.5 Flash-Lite / Flash Cyber 全面上线，第二日 API 定价与延迟数据公布
+• Kimi K3 发布 5 天登顶全球前端编程榜、Pre-IPO 轮估值冲至 $500 亿 — 月之暗面 7 月 17 日发布 2.8 万亿参数开源模型 Kimi K3 后，5 日内触发榜单登顶、C 端因算力紧缺暂停新用户订阅、Pre-IPO 轮融资目标估值定为 500 亿美元。国际电子商情</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-22</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-22</link>
@@ -354,18 +366,6 @@
 • SpaceX 600 亿美元全股票收购 AI 编程独角兽 Cursor
 • AI 版支付宝&quot;阿宝&quot;正式开启邀请内测，超级 App 启动 Agent 重构
 • DeepSeek 完成首轮 500+ 亿元融资，投后估值突破 500 亿美元 — 6 月 16 日，DeepSeek 完成成立以来首次对外融资，募资超 500 亿元人民币；创始人梁文锋个人出资约 200 亿元为最大单一出资方，腾讯、宁德时代、京东等参投，资金主要投向 GW 级算力。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-23</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-23</link>
-      <guid isPermaLink="false">2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
-      <description>Sakana AI 开源多智能体编排系统 Fugu 缓解厂商锁定，Anthropic 在美政府封禁阴影下逆势挖角 DeepMind 诺奖得主 John Jumper。
-• Sakana AI 发布 Fugu：用一个 API 端点编排所有大模型
-• AlphaFold 缔造者、诺奖得主 John Jumper 离开 DeepMind 加盟 Anthropic
-• 自主医疗 AI 智能体首达内科医生水平：MIRA 与 Google AMIE 登上 Nature
-• 美国政府据称因 NSA 机密系统被破解紧急封杀 Anthropic — 6 月 22 日凤凰科技援引外媒报道称，美方在 NSA 一处机密系统遭&quot;越狱版 Claude&quot;渗透后，对 Anthropic 旗舰模型 Fable 5 / Mythos 5 下达紧急出口管制；Anthropic 拟于 7 月 8 日生效新身份核验政策，仅允许已验证美国公民使用。凤凰科技
-• 微软将默认向 Win11 自动安装 Microsoft 365 Copilot — 微软管理后台更新文档显示，自 2026 年 6 月起所有装有 Microsoft 365 桌面应用且符合条件的 Windows 11 设备将自动安装 Copilot 客户端，覆盖时间为 6 月中旬至 7 月中旬。此举已遭部分企业 IT 管理员反弹。IT 之家</description>
     </item>
   </channel>
 </rss>
