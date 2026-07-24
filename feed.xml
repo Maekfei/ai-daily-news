@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Jul 2026 02:07:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 02:06:50 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-24</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-24</link>
+      <guid isPermaLink="false">2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 正式推出企业级智能体运营平台 **Presence**，从「卖模型」跨入「卖 Agent 工作流」；同日 AMD 官宣与 Anthropic 签下最高 50 亿美元 GPU 大单，Agent 算力与 Agent 平台在同一时间轴上开始对齐。
+• OpenAI 推出企业智能体运营平台 Presence，正式跨入企业软件赛道
+• AMD 与 Anthropic 签下最高 50 亿美元 AI 芯片大单，Helios 落地 Claude 训练
+• Google DeepMind 发布 Gemini 3.6 Flash：编程与多 Agent 编排全面提升，价格再降
+• Kimi K3 权重开源倒计时 — 月之暗面 7 月 16 日发布的 2.8 万亿参数 MoE 模型 Kimi K3，官方确认完整权重将于 7 月 27 日前在 HuggingFace 释出，成为全球首个 3T 级开源模型；Together AI 已宣布首日提供推理服务。OpenSourceForU
+• 阿里 Qwen3.8 开源在即 — 7 月 19 日，阿里通义实验室发布 Qwen3.8 预览版，参数规模 2.4 万亿，官方定位「除 Claude Fable 5 外最强」，Qwen3.8-Max 预览版已上线阿里云 Token Plan 与 Qoder。腾讯新闻</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-23</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-23</link>
@@ -354,18 +366,6 @@
 • 豆包推出付费专业版，可直接操作本地电脑
 • ISC.AI 2026 大会聚焦 &quot;AI 对 AI&quot; 安全范式
 • DeepSeek 完成超 500 亿元首轮外部融资，估值最高 590 亿美元 — 腾讯、宁德时代等产业资本入场，刷新国内开源大模型估值纪录。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-24</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-24</link>
-      <guid isPermaLink="false">2026-06-24</guid>
-      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
-      <description>智谱港股市值首破万亿港元，国产大模型获稀缺性溢价；OpenAI 安全专用 GPT-5.5-Cyber 完整版在 CyberGym 上刷新 SOTA。
-• 智谱港股市值首破万亿港元，GLM-5.2 跻身全球第一梯队
-• OpenAI 安全专用 GPT-5.5-Cyber 完整版上线，CyberGym 得分 85.6%
-• SpaceX 600 亿美元全股票收购 AI 编程独角兽 Cursor
-• AI 版支付宝&quot;阿宝&quot;正式开启邀请内测，超级 App 启动 Agent 重构
-• DeepSeek 完成首轮 500+ 亿元融资，投后估值突破 500 亿美元 — 6 月 16 日，DeepSeek 完成成立以来首次对外融资，募资超 500 亿元人民币；创始人梁文锋个人出资约 200 亿元为最大单一出资方，腾讯、宁德时代、京东等参投，资金主要投向 GW 级算力。来源</description>
     </item>
   </channel>
 </rss>
