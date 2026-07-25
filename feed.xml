@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 02:06:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 02:04:23 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-25</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-25</link>
+      <guid isPermaLink="false">2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 深夜发布 **Claude Opus 5**，以 Fable 5 一半的价格逼近前沿智能；同日 Stripe 洽购 **OpenRouter** 估值飙至 100 亿美元，Agent 时代的&quot;支付—路由—模型&quot;三层堆栈开始被重定价。
+• Anthropic 发布 Claude Opus 5：价格砍半、Agent 编码接近 Fable 5
+• Stripe 洽购 OpenRouter，估值飙至 100 亿美元——支付巨头切入 Agent 路由层
+• 北京发布全国首个省级智能体专项政策：一人公司、Token 计费、最高 1 亿元资金支持
+• 腾讯 TEG 撤销大语言模型部/多模态模型部，合并成立&quot;基础模型部&quot;，姚顺雨执掌
+• DeepSeek V4 API 完成体系独立化，梁文锋披露 AGI 六阶梯框架 — 7 月 24 日，DeepSeek 完成 `deepseek-chat` / `deepseek-reasoner` 旧接口下线，全面切换到 V4 Pro / V4 Flash 双版本；同期流传的梁文锋 4 小时闭门交流实录中，首次系统披露 AGI 六阶梯路线图：Chat → Reason → Tool-use → Agent → Auto-Improve → AGI。AITOP100 每日AI资讯</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-24</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-24</link>
@@ -354,18 +366,6 @@
 • Anthropic 发布 Claude Tag：让 Claude 以&quot;虚拟员工&quot;身份常驻 Slack
 • Google DeepMind 把 Native Computer Use 集成进 Gemini 3.5 Flash
 • 新华社&quot;新华语典&quot;权威 AI 时政智能体正式上线</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-25</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-25</link>
-      <guid isPermaLink="false">2026-06-25</guid>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 与博通联合发布首款自研推理芯片 Jalapeño，9 个月完成流片；字节豆包 2.1 Pro 全面押注 Coding 与 Agent，日均 Token 调用量两年增长 1500 倍。
-• 字节火山引擎发布豆包 2.1 Pro，All-in Coding 与 Agent
-• OpenAI 与博通联合发布首款自研推理芯片 Jalapeño
-• 豆包推出付费专业版，可直接操作本地电脑
-• ISC.AI 2026 大会聚焦 &quot;AI 对 AI&quot; 安全范式
-• DeepSeek 完成超 500 亿元首轮外部融资，估值最高 590 亿美元 — 腾讯、宁德时代等产业资本入场，刷新国内开源大模型估值纪录。来源</description>
     </item>
   </channel>
 </rss>
