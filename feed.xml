@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 25 Jul 2026 02:04:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 02:03:35 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-26</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-26</link>
+      <guid isPermaLink="false">2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 发布 Claude Opus 5，以「腰斩价+百万上下文」把前沿智能体编程拉进日常预算；DeepSeek 因创始人言论外泄暂停第二轮融资，中美 AI 竞合再起波澜。
+• Anthropic 发布 Claude Opus 5，把前沿智能体编程做到「半价」
+• VentureBeat 研究：企业已跑上 Agent，但治理还停在 2023 年
+• DeepSeek 因创始人言论外流，暂停规模约 100 亿美元的第二轮融资
+• Claude Opus 5 三倍刷新 ARC-AGI-3，价格仅前沿的一半 — AlphaSignal 快讯：Opus 5 在 ARC-AGI-3 基准上得分是 Opus 4.8 的 3 倍，同时把单位 token 成本砍到 Fable 5 的 50%。AlphaSignal 报道
+• Kimi K3 全量开源在即，2.8 万亿参数登顶开源模型规模 — 月之暗面宣布 7 月 27 日前完成 Kimi K3 全部权重开源，原生视觉理解 + 100 万 token 上下文，被称为继 DeepSeek-R1 之后中国 AI 的&quot;第二次冲击&quot;。新浪财经报道</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-25</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-25</link>
@@ -354,18 +366,6 @@
 • OpenCode 登顶 LogRocket《AI 开发工具实力榜》榜首
 • OpenAI 倾向于 2027 年 IPO — Altman 在内部会议表示，OpenAI 有可能在未来一年内 IPO，但也保留推迟选项；公司对 2026 年 5860 亿美元估值后的下一轮融资节奏保持开放。来源
 • OpenAI 自研芯片 Jalapeño 流片 — 6 月 24 日 OpenAI 与博通在旧金山联合发布首款自研推理芯片 Jalapeño，TSMC 3nm + HBM3E/4，从设计到流片仅 9 个月，每瓦推理性能官方称大幅优于现役最先进产品，2026 年底起部署于 GW 级数据中心。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-26</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-26</link>
-      <guid isPermaLink="false">2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 10:00:00 +0800</pubDate>
-      <description>中科闻歌&quot;通用决策大模型第一股&quot;今日登陆港交所，AI 国家队正式入场资本市场；Patronus AI 完成 5000 万美元 B 轮，押注&quot;数字世界模型&quot;为 Agent 提供仿真训练沙盒。
-• 中科闻歌登陆港交所，&quot;通用决策大模型第一股&quot;开盘大涨
-• Patronus AI 完成 5000 万美元 B 轮，发布首个&quot;数字世界模型&quot;训练 Agent
-• Anthropic 发布 Claude Tag：让 Claude 以&quot;虚拟员工&quot;身份常驻 Slack
-• Google DeepMind 把 Native Computer Use 集成进 Gemini 3.5 Flash
-• 新华社&quot;新华语典&quot;权威 AI 时政智能体正式上线</description>
     </item>
   </channel>
 </rss>

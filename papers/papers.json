@@ -26,7 +26,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 118
+      "stars": 127
     },
     {
       "id": "hf-2607-20061",
@@ -55,7 +55,7 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-25",
-      "stars": 44
+      "stars": 49
     },
     {
       "id": "hf-2607-21556",
@@ -109,7 +109,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 34
+      "stars": 35
     },
     {
       "id": "hf-2607-20911",
@@ -136,7 +136,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 18
+      "stars": 20
     },
     {
       "id": "hf-2607-20734",
@@ -157,7 +157,30 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-25",
-      "stars": 15
+      "stars": 18
+    },
+    {
+      "id": "hf-2607-21051",
+      "title": "Sample-Efficient Learning from Agent Experience",
+      "authors": [
+        "Chenhui Gou",
+        "Haoqin Tu",
+        "Yunhao Fang",
+        "Jianfei Cai",
+        "Hamid Rezatofighi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Real-world agent learning is often constrained by costly environment interactions, such as running time-consuming experiments or obtaining human feedback. In-context learning offers a highly sample-efficient way for agents to learn from their own interaction histories, but its gains disappear once that experience is removed from the context. Separately, context distillation provides a mechanism for internalizing contextual information into model weights. However, applying it to agents' interaction histories without sacrificing environment sampl",
+      "url": "https://huggingface.co/papers/2607.21051",
+      "pdf_url": "https://arxiv.org/pdf/2607.21051.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl"
+      ],
+      "published": "2026-07-23",
+      "added": "2026-07-25",
+      "stars": 10
     },
     {
       "id": "hf-2607-04763",
@@ -180,29 +203,6 @@
         "reasoning"
       ],
       "published": "2026-07-16",
-      "added": "2026-07-25",
-      "stars": 8
-    },
-    {
-      "id": "hf-2607-21051",
-      "title": "Sample-Efficient Learning from Agent Experience",
-      "authors": [
-        "Chenhui Gou",
-        "Haoqin Tu",
-        "Yunhao Fang",
-        "Jianfei Cai",
-        "Hamid Rezatofighi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Real-world agent learning is often constrained by costly environment interactions, such as running time-consuming experiments or obtaining human feedback. In-context learning offers a highly sample-efficient way for agents to learn from their own interaction histories, but its gains disappear once that experience is removed from the context. Separately, context distillation provides a mechanism for internalizing contextual information into model weights. However, applying it to agents' interaction histories without sacrificing environment sampl",
-      "url": "https://huggingface.co/papers/2607.21051",
-      "pdf_url": "https://arxiv.org/pdf/2607.21051.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-07-23",
       "added": "2026-07-25",
       "stars": 8
     },
@@ -313,7 +313,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2607-16859",
@@ -340,7 +340,7 @@
       ],
       "published": "2026-07-18",
       "added": "2026-07-25",
-      "stars": 0
+      "stars": 1
     },
     {
       "id": "hf-2607-19191",
@@ -569,7 +569,7 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-24",
-      "stars": 27
+      "stars": 28
     },
     {
       "id": "hf-2607-15550",
@@ -619,6 +619,34 @@
       "published": "2026-07-17",
       "added": "2026-07-24",
       "stars": 24
+    },
+    {
+      "id": "hf-2607-20709",
+      "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+      "authors": [
+        "Paul Furgale",
+        "Severin Klingler",
+        "James Nolan",
+        "Matt Staats",
+        "Gaia Di Lorenzo",
+        "Elisa Martinez Abad",
+        "Christian Schüller",
+        "Razvan Dinu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of \"...\" is completed at runtime by an LLM-driven agent loop, while methods with normal",
+      "url": "https://huggingface.co/papers/2607.20709",
+      "pdf_url": "https://arxiv.org/pdf/2607.20709.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-22",
+      "added": "2026-07-24",
+      "stars": 22
     },
     {
       "id": "hf-2607-18754",
@@ -672,34 +700,6 @@
       "stars": 20
     },
     {
-      "id": "hf-2607-20709",
-      "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
-      "authors": [
-        "Paul Furgale",
-        "Severin Klingler",
-        "James Nolan",
-        "Matt Staats",
-        "Gaia Di Lorenzo",
-        "Elisa Martinez Abad",
-        "Christian Schüller",
-        "Razvan Dinu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of \"...\" is completed at runtime by an LLM-driven agent loop, while methods with normal",
-      "url": "https://huggingface.co/papers/2607.20709",
-      "pdf_url": "https://arxiv.org/pdf/2607.20709.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-22",
-      "added": "2026-07-24",
-      "stars": 19
-    },
-    {
       "id": "hf-2607-14186",
       "title": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
       "authors": [
@@ -743,7 +743,7 @@
       ],
       "published": "2026-07-21",
       "added": "2026-07-24",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2607-13429",
@@ -800,6 +800,29 @@
       "stars": 12
     },
     {
+      "id": "hf-2607-21594",
+      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "authors": [
+        "Sicheng Mo",
+        "Yuheng Li",
+        "Ziyang Leng",
+        "Krishna Kumar Singh",
+        "Bolei Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registers: learnable tokens that store shared world infor",
+      "url": "https://huggingface.co/papers/2607.21594",
+      "pdf_url": "https://arxiv.org/pdf/2607.21594.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "multimodal"
+      ],
+      "published": "2026-07-23",
+      "added": "2026-07-24",
+      "stars": 11
+    },
+    {
       "id": "hf-2607-18603",
       "title": "AutoIndex: Learning Representation Programs for Retrieval",
       "authors": [
@@ -821,29 +844,6 @@
         "code"
       ],
       "published": "2026-07-21",
-      "added": "2026-07-24",
-      "stars": 9
-    },
-    {
-      "id": "hf-2607-21594",
-      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
-      "authors": [
-        "Sicheng Mo",
-        "Yuheng Li",
-        "Ziyang Leng",
-        "Krishna Kumar Singh",
-        "Bolei Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registers: learnable tokens that store shared world infor",
-      "url": "https://huggingface.co/papers/2607.21594",
-      "pdf_url": "https://arxiv.org/pdf/2607.21594.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "multimodal"
-      ],
-      "published": "2026-07-23",
       "added": "2026-07-24",
       "stars": 9
     },
@@ -1229,6 +1229,28 @@
       "stars": 2
     },
     {
+      "id": "hf-2607-17699",
+      "title": "SLAM in Low-Light Environments: Project Report",
+      "authors": [
+        "Oleh Basystyi",
+        "Anna Stasyshyn",
+        "Oleksandr Kosovan",
+        "Yaroslav Prytula"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Simultaneous localization and mapping (SLAM) is one of the fundamental problems in robotics, as it enables autonomous operations in real-world scenarios. Under low illumination, reduced contrast, sensor noise, and motion blur degrade both feature extraction and feature matching, while compensating with LiDAR, depth, or thermal sensors raises cost, power draw, and integration complexity. Existing benchmarks remain dominated by well-lit indoor or daylight sequences, leaving open how far SLAM with standard RGB cameras can be pushed in the dark. We",
+      "url": "https://huggingface.co/papers/2607.17699",
+      "pdf_url": "https://arxiv.org/pdf/2607.17699.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-07-20",
+      "added": "2026-07-24",
+      "stars": 2
+    },
+    {
       "id": "hf-2607-17599",
       "title": "ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning",
       "authors": [
@@ -1248,28 +1270,6 @@
         "reasoning",
         "benchmark",
         "multimodal"
-      ],
-      "published": "2026-07-20",
-      "added": "2026-07-24",
-      "stars": 1
-    },
-    {
-      "id": "hf-2607-17699",
-      "title": "SLAM in Low-Light Environments: Project Report",
-      "authors": [
-        "Oleh Basystyi",
-        "Anna Stasyshyn",
-        "Oleksandr Kosovan",
-        "Yaroslav Prytula"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Simultaneous localization and mapping (SLAM) is one of the fundamental problems in robotics, as it enables autonomous operations in real-world scenarios. Under low illumination, reduced contrast, sensor noise, and motion blur degrade both feature extraction and feature matching, while compensating with LiDAR, depth, or thermal sensors raises cost, power draw, and integration complexity. Existing benchmarks remain dominated by well-lit indoor or daylight sequences, leaving open how far SLAM with standard RGB cameras can be pushed in the dark. We",
-      "url": "https://huggingface.co/papers/2607.17699",
-      "pdf_url": "https://arxiv.org/pdf/2607.17699.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "robotics"
       ],
       "published": "2026-07-20",
       "added": "2026-07-24",
