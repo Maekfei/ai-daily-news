@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 02:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 02:09:14 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-27</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-27</link>
+      <guid isPermaLink="false">2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 10:00:00 +0800</pubDate>
+      <description>月之暗面 Kimi K3 全量权重于今日按承诺开源，2.8 万亿参数刷新开源前沿纪录；OpenAI Codex + ChatGPT Work 上周用量再翻 2.5 倍，Agent 竞速进入密集出货期。
+• 月之暗面（Moonshot AI）如期开源 Kimi K3，2.8T MoE 参数登顶开源前沿
+• OpenAI 智能体产品线一周用量再涨 2.5 倍，Codex 与 ChatGPT Work 深度合并
+• MCP 迎来协议诞生以来最大规模升级，7 月 28 日无状态化版本发布在即
+• Anthropic Claude Opus 5 发布余温延续 — 7 月 24 日上线的 Claude Opus 5 以 $5/M 输入 + $25/M 输出、1M token 上下文 把前沿 agent 编程价格腰斩，SWE-bench 与 ARC-AGI-3 表现接近 Fable 5。Anthropic 官方公告 · VentureBeat 深度
+• xAI Grok 4.6 完成初始训练，2 万亿参数下周对外 — 马斯克在 X 宣布 Grok 4.6（2T 参数，较 Grok 4.5 的 1.5T 提升 33%）本周完成初始训练，将陆续通过 SpaceXAI 与 Cursor 上线。环球网转 QQ 新闻</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-26</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-26</link>
@@ -354,18 +366,6 @@
 • Anthropic 指控阿里巴巴用 25,000 个假账号&quot;蒸馏&quot; Claude 编程能力
 • DeepSeek 完成首轮 74 亿美元外部融资，估值约 590 亿美元 — Hangzhou 总部的 DeepSeek 于 6 月 16 日完成成立以来首次外部融资，募资约 50,000,000,000 元人民币（约 74 亿美元），投后估值 520–590 亿美元，由腾讯、CATL 领投；条款不附带投资者投票权，创始人保留绝对控制权。finsmes 报道 · VKTR：投资者无投票权细节
 • Anthropic 发布 6 月 Economic Index：Claude 影响经济活动小时级采样研究 — Anthropic 官方于 6 月 26 日发布最新一期&quot;经济影响指数&quot;，首次以小时为粒度采样 Claude 在编程、写作、客服等场景下的使用分布，为政策制定者提供 Agent 渗透率参考。Anthropic Research</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-27</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-27</link>
-      <guid isPermaLink="false">2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 10:00:00 +0800</pubDate>
-      <description>美国政府要求 OpenAI 分阶段发布 GPT-5.6，监管之手从 Anthropic 延伸至 OpenAI；编程 Agent 赛道融资潮持续，Cognition（Devin）刚以 250 亿美元估值拿下超 10 亿美元。
-• 美国政府要求 OpenAI 分阶段放出 GPT-5.6
-• Cognition（Devin 母公司）超 10 亿美元融资落定，估值 250 亿美元
-• OpenCode 登顶 LogRocket《AI 开发工具实力榜》榜首
-• OpenAI 倾向于 2027 年 IPO — Altman 在内部会议表示，OpenAI 有可能在未来一年内 IPO，但也保留推迟选项；公司对 2026 年 5860 亿美元估值后的下一轮融资节奏保持开放。来源
-• OpenAI 自研芯片 Jalapeño 流片 — 6 月 24 日 OpenAI 与博通在旧金山联合发布首款自研推理芯片 Jalapeño，TSMC 3nm + HBM3E/4，从设计到流片仅 9 个月，每瓦推理性能官方称大幅优于现役最先进产品，2026 年底起部署于 GW 级数据中心。来源</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,137 @@
 {
   "papers": [
     {
+      "id": "hf-2607-21653",
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "authors": [
+        "Jian Hu",
+        "Huiying Li",
+        "Hao Zhang",
+        "Binfeng Xu",
+        "Yifan Zhang",
+        "Shaokun Zhang",
+        "Hemil Desai",
+        "Michael Demoret"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agentic reinforcement learning research is constant algorithm modification, new estimators, new pipeline stages, new rollout schemes, and in mainstream frameworks each change threads through layers of trainer, distributed backend, and rollout glue: the cost lands on the researcher at every iteration. Molt is a PyTorch-native training framework built to keep that cost small: a codebase compact and clean enough for a researcher to hold in their head, and for an AI coding assistant to read and reason about in its entirety, so the algorithm flow ca",
+      "url": "https://huggingface.co/papers/2607.21653",
+      "pdf_url": "https://arxiv.org/pdf/2607.21653.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-22",
+      "added": "2026-07-27",
+      "stars": 3
+    },
+    {
+      "id": "hf-2607-22529",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "authors": [
+        "Siyuan Huang",
+        "Pengyu Cheng",
+        "Haotian Liu",
+        "Tao Chen",
+        "Yihao Liu",
+        "Jingwei Ni",
+        "Shijie Zhou",
+        "Ziyi Yang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful middle ground to reconcile this tension: each skill",
+      "url": "https://huggingface.co/papers/2607.22529",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-24",
+      "added": "2026-07-27",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-22042",
+      "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+      "authors": [
+        "Seongtae Hong",
+        "Youngjoon Jang",
+        "Jungseob Lee",
+        "Seungyoon Lee",
+        "Heuiseok Lim"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "In multilingual retrieval augmented generation, a retriever can retrieve relevant documents written in multiple languages, which are subsequently reranked before answer generation. However, it remains unclear whether existing multilingual rerankers consider document language when ordering semantically relevant candidates. Our analysis shows that these rerankers do not consistently prioritize documents written in the same language as the query when semantically equivalent documents are available across languages, even though document language ca",
+      "url": "https://huggingface.co/papers/2607.22042",
+      "pdf_url": "https://arxiv.org/pdf/2607.22042.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-24",
+      "added": "2026-07-27",
+      "stars": 1
+    },
+    {
+      "id": "hf-2607-22043",
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "authors": [
+        "Haoyuan Wu",
+        "Aoqi Wu",
+        "Hai Wang",
+        "Jiajia Wu",
+        "Jinxiang Ou",
+        "Bei Yu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Although large language models (LLMs) exhibit remarkable reasoning capabilities, their reliance on text-only pre-training restricts the perception of the multimodal physical world. Native multimodal pre-training avoids this limitation by training models from scratch on multimodal inputs, thereby achieving deep cross-modal integration and mitigating optimization asymmetries inherent to traditional late-fusion architectures. Despite these advantages, the scaling properties of this paradigm remain systematically uncharacterized. To address this ga",
+      "url": "https://huggingface.co/papers/2607.22043",
+      "pdf_url": "https://arxiv.org/pdf/2607.22043.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-24",
+      "added": "2026-07-27",
+      "stars": 1
+    },
+    {
+      "id": "hf-2607-22393",
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "authors": [
+        "Yifei Zhao",
+        "Xiangxin Zhou",
+        "Wenhao Yang",
+        "Jiaqi Tang",
+        "Pu Jian",
+        "Huanjin Yao",
+        "Jiarui Yao",
+        "Haowei Lin"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-language model (VLM) agents increasingly use tools to act on 3D scenes rather than only describe them. Existing 3D benchmarks score textual responses or single-object operations, leaving agent action on complete multi-object 3D scenes under evaluated. We present SceneActBench, a benchmark for visually conditioned action across five 3D tasks under a unified agent-environment loop. Given PNG images or sampled video frames and, where applicable, supplied 3D assets, an agent acts on a 3D environment. We evaluate each final output against hid",
+      "url": "https://huggingface.co/papers/2607.22393",
+      "pdf_url": "https://arxiv.org/pdf/2607.22393.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-24",
+      "added": "2026-07-27",
+      "stars": 1
+    },
+    {
       "id": "hf-2607-21461",
       "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
       "authors": [
@@ -26,7 +157,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 127
+      "stars": 140
     },
     {
       "id": "hf-2607-20061",
@@ -82,7 +213,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 41
+      "stars": 43
     },
     {
       "id": "hf-2607-21072",
@@ -136,7 +267,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 20
+      "stars": 21
     },
     {
       "id": "hf-2607-20734",
@@ -157,7 +288,7 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-25",
-      "stars": 18
+      "stars": 21
     },
     {
       "id": "hf-2607-21051",
@@ -180,7 +311,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 10
+      "stars": 13
     },
     {
       "id": "hf-2607-04763",
@@ -204,7 +335,31 @@
       ],
       "published": "2026-07-16",
       "added": "2026-07-25",
-      "stars": 8
+      "stars": 9
+    },
+    {
+      "id": "hf-2607-10848",
+      "title": "Predictive Divergence Masks for LLM RL",
+      "authors": [
+        "Xiangxin Zhou",
+        "Jiarui Yao",
+        "Penghui Qi",
+        "Bowen Ping",
+        "Jiaqi Tang",
+        "Haonan Wang",
+        "Tianyu Pang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which asks whether the policy has moved too far from the behavior policy, and a direction criterion, which asks whether the update pushes it farther away. Recent work DPPO improves the proximity criterion by replacing PPO's ratio-based test with a probability divergence between the behavior and training poli",
+      "url": "https://huggingface.co/papers/2607.10848",
+      "pdf_url": "https://arxiv.org/pdf/2607.10848.pdf",
+      "tags": [
+        "hf-trending",
+        "rl"
+      ],
+      "published": "2026-07-12",
+      "added": "2026-07-25",
+      "stars": 9
     },
     {
       "id": "hf-2607-20785",
@@ -235,30 +390,6 @@
       "stars": 8
     },
     {
-      "id": "hf-2607-10848",
-      "title": "Predictive Divergence Masks for LLM RL",
-      "authors": [
-        "Xiangxin Zhou",
-        "Jiarui Yao",
-        "Penghui Qi",
-        "Bowen Ping",
-        "Jiaqi Tang",
-        "Haonan Wang",
-        "Tianyu Pang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which asks whether the policy has moved too far from the behavior policy, and a direction criterion, which asks whether the update pushes it farther away. Recent work DPPO improves the proximity criterion by replacing PPO's ratio-based test with a probability divergence between the behavior and training poli",
-      "url": "https://huggingface.co/papers/2607.10848",
-      "pdf_url": "https://arxiv.org/pdf/2607.10848.pdf",
-      "tags": [
-        "hf-trending",
-        "rl"
-      ],
-      "published": "2026-07-12",
-      "added": "2026-07-25",
-      "stars": 8
-    },
-    {
       "id": "hf-2607-19238",
       "title": "FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents",
       "authors": [
@@ -284,7 +415,7 @@
       ],
       "published": "2026-07-21",
       "added": "2026-07-25",
-      "stars": 5
+      "stars": 7
     },
     {
       "id": "hf-2607-21557",
@@ -313,7 +444,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-25",
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "hf-2607-16859",
@@ -340,7 +471,7 @@
       ],
       "published": "2026-07-18",
       "added": "2026-07-25",
-      "stars": 1
+      "stars": 2
     },
     {
       "id": "hf-2607-19191",
@@ -468,7 +599,7 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-24",
-      "stars": 56
+      "stars": 58
     },
     {
       "id": "hf-2607-01774",
@@ -569,56 +700,7 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-24",
-      "stars": 28
-    },
-    {
-      "id": "hf-2607-15550",
-      "title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
-      "authors": [
-        "Xue Yu",
-        "Bo Yuan",
-        "Pengshuai Yang",
-        "Kailin Zhao",
-        "Hong Hu",
-        "Junlan Feng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Mobile graphical user interface (GUI) agents have demonstrated remarkable capabilities in automating complex tasks, yet they introduce critical safety risks where a single erroneous action can lead to irreversible consequences. Existing safety mechanisms are primarily reactive, lacking the ability to assess risks before execution. In this paper, we introduce SeerGuard, a consequence-aware safety framework designed to mitigate these risks through pre-execution instruction-level screening and action-level risk assessment. Specifically, the action",
-      "url": "https://huggingface.co/papers/2607.15550",
-      "pdf_url": "https://arxiv.org/pdf/2607.15550.pdf",
-      "tags": [
-        "hf-trending",
-        "agent"
-      ],
-      "published": "2026-07-17",
-      "added": "2026-07-24",
-      "stars": 24
-    },
-    {
-      "id": "hf-2607-16165",
-      "title": "An Exam for Active Observers",
-      "authors": [
-        "Jiarui Zhang",
-        "Muzi Tao",
-        "Shangshang Wang",
-        "Ollie Liu",
-        "Xuezhe Ma",
-        "Willie Neiswanger"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks do not answer. We introduce ActiveVision, a benchmark that makes active observation measurable for MLLMs, comprising 17 tasks across 3 categories. Task",
-      "url": "https://huggingface.co/papers/2607.16165",
-      "pdf_url": "https://arxiv.org/pdf/2607.16165.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-17",
-      "added": "2026-07-24",
-      "stars": 24
+      "stars": 29
     },
     {
       "id": "hf-2607-20709",
@@ -646,7 +728,56 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-24",
-      "stars": 22
+      "stars": 26
+    },
+    {
+      "id": "hf-2607-16165",
+      "title": "An Exam for Active Observers",
+      "authors": [
+        "Jiarui Zhang",
+        "Muzi Tao",
+        "Shangshang Wang",
+        "Ollie Liu",
+        "Xuezhe Ma",
+        "Willie Neiswanger"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (MLLMs) exercise active observation is an empirical question that current vision-language benchmarks do not answer. We introduce ActiveVision, a benchmark that makes active observation measurable for MLLMs, comprising 17 tasks across 3 categories. Task",
+      "url": "https://huggingface.co/papers/2607.16165",
+      "pdf_url": "https://arxiv.org/pdf/2607.16165.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-17",
+      "added": "2026-07-24",
+      "stars": 25
+    },
+    {
+      "id": "hf-2607-15550",
+      "title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
+      "authors": [
+        "Xue Yu",
+        "Bo Yuan",
+        "Pengshuai Yang",
+        "Kailin Zhao",
+        "Hong Hu",
+        "Junlan Feng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Mobile graphical user interface (GUI) agents have demonstrated remarkable capabilities in automating complex tasks, yet they introduce critical safety risks where a single erroneous action can lead to irreversible consequences. Existing safety mechanisms are primarily reactive, lacking the ability to assess risks before execution. In this paper, we introduce SeerGuard, a consequence-aware safety framework designed to mitigate these risks through pre-execution instruction-level screening and action-level risk assessment. Specifically, the action",
+      "url": "https://huggingface.co/papers/2607.15550",
+      "pdf_url": "https://arxiv.org/pdf/2607.15550.pdf",
+      "tags": [
+        "hf-trending",
+        "agent"
+      ],
+      "published": "2026-07-17",
+      "added": "2026-07-24",
+      "stars": 24
     },
     {
       "id": "hf-2607-18754",
@@ -700,6 +831,27 @@
       "stars": 20
     },
     {
+      "id": "hf-2607-19604",
+      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+      "authors": [
+        "Nischay Dhankhar",
+        "Dos Baha",
+        "Abulhair Saparov"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted into the target model, enable the model to answer questions about those facts. In this work, we investigate whether hy",
+      "url": "https://huggingface.co/papers/2607.19604",
+      "pdf_url": "https://arxiv.org/pdf/2607.19604.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-21",
+      "added": "2026-07-24",
+      "stars": 16
+    },
+    {
       "id": "hf-2607-14186",
       "title": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
       "authors": [
@@ -721,27 +873,6 @@
         "agent"
       ],
       "published": "2026-07-22",
-      "added": "2026-07-24",
-      "stars": 14
-    },
-    {
-      "id": "hf-2607-19604",
-      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
-      "authors": [
-        "Nischay Dhankhar",
-        "Dos Baha",
-        "Abulhair Saparov"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted into the target model, enable the model to answer questions about those facts. In this work, we investigate whether hy",
-      "url": "https://huggingface.co/papers/2607.19604",
-      "pdf_url": "https://arxiv.org/pdf/2607.19604.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-21",
       "added": "2026-07-24",
       "stars": 14
     },
@@ -771,7 +902,7 @@
       ],
       "published": "2026-07-15",
       "added": "2026-07-24",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2607-10169",
@@ -797,7 +928,7 @@
       ],
       "published": "2026-07-11",
       "added": "2026-07-24",
-      "stars": 12
+      "stars": 13
     },
     {
       "id": "hf-2607-21594",
@@ -820,7 +951,7 @@
       ],
       "published": "2026-07-23",
       "added": "2026-07-24",
-      "stars": 11
+      "stars": 12
     },
     {
       "id": "hf-2607-18603",
@@ -872,7 +1003,34 @@
       ],
       "published": "2026-07-22",
       "added": "2026-07-24",
-      "stars": 7
+      "stars": 9
+    },
+    {
+      "id": "hf-2607-21217",
+      "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
+      "authors": [
+        "Zhongyuan Peng",
+        "Dan Huang",
+        "Chuyu Zhang",
+        "Caijun Xu",
+        "Changyi Xiao",
+        "Shibo Hong",
+        "David Lo",
+        "Lin Qiu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining various abilities including planning, requirement clarification, tool use, debugging, and repository-level construction. Yet existing benchmarks have not fully caught up with this shift, evaluating agents on static, fully specified tasks.   In this paper, we introduce ICAE-Be",
+      "url": "https://huggingface.co/papers/2607.21217",
+      "pdf_url": "https://arxiv.org/pdf/2607.21217.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-23",
+      "added": "2026-07-24",
+      "stars": 6
     },
     {
       "id": "hf-2607-19331",
@@ -925,33 +1083,6 @@
         "code"
       ],
       "published": "2026-07-21",
-      "added": "2026-07-24",
-      "stars": 5
-    },
-    {
-      "id": "hf-2607-21217",
-      "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
-      "authors": [
-        "Zhongyuan Peng",
-        "Dan Huang",
-        "Chuyu Zhang",
-        "Caijun Xu",
-        "Changyi Xiao",
-        "Shibo Hong",
-        "David Lo",
-        "Lin Qiu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining various abilities including planning, requirement clarification, tool use, debugging, and repository-level construction. Yet existing benchmarks have not fully caught up with this shift, evaluating agents on static, fully specified tasks.   In this paper, we introduce ICAE-Be",
-      "url": "https://huggingface.co/papers/2607.21217",
-      "pdf_url": "https://arxiv.org/pdf/2607.21217.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-23",
       "added": "2026-07-24",
       "stars": 5
     },
@@ -1044,6 +1175,46 @@
       "stars": 5
     },
     {
+      "id": "hf-2607-19691",
+      "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+      "authors": [
+        "Runyang You",
+        "Zhiyuan Liu",
+        "Yongqi Li",
+        "Wenjie Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement learning with verifiable rewards has become the predominant recipe for eliciting test-time scaling in explicit Chain-of-Thought reasoners. Yet this scaling path remains computationally costly, since every intermediate step must be decoded as a language token. Latent reasoning instead carries intermediate computation as continuous vectors and already matches or surpasses explicit CoT at far shorter horizons. Despite this promise, latent reasoners remain largely imitation-bound, while explicit CoT has already moved past imitation vi",
+      "url": "https://huggingface.co/papers/2607.19691",
+      "pdf_url": "https://arxiv.org/pdf/2607.19691.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-07-22",
+      "added": "2026-07-24",
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-20379",
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "authors": [
+        "Hiskias Dingeto"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconstruction-dependent, so the score tracks gist, not s",
+      "url": "https://huggingface.co/papers/2607.20379",
+      "pdf_url": "https://arxiv.org/pdf/2607.20379.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-22",
+      "added": "2026-07-24",
+      "stars": 5
+    },
+    {
       "id": "hf-2607-19343",
       "title": "Masked Visual Actions for Unified World Modeling",
       "authors": [
@@ -1072,28 +1243,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2607-19691",
-      "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
-      "authors": [
-        "Runyang You",
-        "Zhiyuan Liu",
-        "Yongqi Li",
-        "Wenjie Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning with verifiable rewards has become the predominant recipe for eliciting test-time scaling in explicit Chain-of-Thought reasoners. Yet this scaling path remains computationally costly, since every intermediate step must be decoded as a language token. Latent reasoning instead carries intermediate computation as continuous vectors and already matches or surpasses explicit CoT at far shorter horizons. Despite this promise, latent reasoners remain largely imitation-bound, while explicit CoT has already moved past imitation vi",
-      "url": "https://huggingface.co/papers/2607.19691",
-      "pdf_url": "https://arxiv.org/pdf/2607.19691.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-07-22",
-      "added": "2026-07-24",
-      "stars": 4
-    },
-    {
       "id": "hf-2607-18529",
       "title": "EduPanel: A Three-Agent LLM Judge for Teaching Videos -- Reliability, Complementarity, and Human Trust Calibration",
       "authors": [
@@ -1112,24 +1261,6 @@
         "multimodal"
       ],
       "published": "2026-07-20",
-      "added": "2026-07-24",
-      "stars": 4
-    },
-    {
-      "id": "hf-2607-20379",
-      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
-      "authors": [
-        "Hiskias Dingeto"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconstruction-dependent, so the score tracks gist, not s",
-      "url": "https://huggingface.co/papers/2607.20379",
-      "pdf_url": "https://arxiv.org/pdf/2607.20379.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-22",
       "added": "2026-07-24",
       "stars": 4
     },
@@ -1175,7 +1306,7 @@
       ],
       "published": "2026-07-20",
       "added": "2026-07-24",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2607-20207",
@@ -1861,136 +1992,6 @@
       "published": "2026-07-17",
       "added": "2026-07-20",
       "stars": 26
-    },
-    {
-      "id": "hf-2607-16097",
-      "title": "Understanding Reasoning from Pretraining to Post-Training",
-      "authors": [
-        "Jingyan Shen",
-        "Ang Li",
-        "Salman Rahman",
-        "Yifan Sun",
-        "Micah Goldblum",
-        "Matus Telgarsky",
-        "Pavel Izmailov"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? These questions are difficult to study in the standard LLM setting: pretraining corpora are vast and uncontrolled, making it hard to attribute behaviors to pretraini",
-      "url": "https://huggingface.co/papers/2607.16097",
-      "pdf_url": "https://arxiv.org/pdf/2607.16097.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-07-17",
-      "added": "2026-07-20",
-      "stars": 19
-    },
-    {
-      "id": "hf-2607-14952",
-      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
-      "authors": [
-        "Changhai Zhou",
-        "Kieran Liu",
-        "Yuhua Zhou",
-        "Qian Qiao",
-        "Jun Gao",
-        "Harry Zhang",
-        "Irvine Lu",
-        "Nolan Ho"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length generalization at deployment. The gap is especially important for AI agents, whose observations, tool outputs, documents, and prior decisions accumulate over long trajectories. LongStraw is an architecture-aware execution stack for million-token RL post-training under a fixed GPU budget, instantiated with Group Relative Policy Opti",
-      "url": "https://huggingface.co/papers/2607.14952",
-      "pdf_url": "https://arxiv.org/pdf/2607.14952.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 182
-    },
-    {
-      "id": "hf-2607-14935",
-      "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
-      "authors": [
-        "Xinhao Li",
-        "Yuhan Zhu",
-        "Xiangyu Zeng",
-        "Yuhao Dong",
-        "Haoning Wu",
-        "Zhiqiu Zhang",
-        "Yuandong Yang",
-        "Changlian Ma"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent advances in video understanding have spanned motion, long video, and streaming interaction, driving this field toward real-world applications. Despite this progress, current open-source models remain limited in several ways. They often struggle to generalize across diverse video types, making them effective only in specific domains. High computational demands further restrict their efficiency and scalability. Moreover, most models are only partially open, with key components such as training code, strategy, or datasets unavailable, which",
-      "url": "https://huggingface.co/papers/2607.14935",
-      "pdf_url": "https://arxiv.org/pdf/2607.14935.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 155
-    },
-    {
-      "id": "hf-2607-14777",
-      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
-      "authors": [
-        "Jinyang Wu",
-        "Shuo Yang",
-        "Zhengxi Lu",
-        "Fan Zhang",
-        "Yuhao Shen",
-        "Lang Feng",
-        "Haoran Luo",
-        "Zheng Lian"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limited guidance on intermediate decisions, leaving a supervision gap between episode-level outcomes and token-level policy learning. We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajec",
-      "url": "https://huggingface.co/papers/2607.14777",
-      "pdf_url": "https://arxiv.org/pdf/2607.14777.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "code"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 87
-    },
-    {
-      "id": "hf-2607-15257",
-      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
-      "authors": [
-        "Yuyao Zhang",
-        "Junjie Gao",
-        "Zhengxian Wu",
-        "Jiaming Fan",
-        "Jin Zhang",
-        "Shihan Ma",
-        "Yao Yao",
-        "Weiran Qi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. When search attempts fail to yield useful evidence, current single- and multi-agent systems can become trapped in repetitive loops, wasting search budgets and ultimately compromising the quality and completeness of the final output. We introduce SearchOS, a system-level multi-agent framework that turns fragile, implicit search p",
-      "url": "https://huggingface.co/papers/2607.15257",
-      "pdf_url": "https://arxiv.org/pdf/2607.15257.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-07-16",
-      "added": "2026-07-18",
-      "stars": 60
     }
   ]
 }
