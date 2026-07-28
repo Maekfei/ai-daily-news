@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Jul 2026 02:09:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 02:04:41 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-28</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-28</link>
+      <guid isPermaLink="false">2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 10:00:00 +0800</pubDate>
+      <description>Sam Altman 携 ChatGPT Work &quot;深度研究&quot;演示登陆华盛顿，MCP 年度大版本今日正式落地无状态化；同一天 OpenAI 与 Anthropic 被曝在游说美方收紧对中国开源模型的限制。
+• MCP（Model Context Protocol）年度大版本今日发布，Agent 生态全面无状态化
+• Sam Altman 携 ChatGPT Work &quot;多小时自主研究&quot;演示访华盛顿，推动 AI 政策
+• OpenAI、Anthropic 被曝游说美国限制中国开源模型，Kimi K3 成焦点
+• Moonshot AI 发布 PerceptionBench：无一前沿模型视觉感知过 60%
+• Sam Altman 在 X 演示 ChatGPT Work &quot;1 分钟出深度研报&quot; — 演示中 ChatGPT Work 自主抓取 4 个官方数据源、生成含图表的市场分析报告，全流程约 55 秒，被认为是 Altman 华盛顿之行的官方预热。iWiki AI Builders Digest 2026-07-28</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-27</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-27</link>
@@ -354,18 +366,6 @@
 • OpenAI × 博通自研推理芯片 Jalapeño 落地，瞄准推理成本砍半
 • OpenAI 发布 GPT-5.6 系列（Sol / Terra / Luna） — 旗舰版 Sol 在 Terminal-Bench 2.1 标准模式拿下 88.8%，开启 Ultra 子智能体模式后达 91.9%，超过 Claude Mythos 5（88.0%）；Sol API 定价 5/30 美元每百万 token，约为 Claude Fable 5 的一半，但全系首次被标记网络安全 + 生化 &quot;高风险&quot; 等级。新浪财经
 • 智谱 GLM-5.2 全量开放并开源 — 6 月 17 日上线，专攻 Coding 与长程任务，在百万用户参与的 Code Arena 盲测中位列全球可用模型第一，参数规模与训练细节同步发布；继 GLM-4.5/4.7 后再迭代。腾讯新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-28</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-28</link>
-      <guid isPermaLink="false">2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 限量预览 GPT-5.6 三件套（Sol/Terra/Luna）但发布权交美政府把关；Anthropic Mythos 5 解禁、却同步指控阿里巴巴用 25,000 假账号&quot;蒸馏&quot;Claude，地缘 AI 战火烧到模型权重。
-• OpenAI 启动 GPT-5.6 限量预览，三档模型主打 Agent 编程
-• 美政府部分解禁 Anthropic Mythos 5，100+ 公司机构获授权使用
-• Anthropic 指控阿里巴巴用 25,000 个假账号&quot;蒸馏&quot; Claude 编程能力
-• DeepSeek 完成首轮 74 亿美元外部融资，估值约 590 亿美元 — Hangzhou 总部的 DeepSeek 于 6 月 16 日完成成立以来首次外部融资，募资约 50,000,000,000 元人民币（约 74 亿美元），投后估值 520–590 亿美元，由腾讯、CATL 领投；条款不附带投资者投票权，创始人保留绝对控制权。finsmes 报道 · VKTR：投资者无投票权细节
-• Anthropic 发布 6 月 Economic Index：Claude 影响经济活动小时级采样研究 — Anthropic 官方于 6 月 26 日发布最新一期&quot;经济影响指数&quot;，首次以小时为粒度采样 Claude 在编程、写作、客服等场景下的使用分布，为政策制定者提供 Agent 渗透率参考。Anthropic Research</description>
     </item>
   </channel>
 </rss>
