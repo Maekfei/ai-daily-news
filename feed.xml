@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 02:08:23 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-29</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-29</link>
+      <guid isPermaLink="false">2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 10:00:00 +0800</pubDate>
+      <description>美团正式发布 CatPaw 全场景 AI Agent 平台，同步开源 1.6T LongCat 2.0；月之暗面 Kimi K3 完整开源、Anthropic Claude Opus 5 定价&quot;腰斩&quot;，国产开源与前沿闭源双线共振。
+• 美团发布 CatPaw 全场景 AI Agent 平台，LongCat 2.0 万亿模型开源
+• 月之暗面开源 Kimi K3：2.8T 参数 MoE，全球首个 3T 级开放权重模型
+• 阿里 Qoder 上线 Qoder Voice：全双工语音驱动编程 Agent
+• Moonshot 发布 PerceptionBench：所有前沿多模态模型视觉感知均不足 60%
+• Anthropic 发布 Claude Opus 5，价格砍半 — Opus 5 定位日常高性能模型，标准 API 定价 $5 / $25 每百万 input/output token（与 Opus 4.8 持平，仅为 Fable 5 一半），多数评测超越 Fable 5 并刷新 ARC-AGI-3 纪录。VentureBeat</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-28</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-28</link>
@@ -354,18 +366,6 @@
 • OpenAI 发布 GPT-5.6 系列：Sol/Terra/Luna 三档登场
 • 英伟达×剑桥发布&quot;红皇后哥德尔机&quot;：Agent 与评测器协同进化
 • Liblib 母公司演语科技完成近 3 亿美元 B+ 轮，估值超 20 亿美元 — 由 Granite Asia、腾讯、顺为联合领投，距上一轮仅 8 个月，ARR 突破 3 亿美元，跻身 AI 应用层独角兽。腾讯新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-29</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-29</link>
-      <guid isPermaLink="false">2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
-      <description>Cursor 在 Compile 大会推出首款 1.5T 自训模型与 Agent 原生 Git 平台 Origin，正面狙击 GitHub；马斯克透露 SpaceX 将&quot;月度从零训练全新模型&quot;，算力军备进入新节奏。
-• Cursor 发布首款自研大模型，同步推出 Agent 原生 Git 平台 Origin
-• xAI/SpaceX 宣布&quot;月度从头训练全新大模型&quot;路线图
-• OpenAI × 博通自研推理芯片 Jalapeño 落地，瞄准推理成本砍半
-• OpenAI 发布 GPT-5.6 系列（Sol / Terra / Luna） — 旗舰版 Sol 在 Terminal-Bench 2.1 标准模式拿下 88.8%，开启 Ultra 子智能体模式后达 91.9%，超过 Claude Mythos 5（88.0%）；Sol API 定价 5/30 美元每百万 token，约为 Claude Fable 5 的一半，但全系首次被标记网络安全 + 生化 &quot;高风险&quot; 等级。新浪财经
-• 智谱 GLM-5.2 全量开放并开源 — 6 月 17 日上线，专攻 Coding 与长程任务，在百万用户参与的 Code Arena 盲测中位列全球可用模型第一，参数规模与训练细节同步发布；继 GLM-4.5/4.7 后再迭代。腾讯新闻</description>
     </item>
   </channel>
 </rss>
