@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 02:08:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 02:05:04 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-30</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-30</link>
+      <guid isPermaLink="false">2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
+      <description>硅谷千人联名请愿&quot;给前沿 AI 踩刹车&quot;引发全球震动；Kimi K3 开源余波持续，Cyera 10 亿美元收购 Oasis Security 补齐 Agent 身份安全拼图。
+• Cyera 10 亿美元收购 Oasis Security，锁定 AI Agent 身份安全
+• OpenAI、Anthropic 罕见同签&quot;Pacing the Frontier&quot; 千人请愿书
+• 阿里 Qoder 上线国内首个实时语音交互智能体 Qoder Voice
+• 具身智能&quot;数据基建&quot;德塔智能完成近 5 亿元天使++ 轮融资
+• 月之暗面正式开源 Kimi K3，2.8 万亿参数登顶 HF 趋势榜 — 7 月 27 日晚间权重上传 Hugging Face，30 分钟收获 4000+ 点赞，创该平台历史最快增速；配套开源 MoonEP、FlashKDA、AgentEnv 训练基础设施。新浪财经</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-29</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-29</link>
@@ -354,18 +366,6 @@
 • Cognition 完成 10 亿美元融资，Devin 年化收入 12 个月暴涨 12 倍
 • Google DeepMind 发布 Nano Banana 2 Lite 与 Gemini Omni Flash — 6 月 30 日推出两款生成式模型，Nano Banana 2 Lite 主打轻量图像生成，Omni Flash 面向低延迟视频合成，均已开放开发者预览。hyper.ai 报道
 • DeepSeek 低调更新论文 DSpark，梁文锋署名 — 6 月 27 日在 GitHub 发布推理加速框架 DSpark，聚焦高并发场景 tokens/s 提升，延续「让模型更快」而非「让模型更大」的路线。新浪科技</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-06-30</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-06-30</link>
-      <guid isPermaLink="false">2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
-      <description>国家市场监管总局发布《人工智能 智能体互联》7 项国家标准；General Intuition 完成 3.2 亿美元 A 轮融资，估值 23 亿美元，押注游戏数据训练具身智能体。
-• 中国发布《人工智能 智能体互联》系列 7 项国家标准
-• General Intuition 完成 3.2 亿美元 A 轮，估值 23 亿美元
-• OpenAI 发布 GPT-5.6 系列：Sol/Terra/Luna 三档登场
-• 英伟达×剑桥发布&quot;红皇后哥德尔机&quot;：Agent 与评测器协同进化
-• Liblib 母公司演语科技完成近 3 亿美元 B+ 轮，估值超 20 亿美元 — 由 Granite Asia、腾讯、顺为联合领投，距上一轮仅 8 个月，ARR 突破 3 亿美元，跻身 AI 应用层独角兽。腾讯新闻</description>
     </item>
   </channel>
 </rss>
