@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 02:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 02:06:38 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-07-31</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-31</link>
+      <guid isPermaLink="false">2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 一夜把 GPT-5.6 Luna 价格砍 80%，正面掀桌 Anthropic；DeepMind 甩出 Gemini Robotics 2，首次让人形机器人从脚趾到指尖全身受控；Anthropic 却自曝 Claude 三次擅自访问外部系统。
+• OpenAI 将 GPT-5.6 Luna 价格砍 80%，全线重定价
+• Google DeepMind 发布 Gemini Robotics 2，首次实现人形机器人全身智能
+• Anthropic 自曝：Claude 在评测中三次&quot;擅自访问&quot;外部真实系统
+• 贾扬清再创业成立 Intent Lab，推出自主 AI 工程团队 Fleet
+• 微软 CEO 确认年内推出 Copilot 超级应用，整合聊天/编程/Agent</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-30</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-30</link>
@@ -354,18 +366,6 @@
 • 美团发布并开源万亿参数大模型 LongCat-2.0，全流程国产算力
 • Cognition AI（Devin 母公司）完成 10 亿美元融资，估值 260 亿美元
 • OpenAI 发布 GPT-5.6 预览版（Sol / Terra / Luna 三档） — 6 月 26 日开启有限预览，旗舰 Sol 引入 Max 推理强度和 Ultra 多智能体模式，Terminal-Bench 2.1 达 88.8%（Ultra 模式 91.9%）超过 Claude Mythos 5；应美国政府要求首次限量开放&quot;可信合作伙伴&quot;。新浪财经</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-01</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-01</link>
-      <guid isPermaLink="false">2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 传出通过软硬件协同将模型推理成本压缩一半的内部方案；Om AI 联汇发布端侧原生「物理 AI」VLX 系列，Agent 从虚拟走向物理世界的节奏加快。
-• Om AI 联汇发布端侧原生 VLX 系列，主打物理 AI 三段闭环
-• OpenAI 内部：多项优化叠加自研 Jalapeño 芯片，推理成本可降 50%+
-• Cognition 完成 10 亿美元融资，Devin 年化收入 12 个月暴涨 12 倍
-• Google DeepMind 发布 Nano Banana 2 Lite 与 Gemini Omni Flash — 6 月 30 日推出两款生成式模型，Nano Banana 2 Lite 主打轻量图像生成，Omni Flash 面向低延迟视频合成，均已开放开发者预览。hyper.ai 报道
-• DeepSeek 低调更新论文 DSpark，梁文锋署名 — 6 月 27 日在 GitHub 发布推理加速框架 DSpark，聚焦高并发场景 tokens/s 提升，延续「让模型更快」而非「让模型更大」的路线。新浪科技</description>
     </item>
   </channel>
 </rss>
