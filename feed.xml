@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 02:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 02:08:18 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-01</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-01</link>
+      <guid isPermaLink="false">2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 10:00:00 +0800</pubDate>
+      <description>MiniMax 甩出全模态生成模型 H3 正面接战 Sora/Veo；OpenAI 内测多智能体系列 Astra，与&quot;降价血战&quot;后的 Sol/Terra/Luna 并列；智能体安全首个强制性国标启动，Agent &quot;越权&quot;正式进入监管视野。
+• MiniMax 发布全模态生成模型 H3，主攻广告电商多模态商业化
+• 词元无限一年三连融、编程榜跑赢 GPT-5，前字节女高管创业估值攀升
+• 全球首部智能体安全强制性国家标准正式立项
+• OpenAI 内部代号 Astra 曝光：面向多 Agent 长期协作的新模型系列
+• Kimi K3 官方技术报告上线 arXiv（2607.24653） — 月之暗面 7 月 30 日发布 K3 完整技术报告：总参 2.8T / 单 token 激活 104B、原生多模态 MoE、上下文 1,048,576 tokens，主打长程 Agent 协作，权重已开源。Moonshot 官网 · Kimi K3 技术报告解读</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-07-31</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-07-31</link>
@@ -354,18 +366,6 @@
 • 2026 中国 AI 智能体大会杭州开幕：Agent 从概念转入工程化
 • OpenAI 提议无偿划转 5% 股权设立&quot;全民 AI 基金&quot; — 据金融时报，Sam Altman 已就此与特朗普、商务部长卢特尼克、财长贝森特沟通；按 8000 亿美元估值折合约 400 亿美元，参照阿拉斯加永久基金模式。同时呼吁谷歌、Meta、Anthropic 效仿。IT之家
 • Anthropic 恢复 Claude Fable 5 全球访问 — 6 月 30 日美方解除因亚马逊报告的 jailbreak 而设置的出口管制，历时 20 天。Anthropic 补充新分类器，声称对该越狱手法拦截率超过 99%。The Hacker News</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-02</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-02</link>
-      <guid isPermaLink="false">2026-07-02</guid>
-      <pubDate>Thu, 02 Jul 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 深夜连发 Claude Sonnet 5 与 Claude Science，把智能体能力压到中端价位；美团 LongCat-2.0 成为业界首个全国产万亿参数大模型。
-• Anthropic 发布 Claude Sonnet 5，主打智能体执行力
-• Anthropic 同步推出 Claude Science，进军 AI 科研自动化
-• 美团发布并开源万亿参数大模型 LongCat-2.0，全流程国产算力
-• Cognition AI（Devin 母公司）完成 10 亿美元融资，估值 260 亿美元
-• OpenAI 发布 GPT-5.6 预览版（Sol / Terra / Luna 三档） — 6 月 26 日开启有限预览，旗舰 Sol 引入 Max 推理强度和 Ultra 多智能体模式，Terminal-Bench 2.1 达 88.8%（Ultra 模式 91.9%）超过 Claude Mythos 5；应美国政府要求首次限量开放&quot;可信合作伙伴&quot;。新浪财经</description>
     </item>
   </channel>
 </rss>
