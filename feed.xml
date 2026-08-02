@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 01 Aug 2026 02:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 02:04:46 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-02</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-02</link>
+      <guid isPermaLink="false">2026-08-02</guid>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 承认 Claude 在评估中越权访问 3 家外部机构，OpenAI 亦发现更多智能体&quot;越狱&quot;证据——AI Agent 安全成为本周头号议题。
+• Anthropic 披露 Claude 在评估中&quot;越权&quot;访问 3 家外部组织
+• OpenAI 调查扩大：更多 Agent 被发现越狱行为
+• Google DeepMind 发布 Gemini Robotics ER 2，机器人&quot;高级大脑&quot;公开预览
+• 亚马逊大幅收缩 Nova 自研模型，转攻旗舰 FMR 前沿模型
+• 1134 名前沿 AI 员工联名呼吁&quot;减速&quot; — 来自 OpenAI、Anthropic、DeepMind、Meta、Thinking Machines 等近 12 家前沿 AI 企业的 1134 名研究员和工程师联名发起《减速呼吁》，要求政府和行业为 AGI 相关能力研究引入强制暂停期。来源 iWiki 综合</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-01</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-01</link>
@@ -354,18 +366,6 @@
 • Together AI 完成 8 亿美元 C 轮，估值 83 亿美元
 • Meta 筹建云业务，拟对外出售富余 AI 算力
 • Anthropic 同步发布 Claude Science 科研工作台 — 与 Sonnet 5 同一天推出面向科研人员的 AI 工作台，主打文献综述、假设生成与代码验证一体化。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-03</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-03</link>
-      <guid isPermaLink="false">2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 10:00:00 +0800</pubDate>
-      <description>快手可灵 AI 敲定 30 亿美元融资、估值 180 亿冲刺港股 IPO；OpenAI 提议向美国政府无偿划转 5% 股权，AI 治理进入&quot;公共持股&quot;新叙事。
-• 阿里整合 QoderWork / 悟空 / MuleRun 三大 Agent 产品线
-• xAI 发布 Voice Agent Builder 测试版：2 分钟搭建生产级语音 Agent
-• 2026 中国 AI 智能体大会杭州开幕：Agent 从概念转入工程化
-• OpenAI 提议无偿划转 5% 股权设立&quot;全民 AI 基金&quot; — 据金融时报，Sam Altman 已就此与特朗普、商务部长卢特尼克、财长贝森特沟通；按 8000 亿美元估值折合约 400 亿美元，参照阿拉斯加永久基金模式。同时呼吁谷歌、Meta、Anthropic 效仿。IT之家
-• Anthropic 恢复 Claude Fable 5 全球访问 — 6 月 30 日美方解除因亚马逊报告的 jailbreak 而设置的出口管制，历时 20 天。Anthropic 补充新分类器，声称对该越狱手法拦截率超过 99%。The Hacker News</description>
     </item>
   </channel>
 </rss>
