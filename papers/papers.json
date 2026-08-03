@@ -1,6 +1,124 @@
 {
   "papers": [
     {
+      "id": "hf-2607-28415",
+      "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+      "authors": [
+        "Zhoushun Yu",
+        "Xiaoyu Hu",
+        "Xiangyu Xu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Latent world models enable efficient planning by predicting future states in a compact representation space, but their performance depends critically on the quality of the learned latent distribution. LeWorldModel (LeWM) regularizes its latents toward an isotropic Gaussian using the Epps-Pulley (EP) objective. We show that the corrective gradients of EP rapidly vanish for isolated tail samples, leaving heavy-tailed deviations insufficiently controlled. To address this limitation, we propose QQWorld, which replaces EP with a quantile-quantile ma",
+      "url": "https://huggingface.co/papers/2607.28415",
+      "pdf_url": "https://arxiv.org/pdf/2607.28415.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-07-30",
+      "added": "2026-08-03",
+      "stars": 8
+    },
+    {
+      "id": "hf-2607-23782",
+      "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+      "authors": [
+        "NeoteAI Team",
+        "Fudan TEAI Team"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present N_0-VTLA, a vision-tactile-language-action (VTLA) foundation model capable of (1) fine-grained contact-rich manipulation with tactile perception and tactile-feedback control, and (2) offline policy improvement from stored deployment data. Building on current vision-based backbones, we propose a training recipe for tactile integration consisting of visuo-tactile pre-training, staged tactile-pathway integration, and advantage-conditioned offline policy improvement. During pre-training, the policy learns broad contact priors from NeoDat",
+      "url": "https://huggingface.co/papers/2607.23782",
+      "pdf_url": "https://arxiv.org/pdf/2607.23782.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-07-26",
+      "added": "2026-08-03",
+      "stars": 5
+    },
+    {
+      "id": "hf-2607-23802",
+      "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "authors": [
+        "Qinsi Wang",
+        "Jing Shi",
+        "Huazheng Wang",
+        "Kun Wan",
+        "Yiran Wu",
+        "Bo Liu",
+        "Qingyun Wu",
+        "Hai Helen Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language models (LLMs) by enabling large-scale optimization. However, its applicability remains largely limited to domains such as mathematics and coding, where correctness can be deterministically verified. Open-ended tasks instead often rely on human preferences, reward models, or LLM-based judges, introducing evaluation bias, judge capability bottlenecks, and additional inference costs.Drawing on the principle of self-supervised learn",
+      "url": "https://huggingface.co/papers/2607.23802",
+      "pdf_url": "https://arxiv.org/pdf/2607.23802.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-07-26",
+      "added": "2026-08-03",
+      "stars": 3
+    },
+    {
+      "id": "hf-2607-29679",
+      "title": "Scaling Properties of Text Conditioning in Visual Generation",
+      "authors": [
+        "Zilong Chen",
+        "Chaorui Deng",
+        "Kunchang Li",
+        "Hongyi Yuan",
+        "Haoqi Fan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measures: a white-box likelihood metric (GPG) and a black-box attribute metric (ED). Across controlled training runs, the converged diffusion loss decreases",
+      "url": "https://huggingface.co/papers/2607.29679",
+      "pdf_url": "https://arxiv.org/pdf/2607.29679.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-07-31",
+      "added": "2026-08-03",
+      "stars": 2
+    },
+    {
+      "id": "hf-2607-28675",
+      "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+      "authors": [
+        "Jiale Xu",
+        "Rendong Liang",
+        "Yuhao Long",
+        "Siyuan Shen",
+        "Zangyueyang Xian",
+        "Zeyi Xu",
+        "Yuanming Hu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Polygonal meshes are the standard surface representation of modern 3D pipelines, and generating high-quality meshes with artist-style topology is essential for film, gaming, and interactive 3D applications. Mainstream approaches serialize a mesh into a token sequence and decode it autoregressively, which is slow at inference and sensitive to error accumulation, making them impractical for interactive asset creation. We present Meshy T2, a fast native mesh generation framework built on flow matching. At its core is a vertex-set mesh VAE that enc",
+      "url": "https://huggingface.co/papers/2607.28675",
+      "pdf_url": "https://arxiv.org/pdf/2607.28675.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "code"
+      ],
+      "published": "2026-07-28",
+      "added": "2026-08-03",
+      "stars": 1
+    },
+    {
       "id": "hf-2607-28618",
       "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
       "authors": [
@@ -19,7 +137,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 290
+      "stars": 292
     },
     {
       "id": "hf-2607-28227",
@@ -46,7 +164,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 278
+      "stars": 285
     },
     {
       "id": "hf-2607-26760",
@@ -73,7 +191,7 @@
       ],
       "published": "2026-07-29",
       "added": "2026-08-01",
-      "stars": 254
+      "stars": 257
     },
     {
       "id": "hf-2607-28568",
@@ -101,7 +219,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 162
+      "stars": 168
     },
     {
       "id": "hf-2607-28624",
@@ -127,7 +245,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 156
+      "stars": 159
     },
     {
       "id": "hf-2607-27380",
@@ -181,7 +299,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 48
+      "stars": 49
     },
     {
       "id": "hf-2607-28595",
@@ -210,7 +328,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 46
+      "stars": 48
     },
     {
       "id": "hf-2607-26497",
@@ -236,7 +354,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 41
+      "stars": 46
     },
     {
       "id": "hf-2607-27816",
@@ -260,7 +378,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 30
+      "stars": 31
     },
     {
       "id": "hf-2607-26769",
@@ -311,7 +429,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 18
+      "stars": 19
     },
     {
       "id": "hf-2607-28362",
@@ -354,7 +472,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
-      "stars": 14
+      "stars": 15
     },
     {
       "id": "hf-2607-26056",
@@ -374,7 +492,7 @@
       ],
       "published": "2026-07-28",
       "added": "2026-08-01",
-      "stars": 12
+      "stars": 13
     },
     {
       "id": "hf-2607-27958",
@@ -500,6 +618,31 @@
       "stars": 7
     },
     {
+      "id": "hf-2607-28627",
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "authors": [
+        "Yao Xiao",
+        "Reuben Tan",
+        "Zhen Zhu",
+        "Yuqun Wu",
+        "Jianfeng Gao",
+        "Derek Hoiem"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache. Trained on only a small image-QA dataset, ReToken yields consistent gains across image and video benchmarks: on Visual Haystacks it improves Qwen3VL-8B",
+      "url": "https://huggingface.co/papers/2607.28627",
+      "pdf_url": "https://arxiv.org/pdf/2607.28627.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-07-30",
+      "added": "2026-08-01",
+      "stars": 5
+    },
+    {
       "id": "hf-2607-26627",
       "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
       "authors": [
@@ -610,31 +753,6 @@
         "agent",
         "rl",
         "benchmark"
-      ],
-      "published": "2026-07-30",
-      "added": "2026-08-01",
-      "stars": 3
-    },
-    {
-      "id": "hf-2607-28627",
-      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-      "authors": [
-        "Yao Xiao",
-        "Reuben Tan",
-        "Zhen Zhu",
-        "Yuqun Wu",
-        "Jianfeng Gao",
-        "Derek Hoiem"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache. Trained on only a small image-QA dataset, ReToken yields consistent gains across image and video benchmarks: on Visual Haystacks it improves Qwen3VL-8B",
-      "url": "https://huggingface.co/papers/2607.28627",
-      "pdf_url": "https://arxiv.org/pdf/2607.28627.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "code"
       ],
       "published": "2026-07-30",
       "added": "2026-08-01",
@@ -901,7 +1019,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-07-31",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2607-27191",
@@ -979,7 +1097,7 @@
       ],
       "published": "2026-07-29",
       "added": "2026-07-31",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2607-27155",
@@ -1047,7 +1165,7 @@
       ],
       "published": "2026-07-28",
       "added": "2026-07-31",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2607-24117",
@@ -1845,122 +1963,6 @@
       "published": "2026-07-26",
       "added": "2026-07-29",
       "stars": 23
-    },
-    {
-      "id": "hf-2607-24720",
-      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-      "authors": [
-        "Tianyi Men",
-        "Zhuoran Jin",
-        "Kang Liu",
-        "Jun Zhao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning ability acquisition during pre-training. We study data f",
-      "url": "https://huggingface.co/papers/2607.24720",
-      "pdf_url": "https://arxiv.org/pdf/2607.24720.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl"
-      ],
-      "published": "2026-07-27",
-      "added": "2026-07-29",
-      "stars": 22
-    },
-    {
-      "id": "hf-2607-22148",
-      "title": "dRAE: Representation Autoencoder with Hyper-Spherical Codes",
-      "authors": [
-        "Tianren Ma",
-        "Lin Long",
-        "Chuyan Chen",
-        "Mu Zhang",
-        "Junbo Zhao",
-        "Tong Zhang",
-        "Qixiang Ye"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "In this work, we aim to discretize the high-dimensional visual representations to bridge the gap with language models - a non-trivial challenge, as existing quantization methods suffer from codebook collapse, failing to scale while preserving semantic coherence. We identify the root cause as metric mismatch: standard Euclidean codebook objectives are fundamentally misaligned with the anisotropic geometry of representation space, leading to codebook embeddings with high-variance magnitude scales and uneven angular distributions that hinder scala",
-      "url": "https://huggingface.co/papers/2607.22148",
-      "pdf_url": "https://arxiv.org/pdf/2607.22148.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-07-24",
-      "added": "2026-07-29",
-      "stars": 9
-    },
-    {
-      "id": "hf-2607-21936",
-      "title": "Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models",
-      "authors": [
-        "Gabeen Kim",
-        "Kyeongpil Kang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Historical documents act as invaluable knowledge archives but often suffer from illegibility due to physical deterioration and damage. While existing restoration methods based on masked language modeling effectively utilize local context, they struggle to restore named entities that require external historical knowledge. To address this limitation, we introduce a novel framework for historical document restoration that leverages large language models with retrieval-augmented generation (RAG). By combining the implicit knowledge of pre-trained L",
-      "url": "https://huggingface.co/papers/2607.21936",
-      "pdf_url": "https://arxiv.org/pdf/2607.21936.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-07-24",
-      "added": "2026-07-29",
-      "stars": 9
-    },
-    {
-      "id": "hf-2607-23518",
-      "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
-      "authors": [
-        "Hengyuan Cao",
-        "Shizhuo Cheng",
-        "Mingxuan Liu",
-        "Weicheng Huang",
-        "Yunhong Lu",
-        "Chenxi Cai",
-        "Yan Zhang",
-        "Min Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "The rapid evolution of generative models has unlocked new potentials in protein binder design, a pivotal task in structural biology, by facilitating end-to-end generation via joint sequence-structure modeling or hallucination. However, existing approaches are predominantly implemented under a single-target, single-state assumption, limiting their ability to model multi-target or multi-state interactions required for advanced function-oriented protein design. Here, we introduce Chamaileon, which unifies multi-target and multi-state binder design",
-      "url": "https://huggingface.co/papers/2607.23518",
-      "pdf_url": "https://arxiv.org/pdf/2607.23518.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-07-26",
-      "added": "2026-07-29",
-      "stars": 7
-    },
-    {
-      "id": "hf-2607-22098",
-      "title": "Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models",
-      "authors": [
-        "Junlin Fang",
-        "Do Nguyen-Thanh",
-        "Xiaogang Xu",
-        "Zhen Fang",
-        "Sean Du"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large reasoning models (LRMs) generate long reasoning traces before producing final answers. While these traces may contain useful signals for hallucination detection, harnessing them is non-trivial because long trajectories often include noisy steps that obscure the cues relevant to truthfulness assessment. In this paper, we identify two prevalent forms of reasoning noises, i.e., irrelevant steps and repetitive steps, and show that both substantially degrade hallucination detection performance. Existing confidence-based scores and naive embedd",
-      "url": "https://huggingface.co/papers/2607.22098",
-      "pdf_url": "https://arxiv.org/pdf/2607.22098.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-24",
-      "added": "2026-07-29",
-      "stars": 6
     }
   ]
 }

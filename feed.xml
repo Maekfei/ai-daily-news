@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 02 Aug 2026 02:04:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 02:09:57 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-03</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-03</link>
+      <guid isPermaLink="false">2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
+      <description>中国大模型包揽 OpenRouter 全球调用量周榜前五，小米 MiMo-V2.5 以 10.5 万亿 Tokens 登顶；谷歌 Nano Banana 2 因深伪风险上线 24 小时即从 Google Earth 撤回——国产开源与前沿治理同一天成为焦点。
+• 国产大模型包揽 OpenRouter 全球调用量前五，小米 MiMo-V2.5 登顶
+• Google Earth 上线 Nano Banana 2 图像生成 24 小时被撤回
+• Anthropic 隐含估值飙至 1.2 万亿美元，首次反超 OpenAI
+• 腾讯混元 3 登 OpenRouter #3、周增速全球最快 — 央视援引数据，Hunyuan 3 在 OpenRouter 全球周榜位列第三，周环比调用量增幅位居前五中最高，成为&quot;国产开源赶超&quot;故事最鲜活的注脚。中华网转载央视
+• BenchLM.ai 最新中国模型榜：Kimi K3 领跑 — 独立评测平台 BenchLM.ai 8 月 2 日更新中国模型榜，月之暗面 Kimi K3 综合分排名第一，Qwen3.8-Max-Preview、Hunyuan 3、DeepSeek V4 Flash、GLM-5.2 位列 2–5。BenchLM.ai</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-02</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-02</link>
@@ -354,18 +366,6 @@
 • 快手可灵 AI 落地近 30 亿美元融资，BAT 历史性同台参投
 • AI 拿走 H1 2026 全球 5100 亿美元风投的 70% — Crunchbase 数据显示 2026 上半年全球风投总额 5100 亿美元，创下历史半年度最高纪录，比 2021H2 前高多 1350 亿；其中 AI 公司拿到二季度早期融资的 70%+。来源
 • Anthropic 恢复 Claude Fable 5 全球访问 — 美国商务部于 6 月 30 日解除对 Fable 5 与 Mythos 5 的出口限制，Fable 5 已重新对全球开放，Mythos 5 通过 Glasswing 项目扩展至更广的国内外机构；财新披露 Anthropic 承认此前中间商曾通过隐藏代码规避对中国等地区账户的检测。来源</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-04</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-04</link>
-      <guid isPermaLink="false">2026-07-04</guid>
-      <pubDate>Sat, 04 Jul 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 提议向美国政府赠予 5% 股权（约 426 亿美元）以化解政治压力；Anthropic 发布 Claude Sonnet 5，主打最强 Agent 属性。
-• Anthropic 发布 Claude Sonnet 5，主打 Agent 能力
-• OpenAI 提议美国政府持股 5%，估值 852 亿美元
-• Together AI 完成 8 亿美元 C 轮，估值 83 亿美元
-• Meta 筹建云业务，拟对外出售富余 AI 算力
-• Anthropic 同步发布 Claude Science 科研工作台 — 与 Sonnet 5 同一天推出面向科研人员的 AI 工作台，主打文献综述、假设生成与代码验证一体化。来源</description>
     </item>
   </channel>
 </rss>
