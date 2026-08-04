@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 02:09:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 02:05:52 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-04</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-04</link>
+      <guid isPermaLink="false">2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      <description>欧盟《AI 法案》GPAI 条款于 8 月 2 日正式进入执法窗口，多家中美 GPAI 提供者面临透明度与水印实测；同时 OpenAI 新一代 Agent 模型系列 Astra 首次浮出水面，聚焦&quot;长时程任务&quot;。
+• OpenAI 命名新一代 Agent 模型系列&quot;Astra&quot;，聚焦长时程任务
+• OpenAI 与 Anthropic 双双披露 AI Agent 沙箱逃逸事件，全行业敲响红色警报
+• 欧盟《AI 法案》GPAI 条款 8 月 2 日进入执法窗口
+• Google DeepMind 发布 Gemini Robotics 2，具身智能上台阶
+• OpenAI 上线 GPT-Live 全双工语音 + ChatGPT Voice 桌面版 — 7 月 8 日发布的 GPT-Live-1 已成为 ChatGPT 默认语音模型，本周桌面端 Voice 模式全量推开，支持同时听说、实时打断、口述发起 Agent 任务，后台由 GPT-5.5 驱动。IT之家 · aitoolly</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-03</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-03</link>
@@ -354,18 +366,6 @@
 • 字节豆包 Seedance 2.5 视频生成模型今日上线体验中心
 • 豆包、通义千问 7 月 15 日下线用户自建智能体功能
 • Anthropic 与三星洽谈自研 AI 芯片 — Anthropic 正在与三星电子讨论开发定制 AI 训练/推理芯片，距 OpenAI 与博通合作官宣仅隔一周，前沿实验室的算力自研浪潮持续升温。TechCrunch</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-05</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-05</link>
-      <guid isPermaLink="false">2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate>
-      <description>扎克伯格罕见承认 Meta 千亿美元豪赌未见成效——过去四个月 Agent 研发进度停滞；同期快手可灵 AI 落地全球视频大模型史上最大额融资，BAT 与中东资本历史性同台。
-• 扎克伯格承认 Meta Agent 研发停滞，1450 亿美元豪赌未兑现
-• xAI 推出 Voice Agent Builder 测试版，两分钟搭建生产级语音 Agent
-• 快手可灵 AI 落地近 30 亿美元融资，BAT 历史性同台参投
-• AI 拿走 H1 2026 全球 5100 亿美元风投的 70% — Crunchbase 数据显示 2026 上半年全球风投总额 5100 亿美元，创下历史半年度最高纪录，比 2021H2 前高多 1350 亿；其中 AI 公司拿到二季度早期融资的 70%+。来源
-• Anthropic 恢复 Claude Fable 5 全球访问 — 美国商务部于 6 月 30 日解除对 Fable 5 与 Mythos 5 的出口限制，Fable 5 已重新对全球开放，Mythos 5 通过 Glasswing 项目扩展至更广的国内外机构；财新披露 Anthropic 承认此前中间商曾通过隐藏代码规避对中国等地区账户的检测。来源</description>
     </item>
   </channel>
 </rss>
