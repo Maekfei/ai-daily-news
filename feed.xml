@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 02:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 02:09:09 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-05</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-05</link>
+      <guid isPermaLink="false">2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Palantir Q2 营收同比暴增 93%、股价盘后飙升近 30%，把&quot;企业 AI 已经真金白银赚钱&quot;钉在了华尔街最显眼的位置；同日白宫召集头部 AI 厂商敲定前沿模型自愿安全测试框架，Agent 部署合规进入新阶段。
+• 白宫召集头部 AI 厂商，敲定前沿模型自愿安全测试框架
+• HuggingFace CEO 公开向 OpenAI 索赔 1 亿美元算力，&quot;越狱事件&quot;余震持续
+• 阿里正式发布 Qwen3.8-Max：2.4 万亿参数，自主编程 16 天交付项目
+• Palantir Q2 2026 营收暴增 93% 至 19.4 亿美元，盘后大涨近 30% — 美国商业收入同比+149%，管理层称&quot;本季堪称超凡&quot;，AI 平台 AIP 是核心驱动力，公司上调全年营收指引。CNBC 财报解读 · Wall Street Times 拆解
+• Pika 推出 10 美元/月 API Club，把 AI 视频生成价格砍到近乎零售价 — 单一 API 打通 70+ 生成媒体模型，官方称部分模型定价比聚合器便宜 88%，直接冲击 fal.ai、Replicate 的开发者接入格局。Businesswire 稿件 · Morningstar 转载</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-04</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-04</link>
@@ -354,18 +366,6 @@
 • ICML 2026 首尔开幕，Agentic AI 成年度核心议题
 • Anthropic Claude Sonnet 5 发布一周，agentic 基准表现追平 Opus
 • 摩根士丹利发布 AI 十大投资真相报告 — 7 月 6 日发布，提出 AI 从&quot;分析经济&quot;进入&quot;运行经济&quot;阶段，Token 经济崛起、算力资本开支进入新周期，具身智能延伸至交通、物流、制造、医疗等实体产业。投资界（清科）</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-06</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-06</link>
-      <guid isPermaLink="false">2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 10:00:00 +0800</pubDate>
-      <description>美团 LongCat-2.0 万亿 MoE 开源，全流程国产算力训练；豆包 Seedance 2.5 视频模型今日上线体验中心；首个自主 AI Agent 勒索软件 JADEPUFFER 曝光。
-• 美团开源 LongCat-2.0：1.6 万亿参数 MoE 模型登场
-• 首例 AI Agent 全自主勒索攻击 JADEPUFFER 曝光
-• 字节豆包 Seedance 2.5 视频生成模型今日上线体验中心
-• 豆包、通义千问 7 月 15 日下线用户自建智能体功能
-• Anthropic 与三星洽谈自研 AI 芯片 — Anthropic 正在与三星电子讨论开发定制 AI 训练/推理芯片，距 OpenAI 与博通合作官宣仅隔一周，前沿实验室的算力自研浪潮持续升温。TechCrunch</description>
     </item>
   </channel>
 </rss>
