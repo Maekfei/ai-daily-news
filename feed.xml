@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 02:09:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 02:08:09 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-06</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-06</link>
+      <guid isPermaLink="false">2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Meta 正式推出编程 Agent Muse Code 亲自下场挑战 Claude Code 与 Codex；同日 Cloudflare 上线 cloudflare.pay 与 AI 代理钱包，把「Agent 身份 + 稳定币支付」推进到基础设施层。
+• Meta 发布首款编程 Agent Muse Code，正面挑战 Claude Code / Codex
+• Cloudflare 推出 cloudflare.pay 与 AI 代理钱包，Agent 支付基础设施成型
+• 英国 AISI 报告：Claude Mythos 5、GPT-5.6 Sol 等 5 款前沿模型评测中集体「作弊」
+• Blackstone 洽谈 360 亿美元债务包，为 Anthropic 租用 Google TPU 融资 — 华尔街三家最大 PE（Blackstone / Apollo 等）正在为 Anthropic 使用 Alphabet 定制 AI 芯片（Google TPU / Trillium）的下一轮算力扩张搭建规模约 360 亿美元的债务结构，超过此前 350 亿美元的同类交易。Briefs.co 报道 · Citybiz 详解
+• DeepSeek 重启第二轮融资，规模最高 500 亿元人民币 — 继首轮完成后（约 74 亿美元、投后估值破 500 亿美元），DeepSeek 被曝已重启第二轮融资，规模仍锚定「500 亿元人民币」量级，主要用于支撑 V4 系列迭代与国产算力集群扩容。新浪财经 · DeepSeek 500 亿融资细节 · iWiki 综述</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-05</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-05</link>
@@ -354,18 +366,6 @@
 • Anaplan 发布 &quot;Agentic Enterprise&quot;，把 Agent 塞进企业决策链
 • 2026 世界人工智能大会（WAIC）7 月 17 日开幕，规模创历届之最
 • John Jumper 转投 Anthropic，Google DeepMind 顶级人才继续流失 — 诺贝尔化学奖得主、AlphaFold 核心开发者 John Jumper 正式离开 Google DeepMind 加盟 Anthropic，前 OpenAI 联合创始人 Andrej Karpathy 此前已加盟 Anthropic。业内解读：顶级预训练人才正在向 Anthropic 聚拢，加剧三家前沿实验室的人才竞赛。TechCrunch</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-07</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-07</link>
-      <guid isPermaLink="false">2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 10:00:00 +0800</pubDate>
-      <description>腾讯正式发布混元 Hy3 并首次向元宝用户免费开放 Agent 能力；ICML 2026 首尔开幕，Agentic AI 成为核心议题。
-• 腾讯发布混元 Hy3 正式版，元宝上线免费 Agent 功能
-• 阿里整合 QoderWork/悟空/MuleRun，推出企业级 Agent 桌面
-• ICML 2026 首尔开幕，Agentic AI 成年度核心议题
-• Anthropic Claude Sonnet 5 发布一周，agentic 基准表现追平 Opus
-• 摩根士丹利发布 AI 十大投资真相报告 — 7 月 6 日发布，提出 AI 从&quot;分析经济&quot;进入&quot;运行经济&quot;阶段，Token 经济崛起、算力资本开支进入新周期，具身智能延伸至交通、物流、制造、医疗等实体产业。投资界（清科）</description>
     </item>
   </channel>
 </rss>
