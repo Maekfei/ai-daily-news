@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 06 Aug 2026 02:08:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 02:09:46 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-07</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-07</link>
+      <guid isPermaLink="false">2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 一口气把 ChatGPT 免费用户默认模型换成 GPT-5.6 Luna 并开放**无限文字对话**，同日为 Plus/Pro 用户升级 Sol 的事实性；宇树科技以 **150.80 元/股**、219 倍市盈率完成科创板发行定价，DeepSeek/腾讯/社保基金 1.4 亿元战略配售落定，具身智能板块首个头部 IPO 进入路演时刻。
+• OpenAI 升级 ChatGPT：Sol 事实性大幅提升，免费用户改用 Luna 且文字对话无限量
+• 宇树科技科创板 IPO 定价 150.80 元/股：DeepSeek、腾讯、社保基金&quot;绑定式&quot;战略配售
+• NVIDIA 主导的 Open Secure AI Alliance 一周破 120 家成员，首批 Agent 防御提案落地
+• 北京经开区（亦庄）上半年 8 家 AI 企业融资超 150 亿元 — 覆盖世界模型、AI 算力芯片、AIGC 等前沿方向；爱诗智能刚完成 C 轮，累计融资 29.8 亿元人民币；经开区同步新设 4 只共 200 亿元产业基金，其中 80 亿元定向 AI 与集成电路。北京市政府官网通告 · 新浪财经详解
+• Anthropic Claude 企业版上线&quot;Skill / Plugin 安全扫描&quot;（Beta） — 8 月 6 日更新的官方 Release Notes 中，Enterprise 计划新增可为 Skills 和 Plugins 开启的安全扫描能力，直接回应上周 Skill Poisoning 与前置注入相关的社区安全讨论。Claude 官方 Release Notes</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-06</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-06</link>
@@ -354,18 +366,6 @@
 • 微软自研 MAI 模型开始接手 Excel/Outlook，逐步替换 OpenAI 与 Anthropic
 • Norm AI 完成 1.2 亿美元 C 轮，法律 Agent 独角兽估值 12 亿美元
 • Meta 超级智能实验室首个自研图像模型 Muse Image 全球上线 — Meta 7 月 7 日宣布推出图像生成模型 Muse Image（内部代号 Mango），由前 Scale AI CEO Alexandr Wang 领导的 Meta Superintelligence Labs（MSL） 打造。模型强调&quot;高级推理理解复杂 prompt&quot;，现已通过 Meta AI 应用免费提供，并同步接入 Instagram 与 WhatsApp，同时公开 Muse Video 早期预览。Meta 官方：Introducing Muse Image</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-08</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-08</link>
-      <guid isPermaLink="false">2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 10:00:00 +0800</pubDate>
-      <description>法律 AI 独角兽 Norm 单日跨过 12 亿美元估值门槛；Bespoke Labs 拿下 4000 万美元专门做&quot;训练可靠 Agent 的强化学习环境&quot;，Agent 训练基础设施赛道正式成型。
-• Norm Ai 完成 1.2 亿美元 C 轮，法律 AI 又一独角兽
-• Bespoke Labs 获 4000 万美元，专攻&quot;训练可靠 Agent 的强化学习环境&quot;
-• Anaplan 发布 &quot;Agentic Enterprise&quot;，把 Agent 塞进企业决策链
-• 2026 世界人工智能大会（WAIC）7 月 17 日开幕，规模创历届之最
-• John Jumper 转投 Anthropic，Google DeepMind 顶级人才继续流失 — 诺贝尔化学奖得主、AlphaFold 核心开发者 John Jumper 正式离开 Google DeepMind 加盟 Anthropic，前 OpenAI 联合创始人 Andrej Karpathy 此前已加盟 Anthropic。业内解读：顶级预训练人才正在向 Anthropic 聚拢，加剧三家前沿实验室的人才竞赛。TechCrunch</description>
     </item>
   </channel>
 </rss>
