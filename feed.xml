@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 07 Aug 2026 02:09:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 02:05:47 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-08</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-08</link>
+      <guid isPermaLink="false">2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 10:00:00 +0800</pubDate>
+      <description>xAI 如期上线 **Grok 4.6**（1.5 万亿参数，SFT/RL 双升级），马斯克预告数周内的 2.1 万亿参数 Grok 4.7；同日《金融时报》披露字节跳动已开始预训练一个高达 **10 万亿参数**的巨型模型，直接对标 Anthropic 前沿系统——中美一线实验室的&quot;参数—算力—Agent 能力&quot;三线竞速再次升级。
+• xAI 发布 Grok 4.6：1.5 万亿参数，SFT 与 RL 双升级、几周内跟进 Grok 4.7
+• 字节跳动开始预训练 10 万亿参数模型，对标 Anthropic Mythos 前沿系统
+• LangChain 推出 Managed Deep Agents 公测：从原型直达生产的\&quot;Agent Harness\&quot;
+• Anthropic 开放 Claude Code \&quot;Self-hosted environments\&quot; 企业公测
+• OpenAI 全员免费开放 GPT-5.6 Luna，取消文字对话上限 — 8 月 6 日 ChatGPT 将免费用户默认模型升级为 GPT-5.6 Luna，每日文字消息无上限；Plus/Pro 用户同步获得事实性更强的 GPT-5.6 Sol。ChatGPT 周活刚跨过 10 亿。TechCrunch · 36 氪快讯</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-07</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-07</link>
@@ -354,18 +366,6 @@
 • xAI 首个编程智能体模型 Grok 4.5 发布，联合 Cursor 训练
 • SemiAnalysis 曝 Anthropic Q3 GAAP 利润破 10 亿美元，已秘密递交 IPO 申请
 • 物理 AI 公司「深度智控」完成数亿元 B 轮融资，晶科能源战略投资 — 深圳深度智控（DeepCtrls）7 月 9 日宣布完成数亿元 B 轮融资，由全球光伏龙头晶科能源战略投资，国投创新、招银国际联合领投，红杉中国、源码资本、招商局创投、光远资本等老股东持续跟投。这是公司成立以来第 6 轮融资，主攻物理 AI 在算力/能源基础设施的落地。中国日报：深度智控完成数亿元 B 轮融资 / 投资界：融资详情</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-09</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-09</link>
-      <guid isPermaLink="false">2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 10:00:00 +0800</pubDate>
-      <description>工信部 NVDB 通报 Claude Code 存在后门风险、阿里 7 月 10 日全员卸载；美中双线 Agent 战线同日升级：阿里合并三大 Agent 产品线，微软自研 MAI 模型开始接手 Excel/Outlook。
-• 工信部 NVDB 通报 Claude Code 存在安全后门，阿里 7 月 10 日全员卸载
-• 阿里巴巴合并 QoderWork/悟空/MuleRun 三大 Agent 产品，港股飙升 12.2%
-• 微软自研 MAI 模型开始接手 Excel/Outlook，逐步替换 OpenAI 与 Anthropic
-• Norm AI 完成 1.2 亿美元 C 轮，法律 Agent 独角兽估值 12 亿美元
-• Meta 超级智能实验室首个自研图像模型 Muse Image 全球上线 — Meta 7 月 7 日宣布推出图像生成模型 Muse Image（内部代号 Mango），由前 Scale AI CEO Alexandr Wang 领导的 Meta Superintelligence Labs（MSL） 打造。模型强调&quot;高级推理理解复杂 prompt&quot;，现已通过 Meta AI 应用免费提供，并同步接入 Instagram 与 WhatsApp，同时公开 Muse Video 早期预览。Meta 官方：Introducing Muse Image</description>
     </item>
   </channel>
 </rss>
