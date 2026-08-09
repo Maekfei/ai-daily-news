@@ -25,7 +25,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 67
+      "stars": 75
     },
     {
       "id": "hf-2607-28609",
@@ -54,7 +54,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-08",
-      "stars": 53
+      "stars": 61
     },
     {
       "id": "hf-2608-01481",
@@ -76,7 +76,7 @@
       ],
       "published": "2026-08-02",
       "added": "2026-08-08",
-      "stars": 46
+      "stars": 58
     },
     {
       "id": "hf-2608-06197",
@@ -104,7 +104,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 29
+      "stars": 34
     },
     {
       "id": "hf-2608-06020",
@@ -132,7 +132,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 24
+      "stars": 28
     },
     {
       "id": "hf-2608-03451",
@@ -159,7 +159,7 @@
       ],
       "published": "2026-08-04",
       "added": "2026-08-08",
-      "stars": 20
+      "stars": 26
     },
     {
       "id": "hf-2608-05138",
@@ -179,7 +179,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 17
+      "stars": 24
     },
     {
       "id": "hf-2608-05369",
@@ -205,7 +205,51 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 14
+      "stars": 20
+    },
+    {
+      "id": "hf-2608-05137",
+      "title": "SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding",
+      "authors": [
+        "Yue Zhang",
+        "Yingzhao Jian",
+        "Yunqiu Xu",
+        "Xiaoxiao Sun",
+        "Hehe Fan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous information from multiple modalities, including visual and geometric cues. However, the relevance of these modalities often varies across queries. Existing Multimodal Large Language Models (MLLMs) typically rely on fixed modality combinations, overlooking query-dependent modality needs. Such a rigid design can introduce semantic noise from irrelevant modalities while underutilizing more informative ones, leading to wasted computation an",
+      "url": "https://huggingface.co/papers/2608.05137",
+      "pdf_url": "https://arxiv.org/pdf/2608.05137.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-05",
+      "added": "2026-08-08",
+      "stars": 18
+    },
+    {
+      "id": "hf-2608-05784",
+      "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+      "authors": [
+        "Nossa Iyamu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, site, timing, input volume, and evidence pointers back to the raw rows, with no model in the loop, so the output is byte-identical, cacheable, and mechani",
+      "url": "https://huggingface.co/papers/2608.05784",
+      "pdf_url": "https://arxiv.org/pdf/2608.05784.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-08",
+      "stars": 18
     },
     {
       "id": "hf-2608-05565",
@@ -231,32 +275,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 12
-    },
-    {
-      "id": "hf-2608-05137",
-      "title": "SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding",
-      "authors": [
-        "Yue Zhang",
-        "Yingzhao Jian",
-        "Yunqiu Xu",
-        "Xiaoxiao Sun",
-        "Hehe Fan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous information from multiple modalities, including visual and geometric cues. However, the relevance of these modalities often varies across queries. Existing Multimodal Large Language Models (MLLMs) typically rely on fixed modality combinations, overlooking query-dependent modality needs. Such a rigid design can introduce semantic noise from irrelevant modalities while underutilizing more informative ones, leading to wasted computation an",
-      "url": "https://huggingface.co/papers/2608.05137",
-      "pdf_url": "https://arxiv.org/pdf/2608.05137.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-08-05",
-      "added": "2026-08-08",
-      "stars": 11
+      "stars": 16
     },
     {
       "id": "hf-2608-06352",
@@ -283,56 +302,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 11
-    },
-    {
-      "id": "hf-2608-05798",
-      "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
-      "authors": [
-        "Andrey Shutkin",
-        "Denis Parkhomenko",
-        "Ivan Kirillov",
-        "Kirill Chernyshev",
-        "Kirill Malakhov",
-        "Ilia Vasiliev",
-        "Ilia Trushkin",
-        "Valeriya Kobenko"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for later applications. This report presents series of KVAE tokenizers for audio, image and video, all designed for subsequent text-conditioned generation: KVAE-Audio, a continuous full-band 48 kHz tokenizer with a 50 Hz latent of 64 channels; KVAE-3D -- t",
-      "url": "https://huggingface.co/papers/2608.05798",
-      "pdf_url": "https://arxiv.org/pdf/2608.05798.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-08",
-      "stars": 10
-    },
-    {
-      "id": "hf-2608-05850",
-      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
-      "authors": [
-        "Uri Katz",
-        "Omer Goldman",
-        "Tomasz Limisiewicz",
-        "Reut Tsarfaty",
-        "Noah A. Smith"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that comb",
-      "url": "https://huggingface.co/papers/2608.05850",
-      "pdf_url": "https://arxiv.org/pdf/2608.05850.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-08",
-      "stars": 10
+      "stars": 16
     },
     {
       "id": "hf-2608-06146",
@@ -359,51 +329,34 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 10
+      "stars": 16
     },
     {
-      "id": "hf-2608-05784",
-      "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+      "id": "hf-2608-05798",
+      "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
       "authors": [
-        "Nossa Iyamu"
+        "Andrey Shutkin",
+        "Denis Parkhomenko",
+        "Ivan Kirillov",
+        "Kirill Chernyshev",
+        "Kirill Malakhov",
+        "Ilia Vasiliev",
+        "Ilia Trushkin",
+        "Valeriya Kobenko"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, site, timing, input volume, and evidence pointers back to the raw rows, with no model in the loop, so the output is byte-identical, cacheable, and mechani",
-      "url": "https://huggingface.co/papers/2608.05784",
-      "pdf_url": "https://arxiv.org/pdf/2608.05784.pdf",
+      "summary": "Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for later applications. This report presents series of KVAE tokenizers for audio, image and video, all designed for subsequent text-conditioned generation: KVAE-Audio, a continuous full-band 48 kHz tokenizer with a 50 Hz latent of 64 channels; KVAE-3D -- t",
+      "url": "https://huggingface.co/papers/2608.05798",
+      "pdf_url": "https://arxiv.org/pdf/2608.05798.pdf",
       "tags": [
         "hf-trending",
-        "agent",
-        "benchmark"
+        "benchmark",
+        "multimodal",
+        "code"
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 9
-    },
-    {
-      "id": "hf-2608-04956",
-      "title": "ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing",
-      "authors": [
-        "Xu Guo",
-        "Zhengxuan Wei",
-        "Xinghui Li",
-        "Hanzhuo Huang",
-        "Xinyu Liu",
-        "Xiangyang Luo",
-        "Min Wei",
-        "Yiran Zhu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or edit source footage while maintaining shared history. We formalize this setting as interactive multi-shot video creation (IMVC) and introduce ContextMaster, a unified model with a role-aware context representation for these operations. An interactive mod",
-      "url": "https://huggingface.co/papers/2608.04956",
-      "pdf_url": "https://arxiv.org/pdf/2608.04956.pdf",
-      "tags": [
-        "hf-trending",
-        "rl"
-      ],
-      "published": "2026-08-05",
-      "added": "2026-08-08",
-      "stars": 5
+      "stars": 15
     },
     {
       "id": "hf-2608-05424",
@@ -424,7 +377,29 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 4
+      "stars": 11
+    },
+    {
+      "id": "hf-2608-05850",
+      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+      "authors": [
+        "Uri Katz",
+        "Omer Goldman",
+        "Tomasz Limisiewicz",
+        "Reut Tsarfaty",
+        "Noah A. Smith"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that comb",
+      "url": "https://huggingface.co/papers/2608.05850",
+      "pdf_url": "https://arxiv.org/pdf/2608.05850.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-08",
+      "stars": 10
     },
     {
       "id": "hf-2608-06257",
@@ -451,32 +426,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-04244",
-      "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
-      "authors": [
-        "Sirun Li",
-        "Minghao Liu",
-        "Ling Dai",
-        "Yong Li",
-        "Haoxin Lyu",
-        "Junting Zhou",
-        "Fan Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual cues, yet existing benchmarks rarely reveal how they arbitrate between these evidence sources when they conflict. We introduce SIGNPOST-Bench, a controlled counterfactual benchmark for evaluating text-vision conflict resolution. Each source image is transformed into a counterfactual quintuplet of Original, Blank, Similar, Random, and Adversarial variants. Synthetic, localized scene-text interventions are designed to preserve n",
-      "url": "https://huggingface.co/papers/2608.04244",
-      "pdf_url": "https://arxiv.org/pdf/2608.04244.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-04",
-      "added": "2026-08-08",
-      "stars": 2
+      "stars": 9
     },
     {
       "id": "hf-2608-01851",
@@ -504,7 +454,7 @@
       ],
       "published": "2026-08-03",
       "added": "2026-08-08",
-      "stars": 0
+      "stars": 6
     },
     {
       "id": "hf-2608-01049",
@@ -529,7 +479,32 @@
       ],
       "published": "2026-08-02",
       "added": "2026-08-08",
-      "stars": 0
+      "stars": 6
+    },
+    {
+      "id": "hf-2608-04956",
+      "title": "ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing",
+      "authors": [
+        "Xu Guo",
+        "Zhengxuan Wei",
+        "Xinghui Li",
+        "Hanzhuo Huang",
+        "Xinyu Liu",
+        "Xiangyang Luo",
+        "Min Wei",
+        "Yiran Zhu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or edit source footage while maintaining shared history. We formalize this setting as interactive multi-shot video creation (IMVC) and introduce ContextMaster, a unified model with a role-aware context representation for these operations. An interactive mod",
+      "url": "https://huggingface.co/papers/2608.04956",
+      "pdf_url": "https://arxiv.org/pdf/2608.04956.pdf",
+      "tags": [
+        "hf-trending",
+        "rl"
+      ],
+      "published": "2026-08-05",
+      "added": "2026-08-08",
+      "stars": 5
     },
     {
       "id": "hf-2608-05785",
@@ -549,7 +524,32 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 0
+      "stars": 5
+    },
+    {
+      "id": "hf-2608-04244",
+      "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
+      "authors": [
+        "Sirun Li",
+        "Minghao Liu",
+        "Ling Dai",
+        "Yong Li",
+        "Haoxin Lyu",
+        "Junting Zhou",
+        "Fan Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual cues, yet existing benchmarks rarely reveal how they arbitrate between these evidence sources when they conflict. We introduce SIGNPOST-Bench, a controlled counterfactual benchmark for evaluating text-vision conflict resolution. Each source image is transformed into a counterfactual quintuplet of Original, Blank, Similar, Random, and Adversarial variants. Synthetic, localized scene-text interventions are designed to preserve n",
+      "url": "https://huggingface.co/papers/2608.04244",
+      "pdf_url": "https://arxiv.org/pdf/2608.04244.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-04",
+      "added": "2026-08-08",
+      "stars": 2
     },
     {
       "id": "hf-2608-05466",
@@ -576,7 +576,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 212
+      "stars": 218
     },
     {
       "id": "hf-2608-05102",
@@ -602,7 +602,29 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 61
+      "stars": 63
+    },
+    {
+      "id": "hf-2608-05248",
+      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "authors": [
+        "Chunchao Guo",
+        "Jinpeng Li",
+        "Yang Li",
+        "Zilong Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must jointly maintain global spatial coherence, rich local content, and explicit assets suitable for downstream editing and reuse. We present WorldClaw, a fully agentic, coarse-to-fine framework for open-world 3D scene generation. Planning agents translate a text prompt into a structured specification of regions, terrain, assets, materials, and spatial relations. WorldClaw then builds a globally coherent terrain foundation from semantic",
+      "url": "https://huggingface.co/papers/2608.05248",
+      "pdf_url": "https://arxiv.org/pdf/2608.05248.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "multimodal"
+      ],
+      "published": "2026-08-05",
+      "added": "2026-08-07",
+      "stars": 50
     },
     {
       "id": "hf-2608-04436",
@@ -626,28 +648,6 @@
         "agent",
         "rl",
         "reasoning",
-        "multimodal"
-      ],
-      "published": "2026-08-05",
-      "added": "2026-08-07",
-      "stars": 46
-    },
-    {
-      "id": "hf-2608-05248",
-      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
-      "authors": [
-        "Chunchao Guo",
-        "Jinpeng Li",
-        "Yang Li",
-        "Zilong Huang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must jointly maintain global spatial coherence, rich local content, and explicit assets suitable for downstream editing and reuse. We present WorldClaw, a fully agentic, coarse-to-fine framework for open-world 3D scene generation. Planning agents translate a text prompt into a structured specification of regions, terrain, assets, materials, and spatial relations. WorldClaw then builds a globally coherent terrain foundation from semantic",
-      "url": "https://huggingface.co/papers/2608.05248",
-      "pdf_url": "https://arxiv.org/pdf/2608.05248.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
         "multimodal"
       ],
       "published": "2026-08-05",
@@ -681,58 +681,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
-      "stars": 30
-    },
-    {
-      "id": "hf-2608-05013",
-      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
-      "authors": [
-        "Jingsheng Zheng",
-        "Xinyuan Fang",
-        "Jintian Zhang",
-        "Zhengke Gui",
-        "Huajun Chen",
-        "Ningyu Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are long-horizon, cross-environment, and multimodal, forcing the agent to preserve goals and constraints across many steps while navigating heterogeneous tools and attachments. While prior work has addressed individual failure modes such as goals drift, states loss, and context overflow, whether a single harness can manage them jointly and remain effective across backends has received less study. We present OneDayAgent, a long-horizo",
-      "url": "https://huggingface.co/papers/2608.05013",
-      "pdf_url": "https://arxiv.org/pdf/2608.05013.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-04",
-      "added": "2026-08-07",
-      "stars": 28
-    },
-    {
-      "id": "hf-2608-06060",
-      "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
-      "authors": [
-        "Zelong Sun",
-        "Jun Wang",
-        "Kaicheng Yang",
-        "Tiancheng Gu",
-        "Ziyong Feng",
-        "Zhiwu Lu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs. Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multimodal inputs often misses fine-grained discriminative cues, leading to confusion among semantically similar candidates. Recent methods mitigate this limitation by generating Chain-of-Thought (CoT) rationales to enrich the query representation. However, such reasoning is typically derived from the query",
-      "url": "https://huggingface.co/papers/2608.06060",
-      "pdf_url": "https://arxiv.org/pdf/2608.06060.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-07",
-      "stars": 26
+      "stars": 37
     },
     {
       "id": "hf-2608-05631",
@@ -760,7 +709,84 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
-      "stars": 25
+      "stars": 33
+    },
+    {
+      "id": "hf-2608-06060",
+      "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+      "authors": [
+        "Zelong Sun",
+        "Jun Wang",
+        "Kaicheng Yang",
+        "Tiancheng Gu",
+        "Ziyong Feng",
+        "Zhiwu Lu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs. Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multimodal inputs often misses fine-grained discriminative cues, leading to confusion among semantically similar candidates. Recent methods mitigate this limitation by generating Chain-of-Thought (CoT) rationales to enrich the query representation. However, such reasoning is typically derived from the query",
+      "url": "https://huggingface.co/papers/2608.06060",
+      "pdf_url": "https://arxiv.org/pdf/2608.06060.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-07",
+      "stars": 31
+    },
+    {
+      "id": "hf-2608-05013",
+      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "authors": [
+        "Jingsheng Zheng",
+        "Xinyuan Fang",
+        "Jintian Zhang",
+        "Zhengke Gui",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are long-horizon, cross-environment, and multimodal, forcing the agent to preserve goals and constraints across many steps while navigating heterogeneous tools and attachments. While prior work has addressed individual failure modes such as goals drift, states loss, and context overflow, whether a single harness can manage them jointly and remain effective across backends has received less study. We present OneDayAgent, a long-horizo",
+      "url": "https://huggingface.co/papers/2608.05013",
+      "pdf_url": "https://arxiv.org/pdf/2608.05013.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-04",
+      "added": "2026-08-07",
+      "stars": 28
+    },
+    {
+      "id": "hf-2608-06301",
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "authors": [
+        "Varun Ursekar",
+        "Apaar Shanker",
+        "Yash Maurya",
+        "Shehab Yasser",
+        "Vijay S. Kalmath",
+        "Veronica Chatrath",
+        "Yuan Xue"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measuring how well frontier LLMs perform at this task.",
+      "url": "https://huggingface.co/papers/2608.06301",
+      "pdf_url": "https://arxiv.org/pdf/2608.06301.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-07",
+      "stars": 28
     },
     {
       "id": "hf-2608-03764",
@@ -785,6 +811,28 @@
         "benchmark"
       ],
       "published": "2026-08-04",
+      "added": "2026-08-07",
+      "stars": 24
+    },
+    {
+      "id": "hf-2608-05802",
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "authors": [
+        "Byeongho Heo",
+        "Jaehui Hwang",
+        "Sangdoo Yun",
+        "Dongyoon Han"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillation (OPD^2), for mathematical reasoning in English, Korean, and Japanese. OPD^2 improves OPD by using the probability gap between a post-trained teacher and its base model as the learning signal. Experiments with Qwen3 show that OPD^2 consistently outperforms the original OPD, with particularly str",
+      "url": "https://huggingface.co/papers/2608.05802",
+      "pdf_url": "https://arxiv.org/pdf/2608.05802.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning"
+      ],
+      "published": "2026-08-06",
       "added": "2026-08-07",
       "stars": 24
     },
@@ -845,54 +893,6 @@
       "stars": 21
     },
     {
-      "id": "hf-2608-05802",
-      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
-      "authors": [
-        "Byeongho Heo",
-        "Jaehui Hwang",
-        "Sangdoo Yun",
-        "Dongyoon Han"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillation (OPD^2), for mathematical reasoning in English, Korean, and Japanese. OPD^2 improves OPD by using the probability gap between a post-trained teacher and its base model as the learning signal. Experiments with Qwen3 show that OPD^2 consistently outperforms the original OPD, with particularly str",
-      "url": "https://huggingface.co/papers/2608.05802",
-      "pdf_url": "https://arxiv.org/pdf/2608.05802.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-07",
-      "stars": 20
-    },
-    {
-      "id": "hf-2608-06301",
-      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
-      "authors": [
-        "Varun Ursekar",
-        "Apaar Shanker",
-        "Yash Maurya",
-        "Shehab Yasser",
-        "Vijay S. Kalmath",
-        "Veronica Chatrath",
-        "Yuan Xue"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measuring how well frontier LLMs perform at this task.",
-      "url": "https://huggingface.co/papers/2608.06301",
-      "pdf_url": "https://arxiv.org/pdf/2608.06301.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-07",
-      "stars": 20
-    },
-    {
       "id": "hf-2608-03632",
       "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
       "authors": [
@@ -943,7 +943,34 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 16
+      "stars": 18
+    },
+    {
+      "id": "hf-2608-06374",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "authors": [
+        "Junfeng Li",
+        "Junjie He",
+        "Zhide Zhong",
+        "Yangyang Zheng",
+        "Pingyue Sheng",
+        "Jiayu Dong",
+        "Ruixin Li",
+        "Haodong Yan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA",
+      "url": "https://huggingface.co/papers/2608.06374",
+      "pdf_url": "https://arxiv.org/pdf/2608.06374.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-07",
+      "stars": 18
     },
     {
       "id": "hf-2607-24821",
@@ -999,33 +1026,6 @@
       "stars": 15
     },
     {
-      "id": "hf-2608-06374",
-      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
-      "authors": [
-        "Junfeng Li",
-        "Junjie He",
-        "Zhide Zhong",
-        "Yangyang Zheng",
-        "Pingyue Sheng",
-        "Jiayu Dong",
-        "Ruixin Li",
-        "Haodong Yan"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA",
-      "url": "https://huggingface.co/papers/2608.06374",
-      "pdf_url": "https://arxiv.org/pdf/2608.06374.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-07",
-      "stars": 15
-    },
-    {
       "id": "hf-2608-04574",
       "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
       "authors": [
@@ -1071,7 +1071,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 11
+      "stars": 12
     },
     {
       "id": "hf-2608-04964",
@@ -1100,32 +1100,6 @@
       "stars": 11
     },
     {
-      "id": "hf-2607-28048",
-      "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
-      "authors": [
-        "Qiming Shi",
-        "Yibo Dou",
-        "Jiawen Zhu",
-        "Yulong Tao",
-        "Linbo Jin",
-        "Zhaolu Kang",
-        "Yunfan Zhou",
-        "Di Weng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Skill-based prompting has become a practical mechanism for improving large language model (LLM) agents, yet existing skill acquisition methods often treat skills as experience summaries, memory entries, or direct summaries of successful demonstrations. This creates a mismatch for weaker student agents: when a student fails because it lacks task knowledge or operational strategy, its failed trajectory may not contain enough evidence to infer the missing behavior, while the teacher trajectory may be too implicit to be internalized as reusable gui",
-      "url": "https://huggingface.co/papers/2607.28048",
-      "pdf_url": "https://arxiv.org/pdf/2607.28048.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-04",
-      "added": "2026-08-07",
-      "stars": 9
-    },
-    {
       "id": "hf-2607-27853",
       "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
       "authors": [
@@ -1150,7 +1124,33 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-07",
-      "stars": 8
+      "stars": 10
+    },
+    {
+      "id": "hf-2607-28048",
+      "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
+      "authors": [
+        "Qiming Shi",
+        "Yibo Dou",
+        "Jiawen Zhu",
+        "Yulong Tao",
+        "Linbo Jin",
+        "Zhaolu Kang",
+        "Yunfan Zhou",
+        "Di Weng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Skill-based prompting has become a practical mechanism for improving large language model (LLM) agents, yet existing skill acquisition methods often treat skills as experience summaries, memory entries, or direct summaries of successful demonstrations. This creates a mismatch for weaker student agents: when a student fails because it lacks task knowledge or operational strategy, its failed trajectory may not contain enough evidence to infer the missing behavior, while the teacher trajectory may be too implicit to be internalized as reusable gui",
+      "url": "https://huggingface.co/papers/2607.28048",
+      "pdf_url": "https://arxiv.org/pdf/2607.28048.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-04",
+      "added": "2026-08-07",
+      "stars": 9
     },
     {
       "id": "hf-2608-05042",
@@ -1249,7 +1249,7 @@
       ],
       "published": "2026-08-04",
       "added": "2026-08-07",
-      "stars": 5
+      "stars": 6
     },
     {
       "id": "hf-2608-03207",

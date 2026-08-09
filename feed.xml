@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Aug 2026 02:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 02:04:06 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-09</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-09</link>
+      <guid isPermaLink="false">2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 因 Astra 疑达&quot;关键级&quot;网络攻击能力紧急暂缓部分研发，成为业内首例主动踩刹车；同日 Pokee AI 发布 10M 上下文 Agent 模型 Pokee-Isaac 28B，Agent 侧&quot;更长上下文 vs 更强能力&quot;两条主线同时被推进。
+• OpenAI 因 Astra 达&quot;关键&quot;网络安全阈值，暂缓部分研发并启动强化管控
+• Pokee AI 发布 Pokee-Isaac 28B：10M Token 上下文的企业级 Agent 底座模型
+• DeepSeek 重启第二轮融资，估值约 5000 亿元人民币（~740 亿美元）
+• 阿里 Qwen3.8-Max 完成开源交付 — 8 月 3 日发布的 2.4 万亿参数 MoE 旗舰模型（激活约 950 亿参数、1M 上下文、原生视觉）本周完成 Hugging Face 权重开放，Demo 中展示了模型16 天独立编程产出 150+ TypeScript 文件的 CLI 框架 oh-my-cli。来源：51CTO
+• Meta Muse Code Beta 上线 — Meta Superintelligence Labs 于 8 月 6 日推出首款 Coding Agent「Muse Code」，由 Muse Spark 1.2 模型驱动，运行于终端、面向大型代码库，直接对标 Claude Code / OpenAI Codex，扎克伯格亲自站台。来源：36Kr</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-08</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-08</link>
@@ -354,18 +366,6 @@
 • Agent 赛道单周三笔关键融资：Norm Ai / Bespoke Labs / Alta 合计 1.85 亿美元
 • 山东发布首批 100 个「AI+制造」重点应用场景 + 100 个垂域大模型 — 7 月 9 日，山东省政府新闻办发布首批「双百清单」：100 个 AI+制造重点建设应用场景（山钢集团、济南二机床等）与 100 个重点推广的垂直领域大模型，同期公布省级 AI 应用示范项目名单。这是国内首个省级层面把「产业场景 × 垂域大模型」做成清单化政策的省份，为 WAIC 2026 前的地方 AI 政策竞赛定下基调。山东省政府官网 / 搜狐：山东&quot;双百清单&quot;
 • Meta 股价创 2024 年初以来最佳单周表现，市场为 AI 战略投票 — 7 月 11 日多家美股观察机构指出，随 Muse Spark 1.1 发布、Scale AI 整合完成、以及 Alexandr Wang 团队公开路线图，Meta（$META）股价周涨幅创下自 2024 年初以来最大单周涨幅；华尔街主要分析师上调对 Meta 家庭 AI（Family of Apps）+ Muse 系列 API 收入 2027 年预测。iWiki 每日资讯：Meta AI 战略乐观情绪升温</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-10</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-10</link>
-      <guid isPermaLink="false">2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 完成 GPT-5.6 全球全量开放并把 Codex 与 ChatGPT Work 智能体合并进主客户端；同一天阶跃星辰官宣全球首款「AI 智能体手机」，硬件层的 Agent 竞赛正式开跑。
-• OpenAI 完成 GPT-5.6 全球全量开放，ChatGPT Work 与 Codex 智能体合并
-• 阶跃星辰宣布 7 月 13 日发布全球首款「AI 智能体手机」，代工方为华勤技术
-• xAI 首个编程智能体模型 Grok 4.5 发布，联合 Cursor 训练
-• SemiAnalysis 曝 Anthropic Q3 GAAP 利润破 10 亿美元，已秘密递交 IPO 申请
-• 物理 AI 公司「深度智控」完成数亿元 B 轮融资，晶科能源战略投资 — 深圳深度智控（DeepCtrls）7 月 9 日宣布完成数亿元 B 轮融资，由全球光伏龙头晶科能源战略投资，国投创新、招银国际联合领投，红杉中国、源码资本、招商局创投、光远资本等老股东持续跟投。这是公司成立以来第 6 轮融资，主攻物理 AI 在算力/能源基础设施的落地。中国日报：深度智控完成数亿元 B 轮融资 / 投资界：融资详情</description>
     </item>
   </channel>
 </rss>
