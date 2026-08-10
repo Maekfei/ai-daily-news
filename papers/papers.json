@@ -25,7 +25,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 75
+      "stars": 85
     },
     {
       "id": "hf-2607-28609",
@@ -54,7 +54,7 @@
       ],
       "published": "2026-07-30",
       "added": "2026-08-08",
-      "stars": 61
+      "stars": 67
     },
     {
       "id": "hf-2608-01481",
@@ -76,7 +76,7 @@
       ],
       "published": "2026-08-02",
       "added": "2026-08-08",
-      "stars": 58
+      "stars": 65
     },
     {
       "id": "hf-2608-06197",
@@ -104,7 +104,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 34
+      "stars": 38
     },
     {
       "id": "hf-2608-06020",
@@ -132,7 +132,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 28
+      "stars": 32
     },
     {
       "id": "hf-2608-03451",
@@ -159,7 +159,7 @@
       ],
       "published": "2026-08-04",
       "added": "2026-08-08",
-      "stars": 26
+      "stars": 30
     },
     {
       "id": "hf-2608-05138",
@@ -179,7 +179,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 24
+      "stars": 29
     },
     {
       "id": "hf-2608-05369",
@@ -205,7 +205,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 20
+      "stars": 24
     },
     {
       "id": "hf-2608-05137",
@@ -230,7 +230,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 18
+      "stars": 24
     },
     {
       "id": "hf-2608-05784",
@@ -249,33 +249,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 18
-    },
-    {
-      "id": "hf-2608-05565",
-      "title": "EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal",
-      "authors": [
-        "Feier Wu",
-        "Wanke Xia",
-        "Xu He",
-        "Zilang Zhou",
-        "Si Chen",
-        "Dongxia Liu",
-        "Liyang Chen",
-        "Qimeng Wu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fidelity and spatiotemporally coherent restoration. Existing methods mainly learn object-effect correspondences implicitly from predefined effect categories and fixed data distributions, limiting their generalization to complex real-world scenes involving compositional effects, spatially detached or weakly correlated effects, long-tail physical phenomena, and dynamically evolving interactions. We propose EffectLearner, a semantic-r",
-      "url": "https://huggingface.co/papers/2608.05565",
-      "pdf_url": "https://arxiv.org/pdf/2608.05565.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "multimodal"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-08",
-      "stars": 16
+      "stars": 23
     },
     {
       "id": "hf-2608-06352",
@@ -302,7 +276,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 16
+      "stars": 21
     },
     {
       "id": "hf-2608-06146",
@@ -329,7 +303,33 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 16
+      "stars": 21
+    },
+    {
+      "id": "hf-2608-05565",
+      "title": "EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal",
+      "authors": [
+        "Feier Wu",
+        "Wanke Xia",
+        "Xu He",
+        "Zilang Zhou",
+        "Si Chen",
+        "Dongxia Liu",
+        "Liyang Chen",
+        "Qimeng Wu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fidelity and spatiotemporally coherent restoration. Existing methods mainly learn object-effect correspondences implicitly from predefined effect categories and fixed data distributions, limiting their generalization to complex real-world scenes involving compositional effects, spatially detached or weakly correlated effects, long-tail physical phenomena, and dynamically evolving interactions. We propose EffectLearner, a semantic-r",
+      "url": "https://huggingface.co/papers/2608.05565",
+      "pdf_url": "https://arxiv.org/pdf/2608.05565.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-08",
+      "stars": 20
     },
     {
       "id": "hf-2608-05798",
@@ -356,7 +356,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 15
+      "stars": 20
     },
     {
       "id": "hf-2608-05424",
@@ -377,29 +377,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-08",
-      "stars": 11
-    },
-    {
-      "id": "hf-2608-05850",
-      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
-      "authors": [
-        "Uri Katz",
-        "Omer Goldman",
-        "Tomasz Limisiewicz",
-        "Reut Tsarfaty",
-        "Noah A. Smith"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that comb",
-      "url": "https://huggingface.co/papers/2608.05850",
-      "pdf_url": "https://arxiv.org/pdf/2608.05850.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-08",
-      "stars": 10
+      "stars": 16
     },
     {
       "id": "hf-2608-06257",
@@ -426,7 +404,29 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-08",
-      "stars": 9
+      "stars": 13
+    },
+    {
+      "id": "hf-2608-05850",
+      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+      "authors": [
+        "Uri Katz",
+        "Omer Goldman",
+        "Tomasz Limisiewicz",
+        "Reut Tsarfaty",
+        "Noah A. Smith"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilingual corpora and benchmarks are often poor proxies for the language, containing substantial amounts of noisy, machine-translated, and misclassified text. We address these gaps by introducing Oytser, a high-quality Yiddish pretraining corpus that comb",
+      "url": "https://huggingface.co/papers/2608.05850",
+      "pdf_url": "https://arxiv.org/pdf/2608.05850.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-08",
+      "stars": 10
     },
     {
       "id": "hf-2608-01851",
@@ -454,7 +454,7 @@
       ],
       "published": "2026-08-03",
       "added": "2026-08-08",
-      "stars": 6
+      "stars": 10
     },
     {
       "id": "hf-2608-01049",
@@ -479,7 +479,27 @@
       ],
       "published": "2026-08-02",
       "added": "2026-08-08",
-      "stars": 6
+      "stars": 10
+    },
+    {
+      "id": "hf-2608-05785",
+      "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
+      "authors": [
+        "Tirth Bhatt",
+        "Naren Kumar S",
+        "Mayank Singh"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies. We introduce Task-Conditional Flow Matching (TCFM), a multilingual embedding adaptation framework that selectively applies Flow Matching to translation tasks while optimizing retrieval, classification, and pair-classification tasks with objectives better aligned to their learning dynamics. TCFM further combines teacher-guided representation preservation",
+      "url": "https://huggingface.co/papers/2608.05785",
+      "pdf_url": "https://arxiv.org/pdf/2608.05785.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-08",
+      "stars": 9
     },
     {
       "id": "hf-2608-04956",
@@ -503,26 +523,6 @@
         "rl"
       ],
       "published": "2026-08-05",
-      "added": "2026-08-08",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-05785",
-      "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
-      "authors": [
-        "Tirth Bhatt",
-        "Naren Kumar S",
-        "Mayank Singh"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies. We introduce Task-Conditional Flow Matching (TCFM), a multilingual embedding adaptation framework that selectively applies Flow Matching to translation tasks while optimizing retrieval, classification, and pair-classification tasks with objectives better aligned to their learning dynamics. TCFM further combines teacher-guided representation preservation",
-      "url": "https://huggingface.co/papers/2608.05785",
-      "pdf_url": "https://arxiv.org/pdf/2608.05785.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-06",
       "added": "2026-08-08",
       "stars": 5
     },
@@ -576,7 +576,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 218
+      "stars": 223
     },
     {
       "id": "hf-2608-05102",
@@ -624,7 +624,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 50
+      "stars": 59
     },
     {
       "id": "hf-2608-04436",
@@ -681,7 +681,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
-      "stars": 37
+      "stars": 42
     },
     {
       "id": "hf-2608-05631",
@@ -709,7 +709,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
-      "stars": 33
+      "stars": 37
     },
     {
       "id": "hf-2608-06060",
@@ -735,7 +735,33 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
-      "stars": 31
+      "stars": 37
+    },
+    {
+      "id": "hf-2608-06301",
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "authors": [
+        "Varun Ursekar",
+        "Apaar Shanker",
+        "Yash Maurya",
+        "Shehab Yasser",
+        "Vijay S. Kalmath",
+        "Veronica Chatrath",
+        "Yuan Xue"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measuring how well frontier LLMs perform at this task.",
+      "url": "https://huggingface.co/papers/2608.06301",
+      "pdf_url": "https://arxiv.org/pdf/2608.06301.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-06",
+      "added": "2026-08-07",
+      "stars": 33
     },
     {
       "id": "hf-2608-05013",
@@ -763,26 +789,22 @@
       "stars": 28
     },
     {
-      "id": "hf-2608-06301",
-      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "id": "hf-2608-05802",
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
       "authors": [
-        "Varun Ursekar",
-        "Apaar Shanker",
-        "Yash Maurya",
-        "Shehab Yasser",
-        "Vijay S. Kalmath",
-        "Veronica Chatrath",
-        "Yuan Xue"
+        "Byeongho Heo",
+        "Jaehui Hwang",
+        "Sangdoo Yun",
+        "Dongyoon Han"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measuring how well frontier LLMs perform at this task.",
-      "url": "https://huggingface.co/papers/2608.06301",
-      "pdf_url": "https://arxiv.org/pdf/2608.06301.pdf",
+      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillation (OPD^2), for mathematical reasoning in English, Korean, and Japanese. OPD^2 improves OPD by using the probability gap between a post-trained teacher and its base model as the learning signal. Experiments with Qwen3 show that OPD^2 consistently outperforms the original OPD, with particularly str",
+      "url": "https://huggingface.co/papers/2608.05802",
+      "pdf_url": "https://arxiv.org/pdf/2608.05802.pdf",
       "tags": [
         "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
+        "rl",
+        "reasoning"
       ],
       "published": "2026-08-06",
       "added": "2026-08-07",
@@ -815,28 +837,6 @@
       "stars": 24
     },
     {
-      "id": "hf-2608-05802",
-      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
-      "authors": [
-        "Byeongho Heo",
-        "Jaehui Hwang",
-        "Sangdoo Yun",
-        "Dongyoon Han"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillation (OPD^2), for mathematical reasoning in English, Korean, and Japanese. OPD^2 improves OPD by using the probability gap between a post-trained teacher and its base model as the learning signal. Experiments with Qwen3 show that OPD^2 consistently outperforms the original OPD, with particularly str",
-      "url": "https://huggingface.co/papers/2608.05802",
-      "pdf_url": "https://arxiv.org/pdf/2608.05802.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-07",
-      "stars": 24
-    },
-    {
       "id": "hf-2608-02580",
       "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
       "authors": [
@@ -861,6 +861,33 @@
         "robotics"
       ],
       "published": "2026-08-03",
+      "added": "2026-08-07",
+      "stars": 23
+    },
+    {
+      "id": "hf-2608-06374",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "authors": [
+        "Junfeng Li",
+        "Junjie He",
+        "Zhide Zhong",
+        "Yangyang Zheng",
+        "Pingyue Sheng",
+        "Jiayu Dong",
+        "Ruixin Li",
+        "Haodong Yan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA",
+      "url": "https://huggingface.co/papers/2608.06374",
+      "pdf_url": "https://arxiv.org/pdf/2608.06374.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-06",
       "added": "2026-08-07",
       "stars": 22
     },
@@ -893,31 +920,6 @@
       "stars": 21
     },
     {
-      "id": "hf-2608-03632",
-      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
-      "authors": [
-        "Yinuo Jiang",
-        "Yongjie Ye",
-        "Zhou Tao",
-        "Xiang Zhuang",
-        "Qiang Zhang",
-        "Huajun Chen",
-        "Tiankai Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense token-level teacher signals. Recent selective OPD methods improve this process by prioritizing signals that are confident, informative, or learnable. However, the assumptions overlook a fundamental failure mode of language models: their token-level judgments can be driven by input-agnostic language priors, formatting conventions, or stereotyped reasoning templates rather than task-specific evidence. We refer to such optimization-re",
-      "url": "https://huggingface.co/papers/2608.03632",
-      "pdf_url": "https://arxiv.org/pdf/2608.03632.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "multimodal"
-      ],
-      "published": "2026-08-04",
-      "added": "2026-08-07",
-      "stars": 19
-    },
-    {
       "id": "hf-2608-04505",
       "title": "K-EXAONE 2.0 Technical Report",
       "authors": [
@@ -943,34 +945,32 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-07",
-      "stars": 18
+      "stars": 20
     },
     {
-      "id": "hf-2608-06374",
-      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "id": "hf-2608-03632",
+      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
       "authors": [
-        "Junfeng Li",
-        "Junjie He",
-        "Zhide Zhong",
-        "Yangyang Zheng",
-        "Pingyue Sheng",
-        "Jiayu Dong",
-        "Ruixin Li",
-        "Haodong Yan"
+        "Yinuo Jiang",
+        "Yongjie Ye",
+        "Zhou Tao",
+        "Xiang Zhuang",
+        "Qiang Zhang",
+        "Huajun Chen",
+        "Tiankai Li"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA",
-      "url": "https://huggingface.co/papers/2608.06374",
-      "pdf_url": "https://arxiv.org/pdf/2608.06374.pdf",
+      "summary": "On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense token-level teacher signals. Recent selective OPD methods improve this process by prioritizing signals that are confident, informative, or learnable. However, the assumptions overlook a fundamental failure mode of language models: their token-level judgments can be driven by input-agnostic language priors, formatting conventions, or stereotyped reasoning templates rather than task-specific evidence. We refer to such optimization-re",
+      "url": "https://huggingface.co/papers/2608.03632",
+      "pdf_url": "https://arxiv.org/pdf/2608.03632.pdf",
       "tags": [
         "hf-trending",
-        "benchmark",
-        "multimodal",
-        "robotics"
+        "reasoning",
+        "multimodal"
       ],
-      "published": "2026-08-06",
+      "published": "2026-08-04",
       "added": "2026-08-07",
-      "stars": 18
+      "stars": 19
     },
     {
       "id": "hf-2607-24821",
