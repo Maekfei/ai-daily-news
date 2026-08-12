@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 11 Aug 2026 02:06:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 02:05:43 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-12</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-12</link>
+      <guid isPermaLink="false">2026-08-12</guid>
+      <pubDate>Wed, 12 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 携麦格理与新加坡 GIC 成立 **Theseus Infrastructure** 数据中心合资平台，为长期租用的 AI 训练算力锁定资金池；同日国内端侧大模型独角兽**面壁智能**正式启动 A 股 IPO 辅导。
+• Anthropic 联手麦格理、GIC 成立 Theseus Infrastructure 数据中心合资平台
+• 面壁智能启动 A 股 IPO 辅导备案，端侧大模型独角兽估值超 200 亿
+• Waymo 联合 CEO 演讲：&quot;纯视觉方案难以实现无人驾驶&quot;
+• 中国 AI 大模型调用量连续 15 周领跑全球 — 据每日经济新闻援引 OpenRouter 数据，上周（8/3–8/9）全球 AI 大模型总调用量 69 万亿 Token，其中中国来源模型（DeepSeek / Qwen / GLM / Kimi 等）调用量环比 +570%，在 OpenRouter 全球分发路由上已连续 15 周保持第一，反映出海外开发者对开源中国模型的持续采纳。来源：新浪财经
+• 6sense MCP Server 正式 GA — GTM 智能平台 6sense 宣布其 MCP（Model Context Protocol）Server 从 7 月的 Beta 转为正式可用，任何 Claude / GPT / Gemini 系 Agent 可通过标准 MCP 接口直接调用 6sense 的意向数据、公司画像、买家旅程等 B2B 商业智能，正在成为 Agent-native GTM 工具链的一部分。来源：6sense 官方博客</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-11</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-11</link>
@@ -354,18 +366,6 @@
 • 腾讯牵头 20 亿美元回购 Manus：北京把 Agent 公司列为「主权资产」
 • AI 编程助手曝「HalluSquatting」新型攻击，9 款主流工具中招 — 特拉维夫大学、Technion 与 Intuit 研究团队 7 月 9-10 日披露 HalluSquatting 攻击：攻击者提前注册 LLM 「常见幻觉」出的假包名与假域名，等 Cursor / Cursor CLI / Gemini CLI / Windsurf / GitHub Copilot / Claude Code 等 9 款工具自动 fetch。研究实测 幻觉命中率 85%+，最高 100%；已被证实可用于组建僵尸网络。The Hacker News：New HalluSquatting Attack Could Trick AI Coding Assistants / 钛媒体：9 款 AI 编码助手成黑客武器
 • Lyzr 用自家 AI Agent 完成 1 亿美元融资，Agent 首次「参与自己的路演」 — 印度 Agent 初创 Lyzr 宣布其 SivaClaw Agent 全程参与 CEO 与投资人对接会议——回答尽调问题、生成商业模型模拟、准备投资协议；轮次 1 亿美元，公司估值未披露。业内人士称这是 Agent 从「劳动力」进入「资本运作」的标志性案例。The Silicon Review：AI Startup Uses AI Agent to Raise $100M Funding</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-13</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-13</link>
-      <guid isPermaLink="false">2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 10:00:00 +0800</pubDate>
-      <description>斯坦福 Biomni 登上《Science》——通用生物医学 AI 智能体首次证明可在真实科研工作流中媲美人类专家；同一天 Prime Intellect 发布 Verifiers v1，把 Agent RL 训练从「黑盒脚本」重写成「可组合任务集」，Agent 生产化与训练侧同时进入新范式。
-• 斯坦福 Biomni 登《Science》：通用生物医学 AI 智能体自主完成科研任务
-• Prime Intellect 发布 Verifiers v1：Agent RL 训练框架首次「任务/沙盒/环境」三层解耦
-• Meta 开放 Muse Spark 1.1 API：正式加入编程与 Agent 商业化战局
-• 美团 AI 亮相 ACL 2026：Self-Evolving Agent、Agentic RL、履约领域 CPT 三项研究入选 — 7 月 13 日，美团履约 AI 团队宣布共有多篇论文入选 ACL 2026，聚焦自演化 Agent 系统、Agentic 强化学习、履约场景 continual pre-training 三大方向；这是国内互联网大厂首次以「履约业务 Agent」为主题在 ACL 系统性亮相，反映本地生活与即时零售场景的 Agent 落地正在从「试点」走向「有论文可循」。Aitoolly：Meituan AI at ACL 2026
-• Alta AI 完成 2500 万美元 A 轮，构建面向收入团队的「AI-Native GTM 操作层」 — 7 月 8 日，以色列特拉维夫的 Alta AI 宣布 A 轮 2500 万美元融资，由 IN Venture 领投；产品定位是把销售、市场、客户成功三条线上的 SDR、CRM、Marketing Automation 收编到一个 Agent-Native 操作层，取代 Salesforce/HubSpot 的「记录 + 人操作」范式。这是 2026 Q3 首笔亮眼的 Agentic GTM 融资。SiliconANGLE：With $25M in funding, Alta AI aims to accelerate go-to-market automation / Unite.AI：Alta Raises $25M Series A</description>
     </item>
   </channel>
 </rss>
