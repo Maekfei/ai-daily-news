@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 13 Aug 2026 02:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 02:06:28 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-14</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-14</link>
+      <guid isPermaLink="false">2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 传出 10 月以 2 万亿美元估值 IPO 剑指史上最大规模；xAI Grok 4.6 与 DeepSeek V4 Pro 前后脚发布，Agent 长任务成新战场。
+• xAI 发布 Grok 4.6，Agent 长任务能力对齐 GPT-5.6
+• DeepSeek V4 Pro 深夜上线：100 万上下文、官方预告涨价
+• Anthropic 传 10 月冲刺 2 万亿美元 IPO，或成史上最大
+• Anthropic 官宣：Claude 所有文本输出将加水印以合规 EU AI Act
+• Google DeepMind 推出 Gemini 3.7 Flash，主攻工程 Agent</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-13</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-13</link>
@@ -354,18 +366,6 @@
 • 阿里发布 Qwen-Audio-3.0-Realtime，Agent 工具调用能力对标 GPT-Realtime-2
 • Apple Intelligence 在华获批，阿里 Qwen 成 iPhone 端侧 AI 底座 — 国家网信办 7 月 15 日公示 7 款端侧生成式 AI 备案，Apple 智能于 7 月 8 日完成备案；阿里巴巴确认 千问（Qwen）作为 AI 能力集成至苹果国行 iPhone。TechCrunch 同步报道，该合作历时约一年谈判，是 Apple 打入中国 AI 市场的关键一步。TechCrunch · IT之家
 • DeepSeek 传启动 A 股 IPO 筹备，投前估值约 4800 亿元人民币 — 7 月 15 日据深圳商报、财联社等多方披露，DeepSeek（杭州深度求索）计划年内递交申报、2027 年完成上市；刚落地首轮 超 500 亿元人民币融资，投前估值约 710 亿美元，腾讯、宁德时代、国家人工智能产业基金参投；证监会 6 月已宣布科创板第五套上市标准扩大至人工智能领域。新浪财经</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-15</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-15</link>
-      <guid isPermaLink="false">2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
-      <description>豆包/千问用户自建智能体今日正式下线，AI 拟人化互动新规同步施行；DeepSeek 梁文锋以 360 亿美元登顶全球 AI 首富。
-• 豆包、千问同步下线用户自建智能体，AI 拟人化新规今日施行
-• 阶跃星辰发布 Step AOS 与全球首款&quot;智能体原生手机&quot;STEPX Neo
-• 小米开源 380 亿参数具身世界模型 Xiaomi-Robotics-U0
-• 阿里整合 QoderWork、悟空、MuleRun，押注企业级 Agent 生产力
-• DeepSeek 梁文锋身价飙升至 360 亿美元，成全球 AI 大模型创始人首富 — 据彭博亿万富豪指数（7 月 14 日），DeepSeek 创始人梁文锋净资产 12 个月内从约 167 亿美元跃升至 360 亿美元（约 2443.78 亿元人民币），排名全球富豪榜第 63，超过 Anthropic 联合创始人 Dario Amodei 和 OpenAI 总裁 Greg Brockman；主要推动力是 DeepSeek 6 月完成的以约 4000 亿元估值、510 亿元规模的首轮外部融资。新浪财经</description>
     </item>
   </channel>
 </rss>
