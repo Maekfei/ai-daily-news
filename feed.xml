@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Aug 2026 02:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 02:03:38 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-15</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-15</link>
+      <guid isPermaLink="false">2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <description>DeepSeek 开源 Agent 运行时框架 Harness 冲上 GitHub 热门；Anthropic 传 10 月 IPO 估值或达 2 万亿美元，将改写史上最大 IPO 纪录。
+• DeepSeek 开源 Agent 运行时框架 Harness v0.1
+• Zed 发布 Delta：面向 AI Agent 的多人协作编程环境
+• Google 推出 Gemini 3.7 Flash：三周迭代，专攻 Agent 与编程
+• xAI 发布 Grok 4.6：智能指数追平 GPT-5.6 Sol，主攻长任务 Agent
+• Anthropic 传 10 月 IPO，估值或超 2 万亿美元 — 多位投资方对 Fortune 等媒体透露，Anthropic 拟于 2026 年 10 月挂牌，估值预计 2 万亿美元起、激进预期看 3 万亿，将超越 SpaceX 1.77 万亿美元的 IPO 纪录。5 月刚以 9650 亿美元投后估值完成 650 亿美元 H 轮。Fortune 报道 · 新浪财经</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-14</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-14</link>
@@ -354,18 +366,6 @@
 • Anthropic 推 Claude Code Ultra：多智能体舰队并行验证每个 Bug
 • OpenAI 全量推 GPT-5.6 三兄弟，ChatGPT Work 智能体亮相 — Sol / Terra / Luna 三档模型完成 rollout；ChatGPT 桌面端整合为 Chat、ChatGPT Work、Codex 三大模块，正式进军企业级 Agent 市场对标 Claude Cowork。VentureBeat
 • LM Studio 发布 Bionic：基于本地开源模型的完整 AI Agent — 让开源模型在本地机器上跑出完整的工具调用、规划与执行循环，对企业内网/隐私场景友好。AlphaSignal</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-16</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-16</link>
-      <guid isPermaLink="false">2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 10:00:00 +0800</pubDate>
-      <description>WAIC 2026 明日在上海开幕，习近平将出席并发表主旨讲话；xAI 开源 Grok Build 编程代理，AI Coding Agent 竞争进入开源新阶段。
-• xAI 正式开源 Grok Build，Rust 版终端编程代理入场
-• OpenAI 首款硬件 Codex Micro 键盘今日发售，$230 定价
-• 阿里发布 Qwen-Audio-3.0-Realtime，Agent 工具调用能力对标 GPT-Realtime-2
-• Apple Intelligence 在华获批，阿里 Qwen 成 iPhone 端侧 AI 底座 — 国家网信办 7 月 15 日公示 7 款端侧生成式 AI 备案，Apple 智能于 7 月 8 日完成备案；阿里巴巴确认 千问（Qwen）作为 AI 能力集成至苹果国行 iPhone。TechCrunch 同步报道，该合作历时约一年谈判，是 Apple 打入中国 AI 市场的关键一步。TechCrunch · IT之家
-• DeepSeek 传启动 A 股 IPO 筹备，投前估值约 4800 亿元人民币 — 7 月 15 日据深圳商报、财联社等多方披露，DeepSeek（杭州深度求索）计划年内递交申报、2027 年完成上市；刚落地首轮 超 500 亿元人民币融资，投前估值约 710 亿美元，腾讯、宁德时代、国家人工智能产业基金参投；证监会 6 月已宣布科创板第五套上市标准扩大至人工智能领域。新浪财经</description>
     </item>
   </channel>
 </rss>
