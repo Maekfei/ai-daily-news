@@ -23,7 +23,7 @@
       ],
       "published": "2026-08-07",
       "added": "2026-08-15",
-      "stars": 90
+      "stars": 97
     },
     {
       "id": "hf-2608-13489",
@@ -49,7 +49,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 79
+      "stars": 85
     },
     {
       "id": "hf-2608-07545",
@@ -76,7 +76,7 @@
       ],
       "published": "2026-07-31",
       "added": "2026-08-15",
-      "stars": 59
+      "stars": 70
     },
     {
       "id": "hf-2608-13552",
@@ -103,7 +103,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 33
+      "stars": 38
     },
     {
       "id": "hf-2608-13560",
@@ -131,7 +131,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 32
+      "stars": 38
     },
     {
       "id": "hf-2608-12743",
@@ -161,7 +161,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 29
+      "stars": 34
     },
     {
       "id": "hf-2608-12149",
@@ -187,7 +187,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 17
+      "stars": 23
     },
     {
       "id": "hf-2608-08888",
@@ -213,7 +213,7 @@
       ],
       "published": "2026-08-09",
       "added": "2026-08-15",
-      "stars": 9
+      "stars": 14
     },
     {
       "id": "hf-2608-07193",
@@ -238,7 +238,33 @@
       ],
       "published": "2026-08-07",
       "added": "2026-08-15",
-      "stars": 7
+      "stars": 11
+    },
+    {
+      "id": "hf-2608-13049",
+      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "authors": [
+        "Dingyi Rong",
+        "Yue Shi",
+        "Chaofan Ma",
+        "Jiezhang Cao",
+        "Zongrui Wang",
+        "Zeyu Zhang",
+        "Yao Mu",
+        "Guangtao Zhai"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale. Meanwhile, abundant egocentric human manipulation videos provide rich behavioral experiences, but transferring them across embodiments remains challenging due to differences between human hands and robotic end-effectors. Recent advances in video world models offer a promising pathway to synthesize robot-centric manipulation videos from human observations, while their cross-embodiment transfer capability re",
+      "url": "https://huggingface.co/papers/2608.13049",
+      "pdf_url": "https://arxiv.org/pdf/2608.13049.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-15",
+      "stars": 11
     },
     {
       "id": "hf-2608-12313",
@@ -266,58 +292,30 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 6
+      "stars": 10
     },
     {
-      "id": "hf-2608-13049",
-      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "id": "hf-2608-08020",
+      "title": "Thought-Level Beam Search for Reasoning",
       "authors": [
-        "Dingyi Rong",
-        "Yue Shi",
-        "Chaofan Ma",
-        "Jiezhang Cao",
-        "Zongrui Wang",
-        "Zeyu Zhang",
-        "Yao Mu",
-        "Guangtao Zhai"
+        "Lijie Yang",
+        "Hongyin Luo",
+        "Jiawei Zhao",
+        "Tri Dao",
+        "Ravi Netravali"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale. Meanwhile, abundant egocentric human manipulation videos provide rich behavioral experiences, but transferring them across embodiments remains challenging due to differences between human hands and robotic end-effectors. Recent advances in video world models offer a promising pathway to synthesize robot-centric manipulation videos from human observations, while their cross-embodiment transfer capability re",
-      "url": "https://huggingface.co/papers/2608.13049",
-      "pdf_url": "https://arxiv.org/pdf/2608.13049.pdf",
+      "summary": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency bounds current approaches, shifting the critical question from how much compute to spend, to where to allocate it. We formalize test-time reasoning as a constrained compute allocation problem over partial trajectories. Under a fixed hardware budget, existing paradigms fail to actively allocate the compute to the most promising partial progress: traditional parallel sampling treats traces independently and induces severe memory",
+      "url": "https://huggingface.co/papers/2608.08020",
+      "pdf_url": "https://arxiv.org/pdf/2608.08020.pdf",
       "tags": [
         "hf-trending",
-        "benchmark",
-        "robotics"
+        "reasoning",
+        "benchmark"
       ],
-      "published": "2026-08-13",
+      "published": "2026-08-11",
       "added": "2026-08-15",
-      "stars": 6
-    },
-    {
-      "id": "hf-2608-11660",
-      "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
-      "authors": [
-        "Tianci Liu",
-        "Zihan Dong",
-        "Tianchun Li",
-        "Yi-Chung Chen",
-        "Qiming Cao",
-        "Xingchen Wang",
-        "Shiyang Wang",
-        "Zichen Miao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on static corpora and their knowledge quickly becomes outdated in a fast-changing world. This motivates knowledge editing (KE), which updates specific knowledge in an LLM without changing unrelated others. Recent works move from structured knowledge triples toward unstructured KE (UKE), where the edit is a free-form passage that may state multiple facts at once. Nonetheless, existing editors inject such a passage yet fail to use it: t",
-      "url": "https://huggingface.co/papers/2608.11660",
-      "pdf_url": "https://arxiv.org/pdf/2608.11660.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning"
-      ],
-      "published": "2026-08-12",
-      "added": "2026-08-15",
-      "stars": 4
+      "stars": 10
     },
     {
       "id": "hf-2608-10538",
@@ -340,7 +338,26 @@
       ],
       "published": "2026-08-11",
       "added": "2026-08-15",
-      "stars": 4
+      "stars": 9
+    },
+    {
+      "id": "hf-2608-02870",
+      "title": "Maglev: Sliding Recurrent Memory",
+      "authors": [
+        "Bo Liu",
+        "Qiang Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.  consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full and sliding-window attention for Q, as this yields stronger performance. The essential requirement is that Q be more expressive than P, with access to the full history. to produce memory targets m'_t, and a decoder P, which uses only sliding-window attention and recurre",
+      "url": "https://huggingface.co/papers/2608.02870",
+      "pdf_url": "https://arxiv.org/pdf/2608.02870.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-05",
+      "added": "2026-08-15",
+      "stars": 9
     },
     {
       "id": "hf-2608-12990",
@@ -367,49 +384,32 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 4
+      "stars": 8
     },
     {
-      "id": "hf-2608-02870",
-      "title": "Maglev: Sliding Recurrent Memory",
+      "id": "hf-2608-11660",
+      "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
       "authors": [
-        "Bo Liu",
-        "Qiang Liu"
+        "Tianci Liu",
+        "Zihan Dong",
+        "Tianchun Li",
+        "Yi-Chung Chen",
+        "Qiming Cao",
+        "Xingchen Wang",
+        "Shiyang Wang",
+        "Zichen Miao"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.  consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full and sliding-window attention for Q, as this yields stronger performance. The essential requirement is that Q be more expressive than P, with access to the full history. to produce memory targets m'_t, and a decoder P, which uses only sliding-window attention and recurre",
-      "url": "https://huggingface.co/papers/2608.02870",
-      "pdf_url": "https://arxiv.org/pdf/2608.02870.pdf",
+      "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on static corpora and their knowledge quickly becomes outdated in a fast-changing world. This motivates knowledge editing (KE), which updates specific knowledge in an LLM without changing unrelated others. Recent works move from structured knowledge triples toward unstructured KE (UKE), where the edit is a free-form passage that may state multiple facts at once. Nonetheless, existing editors inject such a passage yet fail to use it: t",
+      "url": "https://huggingface.co/papers/2608.11660",
+      "pdf_url": "https://arxiv.org/pdf/2608.11660.pdf",
       "tags": [
         "hf-trending",
-        "benchmark"
+        "reasoning"
       ],
-      "published": "2026-08-05",
+      "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-08020",
-      "title": "Thought-Level Beam Search for Reasoning",
-      "authors": [
-        "Lijie Yang",
-        "Hongyin Luo",
-        "Jiawei Zhao",
-        "Tri Dao",
-        "Ravi Netravali"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency bounds current approaches, shifting the critical question from how much compute to spend, to where to allocate it. We formalize test-time reasoning as a constrained compute allocation problem over partial trajectories. Under a fixed hardware budget, existing paradigms fail to actively allocate the compute to the most promising partial progress: traditional parallel sampling treats traces independently and induces severe memory",
-      "url": "https://huggingface.co/papers/2608.08020",
-      "pdf_url": "https://arxiv.org/pdf/2608.08020.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-11",
-      "added": "2026-08-15",
-      "stars": 3
+      "stars": 7
     },
     {
       "id": "hf-2607-29211",
@@ -435,7 +435,7 @@
       ],
       "published": "2026-07-31",
       "added": "2026-08-15",
-      "stars": 3
+      "stars": 7
     },
     {
       "id": "hf-2608-12440",
@@ -455,7 +455,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 2
+      "stars": 6
     },
     {
       "id": "hf-2608-11951",
@@ -475,7 +475,25 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 1
+      "stars": 4
+    },
+    {
+      "id": "hf-2608-12773",
+      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
+      "authors": [
+        "Ebenezer Tarubinga"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation of selection rules, dynamic thresholds, per-class curricula, soft confidence weights, answered it for the noisy, under-confident ResNet teachers of their day. Self-supervised foundation encoders change the regime: with a DINOv2 teacher, confidence saturates, so the filtering that helped a weak teacher can hurt a strong one. We propose CW-BASS v2, a saturation-aware pseudo-label selection method that reads the teacher's confidenc",
+      "url": "https://huggingface.co/papers/2608.12773",
+      "pdf_url": "https://arxiv.org/pdf/2608.12773.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-15",
+      "stars": 4
     },
     {
       "id": "hf-2608-12997",
@@ -494,25 +512,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 0
-    },
-    {
-      "id": "hf-2608-12773",
-      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
-      "authors": [
-        "Ebenezer Tarubinga"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation of selection rules, dynamic thresholds, per-class curricula, soft confidence weights, answered it for the noisy, under-confident ResNet teachers of their day. Self-supervised foundation encoders change the regime: with a DINOv2 teacher, confidence saturates, so the filtering that helped a weak teacher can hurt a strong one. We propose CW-BASS v2, a saturation-aware pseudo-label selection method that reads the teacher's confidenc",
-      "url": "https://huggingface.co/papers/2608.12773",
-      "pdf_url": "https://arxiv.org/pdf/2608.12773.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-13",
-      "added": "2026-08-15",
-      "stars": 0
+      "stars": 3
     },
     {
       "id": "hf-2608-00677",
@@ -617,7 +617,7 @@
       ],
       "published": "2026-08-06",
       "added": "2026-08-14",
-      "stars": 73
+      "stars": 74
     },
     {
       "id": "hf-2608-13505",
@@ -646,7 +646,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-14",
-      "stars": 43
+      "stars": 47
     },
     {
       "id": "hf-2608-08160",
@@ -754,6 +754,31 @@
       "stars": 10
     },
     {
+      "id": "hf-2608-13558",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "authors": [
+        "Bobo Li",
+        "Hao Fei",
+        "Tianjie Ju",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, om",
+      "url": "https://huggingface.co/papers/2608.13558",
+      "pdf_url": "https://arxiv.org/pdf/2608.13558.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-14",
+      "stars": 10
+    },
+    {
       "id": "hf-2608-06270",
       "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
       "authors": [
@@ -802,6 +827,50 @@
       "stars": 6
     },
     {
+      "id": "hf-2608-09805",
+      "title": "Parameter Exploration for RLVR via Variational Learning",
+      "authors": [
+        "Vatsal Venkatkrishna",
+        "Nico Daheim",
+        "Iryna Gurevych"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evidence that it is also an important ingredient in LLM reinforcement learning recipes that can significantly impact downstream performance. Many existing methods control exploration in the action-space, for example, using temperature scaling. However, these methods cannot reorder tokens but only influence the variance in the output distribution. This limits exploration and can lead to divergence or stalled training. Here, we invest",
+      "url": "https://huggingface.co/papers/2608.09805",
+      "pdf_url": "https://arxiv.org/pdf/2608.09805.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-08-10",
+      "added": "2026-08-14",
+      "stars": 6
+    },
+    {
+      "id": "hf-2608-10450",
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "authors": [
+        "Beichen Huang",
+        "Zhenyu Liang",
+        "Bowen Zheng",
+        "Ran Cheng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which instead makes the software project persistent while allowing local agents to remain finite-lived. Genesis represents software as a persistent recursive world: each local world is situated by an accepted version and a repository path, finite-lived agents propose local chang",
+      "url": "https://huggingface.co/papers/2608.10450",
+      "pdf_url": "https://arxiv.org/pdf/2608.10450.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-12",
+      "added": "2026-08-14",
+      "stars": 6
+    },
+    {
       "id": "hf-2608-11367",
       "title": "Gaze Target Estimation Anywhere with Concepts",
       "authors": [
@@ -824,75 +893,6 @@
         "multimodal"
       ],
       "published": "2026-08-11",
-      "added": "2026-08-14",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-09805",
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "authors": [
-        "Vatsal Venkatkrishna",
-        "Nico Daheim",
-        "Iryna Gurevych"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evidence that it is also an important ingredient in LLM reinforcement learning recipes that can significantly impact downstream performance. Many existing methods control exploration in the action-space, for example, using temperature scaling. However, these methods cannot reorder tokens but only influence the variance in the output distribution. This limits exploration and can lead to divergence or stalled training. Here, we invest",
-      "url": "https://huggingface.co/papers/2608.09805",
-      "pdf_url": "https://arxiv.org/pdf/2608.09805.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-08-10",
-      "added": "2026-08-14",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-10450",
-      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
-      "authors": [
-        "Beichen Huang",
-        "Zhenyu Liang",
-        "Bowen Zheng",
-        "Ran Cheng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which instead makes the software project persistent while allowing local agents to remain finite-lived. Genesis represents software as a persistent recursive world: each local world is situated by an accepted version and a repository path, finite-lived agents propose local chang",
-      "url": "https://huggingface.co/papers/2608.10450",
-      "pdf_url": "https://arxiv.org/pdf/2608.10450.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-12",
-      "added": "2026-08-14",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-13558",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "authors": [
-        "Bobo Li",
-        "Hao Fei",
-        "Tianjie Ju",
-        "Mong-Li Lee",
-        "Wynne Hsu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, om",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "pdf_url": "https://arxiv.org/pdf/2608.13558.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-13",
       "added": "2026-08-14",
       "stars": 5
     },
