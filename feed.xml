@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 Aug 2026 02:04:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 02:10:51 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-17</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-17</link>
+      <guid isPermaLink="false">2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 10:00:00 +0800</pubDate>
+      <description>周一 AI 圈进入&quot;消化期&quot;——Qwen3.8-27B 密集实测、DeepSeek Harness+V4-Pro 涨价周首日、百度库库 AI 独立端上线，Anthropic 2 万亿美元 IPO 传闻继续发酵。
+• 阿里 Qwen3.8-27B 开源发酵：Apache 2.0 权重 + 昇腾 0Day 适配，Agent/编程能力超越 3.7-Plus
+• 百度库库 AI 独立端正式上线，通用智能体 GenFlow MAU 突破 2500 万
+• DeepSeek V4-Pro API 涨价今日生效，Harness v0.1 一周涨 5 万星
+• Anthropic 传 10 月启动 IPO，估值目标 2 万亿美元 — 据英国《金融时报》援引多位投资人消息，Anthropic 拟于今年 10 月挂牌，目标估值 2 万亿美元起、乐观预期至 3 万亿美元，将超越 SpaceX 1.77 万亿美元纪录成为史上最大 IPO；公司预计 2026 年底年化营收突破 400 亿美元。央广网 · 同花顺财经
+• Databricks 完成 50 亿美元 J 轮融资，估值 1900 亿美元 — 8 月 13 日 Databricks 官宣 Coatue 领投的 50 亿美元 J 轮，估值较年中的 1340 亿美元上涨约 42%，Q2 年化收入突破 70 亿美元、同比增速 &gt;80%；同步发布 Lakebase Agentic Postgres，把 Lakehouse 与 OLTP 融合以服务 Agent 毫秒级读写。CNBC · TechStartups</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-16</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-16</link>
@@ -354,18 +366,6 @@
 • 蔚来芯片子公司神玑独立参展 WAIC：发布分布式智能体平台切入 Agent 推理
 • 阿里平头哥 T-Head SAIL AI 软件栈全栈开源
 • 腾讯 AI 应用创新论坛落地 WAIC — 7 月 18 日腾讯 AI 应用创新论坛在上海举行，聚焦大模型在具身智能、企业级 Agent、AI Coding 中的实战应用，并发布《2026 人工智能十大趋势》。腾讯云开发者社区</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-18</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-18</link>
-      <guid isPermaLink="false">2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 10:00:00 +0800</pubDate>
-      <description>WAIC 2026 上海开幕次日，AI 行业信号明确：从&quot;参数内卷&quot;切换到&quot;智能体落地&quot;，Kimi K3 以 2.8 万亿参数刷新全球开源纪录，人形机器人加速万台量产。
-• Kimi K3 开源发布：2.8 万亿参数刷新全球开源纪录
-• WAIC 2026 上海开幕：300+ 全球首发，AI 从参数内卷转向智能体兑现
-• 金山办公同日发布双智能体：灵犀专业版 + WPS Comate
-• 群核科技 LuxReal 接入自研世界模型 SpatialGen，AI 视频 Agent 升级
-• 普渡机器人提出&quot;一脑多形&quot;Physical Agent，首发类人形 PUDU D7</description>
     </item>
   </channel>
 </rss>

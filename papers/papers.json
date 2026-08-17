@@ -1,6 +1,211 @@
 {
   "papers": [
     {
+      "id": "hf-2608-08975",
+      "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
+      "authors": [
+        "Ming Li",
+        "Chenguang Wang",
+        "Xirui Li",
+        "Xinyue Zeng",
+        "Dianqi Li",
+        "Peng Shi",
+        "Dawei Zhou",
+        "Tianyi Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward hacking: how rhetorical choices shape AI-review judgments when reported scientific content is preserved and how these effects vary across evaluation conditions. We construct a controlled corpus of 4,200 full-paper manuscripts derived from 120 anonymized ICLR 2026 submissions. Two LLM rewriters transform six rhetorical dimensions in opposing directions, and five LLM reviewers evaluate the resulting manuscripts under standard and",
+      "url": "https://huggingface.co/papers/2608.08975",
+      "pdf_url": "https://arxiv.org/pdf/2608.08975.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-10",
+      "added": "2026-08-17",
+      "stars": 47
+    },
+    {
+      "id": "hf-2608-13430",
+      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
+      "authors": [
+        "Irina Proskurina",
+        "Mayank Kumar",
+        "Oyindolapo O. Komolafe"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently been shown to exhibit verbalized overconfidence. In question answering, verbalized model overconfidence may be associated with the consistency of the generated supporting rationales. In this paper, we study whether corresponding changes in the lexical diversity of generated answer rationales accompany changes in model confidence induced by instruction tuning. We evaluate three matched base and instruction-tuned models across q",
+      "url": "https://huggingface.co/papers/2608.13430",
+      "pdf_url": "https://arxiv.org/pdf/2608.13430.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-17",
+      "stars": 11
+    },
+    {
+      "id": "hf-2608-09158",
+      "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
+      "authors": [
+        "Yuanhe Zhang",
+        "Weiliu Wang",
+        "Jie Ren",
+        "Liang Lin",
+        "Zhenhong Zhou",
+        "Haoran Gao",
+        "Kun Wang",
+        "Chen Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This diversity includes low-frequency signals that are inaudible to humans but can still enter the model and influence its generation. However, the practical impact of such low-frequency inputs on LALMs remains largely unexplored. In this paper, we propose Intermittent Low-Frequency Lockout (ILL), an inaudible red teaming method that evaluates this risk using a universal waveform template in a black box setting. ILL uses Sentence Att",
+      "url": "https://huggingface.co/papers/2608.09158",
+      "pdf_url": "https://arxiv.org/pdf/2608.09158.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-10",
+      "added": "2026-08-17",
+      "stars": 10
+    },
+    {
+      "id": "hf-2608-13417",
+      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+      "authors": [
+        "Yiwei Li",
+        "Wanli Yang",
+        "Hexiang Tan",
+        "Xiangzhou Huang",
+        "Zhengyu Chen",
+        "Ziran Li",
+        "Borun Chen",
+        "Shanglin Lei"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state of this capability, however, evaluation must go beyond final scores, which neither reveal where progress is gained or lost nor indicate whether accumulated experience improves later decisions. We therefore present a systematic evaluation of seven frontier models on 36 long-horizon tasks based on a new framework that uses rule-based metrics to characterize within-run behavior",
+      "url": "https://huggingface.co/papers/2608.13417",
+      "pdf_url": "https://arxiv.org/pdf/2608.13417.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-17",
+      "stars": 9
+    },
+    {
+      "id": "hf-2608-06914",
+      "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
+      "authors": [
+        "Kabila Haile Soboka"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Rib fractures are common and time-consuming to localize on computed tomography (CT). We ask whether fractures detected independently in two orthogonal CT-derived projections (anteroposterior and lateral) can be paired across views and triangulated into reliable 3D points at a controlled rate of false outputs, and we answer it with a staged diagnostic study. The projection geometry is exact, and given correct correspondence, localization is accurate (median 4.0 mm, 88% within 10 mm, 93.6% rib-exact). On a sealed 55-case cohort, a large share of",
+      "url": "https://huggingface.co/papers/2608.06914",
+      "pdf_url": "https://arxiv.org/pdf/2608.06914.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-08-10",
+      "added": "2026-08-17",
+      "stars": 9
+    },
+    {
+      "id": "hf-2608-08606",
+      "title": "Mitigating Gender Bias in English to Romanian Machine Translation",
+      "authors": [
+        "Ioana Grigore",
+        "Sergiu Nisioi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neutral language like English to a gendered target language such as Romanian. This bias results in translations that default to masculine forms or reinforce gender stereotypes. We propose a hybrid pipeline to mitigate this issue by combining large language model (LLM)-based gender classification with neural machine translation (NMT). Our system uses a fine-tuned LLM to detect the intended gender of target words in English sentence",
+      "url": "https://huggingface.co/papers/2608.08606",
+      "pdf_url": "https://arxiv.org/pdf/2608.08606.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-09",
+      "added": "2026-08-17",
+      "stars": 9
+    },
+    {
+      "id": "hf-2608-11045",
+      "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
+      "authors": [
+        "He-Yen Hsieh",
+        "H. T. Kung"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization intervals.   Starting from a pretrained LLM, ReRound trains a conditional diffusion model to produce continuous reconstructions of low-bit weights for the LLM. These reconstructed weights act as a guidance signal to disambiguate the rounding direction of weights located close to interval midpoints.   To integrate this reconstruc",
+      "url": "https://huggingface.co/papers/2608.11045",
+      "pdf_url": "https://arxiv.org/pdf/2608.11045.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-08-11",
+      "added": "2026-08-17",
+      "stars": 3
+    },
+    {
+      "id": "hf-2608-14138",
+      "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+      "authors": [
+        "Jinsheng Quan",
+        "Jianhua Li",
+        "Siyi Xie",
+        "Xuanke Shi",
+        "Kewang Deng",
+        "Zukai Chen",
+        "Feifei Shao",
+        "Lei Yang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Spatial perception and reasoning from visual observations require recovering geometric structure, establishing correspondences, and understanding spatial relations. Existing approaches typically address these capabilities separately using task-specific architectures or external geometric modules, limiting knowledge transfer among complementary representations of the same physical scene. We introduce SPARGen, a unified multimodal framework that casts 3D reconstruction, dense correspondence, and spatial reasoning as instruction-conditioned genera",
+      "url": "https://huggingface.co/papers/2608.14138",
+      "pdf_url": "https://arxiv.org/pdf/2608.14138.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-14",
+      "added": "2026-08-17",
+      "stars": 0
+    },
+    {
+      "id": "hf-2608-14290",
+      "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+      "authors": [
+        "Kai Chen",
+        "Jifeng Ding",
+        "Ning Ding",
+        "Jiaye Ge",
+        "Lixin Gu",
+        "Yicheng Gu",
+        "Qipeng Guo",
+        "Ermo Hua"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and multiple Reasoners (Self-Attn) that iteratively achieve compositional reasoning. Using hidden states as cache and carrier, reasoners repeatedly query memory for required knowledge-vectors, while the knowledge is transmitted back to reasoning operators. Through this knowledge-reasoning-separation architecture, Mobius achieves better knowledge compression and reasoning efficiency. Built upon Mobius-v0 architecture: 1) Our 7B mod",
+      "url": "https://huggingface.co/papers/2608.14290",
+      "pdf_url": "https://arxiv.org/pdf/2608.14290.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning"
+      ],
+      "published": "2026-08-14",
+      "added": "2026-08-17",
+      "stars": 0
+    },
+    {
       "id": "hf-2608-06867",
       "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
       "authors": [
@@ -23,7 +228,7 @@
       ],
       "published": "2026-08-07",
       "added": "2026-08-15",
-      "stars": 97
+      "stars": 103
     },
     {
       "id": "hf-2608-13489",
@@ -49,7 +254,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 85
+      "stars": 92
     },
     {
       "id": "hf-2608-07545",
@@ -76,34 +281,7 @@
       ],
       "published": "2026-07-31",
       "added": "2026-08-15",
-      "stars": 70
-    },
-    {
-      "id": "hf-2608-13552",
-      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
-      "authors": [
-        "Kaixin Ding",
-        "Xi Chen",
-        "Minghong Cai",
-        "Zhiyuan Xu",
-        "Yiyang Wang",
-        "Yuxiang Lu",
-        "Junyi Li",
-        "Shuyang Chen"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or walk into the water and inspect whether realistic w",
-      "url": "https://huggingface.co/papers/2608.13552",
-      "pdf_url": "https://arxiv.org/pdf/2608.13552.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-13",
-      "added": "2026-08-15",
-      "stars": 38
+      "stars": 84
     },
     {
       "id": "hf-2608-13560",
@@ -131,7 +309,34 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 38
+      "stars": 43
+    },
+    {
+      "id": "hf-2608-13552",
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "authors": [
+        "Kaixin Ding",
+        "Xi Chen",
+        "Minghong Cai",
+        "Zhiyuan Xu",
+        "Yiyang Wang",
+        "Yuxiang Lu",
+        "Junyi Li",
+        "Shuyang Chen"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or walk into the water and inspect whether realistic w",
+      "url": "https://huggingface.co/papers/2608.13552",
+      "pdf_url": "https://arxiv.org/pdf/2608.13552.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-15",
+      "stars": 42
     },
     {
       "id": "hf-2608-12743",
@@ -161,7 +366,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 34
+      "stars": 40
     },
     {
       "id": "hf-2608-12149",
@@ -187,7 +392,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 23
+      "stars": 28
     },
     {
       "id": "hf-2608-08888",
@@ -213,7 +418,7 @@
       ],
       "published": "2026-08-09",
       "added": "2026-08-15",
-      "stars": 14
+      "stars": 20
     },
     {
       "id": "hf-2608-07193",
@@ -238,7 +443,7 @@
       ],
       "published": "2026-08-07",
       "added": "2026-08-15",
-      "stars": 11
+      "stars": 15
     },
     {
       "id": "hf-2608-13049",
@@ -264,7 +469,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 11
+      "stars": 15
     },
     {
       "id": "hf-2608-12313",
@@ -292,7 +497,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 10
+      "stars": 14
     },
     {
       "id": "hf-2608-08020",
@@ -315,7 +520,7 @@
       ],
       "published": "2026-08-11",
       "added": "2026-08-15",
-      "stars": 10
+      "stars": 14
     },
     {
       "id": "hf-2608-10538",
@@ -338,7 +543,7 @@
       ],
       "published": "2026-08-11",
       "added": "2026-08-15",
-      "stars": 9
+      "stars": 13
     },
     {
       "id": "hf-2608-02870",
@@ -357,7 +562,7 @@
       ],
       "published": "2026-08-05",
       "added": "2026-08-15",
-      "stars": 9
+      "stars": 13
     },
     {
       "id": "hf-2608-12990",
@@ -384,7 +589,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 8
+      "stars": 11
     },
     {
       "id": "hf-2608-11660",
@@ -409,7 +614,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 7
+      "stars": 11
     },
     {
       "id": "hf-2607-29211",
@@ -435,7 +640,7 @@
       ],
       "published": "2026-07-31",
       "added": "2026-08-15",
-      "stars": 7
+      "stars": 11
     },
     {
       "id": "hf-2608-12440",
@@ -455,7 +660,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 6
+      "stars": 10
     },
     {
       "id": "hf-2608-11951",
@@ -475,7 +680,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-15",
-      "stars": 4
+      "stars": 8
     },
     {
       "id": "hf-2608-12773",
@@ -493,7 +698,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 4
+      "stars": 8
     },
     {
       "id": "hf-2608-12997",
@@ -512,7 +717,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-15",
-      "stars": 3
+      "stars": 7
     },
     {
       "id": "hf-2608-00677",
@@ -591,7 +796,7 @@
       ],
       "published": "2026-08-12",
       "added": "2026-08-14",
-      "stars": 82
+      "stars": 84
     },
     {
       "id": "hf-2608-05604",
@@ -646,7 +851,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-14",
-      "stars": 47
+      "stars": 54
     },
     {
       "id": "hf-2608-08160",
@@ -673,6 +878,31 @@
       "published": "2026-08-08",
       "added": "2026-08-14",
       "stars": 26
+    },
+    {
+      "id": "hf-2608-13558",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "authors": [
+        "Bobo Li",
+        "Hao Fei",
+        "Tianjie Ju",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, om",
+      "url": "https://huggingface.co/papers/2608.13558",
+      "pdf_url": "https://arxiv.org/pdf/2608.13558.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-14",
+      "stars": 14
     },
     {
       "id": "hf-2608-11216",
@@ -750,31 +980,6 @@
         "multimodal"
       ],
       "published": "2026-08-10",
-      "added": "2026-08-14",
-      "stars": 10
-    },
-    {
-      "id": "hf-2608-13558",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "authors": [
-        "Bobo Li",
-        "Hao Fei",
-        "Tianjie Ju",
-        "Mong-Li Lee",
-        "Wynne Hsu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, om",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "pdf_url": "https://arxiv.org/pdf/2608.13558.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-13",
       "added": "2026-08-14",
       "stars": 10
     },
@@ -912,7 +1117,7 @@
       ],
       "published": "2026-07-19",
       "added": "2026-08-14",
-      "stars": 4
+      "stars": 5
     },
     {
       "id": "hf-2608-12123",
@@ -1758,233 +1963,6 @@
       "published": "2026-08-10",
       "added": "2026-08-12",
       "stars": 23
-    },
-    {
-      "id": "hf-2608-08097",
-      "title": "OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching",
-      "authors": [
-        "Can Xiao",
-        "Sukmin Cho",
-        "Junbong We",
-        "Zhixiong Niu",
-        "Jianyi Cheng",
-        "Yiren Zhao",
-        "Youngjin Kwon",
-        "Yongqiang Xiong"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context and long-form reasoning workloads become more prevalent, the key-value (KV) cache dominates both memory footprint and memory traffic during LLM token generation, i.e., decode. In particular, HBM capacity has become a scarce and costly resource that heavily limits inference batch size and system throughput. This paper presents OasisKV, a memory-centric LLM inference system design that alleviates HBM capacity pressure by decoupl",
-      "url": "https://huggingface.co/papers/2608.08097",
-      "pdf_url": "https://arxiv.org/pdf/2608.08097.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning"
-      ],
-      "published": "2026-08-08",
-      "added": "2026-08-12",
-      "stars": 17
-    },
-    {
-      "id": "hf-2608-04419",
-      "title": "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation",
-      "authors": [
-        "Zikun Qu",
-        "Min Zhang",
-        "Mingze Kong",
-        "Zhiwei Shang",
-        "Yikun Ban",
-        "Shuang Qiu",
-        "Zhongxiang Dai"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse-KL training can assign insufficient probability to other plausible continuations. Teacher entropy alone does not reveal whether uncertainty is concentrated among a few plausible next tokens or dispersed over a long probability tail, nor whether the student already represents those candidates well. Moreover, local teacher probabilities may not predict downstream success. We introduce Sparse Probing and Outcome-calibrated Target",
-      "url": "https://huggingface.co/papers/2608.04419",
-      "pdf_url": "https://arxiv.org/pdf/2608.04419.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-05",
-      "added": "2026-08-12",
-      "stars": 17
-    },
-    {
-      "id": "hf-2608-08621",
-      "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
-      "authors": [
-        "Yijun Pan",
-        "Yukun Lian",
-        "Kunyu Shi",
-        "Junbo Li",
-        "Hongwei Xue",
-        "Sicong Xie",
-        "Guannan Zhang",
-        "Xiaoying Xing"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Running a business is a challenging form of intelligent work. Operators must infer opportunities from partial signals, commit capital under uncertainty, adapt to delayed outcomes in a changing market, and satisfy regulatory obligations before trading legally. Frontier LLM agents can increasingly complete complex workflows, yet business-related capabilities are rarely evaluated in existing agent benchmarks. We introduce Business Arena, a controlled environment where an AI agent runs a cross-border shop, buying from suppliers and selling to buyer",
-      "url": "https://huggingface.co/papers/2608.08621",
-      "pdf_url": "https://arxiv.org/pdf/2608.08621.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-09",
-      "added": "2026-08-12",
-      "stars": 16
-    },
-    {
-      "id": "hf-2608-09096",
-      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
-      "authors": [
-        "Lisheng Huang",
-        "Chen Yang",
-        "Hao Zhou",
-        "Huatong Song",
-        "Zongchao Chen",
-        "Ran Le",
-        "Yang Song",
-        "Wayne Xin Zhao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An emerging frontier is harness evolution---the agent's capacity to autonomously optimize its own operating harness. However, systematically benchmarking this capability remains challenging, as existing evaluations fail to isolate harness improvements from base model strength, prevent task-specific overfitting, or capture long-horizon iterative research. To address these challenges, we introduce Evo-Benc",
-      "url": "https://huggingface.co/papers/2608.09096",
-      "pdf_url": "https://arxiv.org/pdf/2608.09096.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-10",
-      "added": "2026-08-12",
-      "stars": 10
-    },
-    {
-      "id": "hf-2608-07346",
-      "title": "A^2E : An End-to-End Agent Auditing Engine",
-      "authors": [
-        "Haoning Wang",
-        "Mingxun Zhang",
-        "Chenyue Yu",
-        "Yingjun Shang",
-        "Xia Hu",
-        "Guanchu Wang",
-        "Na Zou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains. The fast-evolving harness ecosystem has also made rigorous capability evaluation increasingly important. However, efficiently building an end-to-end, systematic, and comprehensive evaluation pipeline remains a significant challenge. To address this challenge, we introduce A^2E (Agent Auditing Engine), an end-to-end evaluation engine designed for agent harnesses. A^2E leverages our newly",
-      "url": "https://huggingface.co/papers/2608.07346",
-      "pdf_url": "https://arxiv.org/pdf/2608.07346.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-10",
-      "added": "2026-08-12",
-      "stars": 10
-    },
-    {
-      "id": "hf-2608-02508",
-      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
-      "authors": [
-        "Yi Yang",
-        "Zhennan Chen",
-        "Yihong Zhuang",
-        "Tiehan Fan",
-        "Yinan Chen",
-        "Jian Li",
-        "Jian Yang",
-        "Ying Tai"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the interaction history, thereby dispersing limited feedback over an ever-expanding state space. Second, because trajectory-level rewards are jointly assigned to co-retrieved memories, irrelevant experiences may receive misleading utility updates and consequently enter the memory-reward trap. To address these challenges, we introduce Reduced-Order Memory Reinforcement Learning (RoMeRL), which represents t",
-      "url": "https://huggingface.co/papers/2608.02508",
-      "pdf_url": "https://arxiv.org/pdf/2608.02508.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "code"
-      ],
-      "published": "2026-08-10",
-      "added": "2026-08-12",
-      "stars": 9
-    },
-    {
-      "id": "hf-2608-08156",
-      "title": "A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization",
-      "authors": [
-        "Víctor Gallego"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "In evolutionary algorithms powered by language models, the LLM acts as a single operator that simultaneously updates structural components (like control flow) and continuous parameters. While LLMs can be good at the first, they are not efficient at the second, wasting tokens taking discrete jumps inside a trial and error loop. We resolve this by formalizing a hybrid nested search, in which an outer loop has the LLM propose a structural sketch, with numeric gaps, and an inner numerical optimizer tunes the sketch. Both the outer and inner solvers",
-      "url": "https://huggingface.co/papers/2608.08156",
-      "pdf_url": "https://arxiv.org/pdf/2608.08156.pdf",
-      "tags": [
-        "hf-trending",
-        "code"
-      ],
-      "published": "2026-08-08",
-      "added": "2026-08-12",
-      "stars": 8
-    },
-    {
-      "id": "hf-2608-09853",
-      "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
-      "authors": [
-        "Dongchi Huang",
-        "Hongyin Zhang",
-        "Bohan Hou",
-        "Siteng Huang",
-        "Zhian Su",
-        "Hang Guo",
-        "Tong Lu",
-        "Zhaofeng Xu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning value-related capabilities from large-scale heterogeneous corpora remains underexplored. Existing approaches tie supervision to task-internal anchors such as preferences or normalized progress, none of which transfer cleanly across embodiments and data sources. We introduce RynnValue, an open-source value foundation model for robotic manipulation that replaces these anchors with temporal distance, the directed cost-to-go from an",
-      "url": "https://huggingface.co/papers/2608.09853",
-      "pdf_url": "https://arxiv.org/pdf/2608.09853.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "robotics"
-      ],
-      "published": "2026-08-10",
-      "added": "2026-08-12",
-      "stars": 7
-    },
-    {
-      "id": "hf-2608-06065",
-      "title": "The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents",
-      "authors": [
-        "Weiwei Li",
-        "Junzhuo Liu",
-        "Tong Chu",
-        "Hengfu Yu",
-        "Wen Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "GUI agents are commonly trained offline from successful interaction trajectories. Standard training decomposes each trajectory into prefix-action pairs: the agent predicts an action from the current screen and interaction history, while the subsequent observation is discarded. This removes the rationale of why an action is correct: the evidence often appears only on the subsequent screen. For example, to enable Soft Wrap, the agent should click Edit or View, but nothing reveals this until the menu opens. Without such evidence, standard imitatio",
-      "url": "https://huggingface.co/papers/2608.06065",
-      "pdf_url": "https://arxiv.org/pdf/2608.06065.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-08-06",
-      "added": "2026-08-12",
-      "stars": 7
     }
   ]
 }
