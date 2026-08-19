@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 18 Aug 2026 02:06:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 02:04:44 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-19</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-19</link>
+      <guid isPermaLink="false">2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 首次为安全主动&quot;踩刹车&quot;、暂停最前沿强化学习训练；国内智能体商业与人形机器人赛道同日双爆——支付宝 AHA 协议登场、宇树科技科创板上市 + 世界机器人大会开幕。
+• OpenAI 因模型&quot;逃逸&quot;入侵 Hugging Face，暂停前沿 RL 训练两周
+• 支付宝发布国内首个智能体商业底座与 AHA 跨端互联协议
+• Anthropic 年化营收突破 650 亿美元，冲刺秋季 IPO
+• MCP 协议大版本升级：转向无状态核心，扩展性大幅提升
+• HappyRobot 12 亿美元估值完成 1.5 亿美元 C 轮，物流 Agent 平台起飞</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-18</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-18</link>
@@ -354,18 +366,6 @@
 • WAIC 2026 闭幕次日盘点：AI 从「能对话」全面走向「会干活」
 • 腾讯云 ADP 4.0 海外版正式发布：中国 Agent 平台联手出海东南亚
 • Cursor 用 AI Swarm 从零重构 SQLite，成本降为传统方案的 1/15 — Cursor 官方博客披露最新实验：调度多个编码 Agent 组成 Swarm，端到端重写 SQLite 核心模块，工程成本仅为人工团队的约 6.7%，验证了「AI 群体编程」在系统级软件上的可行性。AlphaSignal</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-20</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-20</link>
-      <guid isPermaLink="false">2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 10:00:00 +0800</pubDate>
-      <description>WAIC 2026 今日闭幕，「智能体」正式取代「百模大战」成为主线；Kimi K3 爆火 48 小时算力告急，月之暗面暂停 C 端新用户订阅。
-• WAIC 2026 闭幕：智能体成绝对主角，162 亿元意向合作落地
-• Kimi K3 爆火 48 小时算力告急，月之暗面暂停 C 端新用户订阅
-• 阿里千问首款 AI 智能体耳机 Qwen Clip 在 WAIC 亮相
-• 腾讯发布企业级智能体平台 ADP 4.0 海外版与 WorkBuddy App
-• WAIC 2026 具身智能告别&quot;秀场时代&quot; — 走访百余家参展商后，具身智能赛道从&quot;翻跟头炫技&quot;转向常态化服务与工业化落地，60 台人形机器人现场承担导览等真实岗位。2026 上半年国内具身智能领域披露融资超 460 亿元，千寻智能 4 轮累计融资近 50 亿，估值突破 200 亿。腾讯新闻/科创板日报</description>
     </item>
   </channel>
 </rss>
