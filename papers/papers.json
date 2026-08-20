@@ -20,7 +20,7 @@
       ],
       "published": "2026-08-15",
       "added": "2026-08-19",
-      "stars": 149
+      "stars": 374
     },
     {
       "id": "hf-2608-16859",
@@ -49,6 +49,32 @@
       "published": "2026-08-17",
       "added": "2026-08-19",
       "stars": 113
+    },
+    {
+      "id": "hf-2608-17310",
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "authors": [
+        "Zhi Zheng",
+        "Rongsheng Chen",
+        "Yunpeng Ba",
+        "Zhenkun Wang",
+        "Yee Whye Teh",
+        "Wee Sun Lee"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning introduces increasingly branching interactions and sparse rewards, exposing several limitations of RL: its heavyweight backpropagation-based training stack makes it impractical to fine-tune larger LLMs, and longer-horizon trajectories make credit assignment in RL substantially harder. This paper argues that evolution strategies (ES) can be a better choice for fine-tuning long-horizon LLM agents. Compared with agentic RL, ES off",
+      "url": "https://huggingface.co/papers/2608.17310",
+      "pdf_url": "https://arxiv.org/pdf/2608.17310.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-08-18",
+      "added": "2026-08-19",
+      "stars": 92
     },
     {
       "id": "hf-2608-15265",
@@ -131,7 +157,7 @@
       ],
       "published": "2026-08-15",
       "added": "2026-08-19",
-      "stars": 38
+      "stars": 42
     },
     {
       "id": "hf-2608-16798",
@@ -235,7 +261,7 @@
       ],
       "published": "2026-08-14",
       "added": "2026-08-19",
-      "stars": 23
+      "stars": 26
     },
     {
       "id": "hf-2608-16721",
@@ -263,6 +289,32 @@
       "published": "2026-08-17",
       "added": "2026-08-19",
       "stars": 20
+    },
+    {
+      "id": "hf-2608-14577",
+      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+      "authors": [
+        "Zhouyuan Ma",
+        "Yutao Wu",
+        "Hanxun Huang",
+        "Xiang Zheng",
+        "Xiao Liu",
+        "Yixin Cao",
+        "Zuxuan Wu",
+        "Xingjun Ma"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of frontier-LLM misbehavior are difficult to obtain. To address this gap, we introduce HarmProfile, a content-centric benchmark dataset that collects model misbehavior across diverse harm categories and model families, and defines the resulting harmful",
+      "url": "https://huggingface.co/papers/2608.14577",
+      "pdf_url": "https://arxiv.org/pdf/2608.14577.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-06-11",
+      "added": "2026-08-19",
+      "stars": 19
     },
     {
       "id": "hf-2608-15304",
@@ -463,6 +515,32 @@
       ],
       "published": "2026-08-16",
       "added": "2026-08-19",
+      "stars": 6
+    },
+    {
+      "id": "hf-2608-16320",
+      "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+      "authors": [
+        "Keming Wu",
+        "Baoyi Wang",
+        "Kaichen Zhang",
+        "Xiang An",
+        "Zuhao Yang",
+        "Sudong Wang",
+        "Haowei Zhu",
+        "Tingxuan Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window protocol and ask how far post-training alone can go. Reinforcement learning with verifiable rewards fits this regime poorly, encouraging long ``think-then-answer'' generations, while on-policy distillation (OPD) supplies dense token-level teacher supervis",
+      "url": "https://huggingface.co/papers/2608.16320",
+      "pdf_url": "https://arxiv.org/pdf/2608.16320.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-17",
+      "added": "2026-08-19",
       "stars": 5
     },
     {
@@ -535,32 +613,6 @@
       "stars": 3
     },
     {
-      "id": "hf-2608-14577",
-      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
-      "authors": [
-        "Zhouyuan Ma",
-        "Yutao Wu",
-        "Hanxun Huang",
-        "Xiang Zheng",
-        "Xiao Liu",
-        "Yixin Cao",
-        "Zuxuan Wu",
-        "Xingjun Ma"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of frontier-LLM misbehavior are difficult to obtain. To address this gap, we introduce HarmProfile, a content-centric benchmark dataset that collects model misbehavior across diverse harm categories and model families, and defines the resulting harmful",
-      "url": "https://huggingface.co/papers/2608.14577",
-      "pdf_url": "https://arxiv.org/pdf/2608.14577.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-06-11",
-      "added": "2026-08-19",
-      "stars": 2
-    },
-    {
       "id": "hf-2608-14606",
       "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
       "authors": [
@@ -619,32 +671,6 @@
       "published": "2026-08-15",
       "added": "2026-08-19",
       "stars": 2
-    },
-    {
-      "id": "hf-2608-17310",
-      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-      "authors": [
-        "Zhi Zheng",
-        "Rongsheng Chen",
-        "Yunpeng Ba",
-        "Zhenkun Wang",
-        "Yee Whye Teh",
-        "Wee Sun Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning introduces increasingly branching interactions and sparse rewards, exposing several limitations of RL: its heavyweight backpropagation-based training stack makes it impractical to fine-tune larger LLMs, and longer-horizon trajectories make credit assignment in RL substantially harder. This paper argues that evolution strategies (ES) can be a better choice for fine-tuning long-horizon LLM agents. Compared with agentic RL, ES off",
-      "url": "https://huggingface.co/papers/2608.17310",
-      "pdf_url": "https://arxiv.org/pdf/2608.17310.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-18",
-      "added": "2026-08-19",
-      "stars": 1
     },
     {
       "id": "hf-2608-15984",
@@ -716,32 +742,6 @@
       "published": "2026-08-07",
       "added": "2026-08-19",
       "stars": 1
-    },
-    {
-      "id": "hf-2608-16320",
-      "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
-      "authors": [
-        "Keming Wu",
-        "Baoyi Wang",
-        "Kaichen Zhang",
-        "Xiang An",
-        "Zuhao Yang",
-        "Sudong Wang",
-        "Haowei Zhu",
-        "Tingxuan Huang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window protocol and ask how far post-training alone can go. Reinforcement learning with verifiable rewards fits this regime poorly, encouraging long ``think-then-answer'' generations, while on-policy distillation (OPD) supplies dense token-level teacher supervis",
-      "url": "https://huggingface.co/papers/2608.16320",
-      "pdf_url": "https://arxiv.org/pdf/2608.16320.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-17",
-      "added": "2026-08-19",
-      "stars": 0
     },
     {
       "id": "hf-2608-16485",
@@ -1642,6 +1642,34 @@
       "stars": 40
     },
     {
+      "id": "hf-2608-12313",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "authors": [
+        "Chuyue Li",
+        "Jinpeng Yu",
+        "Haozhe Wang",
+        "Tian Xueyun",
+        "Zhijing Zhang",
+        "Bingnan Li",
+        "Shuqi Gu",
+        "Kan Ren"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding.   AVA-Encoder transforms a video into a knowledge graph (KG) representat",
+      "url": "https://huggingface.co/papers/2608.12313",
+      "pdf_url": "https://arxiv.org/pdf/2608.12313.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-08-12",
+      "added": "2026-08-15",
+      "stars": 39
+    },
+    {
       "id": "hf-2608-12149",
       "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
       "authors": [
@@ -1743,34 +1771,6 @@
       "published": "2026-08-13",
       "added": "2026-08-15",
       "stars": 15
-    },
-    {
-      "id": "hf-2608-12313",
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "authors": [
-        "Chuyue Li",
-        "Jinpeng Yu",
-        "Haozhe Wang",
-        "Tian Xueyun",
-        "Zhijing Zhang",
-        "Bingnan Li",
-        "Shuqi Gu",
-        "Kan Ren"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding.   AVA-Encoder transforms a video into a knowledge graph (KG) representat",
-      "url": "https://huggingface.co/papers/2608.12313",
-      "pdf_url": "https://arxiv.org/pdf/2608.12313.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-08-12",
-      "added": "2026-08-15",
-      "stars": 14
     },
     {
       "id": "hf-2608-08020",
