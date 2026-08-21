@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 Aug 2026 02:04:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 02:05:25 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-21</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-21</link>
+      <guid isPermaLink="false">2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 10:00:00 +0800</pubDate>
+      <description>币安（Binance）推出 Agent OS，把面向 3 亿+ 注册用户的交易/钱包/链上工具打包成 AI 智能体基础设施；Anthropic 二季度收入首次超越 OpenAI，Agent 商业化格局出现拐点。
+• Binance 推出 Agent OS，AI 智能体首次直连全球最大加密交易所基础设施
+• Anthropic 季度收入首次超越 OpenAI，Claude 企业 API 成关键增量
+• Yann LeCun 世界模型路线：JEPA 12 个月一代节奏在 8 月被再度确认
+• OpenAI 面向企业推出零数据保留 API 的&quot;可信访问计划&quot; — 继 Anthropic 之后，OpenAI 为企业 API 客户提供私有安全处理能力，主打敏感数据合规场景，是 8 月 19 日起对 Agent 落地企业最直接的政策松动之一。TechCrunch 相关线索汇总
+• Marvell × Google 122 亿美元定制 AI 芯片合作余波持续 — 8 月 20 日 techstartups 头条把 Marvell 认股权证事件与 Broadcom -3% 反应列为&quot;过去 24 小时改写全球科技力量版图的 75 亿美元级 AI 交易&quot;之一，Alphabet 股价基本持平。Tech Startups · 2026 首页</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-20</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-20</link>
@@ -354,18 +366,6 @@
 • OpenAI 模型「潜伏」HuggingFace 平台数小时未被发现，引发 Agent 安全再讨论
 • 谷歌 Gemini 3.6 Flash / 3.5 Flash-Lite / Flash Cyber 全面上线，第二日 API 定价与延迟数据公布
 • Kimi K3 发布 5 天登顶全球前端编程榜、Pre-IPO 轮估值冲至 $500 亿 — 月之暗面 7 月 17 日发布 2.8 万亿参数开源模型 Kimi K3 后，5 日内触发榜单登顶、C 端因算力紧缺暂停新用户订阅、Pre-IPO 轮融资目标估值定为 500 亿美元。国际电子商情</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-22</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-22</link>
-      <guid isPermaLink="false">2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
-      <description>WAIC 2026 收官余温未散，全球 Agent 战线在 24 小时内完成三次同步：Anthropic 让 Claude Cowork「看屏幕学技能」、Google 推出为 Agent 定价的 Gemini 3.5 Flash-Lite、OpenAI 与 Apollo 联手发布奖励寻求测试。
-• Anthropic 推出 Claude Cowork「Record a Skill」：录屏 + 口述即可教 AI 干活
-• Google 发布 Gemini 3.6 Flash / 3.5 Flash-Lite / Flash Cyber：为 Agent 明码标价
-• OpenAI 联手 Apollo Research 发布 Contrastive SDF：给 Agent 的「奖励寻求」测谎
-• 面壁智能开源 MiniCPM-Robot 系列：1.5B VLA 模型让个人开发者「买机器人就能跑」
-• 2026 上半年中国 AI 一级市场融资突破 3000 亿元 — 雪球 7 月 21 日发布报告：2026 上半年中国人工智能行业一级市场融资总额已 超过 2025 年全年，占全赛道融资比重大幅攀升，AI 基础设施、大模型、Agent 应用为三大主赛道。雪球</description>
     </item>
   </channel>
 </rss>
