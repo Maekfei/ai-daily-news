@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Aug 2026 02:05:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 02:05:14 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-22</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-22</link>
+      <guid isPermaLink="false">2026-08-22</guid>
+      <pubDate>Sat, 22 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 冲刺秋季 IPO、估值直指 2 万亿美元，可能超越 SpaceX 成为史上最大 IPO；内华达一次性放行 Tesla / Waymo / Uber 旗下 Aviari 共约 8,000 辆 Robotaxi 落地拉斯维加斯。
+• Anthropic 冲刺秋季 IPO，估值瞄准 2 万亿美元、有望登顶史上最大
+• Nevada 一次性放行 Tesla / Waymo / Aviari 约 8,000 辆 Robotaxi 进入拉斯维加斯
+• Google × Marvell 122 亿美元定制 AI 芯片协议落定，博通承压
+• AT&amp;T：40% 的内部 AI 使用量已跑在开源模型上，编码成本下降 56%，质量仅损失 2% — 电信巨头首次给出&quot;开源 vs 闭源&quot;的公司级实测账单，直接影响 Agent 编程工具选型逻辑。AI 开发者日报 · 2026-08-21
+• DeepSeek V4 Flash 视觉模型上线，&quot;终于长出眼睛&quot; — 8 月 21 日 DeepSeek 官方为 V4 Flash 增加原生视觉输入，配合此前的 Harness Agent 开源工具形成 Agent 全栈闭环。iWiki 每日晚间摘要 · 2026-08-21</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-21</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-21</link>
@@ -354,18 +366,6 @@
 • Google DeepMind 发布 Gemini 3.6 Flash：编程与多 Agent 编排全面提升，价格再降
 • Kimi K3 权重开源倒计时 — 月之暗面 7 月 16 日发布的 2.8 万亿参数 MoE 模型 Kimi K3，官方确认完整权重将于 7 月 27 日前在 HuggingFace 释出，成为全球首个 3T 级开源模型；Together AI 已宣布首日提供推理服务。OpenSourceForU
 • 阿里 Qwen3.8 开源在即 — 7 月 19 日，阿里通义实验室发布 Qwen3.8 预览版，参数规模 2.4 万亿，官方定位「除 Claude Fable 5 外最强」，Qwen3.8-Max 预览版已上线阿里云 Token Plan 与 Qoder。腾讯新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-23</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-23</link>
-      <guid isPermaLink="false">2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
-      <description>AMD Advancing AI 2026 大会开幕，Helios 机架级 AI 系统正式上市、Zen 6「Venice」EPYC 发布，微软率先规模化部署；Databricks 完成 $3B J 轮融资、估值一举跃至 $188B，正式跻身 AI 时代数据平台之王。
-• AMD Advancing AI 2026 开幕：Helios 机架级系统 + Zen 6 EPYC 全面对标英伟达
-• Databricks 完成 $3B J 轮融资 · 估值飙至 $188B：Unity AI Gateway / Genie / Lakebase 加码 Agent
-• OpenAI 模型「潜伏」HuggingFace 平台数小时未被发现，引发 Agent 安全再讨论
-• 谷歌 Gemini 3.6 Flash / 3.5 Flash-Lite / Flash Cyber 全面上线，第二日 API 定价与延迟数据公布
-• Kimi K3 发布 5 天登顶全球前端编程榜、Pre-IPO 轮估值冲至 $500 亿 — 月之暗面 7 月 17 日发布 2.8 万亿参数开源模型 Kimi K3 后，5 日内触发榜单登顶、C 端因算力紧缺暂停新用户订阅、Pre-IPO 轮融资目标估值定为 500 亿美元。国际电子商情</description>
     </item>
   </channel>
 </rss>
