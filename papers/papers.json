@@ -22,7 +22,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 58
+      "stars": 66
     },
     {
       "id": "hf-2608-19799",
@@ -46,7 +46,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 57
+      "stars": 60
     },
     {
       "id": "hf-2608-20202",
@@ -72,7 +72,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 30
+      "stars": 31
     },
     {
       "id": "hf-2608-13120",
@@ -96,7 +96,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-22",
-      "stars": 28
+      "stars": 29
     },
     {
       "id": "hf-2608-19854",
@@ -123,7 +123,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "hf-2608-17744",
@@ -147,21 +147,24 @@
       "stars": 13
     },
     {
-      "id": "hf-2608-15767",
-      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
+      "id": "hf-2608-08466",
+      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
       "authors": [
-        "Armin Steinhauser"
+        "Tailin Zhou"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies the dominant periods, the context is folded on their phase, and a dilated convolutional encoder and a block-autoregressive quantile decoder model the rest. It is smaller than every zero-shot entry on the GIFT-Eval board whose parameter count can be established. On probabi",
-      "url": "https://huggingface.co/papers/2608.15767",
-      "pdf_url": "https://arxiv.org/pdf/2608.15767.pdf",
+      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously evolvable: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce Hierarchical Self-Improvement (HSI), a framework in which a sing",
+      "url": "https://huggingface.co/papers/2608.08466",
+      "pdf_url": "https://arxiv.org/pdf/2608.08466.pdf",
       "tags": [
-        "hf-trending"
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "code"
       ],
-      "published": "2026-08-16",
+      "published": "2026-08-09",
       "added": "2026-08-22",
-      "stars": 7
+      "stars": 10
     },
     {
       "id": "hf-2608-16885",
@@ -187,27 +190,24 @@
       ],
       "published": "2026-08-17",
       "added": "2026-08-22",
-      "stars": 7
+      "stars": 9
     },
     {
-      "id": "hf-2608-08466",
-      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+      "id": "hf-2608-15767",
+      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
       "authors": [
-        "Tailin Zhou"
+        "Armin Steinhauser"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously evolvable: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce Hierarchical Self-Improvement (HSI), a framework in which a sing",
-      "url": "https://huggingface.co/papers/2608.08466",
-      "pdf_url": "https://arxiv.org/pdf/2608.08466.pdf",
+      "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies the dominant periods, the context is folded on their phase, and a dilated convolutional encoder and a block-autoregressive quantile decoder model the rest. It is smaller than every zero-shot entry on the GIFT-Eval board whose parameter count can be established. On probabi",
+      "url": "https://huggingface.co/papers/2608.15767",
+      "pdf_url": "https://arxiv.org/pdf/2608.15767.pdf",
       "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "code"
+        "hf-trending"
       ],
-      "published": "2026-08-09",
+      "published": "2026-08-16",
       "added": "2026-08-22",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2608-13210",
@@ -233,7 +233,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-22",
-      "stars": 7
+      "stars": 8
     },
     {
       "id": "hf-2608-12875",
@@ -255,7 +255,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-22",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2608-13547",
@@ -277,7 +277,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-22",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2608-19759",
@@ -400,7 +400,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-21",
-      "stars": 236
+      "stars": 246
     },
     {
       "id": "hf-2608-14036",
@@ -452,7 +452,7 @@
       ],
       "published": "2026-08-17",
       "added": "2026-08-21",
-      "stars": 140
+      "stars": 141
     },
     {
       "id": "hf-2608-18565",
@@ -506,7 +506,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-21",
-      "stars": 108
+      "stars": 112
     },
     {
       "id": "hf-2608-17253",
@@ -561,7 +561,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-21",
-      "stars": 87
+      "stars": 88
     },
     {
       "id": "hf-2608-16157",
@@ -588,6 +588,35 @@
       "published": "2026-08-17",
       "added": "2026-08-21",
       "stars": 68
+    },
+    {
+      "id": "hf-2608-19197",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "authors": [
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao",
+        "Zichen Liu",
+        "Junsu Kim",
+        "Zijian Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments as executable code with an OpenAI Gym-style reset()",
+      "url": "https://huggingface.co/papers/2608.19197",
+      "pdf_url": "https://arxiv.org/pdf/2608.19197.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-19",
+      "added": "2026-08-21",
+      "stars": 47
     },
     {
       "id": "hf-2608-17512",
@@ -619,35 +648,6 @@
       "stars": 46
     },
     {
-      "id": "hf-2608-19197",
-      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
-      "authors": [
-        "Bo Liu",
-        "Simon Yu",
-        "Yiding Jiang",
-        "Ao Qu",
-        "Andrew Zhao",
-        "Zichen Liu",
-        "Junsu Kim",
-        "Zijian Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments as executable code with an OpenAI Gym-style reset()",
-      "url": "https://huggingface.co/papers/2608.19197",
-      "pdf_url": "https://arxiv.org/pdf/2608.19197.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-19",
-      "added": "2026-08-21",
-      "stars": 45
-    },
-    {
       "id": "hf-2608-20336",
       "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
       "authors": [
@@ -671,7 +671,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-21",
-      "stars": 38
+      "stars": 39
     },
     {
       "id": "hf-2608-18940",
@@ -696,7 +696,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-21",
-      "stars": 30
+      "stars": 32
     },
     {
       "id": "hf-2608-13556",
@@ -945,6 +945,34 @@
       "stars": 11
     },
     {
+      "id": "hf-2608-18607",
+      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+      "authors": [
+        "Yinming Huang",
+        "Shuyuan Tu",
+        "Xi Yan",
+        "Zihan Yang",
+        "Jianhua Han",
+        "Xu Hang",
+        "Yu-Gang Jiang",
+        "Zuxuan Wu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perceptual dimensions separately and fail to capture the overall semantic and temporal coherence among the text prompt, video, and audio that shapes human preferences. Optimizing models against these metrics encourages reward hacking, generating video-aud",
+      "url": "https://huggingface.co/papers/2608.18607",
+      "pdf_url": "https://arxiv.org/pdf/2608.18607.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-19",
+      "added": "2026-08-21",
+      "stars": 11
+    },
+    {
       "id": "hf-2608-19891",
       "title": "EXIMO: VLM Guided Exploration of VLA Policies",
       "authors": [
@@ -993,34 +1021,6 @@
         "code"
       ],
       "published": "2026-08-07",
-      "added": "2026-08-21",
-      "stars": 9
-    },
-    {
-      "id": "hf-2608-18607",
-      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
-      "authors": [
-        "Yinming Huang",
-        "Shuyuan Tu",
-        "Xi Yan",
-        "Zihan Yang",
-        "Jianhua Han",
-        "Xu Hang",
-        "Yu-Gang Jiang",
-        "Zuxuan Wu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perceptual dimensions separately and fail to capture the overall semantic and temporal coherence among the text prompt, video, and audio that shapes human preferences. Optimizing models against these metrics encourages reward hacking, generating video-aud",
-      "url": "https://huggingface.co/papers/2608.18607",
-      "pdf_url": "https://arxiv.org/pdf/2608.18607.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-19",
       "added": "2026-08-21",
       "stars": 9
     },
@@ -1099,6 +1099,33 @@
       "stars": 7
     },
     {
+      "id": "hf-2608-18852",
+      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+      "authors": [
+        "Qingyao Li",
+        "Wenxiang Jiao",
+        "Shuai Shao",
+        "Kangning Zhang",
+        "Yuan Lu",
+        "Yi Guo",
+        "Weiwen Liu",
+        "Weinan Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existing signal trains it. We show that the default remedy, outcome-rewarded RL over the candidate slate, cannot teach it, for a structural reason we identify and name selector credit starvation: under a broadcast, sequence-level advantage, the few tokens that name the chosen s",
+      "url": "https://huggingface.co/papers/2608.18852",
+      "pdf_url": "https://arxiv.org/pdf/2608.18852.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-19",
+      "added": "2026-08-21",
+      "stars": 6
+    },
+    {
       "id": "hf-2608-14881",
       "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
       "authors": [
@@ -1170,33 +1197,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2608-18852",
-      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
-      "authors": [
-        "Qingyao Li",
-        "Wenxiang Jiao",
-        "Shuai Shao",
-        "Kangning Zhang",
-        "Yuan Lu",
-        "Yi Guo",
-        "Weiwen Liu",
-        "Weinan Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existing signal trains it. We show that the default remedy, outcome-rewarded RL over the candidate slate, cannot teach it, for a structural reason we identify and name selector credit starvation: under a broadcast, sequence-level advantage, the few tokens that name the chosen s",
-      "url": "https://huggingface.co/papers/2608.18852",
-      "pdf_url": "https://arxiv.org/pdf/2608.18852.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-19",
-      "added": "2026-08-21",
-      "stars": 4
-    },
-    {
       "id": "hf-2608-16097",
       "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
       "authors": [
@@ -1263,7 +1263,7 @@
       ],
       "published": "2026-08-18",
       "added": "2026-08-21",
-      "stars": 2
+      "stars": 3
     },
     {
       "id": "hf-2608-17379",
@@ -1287,6 +1287,28 @@
         "benchmark"
       ],
       "published": "2026-08-18",
+      "added": "2026-08-21",
+      "stars": 2
+    },
+    {
+      "id": "hf-2608-19080",
+      "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+      "authors": [
+        "Changshun Wu",
+        "Weicheng He",
+        "Xiaowei Huang",
+        "Saddek Bensalem"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring functions directly over learned object detector representations or modify the object detector itself to suppress hallucination emergence. However, the latent priors implicitly encoded in these representations remain largely unexplored and have not been explicitly decoded for OoD",
+      "url": "https://huggingface.co/papers/2608.19080",
+      "pdf_url": "https://arxiv.org/pdf/2608.19080.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-19",
       "added": "2026-08-21",
       "stars": 2
     },
@@ -1336,28 +1358,6 @@
         "code"
       ],
       "published": "2026-08-17",
-      "added": "2026-08-21",
-      "stars": 1
-    },
-    {
-      "id": "hf-2608-19080",
-      "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
-      "authors": [
-        "Changshun Wu",
-        "Weicheng He",
-        "Xiaowei Huang",
-        "Saddek Bensalem"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring functions directly over learned object detector representations or modify the object detector itself to suppress hallucination emergence. However, the latent priors implicitly encoded in these representations remain largely unexplored and have not been explicitly decoded for OoD",
-      "url": "https://huggingface.co/papers/2608.19080",
-      "pdf_url": "https://arxiv.org/pdf/2608.19080.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-19",
       "added": "2026-08-21",
       "stars": 1
     },

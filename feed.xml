@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Aug 2026 02:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 02:04:55 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-23</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-23</link>
+      <guid isPermaLink="false">2026-08-23</guid>
+      <pubDate>Sun, 23 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Nvidia 60 亿美元买断 Poolside &quot;模型工厂&quot;技术授权、并向 109 名员工发出 offer；Anthropic 冲刺 2 万亿美元 IPO 前夜挖来谷歌 TPU 业务创始人自研芯片，Agent 时代基础设施战全面开打。
+• Nvidia 60 亿美元买断 Poolside &quot;模型工厂&quot;授权 + 追加 10 亿股权投资
+• Anthropic 冲刺 2 万亿美元 IPO，挖谷歌 TPU 创始人自研芯片
+• 阿里发布 Qwen-UI-Agent：真机训练的 GUI 智能体基座模型
+• MiniMax 发布多模态创作 Agent 工作台 MiniMax Design — 作为 H3 开源后官方首个 Harness，Agent 可理解目标→拆解任务→调用模型与 Skills 完成端到端多模态创作交付，专业 ComfyUI 工作流也可接入。腾讯新闻 · MiniMax Design 正式发布
+• DeepSeek V4-Flash-Vision-Exp 多模态视觉 API 开放 — 8 月 21 日 DeepSeek 官方在 API 平台上线 V4 系列首款原生图片输入模型，支持 Files API，为 Agent 多模态感知补齐关键一环。腾讯新闻 · DeepSeek V4-Flash-Vision-Exp 上线</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-22</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-22</link>
@@ -354,18 +366,6 @@
 • 北京发布全国首个省级智能体专项政策：一人公司、Token 计费、最高 1 亿元资金支持
 • 腾讯 TEG 撤销大语言模型部/多模态模型部，合并成立&quot;基础模型部&quot;，姚顺雨执掌
 • DeepSeek V4 API 完成体系独立化，梁文锋披露 AGI 六阶梯框架 — 7 月 24 日，DeepSeek 完成 `deepseek-chat` / `deepseek-reasoner` 旧接口下线，全面切换到 V4 Pro / V4 Flash 双版本；同期流传的梁文锋 4 小时闭门交流实录中，首次系统披露 AGI 六阶梯路线图：Chat → Reason → Tool-use → Agent → Auto-Improve → AGI。AITOP100 每日AI资讯</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-24</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-24</link>
-      <guid isPermaLink="false">2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 正式推出企业级智能体运营平台 **Presence**，从「卖模型」跨入「卖 Agent 工作流」；同日 AMD 官宣与 Anthropic 签下最高 50 亿美元 GPU 大单，Agent 算力与 Agent 平台在同一时间轴上开始对齐。
-• OpenAI 推出企业智能体运营平台 Presence，正式跨入企业软件赛道
-• AMD 与 Anthropic 签下最高 50 亿美元 AI 芯片大单，Helios 落地 Claude 训练
-• Google DeepMind 发布 Gemini 3.6 Flash：编程与多 Agent 编排全面提升，价格再降
-• Kimi K3 权重开源倒计时 — 月之暗面 7 月 16 日发布的 2.8 万亿参数 MoE 模型 Kimi K3，官方确认完整权重将于 7 月 27 日前在 HuggingFace 释出，成为全球首个 3T 级开源模型；Together AI 已宣布首日提供推理服务。OpenSourceForU
-• 阿里 Qwen3.8 开源在即 — 7 月 19 日，阿里通义实验室发布 Qwen3.8 预览版，参数规模 2.4 万亿，官方定位「除 Claude Fable 5 外最强」，Qwen3.8-Max 预览版已上线阿里云 Token Plan 与 Qoder。腾讯新闻</description>
     </item>
   </channel>
 </rss>
