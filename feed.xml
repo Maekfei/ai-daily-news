@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 23 Aug 2026 02:04:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 02:08:12 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-24</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-24</link>
+      <guid isPermaLink="false">2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 10:00:00 +0800</pubDate>
+      <description>阿里巴巴（BABA）自 2019 年港股上市以来首次配售新股募资 **800 亿港元**并 100% 投入全栈 AI；Anthropic 把 Claude Mythos 5 押注安全，OpenAI 罕见对 GPT-5.6 Sol 降价 20% 反击 Agent 时代的价格战。
+• 阿里巴巴配售 7.1 亿股募资 800 亿港元，全部投向&quot;全栈 AI&quot;
+• Inherent 发布 27B 科研 Agent Faraday，论文复现能力宣称超 GPT-5.5 与 Claude
+• Harvey Tenet 上线：美国头部法律 AI 弃用美国闭源模型，基于 Kimi K3 后训练自研 Agent
+• OpenAI 罕见对旗舰 GPT-5.6 Sol 降价 20%+，Agent 时代价格战烧到前沿模型
+• OpenRouter 数据：Agentic Token 半年暴涨 14 倍，AI 成 AI 自己最大客户</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-23</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-23</link>
@@ -354,18 +366,6 @@
 • DeepSeek 因创始人言论外流，暂停规模约 100 亿美元的第二轮融资
 • Claude Opus 5 三倍刷新 ARC-AGI-3，价格仅前沿的一半 — AlphaSignal 快讯：Opus 5 在 ARC-AGI-3 基准上得分是 Opus 4.8 的 3 倍，同时把单位 token 成本砍到 Fable 5 的 50%。AlphaSignal 报道
 • Kimi K3 全量开源在即，2.8 万亿参数登顶开源模型规模 — 月之暗面宣布 7 月 27 日前完成 Kimi K3 全部权重开源，原生视觉理解 + 100 万 token 上下文，被称为继 DeepSeek-R1 之后中国 AI 的&quot;第二次冲击&quot;。新浪财经报道</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-25</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-25</link>
-      <guid isPermaLink="false">2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 深夜发布 **Claude Opus 5**，以 Fable 5 一半的价格逼近前沿智能；同日 Stripe 洽购 **OpenRouter** 估值飙至 100 亿美元，Agent 时代的&quot;支付—路由—模型&quot;三层堆栈开始被重定价。
-• Anthropic 发布 Claude Opus 5：价格砍半、Agent 编码接近 Fable 5
-• Stripe 洽购 OpenRouter，估值飙至 100 亿美元——支付巨头切入 Agent 路由层
-• 北京发布全国首个省级智能体专项政策：一人公司、Token 计费、最高 1 亿元资金支持
-• 腾讯 TEG 撤销大语言模型部/多模态模型部，合并成立&quot;基础模型部&quot;，姚顺雨执掌
-• DeepSeek V4 API 完成体系独立化，梁文锋披露 AGI 六阶梯框架 — 7 月 24 日，DeepSeek 完成 `deepseek-chat` / `deepseek-reasoner` 旧接口下线，全面切换到 V4 Pro / V4 Flash 双版本；同期流传的梁文锋 4 小时闭门交流实录中，首次系统披露 AGI 六阶梯路线图：Chat → Reason → Tool-use → Agent → Auto-Improve → AGI。AITOP100 每日AI资讯</description>
     </item>
   </channel>
 </rss>

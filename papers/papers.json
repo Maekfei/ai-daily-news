@@ -1,6 +1,34 @@
 {
   "papers": [
     {
+      "id": "hf-2608-12781",
+      "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+      "authors": [
+        "Xinming Wang",
+        "Weinong Wang",
+        "Hongming Yang",
+        "Yansong Lin",
+        "Zheng Ruan",
+        "Shangpin Peng",
+        "Qiming Peng",
+        "Nan Qiao"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Hybrid-thinking multimodal large language models (MLLMs) allow a single model to alternate between deliberative thinking and latency-efficient non-thinking inference. Although these modes differ in reasoning budget, their delivered responses should satisfy the same user-facing standard. Correctness alone may not characterize this response quality; we therefore evaluate task accuracy and response-pattern failures as complementary outcomes. We study this gap through response-pattern alignment: whether thinking and non-thinking interfaces preserve",
+      "url": "https://huggingface.co/papers/2608.12781",
+      "pdf_url": "https://arxiv.org/pdf/2608.12781.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-17",
+      "added": "2026-08-24",
+      "stars": 1
+    },
+    {
       "id": "hf-2608-20335",
       "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
       "authors": [
@@ -22,7 +50,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 66
+      "stars": 69
     },
     {
       "id": "hf-2608-19799",
@@ -46,7 +74,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-22",
-      "stars": 60
+      "stars": 61
     },
     {
       "id": "hf-2608-20202",
@@ -96,7 +124,7 @@
       ],
       "published": "2026-08-13",
       "added": "2026-08-22",
-      "stars": 29
+      "stars": 30
     },
     {
       "id": "hf-2608-19854",
@@ -147,26 +175,6 @@
       "stars": 13
     },
     {
-      "id": "hf-2608-08466",
-      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
-      "authors": [
-        "Tailin Zhou"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously evolvable: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce Hierarchical Self-Improvement (HSI), a framework in which a sing",
-      "url": "https://huggingface.co/papers/2608.08466",
-      "pdf_url": "https://arxiv.org/pdf/2608.08466.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-08-09",
-      "added": "2026-08-22",
-      "stars": 10
-    },
-    {
       "id": "hf-2608-16885",
       "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
       "authors": [
@@ -190,7 +198,49 @@
       ],
       "published": "2026-08-17",
       "added": "2026-08-22",
-      "stars": 9
+      "stars": 13
+    },
+    {
+      "id": "hf-2608-08466",
+      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+      "authors": [
+        "Tailin Zhou"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously evolvable: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce Hierarchical Self-Improvement (HSI), a framework in which a sing",
+      "url": "https://huggingface.co/papers/2608.08466",
+      "pdf_url": "https://arxiv.org/pdf/2608.08466.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-08-09",
+      "added": "2026-08-22",
+      "stars": 11
+    },
+    {
+      "id": "hf-2608-12875",
+      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+      "authors": [
+        "Adnan El Assadi",
+        "Niklas Muennighoff",
+        "Jinhyuk Lee"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval. In aggregate the two paradigms are effectively tied: the best LLM (Gemini 3.1 Pro, 77.6) and the best embedding model (77.2) differ by 0.4 points. Their strengths differ by task: LLMs lead on reasoning-heavy retrieva",
+      "url": "https://huggingface.co/papers/2608.12875",
+      "pdf_url": "https://arxiv.org/pdf/2608.12875.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-08-13",
+      "added": "2026-08-22",
+      "stars": 11
     },
     {
       "id": "hf-2608-15767",
@@ -207,7 +257,7 @@
       ],
       "published": "2026-08-16",
       "added": "2026-08-22",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2608-13210",
@@ -234,28 +284,6 @@
       "published": "2026-08-13",
       "added": "2026-08-22",
       "stars": 8
-    },
-    {
-      "id": "hf-2608-12875",
-      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
-      "authors": [
-        "Adnan El Assadi",
-        "Niklas Muennighoff",
-        "Jinhyuk Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval. In aggregate the two paradigms are effectively tied: the best LLM (Gemini 3.1 Pro, 77.6) and the best embedding model (77.2) differ by 0.4 points. Their strengths differ by task: LLMs lead on reasoning-heavy retrieva",
-      "url": "https://huggingface.co/papers/2608.12875",
-      "pdf_url": "https://arxiv.org/pdf/2608.12875.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-13",
-      "added": "2026-08-22",
-      "stars": 7
     },
     {
       "id": "hf-2608-13547",
@@ -400,7 +428,7 @@
       ],
       "published": "2026-08-20",
       "added": "2026-08-21",
-      "stars": 246
+      "stars": 254
     },
     {
       "id": "hf-2608-14036",
@@ -452,7 +480,7 @@
       ],
       "published": "2026-08-17",
       "added": "2026-08-21",
-      "stars": 141
+      "stars": 142
     },
     {
       "id": "hf-2608-18565",
@@ -506,7 +534,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-21",
-      "stars": 112
+      "stars": 114
     },
     {
       "id": "hf-2608-17253",
@@ -536,7 +564,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-21",
-      "stars": 91
+      "stars": 92
     },
     {
       "id": "hf-2608-13558",
@@ -616,7 +644,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-21",
-      "stars": 47
+      "stars": 48
     },
     {
       "id": "hf-2608-17512",
@@ -923,6 +951,33 @@
       "stars": 13
     },
     {
+      "id": "hf-2608-19891",
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "authors": [
+        "Bhavya Sukhija",
+        "Oliver Groth",
+        "Mohit Shridhar",
+        "Tim Hertweck",
+        "Michael Bloesch",
+        "Markus Wulfmeier",
+        "Abbas Abdolmaleki",
+        "Martin Riedmiller"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled significant advances for robotic manipulation, finetuning of VLA policies for learning new tasks still remains an open problem. In particular, collecting teleoperation datasets requires hundreds of hours of expensive human labour and the alternative, rei",
+      "url": "https://huggingface.co/papers/2608.19891",
+      "pdf_url": "https://arxiv.org/pdf/2608.19891.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-20",
+      "added": "2026-08-21",
+      "stars": 12
+    },
+    {
       "id": "hf-2608-18933",
       "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
       "authors": [
@@ -971,33 +1026,6 @@
       "published": "2026-08-19",
       "added": "2026-08-21",
       "stars": 11
-    },
-    {
-      "id": "hf-2608-19891",
-      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
-      "authors": [
-        "Bhavya Sukhija",
-        "Oliver Groth",
-        "Mohit Shridhar",
-        "Tim Hertweck",
-        "Michael Bloesch",
-        "Markus Wulfmeier",
-        "Abbas Abdolmaleki",
-        "Martin Riedmiller"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled significant advances for robotic manipulation, finetuning of VLA policies for learning new tasks still remains an open problem. In particular, collecting teleoperation datasets requires hundreds of hours of expensive human labour and the alternative, rei",
-      "url": "https://huggingface.co/papers/2608.19891",
-      "pdf_url": "https://arxiv.org/pdf/2608.19891.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-08-20",
-      "added": "2026-08-21",
-      "stars": 10
     },
     {
       "id": "hf-2608-05811",
@@ -1050,6 +1078,28 @@
       "stars": 8
     },
     {
+      "id": "hf-2608-19861",
+      "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+      "authors": [
+        "Seongjae Kang",
+        "Taehyung Yu",
+        "Sung Ju Hwang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGu",
+      "url": "https://huggingface.co/papers/2608.19861",
+      "pdf_url": "https://arxiv.org/pdf/2608.19861.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-20",
+      "added": "2026-08-21",
+      "stars": 8
+    },
+    {
       "id": "hf-2608-14221",
       "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
       "authors": [
@@ -1073,28 +1123,6 @@
         "benchmark"
       ],
       "published": "2026-08-14",
-      "added": "2026-08-21",
-      "stars": 7
-    },
-    {
-      "id": "hf-2608-19861",
-      "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
-      "authors": [
-        "Seongjae Kang",
-        "Taehyung Yu",
-        "Sung Ju Hwang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGu",
-      "url": "https://huggingface.co/papers/2608.19861",
-      "pdf_url": "https://arxiv.org/pdf/2608.19861.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-20",
       "added": "2026-08-21",
       "stars": 7
     },
@@ -1197,6 +1225,26 @@
       "stars": 4
     },
     {
+      "id": "hf-2608-15888",
+      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+      "authors": [
+        "Xabier Muruaga"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an agent may act contrary to the delegated task, combine individually permitted actions into a prohibited outcome, or delegate authority to a sub-agent without limiting it. A prompt injection poses a risk only if the agent has authority to perform such actions; this is theref",
+      "url": "https://huggingface.co/papers/2608.15888",
+      "pdf_url": "https://arxiv.org/pdf/2608.15888.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-08-16",
+      "added": "2026-08-21",
+      "stars": 4
+    },
+    {
       "id": "hf-2608-16097",
       "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
       "authors": [
@@ -1218,26 +1266,6 @@
         "rl"
       ],
       "published": "2026-08-17",
-      "added": "2026-08-21",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-15888",
-      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
-      "authors": [
-        "Xabier Muruaga"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an agent may act contrary to the delegated task, combine individually permitted actions into a prohibited outcome, or delegate authority to a sub-agent without limiting it. A prompt injection poses a risk only if the agent has authority to perform such actions; this is theref",
-      "url": "https://huggingface.co/papers/2608.15888",
-      "pdf_url": "https://arxiv.org/pdf/2608.15888.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-08-16",
       "added": "2026-08-21",
       "stars": 3
     },
@@ -1972,27 +2000,6 @@
       "published": "2026-08-17",
       "added": "2026-08-19",
       "stars": 3
-    },
-    {
-      "id": "hf-2608-14606",
-      "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
-      "authors": [
-        "Mantas Lukauskas",
-        "Viktorija Šarkauskaitė"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models (LLMs) are increasingly used as synthetic survey respondents, but existing evaluations ask whether answers look plausible at the individual level. We argue the right question is psychometric: do LLMs preserve the joint distribution, latent structure, reliability, mediation pathways, and demographic effects of real human survey data? We introduce a Lithuanian organisational-psychology dataset (n=263 employees; Dunham Attitudes Toward Change, UWES-17, Koopmans IWPQ; 68 items, 12 subscales) and condition a 37-model lineup spa",
-      "url": "https://huggingface.co/papers/2608.14606",
-      "pdf_url": "https://arxiv.org/pdf/2608.14606.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark",
-        "survey"
-      ],
-      "published": "2026-07-06",
-      "added": "2026-08-19",
-      "stars": 2
     }
   ]
 }
