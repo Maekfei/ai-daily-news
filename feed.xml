@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 24 Aug 2026 02:08:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 02:06:07 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-25</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-25</link>
+      <guid isPermaLink="false">2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 10:00:00 +0800</pubDate>
+      <description>英伟达（NVIDIA）宣布 Groq 3 LPX 推理加速器全面量产，同一天小鹏机器人首轮融资 9 亿美元落地——AI 智能体的算力底座与实体形态正在同时加速。
+• 英伟达宣布 Groq 3 LPX 推理加速器全面量产
+• 小鹏机器人首轮融资 9 亿美元落地，腾讯阿里同时参投
+• Anthropic 发布企业级托管 Auth，一次解决 MCP OAuth 混乱
+• 字节豆包&quot;独立办公&quot;App 定档 8 月 29 日 — 豆包将于本周六推出面向办公场景的独立应用「豆包工作」，内置 200+ 办公技能与连接器，直接对标腾讯 WorkBuddy，Agent 化办公再添一员。新浪 · 豆包 8 月 29 日推独立 AI 办公产品
+• DeepSeek 周末统一低谷计费生效 — 自 8 月 23 日 00:00 起，DeepSeek API 平台周六日全天按低谷价计费，V4-Pro 输出价格实质减半；距上次全面涨价不足一周，被解读为对开发者反馈的回撤。新浪财经 · 刚涨就降？DeepSeek 再调 API 计费</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-24</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-24</link>
@@ -354,18 +366,6 @@
 • MCP 迎来协议诞生以来最大规模升级，7 月 28 日无状态化版本发布在即
 • Anthropic Claude Opus 5 发布余温延续 — 7 月 24 日上线的 Claude Opus 5 以 $5/M 输入 + $25/M 输出、1M token 上下文 把前沿 agent 编程价格腰斩，SWE-bench 与 ARC-AGI-3 表现接近 Fable 5。Anthropic 官方公告 · VentureBeat 深度
 • xAI Grok 4.6 完成初始训练，2 万亿参数下周对外 — 马斯克在 X 宣布 Grok 4.6（2T 参数，较 Grok 4.5 的 1.5T 提升 33%）本周完成初始训练，将陆续通过 SpaceXAI 与 Cursor 上线。环球网转 QQ 新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-26</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-26</link>
-      <guid isPermaLink="false">2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 发布 Claude Opus 5，以「腰斩价+百万上下文」把前沿智能体编程拉进日常预算；DeepSeek 因创始人言论外泄暂停第二轮融资，中美 AI 竞合再起波澜。
-• Anthropic 发布 Claude Opus 5，把前沿智能体编程做到「半价」
-• VentureBeat 研究：企业已跑上 Agent，但治理还停在 2023 年
-• DeepSeek 因创始人言论外流，暂停规模约 100 亿美元的第二轮融资
-• Claude Opus 5 三倍刷新 ARC-AGI-3，价格仅前沿的一半 — AlphaSignal 快讯：Opus 5 在 ARC-AGI-3 基准上得分是 Opus 4.8 的 3 倍，同时把单位 token 成本砍到 Fable 5 的 50%。AlphaSignal 报道
-• Kimi K3 全量开源在即，2.8 万亿参数登顶开源模型规模 — 月之暗面宣布 7 月 27 日前完成 Kimi K3 全部权重开源，原生视觉理解 + 100 万 token 上下文，被称为继 DeepSeek-R1 之后中国 AI 的&quot;第二次冲击&quot;。新浪财经报道</description>
     </item>
   </channel>
 </rss>
