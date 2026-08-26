@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 25 Aug 2026 02:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 02:07:45 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-26</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-26</link>
+      <guid isPermaLink="false">2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 10:00:00 +0800</pubDate>
+      <description>字节跳动整合 TRAE、扣子推出「豆包工作」正式发布，AI 办公三国杀开战；Anthropic 打通 Claude Chat 与 Cowork Agent 共享记忆，Agent 长程协作再升级。
+• 字节跳动整合 TRAE 与扣子，推出「豆包工作」Agent 平台
+• Anthropic 打通 Claude Chat 与 Cowork Agent 共享记忆
+• Meta 内部代号 Hatch 智能体平台数周内上线，10 月发布 Watermelon 模型
+• OpenAI Codex 与 ChatGPT Work 恢复 5 小时用量上限，Sottiaux 首度受访
+• 英伟达 70 亿美元押注 Poolside 开源权重模型 — NVIDIA 与 AI 初创 Poolside 达成 60 亿美元技术授权 + 10 亿美元股权投资（120 亿美元投前估值）组合交易，共 70 亿美元，用于强化其 Nemotron 开源模型系列，直接对标 DeepSeek 等中国开源模型。TechCrunch/新浪转载</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-25</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-25</link>
@@ -354,18 +366,6 @@
 • OpenAI、Anthropic 被曝游说美国限制中国开源模型，Kimi K3 成焦点
 • Moonshot AI 发布 PerceptionBench：无一前沿模型视觉感知过 60%
 • Sam Altman 在 X 演示 ChatGPT Work &quot;1 分钟出深度研报&quot; — 演示中 ChatGPT Work 自主抓取 4 个官方数据源、生成含图表的市场分析报告，全流程约 55 秒，被认为是 Altman 华盛顿之行的官方预热。iWiki AI Builders Digest 2026-07-28</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-27</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-27</link>
-      <guid isPermaLink="false">2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 10:00:00 +0800</pubDate>
-      <description>月之暗面 Kimi K3 全量权重于今日按承诺开源，2.8 万亿参数刷新开源前沿纪录；OpenAI Codex + ChatGPT Work 上周用量再翻 2.5 倍，Agent 竞速进入密集出货期。
-• 月之暗面（Moonshot AI）如期开源 Kimi K3，2.8T MoE 参数登顶开源前沿
-• OpenAI 智能体产品线一周用量再涨 2.5 倍，Codex 与 ChatGPT Work 深度合并
-• MCP 迎来协议诞生以来最大规模升级，7 月 28 日无状态化版本发布在即
-• Anthropic Claude Opus 5 发布余温延续 — 7 月 24 日上线的 Claude Opus 5 以 $5/M 输入 + $25/M 输出、1M token 上下文 把前沿 agent 编程价格腰斩，SWE-bench 与 ARC-AGI-3 表现接近 Fable 5。Anthropic 官方公告 · VentureBeat 深度
-• xAI Grok 4.6 完成初始训练，2 万亿参数下周对外 — 马斯克在 X 宣布 Grok 4.6（2T 参数，较 Grok 4.5 的 1.5T 提升 33%）本周完成初始训练，将陆续通过 SpaceXAI 与 Cursor 上线。环球网转 QQ 新闻</description>
     </item>
   </channel>
 </rss>
