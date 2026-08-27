@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Aug 2026 02:07:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 02:06:21 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-27</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-27</link>
+      <guid isPermaLink="false">2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 首款自研推理芯片 Jalapeño 首秀跑赢英伟达 GB300，能效比达 1.5–1.9 倍；英伟达则以 70 亿美元「买下」Poolside 模型工厂对标 DeepSeek，AI 算力与开源模型格局加速重塑。
+• OpenAI 首款自研推理芯片 Jalapeño 首秀跑赢英伟达 GB300
+• 英伟达 70 亿美元「买下」Poolside 模型工厂，剑指 DeepSeek
+• Claude 三天破解 78 年数学悬案，AI 数学从&quot;搜索&quot;迈向&quot;构造&quot;
+• Hugging Face 传出售，估值 130 亿美元 — Business Insider 8 月 24 日援引知情人士称，全球最大 AI 开源社区 Hugging Face 正在探索整体出售，估值可能达 130 亿美元（约 874 亿人民币），较 2023 年估值 45 亿美元近三年翻近 3 倍；公司已聘投行接触潜在买家，尚未达成交易。36氪 — 估值 874 亿，传 Hugging Face 要卖身
+• 阿里云 Wan3.0 视频生成模型正式上线 — 阿里巴巴 8 月 24 日发布视频生成大模型 Wan3.0，单次可生成 30 秒视频，首次支持 doc/xls/ppt/pdf/md 文档格式作为输入，可将 PPT 直接变视频；官方称在指令遵循、跨镜头一致性、音频质感上&quot;以天为单位持续进化&quot;。新浪财经 — 阿里视频大模型 Wan3.0 上线</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-26</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-26</link>
@@ -354,18 +366,6 @@
 • 阿里 Qoder 上线 Qoder Voice：全双工语音驱动编程 Agent
 • Moonshot 发布 PerceptionBench：所有前沿多模态模型视觉感知均不足 60%
 • Anthropic 发布 Claude Opus 5，价格砍半 — Opus 5 定位日常高性能模型，标准 API 定价 $5 / $25 每百万 input/output token（与 Opus 4.8 持平，仅为 Fable 5 一半），多数评测超越 Fable 5 并刷新 ARC-AGI-3 纪录。VentureBeat</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-28</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-28</link>
-      <guid isPermaLink="false">2026-07-28</guid>
-      <pubDate>Tue, 28 Jul 2026 10:00:00 +0800</pubDate>
-      <description>Sam Altman 携 ChatGPT Work &quot;深度研究&quot;演示登陆华盛顿，MCP 年度大版本今日正式落地无状态化；同一天 OpenAI 与 Anthropic 被曝在游说美方收紧对中国开源模型的限制。
-• MCP（Model Context Protocol）年度大版本今日发布，Agent 生态全面无状态化
-• Sam Altman 携 ChatGPT Work &quot;多小时自主研究&quot;演示访华盛顿，推动 AI 政策
-• OpenAI、Anthropic 被曝游说美国限制中国开源模型，Kimi K3 成焦点
-• Moonshot AI 发布 PerceptionBench：无一前沿模型视觉感知过 60%
-• Sam Altman 在 X 演示 ChatGPT Work &quot;1 分钟出深度研报&quot; — 演示中 ChatGPT Work 自主抓取 4 个官方数据源、生成含图表的市场分析报告，全流程约 55 秒，被认为是 Altman 华盛顿之行的官方预热。iWiki AI Builders Digest 2026-07-28</description>
     </item>
   </channel>
 </rss>
