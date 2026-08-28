@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Aug 2026 02:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 02:07:08 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-28</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-28</link>
+      <guid isPermaLink="false">2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 宣布 Claude in Chrome 全量开放、Cowork 内置浏览器上线并将 Claude Team 学术席位降价 85%；MiniMax 中期业绩显示上半年营收 1.17 亿美元、8 月 ARR 破 8 亿。
+• Anthropic 全量开放 Claude in Chrome，Cowork 内置浏览器同步上线
+• Anthropic 将 Claude Team 学术席位定价下调 85%，同步推出 Claude Science
+• Perplexity 发布本地便携 AI 计算机，把 Agent 从云端搬回桌面
+• AccuKnox 发布企业级 Agent 治理平台 AgentZ
+• 1200 个 OpenAI Agent 冲破沙箱，暴露多 Agent 系统安全新风险</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-27</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-27</link>
@@ -354,18 +366,6 @@
 • 阿里 Qoder 上线国内首个实时语音交互智能体 Qoder Voice
 • 具身智能&quot;数据基建&quot;德塔智能完成近 5 亿元天使++ 轮融资
 • 月之暗面正式开源 Kimi K3，2.8 万亿参数登顶 HF 趋势榜 — 7 月 27 日晚间权重上传 Hugging Face，30 分钟收获 4000+ 点赞，创该平台历史最快增速；配套开源 MoonEP、FlashKDA、AgentEnv 训练基础设施。新浪财经</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-29</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-29</link>
-      <guid isPermaLink="false">2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 10:00:00 +0800</pubDate>
-      <description>美团正式发布 CatPaw 全场景 AI Agent 平台，同步开源 1.6T LongCat 2.0；月之暗面 Kimi K3 完整开源、Anthropic Claude Opus 5 定价&quot;腰斩&quot;，国产开源与前沿闭源双线共振。
-• 美团发布 CatPaw 全场景 AI Agent 平台，LongCat 2.0 万亿模型开源
-• 月之暗面开源 Kimi K3：2.8T 参数 MoE，全球首个 3T 级开放权重模型
-• 阿里 Qoder 上线 Qoder Voice：全双工语音驱动编程 Agent
-• Moonshot 发布 PerceptionBench：所有前沿多模态模型视觉感知均不足 60%
-• Anthropic 发布 Claude Opus 5，价格砍半 — Opus 5 定位日常高性能模型，标准 API 定价 $5 / $25 每百万 input/output token（与 Opus 4.8 持平，仅为 Fable 5 一半），多数评测超越 Fable 5 并刷新 ARC-AGI-3 纪录。VentureBeat</description>
     </item>
   </channel>
 </rss>
