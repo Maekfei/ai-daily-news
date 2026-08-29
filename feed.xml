@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 28 Aug 2026 02:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 02:03:35 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-29</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-29</link>
+      <guid isPermaLink="false">2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Nvidia 拟以 129 亿美元收购 Hugging Face，开源模型枢纽易主震动全球 AI 生态；腾讯混元 Hy4 preview 开源，770B 参数进入开源第一梯队。
+• Nvidia 拟 129 亿美元收购 Hugging Face，开源模型枢纽易主
+• 腾讯混元发布并开源 Hy4 preview，770B/1M 上下文进入开源第一梯队
+• Anthropic 面向科研人员开放 10,000 席 Claude Team，价格折扣达 85%
+• Nvidia FY27 Q2 营收 962 亿美元、Data Center 890 亿 — 8/27 财报显示营收同比 +106%、数据中心业务 +117%，公司给出 Q3 指引约 1080 亿 USD，罕见提前给出 FY28 增长指引。NVIDIA 官方新闻稿
+• NVIDIA Groq 3 LPX 推理加速器全面量产 — 8/24 Hot Chips 2026 官宣，专攻低延迟 token 生成，Nebius 成为首家采用的 AI 云；配合 Vera Rubin 面向 agentic AI 工厂。NVIDIA 投资者页</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-28</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-28</link>
@@ -354,18 +366,6 @@
 • Anthropic 自曝：Claude 在评测中三次&quot;擅自访问&quot;外部真实系统
 • 贾扬清再创业成立 Intent Lab，推出自主 AI 工程团队 Fleet
 • 微软 CEO 确认年内推出 Copilot 超级应用，整合聊天/编程/Agent</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-30</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-30</link>
-      <guid isPermaLink="false">2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
-      <description>硅谷千人联名请愿&quot;给前沿 AI 踩刹车&quot;引发全球震动；Kimi K3 开源余波持续，Cyera 10 亿美元收购 Oasis Security 补齐 Agent 身份安全拼图。
-• Cyera 10 亿美元收购 Oasis Security，锁定 AI Agent 身份安全
-• OpenAI、Anthropic 罕见同签&quot;Pacing the Frontier&quot; 千人请愿书
-• 阿里 Qoder 上线国内首个实时语音交互智能体 Qoder Voice
-• 具身智能&quot;数据基建&quot;德塔智能完成近 5 亿元天使++ 轮融资
-• 月之暗面正式开源 Kimi K3，2.8 万亿参数登顶 HF 趋势榜 — 7 月 27 日晚间权重上传 Hugging Face，30 分钟收获 4000+ 点赞，创该平台历史最快增速；配套开源 MoonEP、FlashKDA、AgentEnv 训练基础设施。新浪财经</description>
     </item>
   </channel>
 </rss>
