@@ -25,7 +25,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 120
+      "stars": 134
     },
     {
       "id": "hf-2608-27456",
@@ -53,7 +53,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 70
+      "stars": 72
     },
     {
       "id": "hf-2608-27448",
@@ -80,7 +80,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 64
+      "stars": 69
     },
     {
       "id": "hf-2608-26872",
@@ -106,7 +106,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 56
+      "stars": 69
     },
     {
       "id": "hf-2608-15763",
@@ -134,7 +134,7 @@
       ],
       "published": "2026-08-22",
       "added": "2026-08-29",
-      "stars": 43
+      "stars": 44
     },
     {
       "id": "hf-2608-26200",
@@ -157,7 +157,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 37
+      "stars": 39
     },
     {
       "id": "hf-2608-26530",
@@ -184,7 +184,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 25
+      "stars": 27
     },
     {
       "id": "hf-2608-26103",
@@ -211,7 +211,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "hf-2608-27351",
@@ -238,7 +238,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 15
+      "stars": 16
     },
     {
       "id": "hf-2608-27454",
@@ -262,7 +262,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 9
+      "stars": 11
     },
     {
       "id": "hf-2608-26238",
@@ -289,7 +289,32 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 7
+      "stars": 10
+    },
+    {
+      "id": "hf-2608-27455",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "authors": [
+        "Yufan Wu",
+        "Yinghui He",
+        "Zhengyi Hu",
+        "Lang Wei",
+        "Ruichen Li",
+        "Qifan Yang",
+        "Ting Zhu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as",
+      "url": "https://huggingface.co/papers/2608.27455",
+      "pdf_url": "https://arxiv.org/pdf/2608.27455.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-29",
+      "stars": 8
     },
     {
       "id": "hf-2608-23943",
@@ -316,7 +341,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2608-23172",
@@ -369,31 +394,6 @@
       "published": "2026-08-26",
       "added": "2026-08-29",
       "stars": 5
-    },
-    {
-      "id": "hf-2608-27455",
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "authors": [
-        "Yufan Wu",
-        "Yinghui He",
-        "Zhengyi Hu",
-        "Lang Wei",
-        "Ruichen Li",
-        "Qifan Yang",
-        "Ting Zhu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as",
-      "url": "https://huggingface.co/papers/2608.27455",
-      "pdf_url": "https://arxiv.org/pdf/2608.27455.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-08-27",
-      "added": "2026-08-29",
-      "stars": 4
     },
     {
       "id": "hf-2608-26809",
@@ -500,7 +500,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-28",
-      "stars": 134
+      "stars": 135
     },
     {
       "id": "hf-2608-24979",
@@ -581,7 +581,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-28",
-      "stars": 55
+      "stars": 60
     },
     {
       "id": "hf-2608-26105",
@@ -689,7 +689,7 @@
       ],
       "published": "2026-08-19",
       "added": "2026-08-28",
-      "stars": 18
+      "stars": 20
     },
     {
       "id": "hf-2608-26067",
@@ -796,7 +796,7 @@
       ],
       "published": "2026-08-24",
       "added": "2026-08-28",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2608-24358",
@@ -819,7 +819,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-28",
-      "stars": 12
+      "stars": 13
     },
     {
       "id": "hf-2608-24138",
@@ -923,7 +923,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-28",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2608-21832",
@@ -946,6 +946,32 @@
       "published": "2026-08-22",
       "added": "2026-08-28",
       "stars": 8
+    },
+    {
+      "id": "hf-2608-24909",
+      "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
+      "authors": [
+        "Wentao Jiang",
+        "Youchen Xie",
+        "Haidi Fan",
+        "Yajing Chen",
+        "Xin Wang",
+        "Ye Shi",
+        "Jingya Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable for real-time interaction, as they either rely on future speech information or incur substantial inference delay. In this paper, we formulate online co-",
+      "url": "https://huggingface.co/papers/2608.24909",
+      "pdf_url": "https://arxiv.org/pdf/2608.24909.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-07-22",
+      "added": "2026-08-28",
+      "stars": 5
     },
     {
       "id": "hf-2608-25832",
@@ -1049,32 +1075,6 @@
         "multimodal"
       ],
       "published": "2026-08-22",
-      "added": "2026-08-28",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-24909",
-      "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
-      "authors": [
-        "Wentao Jiang",
-        "Youchen Xie",
-        "Haidi Fan",
-        "Yajing Chen",
-        "Xin Wang",
-        "Ye Shi",
-        "Jingya Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently available response audio under strict latency constraints. As a result, prior methods are unsuitable for real-time interaction, as they either rely on future speech information or incur substantial inference delay. In this paper, we formulate online co-",
-      "url": "https://huggingface.co/papers/2608.24909",
-      "pdf_url": "https://arxiv.org/pdf/2608.24909.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-07-22",
       "added": "2026-08-28",
       "stars": 3
     },

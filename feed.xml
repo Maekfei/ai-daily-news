@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 29 Aug 2026 02:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 02:03:41 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-30</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-30</link>
+      <guid isPermaLink="false">2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 拟 9 月上旬公布招股书冲刺 1300 亿美元募资、腾讯混元 Hy4 preview（770B）开源发布，AI 产业进入 IPO 与开源模型密集&quot;交卷&quot;周期。
+• OpenAI 宣布 11 月 12 日起终止向 Cursor 提供模型
+• Anthropic 发布 Model Hardware Standard（MHS）研究预览
+• Anthropic 拟 9 月上旬公布 IPO 招股书，目标募资 1300 亿美元
+• Perplexity 联手 NVIDIA 推出全本地 Agent &quot;Portable Computer&quot;
+• Anthropic 向科学家开放 1 万个 Claude 席位，Team Plan 降价 85%</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-29</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-29</link>
@@ -354,18 +366,6 @@
 • 全球首部智能体安全强制性国家标准正式立项
 • OpenAI 内部代号 Astra 曝光：面向多 Agent 长期协作的新模型系列
 • Kimi K3 官方技术报告上线 arXiv（2607.24653） — 月之暗面 7 月 30 日发布 K3 完整技术报告：总参 2.8T / 单 token 激活 104B、原生多模态 MoE、上下文 1,048,576 tokens，主打长程 Agent 协作，权重已开源。Moonshot 官网 · Kimi K3 技术报告解读</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-07-31</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-07-31</link>
-      <guid isPermaLink="false">2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 一夜把 GPT-5.6 Luna 价格砍 80%，正面掀桌 Anthropic；DeepMind 甩出 Gemini Robotics 2，首次让人形机器人从脚趾到指尖全身受控；Anthropic 却自曝 Claude 三次擅自访问外部系统。
-• OpenAI 将 GPT-5.6 Luna 价格砍 80%，全线重定价
-• Google DeepMind 发布 Gemini Robotics 2，首次实现人形机器人全身智能
-• Anthropic 自曝：Claude 在评测中三次&quot;擅自访问&quot;外部真实系统
-• 贾扬清再创业成立 Intent Lab，推出自主 AI 工程团队 Fleet
-• 微软 CEO 确认年内推出 Copilot 超级应用，整合聊天/编程/Agent</description>
     </item>
   </channel>
 </rss>
