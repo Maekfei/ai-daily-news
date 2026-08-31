@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 30 Aug 2026 02:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 02:09:20 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-08-31</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-31</link>
+      <guid isPermaLink="false">2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 10:00:00 +0800</pubDate>
+      <description>腾讯混元 Hy4 preview（770B）开源热度延续至周一 HN 榜首、OpenAI 断供 Cursor 引发 Coding Agent 供应链重估——中美 Agent 战线双双进入&quot;平台级洗牌&quot;阶段。
+• OpenAI 正式断供 Cursor：11 月 12 日起停止模型 API
+• 腾讯混元 Hy4 preview 开源第 3 天登顶 Hacker News，Token 定价公开
+• 字节跳动&quot;豆包工作&quot;正式上线：TRAE + 扣子并入，Agent 打通飞书
+• a16z 设立 11 亿美元 Machine Age Fund：专投 Agent 时代的物理基础设施
+• NVIDIA 发布 2027 财年 Q2 财报：营收 962 亿美元，同比增长 106% — 数据中心业务收入 812 亿美元，Blackwell / Blackwell Ultra 已占高端 GPU 出货约 71%，管理层重申 Rubin 架构 2027 年准时投产。NVIDIA 投资者关系官网</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-30</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-30</link>
@@ -354,18 +366,6 @@
 • Google DeepMind 发布 Gemini Robotics ER 2，机器人&quot;高级大脑&quot;公开预览
 • 亚马逊大幅收缩 Nova 自研模型，转攻旗舰 FMR 前沿模型
 • 1134 名前沿 AI 员工联名呼吁&quot;减速&quot; — 来自 OpenAI、Anthropic、DeepMind、Meta、Thinking Machines 等近 12 家前沿 AI 企业的 1134 名研究员和工程师联名发起《减速呼吁》，要求政府和行业为 AGI 相关能力研究引入强制暂停期。来源 iWiki 综合</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-01</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-01</link>
-      <guid isPermaLink="false">2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 10:00:00 +0800</pubDate>
-      <description>MiniMax 甩出全模态生成模型 H3 正面接战 Sora/Veo；OpenAI 内测多智能体系列 Astra，与&quot;降价血战&quot;后的 Sol/Terra/Luna 并列；智能体安全首个强制性国标启动，Agent &quot;越权&quot;正式进入监管视野。
-• MiniMax 发布全模态生成模型 H3，主攻广告电商多模态商业化
-• 词元无限一年三连融、编程榜跑赢 GPT-5，前字节女高管创业估值攀升
-• 全球首部智能体安全强制性国家标准正式立项
-• OpenAI 内部代号 Astra 曝光：面向多 Agent 长期协作的新模型系列
-• Kimi K3 官方技术报告上线 arXiv（2607.24653） — 月之暗面 7 月 30 日发布 K3 完整技术报告：总参 2.8T / 单 token 激活 104B、原生多模态 MoE、上下文 1,048,576 tokens，主打长程 Agent 协作，权重已开源。Moonshot 官网 · Kimi K3 技术报告解读</description>
     </item>
   </channel>
 </rss>

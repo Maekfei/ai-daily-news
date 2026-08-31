@@ -1,6 +1,180 @@
 {
   "papers": [
     {
+      "id": "hf-2608-27549",
+      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+      "authors": [
+        "Hanyang Wang",
+        "Yimo Cai",
+        "Weiliang Chen",
+        "Jiawei Chi",
+        "Haowen Sun",
+        "Qiyu Dai",
+        "Yi-Hsin Hung",
+        "Xingzhuo Guo"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Physical understanding and reasoning depend on forming compact and generalizable representations of the world. While modern vision-language models can recognize and explain diverse physical events, they often lack explicit representations of the underlying mechanisms-such as object states, physical parameters, and governing dynamics-needed for reliably reasoning how the world evolves and responds to interventions. In this work, we introduce Code-as-World, a paradigm that represents physical worlds through executable world representations. By ex",
+      "url": "https://huggingface.co/papers/2608.27549",
+      "pdf_url": "https://arxiv.org/pdf/2608.27549.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "multimodal"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-31",
+      "stars": 5
+    },
+    {
+      "id": "hf-2608-28478",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "authors": [
+        "Zhuoshi Pan",
+        "Junru Lu",
+        "Yan Qian",
+        "H. Vicky Zhao",
+        "Di Yin",
+        "Xing Sun"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating docum",
+      "url": "https://huggingface.co/papers/2608.28478",
+      "pdf_url": "https://arxiv.org/pdf/2608.28478.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-08-31",
+      "stars": 3
+    },
+    {
+      "id": "hf-2608-28476",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Junru Lu",
+        "Honglin Lin",
+        "H. Vicky Zhao",
+        "Di Yin",
+        "Xing Sun"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a continuously growing working context. Recent proactive context management methods allow models to edit their own working context with specialized tools, yet they still face three key limitations: (1) a limited toolset restricted to search, deletion, and summarization, with no support for global planning, long-term memory, and ada",
+      "url": "https://huggingface.co/papers/2608.28476",
+      "pdf_url": "https://arxiv.org/pdf/2608.28476.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-08-31",
+      "stars": 3
+    },
+    {
+      "id": "hf-2608-27550",
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "authors": [
+        "Senqiao Yang",
+        "Chengyao Wang",
+        "Yuxin Chen",
+        "Zixuan Wang",
+        "Longxiang Tang",
+        "Haokun Gui",
+        "Jinhui Ye",
+        "Changsheng Lu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM backbone trained on broad, heterogeneous, multi-embod",
+      "url": "https://huggingface.co/papers/2608.27550",
+      "pdf_url": "https://arxiv.org/pdf/2608.27550.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-31",
+      "stars": 2
+    },
+    {
+      "id": "hf-2608-25697",
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "authors": [
+        "XiuYu Zhang",
+        "Bonan Ruan",
+        "Junfeng Fang",
+        "An Zhang",
+        "Tat-Seng Chua",
+        "Zhenkai Liang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models (LLMs) are increasingly deployed with layered defenses, yet malicious prompts can still bypass them. Interpretability methods can expose model-internal signals along the generation path that could inform enforcement, but these signals are not security controls by themselves. Deployments that adapt them for safety typically couple each signal to its own calibration, policy logic, and intervention code, so each new artifact creates integration work instead of strengthening a shared defense. We present Language Model Security",
+      "url": "https://huggingface.co/papers/2608.25697",
+      "pdf_url": "https://arxiv.org/pdf/2608.25697.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-26",
+      "added": "2026-08-31",
+      "stars": 1
+    },
+    {
+      "id": "hf-2608-24115",
+      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+      "authors": [
+        "Suhwan Choi",
+        "Jaeyoon Jung",
+        "Sungkyung Kim",
+        "Yunsung Lee",
+        "Youngjae Yu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal large language models (MLLMs) can integrate long visual histories, reason under partial observability, and infer behavior from a few examples. Yet vision-language-action (VLA) models generally inherit pretrained representations without using this contextual capacity as episode memory. Memory-dependent policies address this gap through purpose-built history mechanisms. PonderPounce instead reuses an MLLM's native causal context as robot memory. Ponder, a System2 MLLM, accumulates episode observations, demonstrations, and prior cogniti",
+      "url": "https://huggingface.co/papers/2608.24115",
+      "pdf_url": "https://arxiv.org/pdf/2608.24115.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-25",
+      "added": "2026-08-31",
+      "stars": 1
+    },
+    {
+      "id": "hf-2608-20965",
+      "title": "Training, learning and inference: unified dynamics of neural systems",
+      "authors": [
+        "Mian Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We define an atomic generation fact f=(u,tau,omega,z;rho), recording the origin, realized transformation, concrete occurrence, generated result and relation role. Compiled into a Generation-Fact Graph (GFG), these facts provide an AI-native, compilable scientific fact substrate preserving generation histories. We establish a GFG-based recursive scientific process in which analysis, intervention, replay and validation form facts for later cycles. Using nanoGPT, we establish unified training-learning dynamics. Training is the evolution of a param",
+      "url": "https://huggingface.co/papers/2608.20965",
+      "pdf_url": "https://arxiv.org/pdf/2608.20965.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-21",
+      "added": "2026-08-31",
+      "stars": 0
+    },
+    {
       "id": "hf-2608-25518",
       "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
       "authors": [
@@ -25,7 +199,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 134
+      "stars": 182
     },
     {
       "id": "hf-2608-27456",
@@ -53,7 +227,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 72
+      "stars": 104
     },
     {
       "id": "hf-2608-27448",
@@ -80,7 +254,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 69
+      "stars": 73
     },
     {
       "id": "hf-2608-26872",
@@ -106,7 +280,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 69
+      "stars": 71
     },
     {
       "id": "hf-2608-15763",
@@ -134,7 +308,7 @@
       ],
       "published": "2026-08-22",
       "added": "2026-08-29",
-      "stars": 44
+      "stars": 46
     },
     {
       "id": "hf-2608-26200",
@@ -157,7 +331,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 39
+      "stars": 44
     },
     {
       "id": "hf-2608-26530",
@@ -184,7 +358,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 27
+      "stars": 30
     },
     {
       "id": "hf-2608-26103",
@@ -211,7 +385,31 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 17
+      "stars": 19
+    },
+    {
+      "id": "hf-2608-27454",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan",
+        "Tu Vu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separ",
+      "url": "https://huggingface.co/papers/2608.27454",
+      "pdf_url": "https://arxiv.org/pdf/2608.27454.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-29",
+      "stars": 19
     },
     {
       "id": "hf-2608-27351",
@@ -241,28 +439,31 @@
       "stars": 16
     },
     {
-      "id": "hf-2608-27454",
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "id": "hf-2608-23943",
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
       "authors": [
-        "Liyan Tang",
-        "Cyrus Rashtchian",
-        "Chun-Sung Ferng",
-        "Andrew Tomkins",
-        "Da-Cheng Juan",
-        "Tu Vu"
+        "Mayank Singh",
+        "Michele Stoppa",
+        "Alvise Memo",
+        "Rui Yu",
+        "Harsha Kalli",
+        "Srimanth Gunturi",
+        "Muhammad Ahmed Riaz",
+        "Behrooz Shahsavari"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separ",
-      "url": "https://huggingface.co/papers/2608.27454",
-      "pdf_url": "https://arxiv.org/pdf/2608.27454.pdf",
+      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, metallic-roughness, and surface normals. We propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for each modality. A variational autoencoder compresses this representati",
+      "url": "https://huggingface.co/papers/2608.23943",
+      "pdf_url": "https://arxiv.org/pdf/2608.23943.pdf",
       "tags": [
         "hf-trending",
-        "agent",
-        "benchmark"
+        "rl",
+        "benchmark",
+        "multimodal"
       ],
-      "published": "2026-08-27",
+      "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 11
+      "stars": 12
     },
     {
       "id": "hf-2608-26238",
@@ -289,7 +490,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 10
+      "stars": 11
     },
     {
       "id": "hf-2608-27455",
@@ -314,34 +515,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 8
-    },
-    {
-      "id": "hf-2608-23943",
-      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-      "authors": [
-        "Mayank Singh",
-        "Michele Stoppa",
-        "Alvise Memo",
-        "Rui Yu",
-        "Harsha Kalli",
-        "Srimanth Gunturi",
-        "Muhammad Ahmed Riaz",
-        "Behrooz Shahsavari"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, metallic-roughness, and surface normals. We propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for each modality. A variational autoencoder compresses this representati",
-      "url": "https://huggingface.co/papers/2608.23943",
-      "pdf_url": "https://arxiv.org/pdf/2608.23943.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-08-29",
-      "stars": 7
+      "stars": 9
     },
     {
       "id": "hf-2608-23172",
@@ -369,7 +543,7 @@
       ],
       "published": "2026-08-24",
       "added": "2026-08-29",
-      "stars": 6
+      "stars": 7
     },
     {
       "id": "hf-2608-25500",
@@ -500,7 +674,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-28",
-      "stars": 135
+      "stars": 138
     },
     {
       "id": "hf-2608-24979",
@@ -581,7 +755,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-28",
-      "stars": 60
+      "stars": 63
     },
     {
       "id": "hf-2608-26105",
@@ -945,7 +1119,7 @@
       ],
       "published": "2026-08-22",
       "added": "2026-08-28",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2608-24909",
@@ -1881,184 +2055,6 @@
       "published": "2026-08-15",
       "added": "2026-08-26",
       "stars": 14
-    },
-    {
-      "id": "hf-2608-21833",
-      "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
-      "authors": [
-        "Kun Chen",
-        "Haorong Hong",
-        "Peizhong Gao",
-        "Jianfeng Lin",
-        "Tongxu Luo",
-        "Yuxuan Xie",
-        "Chenxu Liu",
-        "Jieling He"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent large language models (LLMs) can operate as coding agents that build complete games from natural language requests. Game development is especially demanding because program logic, visual and audio content, interfaces, interaction and playability must function together in one executable artifact. Measuring this capability therefore requires evaluation of both game product and the development process. Existing benchmarks often assess the game development capabilities of LLMs by evaluating the final artifact or an isolated development stage",
-      "url": "https://huggingface.co/papers/2608.21833",
-      "pdf_url": "https://arxiv.org/pdf/2608.21833.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-08-22",
-      "added": "2026-08-26",
-      "stars": 12
-    },
-    {
-      "id": "hf-2608-19741",
-      "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
-      "authors": [
-        "Zhuochun Li",
-        "Youngmin Ko",
-        "Ali Keramati",
-        "Nicola Ferri",
-        "Susana Palmaz Lopez Pelaez",
-        "Liang-Chun Tsai",
-        "Calvin Wang",
-        "Mirco Milletari"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent agent benchmarks increasingly ground evaluation in executable environments, from code repair to web navigation, app APIs, and function calling. Yet completing consequential work beyond code requires more than producing a plausible response or valid tool call: agents must gather missing information over multiple turns, follow domain policies, coordinate dependent tools, and realize the correct persistent state transition without collateral effects. In this paper, we introduce Thinkingbox, a sandbox for tool-agent-user interaction that pro",
-      "url": "https://huggingface.co/papers/2608.19741",
-      "pdf_url": "https://arxiv.org/pdf/2608.19741.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-20",
-      "added": "2026-08-26",
-      "stars": 10
-    },
-    {
-      "id": "hf-2608-20953",
-      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
-      "authors": [
-        "Bakbergen Ryskulov",
-        "Iker García-Ferrero",
-        "David Montero",
-        "David Jansen",
-        "Ali Hashemi",
-        "Jezabel R. Garcia",
-        "Antonio Tiene",
-        "Román Orús"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fraction of their parameters and quantized to 4 bits. Together these steps degrade reasoning, mathematics, coding, and long-context behavior enough to require a recovery, or healing, stage before deployment. The default recipe, quantization-aware training (QAT), re-fits the compressed, quantized model to hard labels; in our pipeline it converged slowly and collapsed past its peak. We adopted Quantization-Aware Healing (QAH) instea",
-      "url": "https://huggingface.co/papers/2608.20953",
-      "pdf_url": "https://arxiv.org/pdf/2608.20953.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-21",
-      "added": "2026-08-26",
-      "stars": 9
-    },
-    {
-      "id": "hf-2608-17906",
-      "title": "AutoResearch: Insight In, Hallucination Out",
-      "authors": [
-        "Yiming Ren",
-        "Xiang Liu",
-        "Qumeng Sun",
-        "Xiao Zhang",
-        "Jiahao Li",
-        "Haoyang Zhang",
-        "Junjie Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execution to address both how research ideas are formed and how they are reliably established through experimentation. In Idea Generation, AutoResearch continuously integrates emerging research signals with accumulated domain knowledge, identifies transferable mechanistic ins",
-      "url": "https://huggingface.co/papers/2608.17906",
-      "pdf_url": "https://arxiv.org/pdf/2608.17906.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-23",
-      "added": "2026-08-26",
-      "stars": 8
-    },
-    {
-      "id": "hf-2608-19408",
-      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
-      "authors": [
-        "Chen Yang",
-        "Haiyuan Wan",
-        "Rengrong Xiong",
-        "Yize Chen",
-        "Danny H. K. Tsang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progress, and therefore treats all teacher feedback equally during policy optimization. While in practice, this assumption does not always hold. We observe that teacher-derived rewards often conflict with genuine reasoning progress, as reasoning steps with",
-      "url": "https://huggingface.co/papers/2608.19408",
-      "pdf_url": "https://arxiv.org/pdf/2608.19408.pdf",
-      "tags": [
-        "hf-trending",
-        "reasoning"
-      ],
-      "published": "2026-08-19",
-      "added": "2026-08-26",
-      "stars": 8
-    },
-    {
-      "id": "hf-2608-20169",
-      "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
-      "authors": [
-        "Atsuyuki Miyai",
-        "Kiyoharu Aizawa",
-        "Toshihiko Yamasaki"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present a novel approach to efficient LLM harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying model weights. Existing approaches, however, evaluate a fixed validation set in full at every iteration, incurring substantial evaluation costs even on tasks that become less discriminative as the harness evolves. We propose Task-CoEvolve, which co-evolves the validation tasks",
-      "url": "https://huggingface.co/papers/2608.20169",
-      "pdf_url": "https://arxiv.org/pdf/2608.20169.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 8
-    },
-    {
-      "id": "hf-2608-23200",
-      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
-      "authors": [
-        "Xiao Zhang",
-        "Qumeng Sun",
-        "Jihao Li",
-        "Yiming Ren",
-        "Xiang Liu",
-        "Haoyang Zhang",
-        "Junjie Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining interdependent constraints and producing artifacts that satisfy strict end-to-end verification. Yet successful execution experience is typically lost after a single run, forcing subsequent models to rediscover strategies and failure modes from scratch. We study whether such experience can instead be externalized and reused through EvoMap, where verifier-confirmed execution trajectories are consolidated into structured Gene. To evalu",
-      "url": "https://huggingface.co/papers/2608.23200",
-      "pdf_url": "https://arxiv.org/pdf/2608.23200.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 6
     }
   ]
 }
