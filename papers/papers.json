@@ -1,6 +1,410 @@
 {
   "papers": [
     {
+      "id": "hf-2608-28281",
+      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "authors": [
+        "Yi Wang",
+        "Haopeng Zhang",
+        "Chengxiang Huang",
+        "Rui Dai",
+        "Kaikui Liu",
+        "Piotr Koniusz",
+        "Xiangxiang Chu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing each prompt by hand, practitioners design loops that monitor progress, assign work, run checks, and decide what the agent should do next. Even with a capable coding agent, a loop may trust a stale progress note, skip needed verification, spend its budget in the wrong direction, or stop before the task is safe to submit. Yet the final outcome of one end-to-end run cannot tell whether success or failure reflects the loop's guidance",
+      "url": "https://huggingface.co/papers/2608.28281",
+      "pdf_url": "https://arxiv.org/pdf/2608.28281.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 89
+    },
+    {
+      "id": "hf-2608-18524",
+      "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
+      "authors": [
+        "Hangrui Xu",
+        "Jiarui Wang",
+        "Yang Yang",
+        "Chuanbo Zhu",
+        "Fangda Chen",
+        "Ziqi Wu",
+        "Jingming Cai",
+        "Yan Song"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous agents. However, progress is fundamentally limited by the reliance on full-length trajectory imitation. For tasks involving multiple order-independent sub-goals, the optimal solution space forms a vast combinatorial diamond lattice. Forcing this rich topology into monolithic trajectories causes a severe topological collapse, indiscriminately penalizing valid alternative explorations and severely degrading policy diversity. To ad",
+      "url": "https://huggingface.co/papers/2608.18524",
+      "pdf_url": "https://arxiv.org/pdf/2608.18524.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-08-19",
+      "added": "2026-09-01",
+      "stars": 67
+    },
+    {
+      "id": "hf-2608-28122",
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "authors": [
+        "Tianfu Wang",
+        "Zhezheng Hao",
+        "Xilin Xia",
+        "Lixin Liu",
+        "Mengkang Hu",
+        "Hongzhang Liu",
+        "Xi Chen",
+        "Ziyan Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of producing drafts and components. Their practical impact increasingly depends on whether those pieces can become complete, dependable deliverables. This survey examines agentic artifact creation, which we define as stateful construction in which an AI system materially constructs or revises a deliverable and intermediate observations redirect later work. Functionally, the process links an operational representation of the artifact",
+      "url": "https://huggingface.co/papers/2608.28122",
+      "pdf_url": "https://arxiv.org/pdf/2608.28122.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark",
+        "survey"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 52
+    },
+    {
+      "id": "hf-2608-27370",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "authors": [
+        "Kairong Luo",
+        "Jiarui Cui",
+        "Yaorui Yin",
+        "Shengqi Chen",
+        "Yiming Yang",
+        "Linxiang Gao",
+        "Yanmohan Wang",
+        "Mingzhe Zhang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities. Although strong open-source efforts already exist, including open-weight models and open-source training recipes, a cost-efficient, hardware-accessible, and open-source pretraining recipe has long been missing. Even at a small scale, training Llama-3.2-3B costs over \\1.5M, and reproducing SmolLM3-3B needs over 700K. In this report, we present an open pretraining recipe designed to lower thi",
+      "url": "https://huggingface.co/papers/2608.27370",
+      "pdf_url": "https://arxiv.org/pdf/2608.27370.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-09-01",
+      "stars": 28
+    },
+    {
+      "id": "hf-2608-23478",
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "authors": [
+        "Sangoh Lee",
+        "Sangwoo Mo",
+        "Wook-Shin Han"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objective served by the behavior under the instruction. Future-based supervision enriches action learning with frames, latent observations, trajectories, or motion representations, but these signals capture particular realizations of what may happen rather than the shared semantic objective of the forthcom",
+      "url": "https://huggingface.co/papers/2608.23478",
+      "pdf_url": "https://arxiv.org/pdf/2608.23478.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-24",
+      "added": "2026-09-01",
+      "stars": 27
+    },
+    {
+      "id": "hf-2608-24804",
+      "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments",
+      "authors": [
+        "Esakkivel Esakkiraja",
+        "Denis Akhiyarov",
+        "Vikas Yadav",
+        "Sai Rajeswar",
+        "Patrice Bechard",
+        "Sridhar Nemala",
+        "Sagar Davasam"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present StarHarness, a framework for evolving environment-specific agent harnesses while keeping model weights fixed. The evolved harness can include prompt and task framing, tool interfaces, skills, MCP-backed providers, subagent structure, and agent-loop configuration. StarHarness constructs a compact evolution pool by stratifying tasks according to baseline failure behavior, separates proposer-visible search tasks from proposer-hidden selection tasks, and reserves held-out tasks for evaluating generalization. Across ITBench SRE, Enterpris",
+      "url": "https://huggingface.co/papers/2608.24804",
+      "pdf_url": "https://arxiv.org/pdf/2608.24804.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-25",
+      "added": "2026-09-01",
+      "stars": 19
+    },
+    {
+      "id": "hf-2608-28192",
+      "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+      "authors": [
+        "Hanoona Rasheed",
+        "Haania Siddiqui",
+        "Ming-Hsuan Yang",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target entity throughout that interval. Existing multimodal large language models typically serialize dense localization trajectories autoregressively, causing decoding latency to grow with tube length and allowing localization errors to propagate across time. We introduce Parallel Tube Decoding (PTD), a generative formulation that decomposes grounding into a temporal block followed by time-conditioned spatial blocks decoded simultan",
+      "url": "https://huggingface.co/papers/2608.28192",
+      "pdf_url": "https://arxiv.org/pdf/2608.28192.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 15
+    },
+    {
+      "id": "hf-2608-25417",
+      "title": "Paint What You See: Benchmarking Dexterous Visual Tool Use in Multimodal Agents",
+      "authors": [
+        "Shudong Liu",
+        "Dongyang Chen",
+        "Enci Zhang",
+        "Jinwei Liang",
+        "Zheng Ma",
+        "Lewei Lu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Evaluation is shifting from static QA toward agentic settings where models act through external tools. We identify a critical yet underexplored capability within this space - dexterous visual tool use: fine-grained, closed-loop parameterized visual action in which models infer tool parameters from visual evidence, and those parameters directly govern the final result. Existing benchmarks cover web navigation, GUI operation, and software engineering, but rarely target this coupling between visual evidence and execution precision. We propose EASE",
+      "url": "https://huggingface.co/papers/2608.25417",
+      "pdf_url": "https://arxiv.org/pdf/2608.25417.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-26",
+      "added": "2026-09-01",
+      "stars": 14
+    },
+    {
+      "id": "hf-2608-24777",
+      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+      "authors": [
+        "Zhijie Zheng",
+        "Yu Li",
+        "Chen Qian",
+        "Yuqian Fu",
+        "Yanwei Fu",
+        "Lu Sheng",
+        "Jing Shao",
+        "Dongrui Liu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM-based agents can interact with external environments through tool invocation, but this capability also introduces security risks such as file modification, information leakage, and unauthorized actions. Existing guardrails often evaluate completed trajectories, leaving pre-execution monitoring of step-level actions underexplored. We propose StepGuard, a step-level guard model that can audit completed agent trajectories and check tool actions before they are executed. To train StepGuard, we introduce StepGen, an automatic data engine that ge",
+      "url": "https://huggingface.co/papers/2608.24777",
+      "pdf_url": "https://arxiv.org/pdf/2608.24777.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-08-25",
+      "added": "2026-09-01",
+      "stars": 14
+    },
+    {
+      "id": "hf-2608-28444",
+      "title": "Sliding-window beats linear attention",
+      "authors": [
+        "Alexia Jolicoeur-Martineau",
+        "Rhea Sanjay Sukthanker",
+        "Pashmina Cameron",
+        "Emy Gervais"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new token costs more than the previous one. For each additional token, the keys and values must be stored in memory indefinitely, which is unsustainable.   Several alternatives have been proposed to fix the quadratic scaling problem, one of which is retrofitting LLMs to use Linear Attention. This idea has attracted a lot of attention, given its promise to solve the quadratic scaling problem with state-of-the-art performance at low co",
+      "url": "https://huggingface.co/papers/2608.28444",
+      "pdf_url": "https://arxiv.org/pdf/2608.28444.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 12
+    },
+    {
+      "id": "hf-2608-28363",
+      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
+      "authors": [
+        "Tanmay Sah",
+        "Dolly Sah",
+        "Harshul Jain",
+        "Tanya Sah"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime. Such self-evolution can improve capability, but a successful mutation may leave persistent effects that cannot be safely reversed in states different from the one in which it was created. We introduce EvoUndo, a framework for representing, synthesizing, diagnosing, and independently verifying recoverability of model-generated self-modifications across counterfactual states. Across 600 unseen one-shot self-evolution tasks, we ident",
+      "url": "https://huggingface.co/papers/2608.28363",
+      "pdf_url": "https://arxiv.org/pdf/2608.28363.pdf",
+      "tags": [
+        "hf-trending",
+        "agent"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 5
+    },
+    {
+      "id": "hf-2608-27906",
+      "title": "Rubric-to-Code Credit Assignment for Reinforcement Learning",
+      "authors": [
+        "Rui Jin",
+        "Jikai Chen",
+        "Yihan Chen",
+        "Hao Zhou",
+        "Demin Zhu",
+        "Kaichen Yang",
+        "Dong Wang",
+        "Chenyi Zhuang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Interactive web application generation requires models to produce usable HTML, CSS, and JavaScript applications from natural language requests. Unlike conventional code generation, application quality depends on multiple user-facing functional requirements, each often tied to localized code regions such as event handlers, state updates, DOM fragments, or CSS selectors. Standard GRPO collapses these structured outcomes into a single sequence-level reward and applies the resulting advantage uniformly to all tokens, weakening credit assignment. We",
+      "url": "https://huggingface.co/papers/2608.27906",
+      "pdf_url": "https://arxiv.org/pdf/2608.27906.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 5
+    },
+    {
+      "id": "hf-2608-23149",
+      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
+      "authors": [
+        "Seungyoon Lee",
+        "Minhyuk Kim",
+        "Jungseob Lee",
+        "Heuiseok Lim"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often leads to suboptimal performance in other languages. In this paper, we propose Cross-lingual Ranking Preference Optimization~(CRPO), a novel framework that leverages robust preference knowledge from English to facilitate preference alignment in the target language. We design a hierarchical structure within parallel preference pairs across the target language and English to jointly optimize intra- and inter-lingual preferences, there",
+      "url": "https://huggingface.co/papers/2608.23149",
+      "pdf_url": "https://arxiv.org/pdf/2608.23149.pdf",
+      "tags": [
+        "hf-trending",
+        "code"
+      ],
+      "published": "2026-08-24",
+      "added": "2026-09-01",
+      "stars": 4
+    },
+    {
+      "id": "hf-2608-25375",
+      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
+      "authors": [
+        "Yiqun Sun",
+        "Junyu Chen",
+        "Pengfei Wei",
+        "Lawrence B. Hsieh"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demographically biased outputs even when images differ only in controlled attributes such as perceived race or gender. However, existing inference-time debiasers were largely designed for static embeddings or CLIP-like models rather than generative VLMs. We propose GGSS---Geodesic-Gated Spherical Steering---a norm-preserving intervention that discovers a counterfactual bias subspace on the unit hypersphere, steers visual tokens along",
+      "url": "https://huggingface.co/papers/2608.25375",
+      "pdf_url": "https://arxiv.org/pdf/2608.25375.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-08-26",
+      "added": "2026-09-01",
+      "stars": 3
+    },
+    {
+      "id": "hf-2608-28458",
+      "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
+      "authors": [
+        "Nan Li"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Interactive dialogue games test a capability that static benchmarks largely leave implicit: a model must carry state across turns, interpret feedback, and choose valid actions under changing constraints. We study this setting in the LM Playschool Challenge with a 2B open-weight model, and find that many failures are not only broad knowledge failures but also local decision failures: repeated guesses, malformed actions, and violations of feedback that the model has just seen. These diagnostics motivate a training recipe organized around three st",
+      "url": "https://huggingface.co/papers/2608.28458",
+      "pdf_url": "https://arxiv.org/pdf/2608.28458.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-28",
+      "added": "2026-09-01",
+      "stars": 2
+    },
+    {
+      "id": "hf-2608-26175",
+      "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
+      "authors": [
+        "Mantas Lukauskas"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compressors such as LLMLingua-2 report strong results on English benchmarks. Most other languages already pay a token premium: the same content costs 1.3-1.8x more tokens than in English. We ask whether compression closes or widens this gap. Using fully parallel data in ten languages spanning five scripts, with controls budget-matched in the target model's tokenizer, we audit four learned compressors against four deterministic basel",
+      "url": "https://huggingface.co/papers/2608.26175",
+      "pdf_url": "https://arxiv.org/pdf/2608.26175.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-07-27",
+      "added": "2026-09-01",
+      "stars": 2
+    },
+    {
+      "id": "hf-2608-27550",
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "authors": [
+        "Senqiao Yang",
+        "Chengyao Wang",
+        "Yuxin Chen",
+        "Zixuan Wang",
+        "Longxiang Tang",
+        "Haokun Gui",
+        "Jinhui Ye",
+        "Changsheng Lu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM backbone trained on broad, heterogeneous, multi-embod",
+      "url": "https://huggingface.co/papers/2608.27550",
+      "pdf_url": "https://arxiv.org/pdf/2608.27550.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-31",
+      "stars": 74
+    },
+    {
       "id": "hf-2608-27549",
       "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
       "authors": [
@@ -25,33 +429,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-31",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-28478",
-      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
-      "authors": [
-        "Zhuoshi Pan",
-        "Junru Lu",
-        "Yan Qian",
-        "H. Vicky Zhao",
-        "Di Yin",
-        "Xing Sun"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating docum",
-      "url": "https://huggingface.co/papers/2608.28478",
-      "pdf_url": "https://arxiv.org/pdf/2608.28478.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-28",
-      "added": "2026-08-31",
-      "stars": 3
+      "stars": 43
     },
     {
       "id": "hf-2608-28476",
@@ -79,56 +457,33 @@
       ],
       "published": "2026-08-28",
       "added": "2026-08-31",
-      "stars": 3
+      "stars": 24
     },
     {
-      "id": "hf-2608-27550",
-      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "id": "hf-2608-28478",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
       "authors": [
-        "Senqiao Yang",
-        "Chengyao Wang",
-        "Yuxin Chen",
-        "Zixuan Wang",
-        "Longxiang Tang",
-        "Haokun Gui",
-        "Jinhui Ye",
-        "Changsheng Lu"
+        "Zhuoshi Pan",
+        "Junru Lu",
+        "Yan Qian",
+        "H. Vicky Zhao",
+        "Di Yin",
+        "Xing Sun"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM backbone trained on broad, heterogeneous, multi-embod",
-      "url": "https://huggingface.co/papers/2608.27550",
-      "pdf_url": "https://arxiv.org/pdf/2608.27550.pdf",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating docum",
+      "url": "https://huggingface.co/papers/2608.28478",
+      "pdf_url": "https://arxiv.org/pdf/2608.28478.pdf",
       "tags": [
         "hf-trending",
-        "multimodal",
-        "robotics"
+        "rl",
+        "reasoning",
+        "benchmark",
+        "code"
       ],
-      "published": "2026-08-27",
+      "published": "2026-08-28",
       "added": "2026-08-31",
-      "stars": 2
-    },
-    {
-      "id": "hf-2608-25697",
-      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
-      "authors": [
-        "XiuYu Zhang",
-        "Bonan Ruan",
-        "Junfeng Fang",
-        "An Zhang",
-        "Tat-Seng Chua",
-        "Zhenkai Liang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models (LLMs) are increasingly deployed with layered defenses, yet malicious prompts can still bypass them. Interpretability methods can expose model-internal signals along the generation path that could inform enforcement, but these signals are not security controls by themselves. Deployments that adapt them for safety typically couple each signal to its own calibration, policy logic, and intervention code, so each new artifact creates integration work instead of strengthening a shared defense. We present Language Model Security",
-      "url": "https://huggingface.co/papers/2608.25697",
-      "pdf_url": "https://arxiv.org/pdf/2608.25697.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-26",
-      "added": "2026-08-31",
-      "stars": 1
+      "stars": 15
     },
     {
       "id": "hf-2608-24115",
@@ -153,7 +508,30 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-31",
-      "stars": 1
+      "stars": 11
+    },
+    {
+      "id": "hf-2608-25697",
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "authors": [
+        "XiuYu Zhang",
+        "Bonan Ruan",
+        "Junfeng Fang",
+        "An Zhang",
+        "Tat-Seng Chua",
+        "Zhenkai Liang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models (LLMs) are increasingly deployed with layered defenses, yet malicious prompts can still bypass them. Interpretability methods can expose model-internal signals along the generation path that could inform enforcement, but these signals are not security controls by themselves. Deployments that adapt them for safety typically couple each signal to its own calibration, policy logic, and intervention code, so each new artifact creates integration work instead of strengthening a shared defense. We present Language Model Security",
+      "url": "https://huggingface.co/papers/2608.25697",
+      "pdf_url": "https://arxiv.org/pdf/2608.25697.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-26",
+      "added": "2026-08-31",
+      "stars": 3
     },
     {
       "id": "hf-2608-20965",
@@ -172,7 +550,7 @@
       ],
       "published": "2026-08-21",
       "added": "2026-08-31",
-      "stars": 0
+      "stars": 3
     },
     {
       "id": "hf-2608-25518",
@@ -199,7 +577,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 182
+      "stars": 186
     },
     {
       "id": "hf-2608-27456",
@@ -227,7 +605,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 104
+      "stars": 106
     },
     {
       "id": "hf-2608-27448",
@@ -254,7 +632,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-08-29",
-      "stars": 73
+      "stars": 72
     },
     {
       "id": "hf-2608-26872",
@@ -308,7 +686,7 @@
       ],
       "published": "2026-08-22",
       "added": "2026-08-29",
-      "stars": 46
+      "stars": 47
     },
     {
       "id": "hf-2608-26200",
@@ -331,7 +709,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 44
+      "stars": 45
     },
     {
       "id": "hf-2608-26530",
@@ -361,6 +739,30 @@
       "stars": 30
     },
     {
+      "id": "hf-2608-27454",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan",
+        "Tu Vu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separ",
+      "url": "https://huggingface.co/papers/2608.27454",
+      "pdf_url": "https://arxiv.org/pdf/2608.27454.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-08-27",
+      "added": "2026-08-29",
+      "stars": 24
+    },
+    {
       "id": "hf-2608-26103",
       "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
       "authors": [
@@ -384,30 +786,6 @@
         "robotics"
       ],
       "published": "2026-08-26",
-      "added": "2026-08-29",
-      "stars": 19
-    },
-    {
-      "id": "hf-2608-27454",
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "authors": [
-        "Liyan Tang",
-        "Cyrus Rashtchian",
-        "Chun-Sung Ferng",
-        "Andrew Tomkins",
-        "Da-Cheng Juan",
-        "Tu Vu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separ",
-      "url": "https://huggingface.co/papers/2608.27454",
-      "pdf_url": "https://arxiv.org/pdf/2608.27454.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-27",
       "added": "2026-08-29",
       "stars": 19
     },
@@ -463,7 +841,7 @@
       ],
       "published": "2026-08-25",
       "added": "2026-08-29",
-      "stars": 12
+      "stars": 14
     },
     {
       "id": "hf-2608-26238",
@@ -490,7 +868,7 @@
       ],
       "published": "2026-08-26",
       "added": "2026-08-29",
-      "stars": 11
+      "stars": 13
     },
     {
       "id": "hf-2608-27455",
@@ -1647,414 +2025,6 @@
       "published": "2026-08-25",
       "added": "2026-08-27",
       "stars": 6
-    },
-    {
-      "id": "hf-2608-09408",
-      "title": "DREAM Technical Report",
-      "authors": [
-        "Bin Zhang",
-        "Bowen Zheng",
-        "Chao Yi",
-        "Chengyu Lai",
-        "Dian Chen",
-        "Dimin Wang",
-        "Gaoyang Guo",
-        "Jialin Zhu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Industrial recommender systems commonly use cascaded retrieval, ranking, and re-ranking pipelines. Although efficient, these pipelines fragment information and objectives across modules, rely on rigid rules, and have limited awareness of real-time intent, leaving session-level shifts among browsing, comparison, and purchase insufficiently addressed. We present DREAM (Developing Recommender Engine with Agentic Methods), an autonomous optimization control architecture that adds a perception-aware, orchestrable, and auditable policy layer atop exi",
-      "url": "https://huggingface.co/papers/2608.09408",
-      "pdf_url": "https://arxiv.org/pdf/2608.09408.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-13",
-      "added": "2026-08-27",
-      "stars": 5
-    },
-    {
-      "id": "hf-2608-23670",
-      "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
-      "authors": [
-        "Seonglae Cho",
-        "Franklin Cardenoso Fernandez",
-        "Umar Mohammed",
-        "Zekun Wu",
-        "Kleyton Da Costa",
-        "Ilham Wicaksono",
-        "Adriano Koshiyama"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "LLM-based agents execute multi-step tasks, but their behavioral structure remains opaque: long unstructured traces resist the safety auditing and runtime monitoring that deployment requires. Existing approaches operate per-trace or success-only, so they miss the cross-run topology that links next-step and failure prediction. To recover that shared structure, we collapse an entire trace corpus into a single, compact finite-state machine (FSM) that serves as a structural substrate for the otherwise unpredictable behavior of LLM agents. Across twe",
-      "url": "https://huggingface.co/papers/2608.23670",
-      "pdf_url": "https://arxiv.org/pdf/2608.23670.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-27",
-      "stars": 4
-    },
-    {
-      "id": "hf-2608-24794",
-      "title": "CAFE: Self-Improving Search Agents Need Co-Evolving Feedback",
-      "authors": [
-        "Boyang Liu",
-        "Senjie Jin",
-        "Peixin Wang",
-        "Zhangyue Yin",
-        "Yibo Wang",
-        "Yuhao Zhou",
-        "Xinbing Liang",
-        "Shizheng Zhu"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Outcome-supervised search agents learn when and how to retrieve evidence, but terminal rewards neither localize intermediate errors nor redirect an ongoing trajectory before those errors compound. Treating corrective feedback as a learned in-trajectory intervention couples the two roles: the agent must decide when to request and use feedback, while the critic must infer useful corrections from outcome-confounded rollouts whose failure patterns shift as the agent improves. We introduce CAFE (Coupled Agent--Feedback Evolution), a framework in whi",
-      "url": "https://huggingface.co/papers/2608.24794",
-      "pdf_url": "https://arxiv.org/pdf/2608.24794.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-08-27",
-      "stars": 4
-    },
-    {
-      "id": "hf-2608-24763",
-      "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
-      "authors": [
-        "Muhammad Asad Ali",
-        "Umar Khan",
-        "Nadia Robertini",
-        "Didier Stricker"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Procedural video-language models must solve heterogeneous tasks from the same visual evidence, including action recognition, forecasting, and procedure prediction. Dense transformer decoders share the same feed-forward networks across tasks, which can entangle task behavior and make controlled capability expansion difficult. Sparse Mixture-of-Experts (MoE) decoders provide conditional computation, but token-level learned routing is not naturally aligned with task-level procedural objectives. We propose MoTE (Mixture of Task Experts), a decoder",
-      "url": "https://huggingface.co/papers/2608.24763",
-      "pdf_url": "https://arxiv.org/pdf/2608.24763.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-08-27",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-24738",
-      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
-      "authors": [
-        "Kai Zhao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementation in the Python ecosystem, i.e. scipy.ndimage, is CPU-only, single-array, and therefore unusable inside a GPU training loop without an expensive device-to-host round trip. GPU vision libraries built on PyTorch cover a narrow subset of these operators, typically restricted to two spatial dimensions and flat structuring elements. We present TorchMorph, a lightweight PyTorch extension that closes this gap. TorchMorph exposes 22 p",
-      "url": "https://huggingface.co/papers/2608.24738",
-      "pdf_url": "https://arxiv.org/pdf/2608.24738.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-08-27",
-      "stars": 3
-    },
-    {
-      "id": "hf-2608-23691",
-      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-      "authors": [
-        "Stephen Chung",
-        "Wenyu Du",
-        "William J. Wesley"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature. Across 12 construction problems from the AlphaEvolve catalogue and two additional case studies, the Station obtained results novel relative to the prior literature on five problems: a new infinite fami",
-      "url": "https://huggingface.co/papers/2608.23691",
-      "pdf_url": "https://arxiv.org/pdf/2608.23691.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-27",
-      "stars": 2
-    },
-    {
-      "id": "hf-2608-24882",
-      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
-      "authors": [
-        "Xiang Li",
-        "Yupeng Zheng",
-        "Songen Gu",
-        "Huailiang Ma",
-        "Feng Yu",
-        "Xian Nie",
-        "Shanshuai Yuan",
-        "Yujie Zang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show lower generalization for Fast-WAM than for future-aware alternatives, especially with scarce robot demonstrations and in out-of-distribution scenarios. To bridge this gap, we introduce **LAWA**, a WAM architecture that uses compact latent actions as an operational representation of future intentions",
-      "url": "https://huggingface.co/papers/2608.24882",
-      "pdf_url": "https://arxiv.org/pdf/2608.24882.pdf",
-      "tags": [
-        "hf-trending",
-        "code",
-        "robotics"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-08-27",
-      "stars": 0
-    },
-    {
-      "id": "hf-2608-23283",
-      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-      "authors": [
-        "Apodex Team",
-        "B. An",
-        "B. Li",
-        "B. Wang",
-        "B. Zhang",
-        "B. L. Wang",
-        "C. Feng",
-        "C. Wei"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, search, and code environments, while Agentic Coordi",
-      "url": "https://huggingface.co/papers/2608.23283",
-      "pdf_url": "https://arxiv.org/pdf/2608.23283.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 173
-    },
-    {
-      "id": "hf-2608-20958",
-      "title": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
-      "authors": [
-        "Yibo Hu",
-        "Yu Qian",
-        "Mao Gu",
-        "Yingfan Tao",
-        "Yuhao Chen",
-        "Yongdong Luo",
-        "Zhuoqun Liu",
-        "Meiguang Jin"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scenarios. It maps image, video, audio, and text inputs into a unified representation space. For long-form live streaming analysis, we introduce Per-vGrid, a timestamped token organization that groups each video grid with its temporally corresponding aud",
-      "url": "https://huggingface.co/papers/2608.20958",
-      "pdf_url": "https://arxiv.org/pdf/2608.20958.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-21",
-      "added": "2026-08-26",
-      "stars": 55
-    },
-    {
-      "id": "hf-2608-23035",
-      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
-      "authors": [
-        "Yi Zhu",
-        "Xiongwei Wu",
-        "Qiyi Wang",
-        "Tingyu Qu",
-        "Jiajun Liu",
-        "Sihan Cao",
-        "Long Chen",
-        "Weigao Sun"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. Yet existing benchmarks fall into two camps, each with a critical blind spot: GUI-centric benchmarks test surface-level screen manipulation while overlooking background tool use and long-horizon planning, whereas static function-calling benchmarks rely on offline API matching that is detached from real runtime constraints. To close this gap, we present MobilePA-Bench, an",
-      "url": "https://huggingface.co/papers/2608.23035",
-      "pdf_url": "https://arxiv.org/pdf/2608.23035.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 38
-    },
-    {
-      "id": "hf-2608-23552",
-      "title": "Prime Agent: A Self-Improving RLM Harness",
-      "authors": [
-        "Seth Karten",
-        "Alex L. Zhang",
-        "Kevin Thomas",
-        "Sebastian Müller",
-        "Elie Bakouch",
-        "Daniel Auras",
-        "Mika Senghaas",
-        "Fares Obeid"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct a",
-      "url": "https://huggingface.co/papers/2608.23552",
-      "pdf_url": "https://arxiv.org/pdf/2608.23552.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 32
-    },
-    {
-      "id": "hf-2608-19567",
-      "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
-      "authors": [
-        "Bowen Cui",
-        "Weijie Wang",
-        "Zeyu Zhang",
-        "Yefei He",
-        "Mingda Lin",
-        "Haoyu Zhao",
-        "Yuanyu He",
-        "Donny Y. Chen"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains challenging. Existing text-to-3D methods either decode discrete shape tokens autoregressively or iteratively refine global 3D representations with diffusion or flow models. However, autoregressive decoding is sequential and cannot revise errors, whereas diffusion and flow-matching models repeatedly process the full representation, making high-quality generation increasingly expensive. In this paper, we propose Block3D, a block-wise",
-      "url": "https://huggingface.co/papers/2608.19567",
-      "pdf_url": "https://arxiv.org/pdf/2608.19567.pdf",
-      "tags": [
-        "hf-trending"
-      ],
-      "published": "2026-08-20",
-      "added": "2026-08-26",
-      "stars": 27
-    },
-    {
-      "id": "hf-2608-20430",
-      "title": "RISE: Adaptive Imagination for World Action Models",
-      "authors": [
-        "Hongbo Lu",
-        "Liang Yao",
-        "Chenghao He",
-        "Hao Han",
-        "Fan Liu",
-        "Wenlong Liao",
-        "Tao He",
-        "Pai Peng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existing methods allocate a fixed imagination budget to every scene. We propose RISE (Refining Imagination through SElective Rollout), a system-level adaptive imagination framework that makes sequential Roll/Stop decisions according to the expected planning benefit of continued rollout. At each step, a Latent Evaluator estimates the risk revealed by the current prefix and how much planning could improve if imagination continues, while",
-      "url": "https://huggingface.co/papers/2608.20430",
-      "pdf_url": "https://arxiv.org/pdf/2608.20430.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-20",
-      "added": "2026-08-26",
-      "stars": 24
-    },
-    {
-      "id": "hf-2608-23311",
-      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
-      "authors": [
-        "Xianlei Zhou",
-        "Xiangdi Meng",
-        "Yu He",
-        "Tianyu Qi",
-        "Shuyan Guan",
-        "Xianli Zhang",
-        "Jian Zhang",
-        "Xin Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL regularizer. This puts practitioners in a double bind: keeping Policy-KL constrains response behavior and consumes the action-side exploration budget, while dropping it leaves the optimization without an explicit drift control. We argue for an alternative that breaks the dilemma by moving regularization to the input side. As training progresses, the distribution over training queries induced by the current",
-      "url": "https://huggingface.co/papers/2608.23311",
-      "pdf_url": "https://arxiv.org/pdf/2608.23311.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "reasoning",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-24",
-      "added": "2026-08-26",
-      "stars": 15
-    },
-    {
-      "id": "hf-2608-13622",
-      "title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
-      "authors": [
-        "Yongqi Tong",
-        "Tan Li Hui Faith",
-        "Choy Zhen Wen Marcus",
-        "Zhou Jin",
-        "Kewei Fu",
-        "Jiang-Ming Yang",
-        "Jianshe Li",
-        "Xin Zhang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification, provide progress updates, or confirm before acting. This flexibility breaks a core assumption behind group-based RL: rollouts compared within a group are no longer guaranteed to be behaviorally comparable. As a result, reward-model preferences over interaction style can distort relative advantages and steer optimization toward reward-preferred behaviors rather than context-appropriate ones. We formalize this as a reward fairne",
-      "url": "https://huggingface.co/papers/2608.13622",
-      "pdf_url": "https://arxiv.org/pdf/2608.13622.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-13",
-      "added": "2026-08-26",
-      "stars": 15
-    },
-    {
-      "id": "hf-2608-15242",
-      "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
-      "authors": [
-        "Yunfei Zhang",
-        "Boyu Feng",
-        "Changhua Pei",
-        "Zexin Wang",
-        "Zhihuang Peng",
-        "Xinlong Liu",
-        "Hengyue Jiang",
-        "Difeng Ma"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "When a long-horizon agent execution fails, outcome-level evaluation reveals the unsuccessful result but not where the decisive error entered the trajectory. Developers must then inspect the full execution to identify the responsible role and localize the earliest decisive root-cause step. Existing failure-attribution benchmarks largely focus on shorter traces, leaving diagnosis across hundreds of recorded steps underexplored. We introduce LongRCA Bench, comprising 1,140 failed trajectories across five domains without injected errors. It provide",
-      "url": "https://huggingface.co/papers/2608.15242",
-      "pdf_url": "https://arxiv.org/pdf/2608.15242.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-15",
-      "added": "2026-08-26",
-      "stars": 14
     }
   ]
 }

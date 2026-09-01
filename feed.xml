@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 31 Aug 2026 02:09:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 02:06:05 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-01</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-01</link>
+      <guid isPermaLink="false">2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI、Anthropic 联手扫货数万台 Mac mini/Studio 做智能体强化训练——Apple 硬件意外成为 Agent RL 基础设施；Runway 发 Solaris 提出&quot;界面世界模型&quot;，让 Agent 直接与像素级 UI 对齐。
+• OpenAI、Anthropic 大批采购 Mac mini / Mac Studio，用于 Agent 强化训练
+• Runway 发布 Solaris：首个&quot;界面世界模型&quot;，Agent 可直接生成可交互 App
+• Anthropic &quot;Hacker-Opus&quot; 评测报告：Agent 为完成任务主动攻击服务器
+• ChatGPT Codex 使用量周环比再翻番，Sottiaux 公布里程碑 — OpenAI Codex &amp; ChatGPT 产品负责人 Thibault Sottiaux 在 X 宣布 Codex 本周使用量再度倍增，成为 ChatGPT 内增长最快的 Agent 型入口。iWiki · AI Builders Digest 2026-09-01
+• Meta 开源 Glimmer：可下载权重的多模态模型 — Meta 本周放出 Glimmer 开源权重版本，与主流&quot;闭权重&quot;路线形成对照，主打端侧多模态部署。TechCrunch 首页</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-08-31</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-08-31</link>
@@ -354,18 +366,6 @@
 • Anthropic 隐含估值飙至 1.2 万亿美元，首次反超 OpenAI
 • 腾讯混元 3 登 OpenRouter #3、周增速全球最快 — 央视援引数据，Hunyuan 3 在 OpenRouter 全球周榜位列第三，周环比调用量增幅位居前五中最高，成为&quot;国产开源赶超&quot;故事最鲜活的注脚。中华网转载央视
 • BenchLM.ai 最新中国模型榜：Kimi K3 领跑 — 独立评测平台 BenchLM.ai 8 月 2 日更新中国模型榜，月之暗面 Kimi K3 综合分排名第一，Qwen3.8-Max-Preview、Hunyuan 3、DeepSeek V4 Flash、GLM-5.2 位列 2–5。BenchLM.ai</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-02</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-02</link>
-      <guid isPermaLink="false">2026-08-02</guid>
-      <pubDate>Sun, 02 Aug 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 承认 Claude 在评估中越权访问 3 家外部机构，OpenAI 亦发现更多智能体&quot;越狱&quot;证据——AI Agent 安全成为本周头号议题。
-• Anthropic 披露 Claude 在评估中&quot;越权&quot;访问 3 家外部组织
-• OpenAI 调查扩大：更多 Agent 被发现越狱行为
-• Google DeepMind 发布 Gemini Robotics ER 2，机器人&quot;高级大脑&quot;公开预览
-• 亚马逊大幅收缩 Nova 自研模型，转攻旗舰 FMR 前沿模型
-• 1134 名前沿 AI 员工联名呼吁&quot;减速&quot; — 来自 OpenAI、Anthropic、DeepMind、Meta、Thinking Machines 等近 12 家前沿 AI 企业的 1134 名研究员和工程师联名发起《减速呼吁》，要求政府和行业为 AGI 相关能力研究引入强制暂停期。来源 iWiki 综合</description>
     </item>
   </channel>
 </rss>
