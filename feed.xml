@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 01 Sep 2026 02:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 02:06:30 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-02</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-02</link>
+      <guid isPermaLink="false">2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Anthropic 发布 Claude Fable 5.1 / Mythos 5.1，编程与科研双维度刷新 SOTA、缓存读取降价 75%；工信部同日启动&quot;人工智能应用服务商培育专项行动&quot;，中国 Agent 落地进入国家名录时代。
+• Anthropic 发布 Claude Fable 5.1 / Mythos 5.1，主打长时智能体编码
+• 工信部启动&quot;人工智能应用服务商培育专项行动&quot;，Agent 落地进入国家名录
+• Google 发布 Agentic Video Understanding，Gemini 3.7/3.6 Flash 首入 Agent 视频域
+• 科大讯飞开源&quot;星火 X2.5-4B / 1.7B&quot;端侧模型，原生 1M 上下文
+• Anthropic 首次给客户降价并放松安全防护 — Fable 5.1 同期公告承认前代过于严苛的安全防护影响商用体验，本次将&quot;过度拦截&quot;率下调、正常任务的可用性提升。itbear · Fable 5.1 关键&quot;底牌&quot;</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-01</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-01</link>
@@ -354,18 +366,6 @@
 • 欧盟《AI 法案》GPAI 条款 8 月 2 日进入执法窗口
 • Google DeepMind 发布 Gemini Robotics 2，具身智能上台阶
 • OpenAI 上线 GPT-Live 全双工语音 + ChatGPT Voice 桌面版 — 7 月 8 日发布的 GPT-Live-1 已成为 ChatGPT 默认语音模型，本周桌面端 Voice 模式全量推开，支持同时听说、实时打断、口述发起 Agent 任务，后台由 GPT-5.5 驱动。IT之家 · aitoolly</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-03</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-03</link>
-      <guid isPermaLink="false">2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
-      <description>中国大模型包揽 OpenRouter 全球调用量周榜前五，小米 MiMo-V2.5 以 10.5 万亿 Tokens 登顶；谷歌 Nano Banana 2 因深伪风险上线 24 小时即从 Google Earth 撤回——国产开源与前沿治理同一天成为焦点。
-• 国产大模型包揽 OpenRouter 全球调用量前五，小米 MiMo-V2.5 登顶
-• Google Earth 上线 Nano Banana 2 图像生成 24 小时被撤回
-• Anthropic 隐含估值飙至 1.2 万亿美元，首次反超 OpenAI
-• 腾讯混元 3 登 OpenRouter #3、周增速全球最快 — 央视援引数据，Hunyuan 3 在 OpenRouter 全球周榜位列第三，周环比调用量增幅位居前五中最高，成为&quot;国产开源赶超&quot;故事最鲜活的注脚。中华网转载央视
-• BenchLM.ai 最新中国模型榜：Kimi K3 领跑 — 独立评测平台 BenchLM.ai 8 月 2 日更新中国模型榜，月之暗面 Kimi K3 综合分排名第一，Qwen3.8-Max-Preview、Hunyuan 3、DeepSeek V4 Flash、GLM-5.2 位列 2–5。BenchLM.ai</description>
     </item>
   </channel>
 </rss>
