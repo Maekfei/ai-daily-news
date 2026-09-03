@@ -45,7 +45,7 @@
       ],
       "published": "2026-08-31",
       "added": "2026-09-02",
-      "stars": 92
+      "stars": 93
     },
     {
       "id": "hf-2608-30821",
@@ -245,7 +245,7 @@
       ],
       "published": "2026-08-29",
       "added": "2026-09-02",
-      "stars": 24
+      "stars": 26
     },
     {
       "id": "hf-2608-30935",
@@ -275,7 +275,7 @@
       ],
       "published": "2026-08-31",
       "added": "2026-09-02",
-      "stars": 24
+      "stars": 26
     },
     {
       "id": "hf-2608-31075",
@@ -408,7 +408,7 @@
       ],
       "published": "2026-08-29",
       "added": "2026-09-02",
-      "stars": 9
+      "stars": 11
     },
     {
       "id": "hf-2608-24293",
@@ -432,7 +432,60 @@
       ],
       "published": "2026-08-25",
       "added": "2026-09-02",
+      "stars": 11
+    },
+    {
+      "id": "hf-2609-00551",
+      "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
+      "authors": [
+        "Yijun Chen",
+        "Yaqi Zheng",
+        "Yanya Li",
+        "Boyi Xiao",
+        "Buqiang Xu",
+        "Shuofei Qiao",
+        "Jizhan Fang",
+        "Xinle Deng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve captions, frames, transcripts, summaries, or graph facts as isolated fragments. Although searchable, such fragments are not generation-ready: language models must reconstruct cross-modal and temporal alignments at inference time, when context is limited and attribution is difficult. We propose EM^2Mem, an event-centric multimodal memory framework that binds heterogeneous evidence to event anchors during memory construction. Each",
+      "url": "https://huggingface.co/papers/2609.00551",
+      "pdf_url": "https://arxiv.org/pdf/2609.00551.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "multimodal",
+        "code"
+      ],
+      "published": "2026-09-01",
+      "added": "2026-09-02",
       "stars": 9
+    },
+    {
+      "id": "hf-2609-00621",
+      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
+      "authors": [
+        "Wentao Zhang",
+        "Syed Shariyar Murtaza",
+        "Junaid Ahmad Bhatti",
+        "Utkarsh Soni",
+        "Yifan Nie",
+        "Eugene Wen",
+        "Yuntian Deng"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled roles: generating task-relevant content and specifying execution-critical protocols, such as message routing, output formatting, and termination signals, on which the underlying code relies. As a result, a prompt edit intended to improve content generation can inadvertently corrupt the protocol and cause the entire agent pipeline to fail. Our key observation is that these two roles have different representations: execution protocol",
+      "url": "https://huggingface.co/papers/2609.00621",
+      "pdf_url": "https://arxiv.org/pdf/2609.00621.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-09-01",
+      "added": "2026-09-02",
+      "stars": 8
     },
     {
       "id": "hf-2608-30241",
@@ -482,6 +535,34 @@
         "multimodal"
       ],
       "published": "2026-08-31",
+      "added": "2026-09-02",
+      "stars": 7
+    },
+    {
+      "id": "hf-2608-28612",
+      "title": "InternReviewer & InternAdvocate: Objective Reward and Evaluation for Agentic Reinforcement Learning in Peer Review and Rebuttal",
+      "authors": [
+        "Xuerui Su",
+        "Liya Guo",
+        "Qizhi Pei",
+        "Qipeng Guo",
+        "Zhongbo Tian",
+        "Lijun Wu",
+        "Kai Chen",
+        "Zun Wang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Generating professional scholarly content, such as peer reviews and rebuttals, requires an intricate synergy between domain reasoning and factual grounding. This work presents a comprehensive framework for the development and evaluation of specialized scholarly agents, InternReviewer and InternAdvocate. We first establish a large-scale, high-quality scholarly dataset and integrate a high-efficiency arXiv retrieval tool to enable active evidence gathering. To optimize these agents, we implement an agentic Reinforcement Learning (RL) paradigm dri",
+      "url": "https://huggingface.co/papers/2608.28612",
+      "pdf_url": "https://arxiv.org/pdf/2608.28612.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-07-21",
       "added": "2026-09-02",
       "stars": 7
     },
@@ -594,6 +675,56 @@
       "stars": 5
     },
     {
+      "id": "hf-2608-29098",
+      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
+      "authors": [
+        "Zongrui Wang",
+        "Xiangyang Zhu",
+        "Sicheng Wang",
+        "Han Wang",
+        "Dingyi Rong",
+        "Zeyu Zhang",
+        "Chunyi Li",
+        "Yue Shi"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant behavior. Existing safeguards, however, are typically trained for a single judgment target and reduce safety assessment to a binary decision. Consequently, risk becomes difficult to compare across a multimodal interaction, and ambiguous cases are obscured. We introduce SafeAtlas-VL, a dataset of 1.5M training instances that places image-, request-, and response-level judgments on a five-level ordered scale. We curate a broad collec",
+      "url": "https://huggingface.co/papers/2608.29098",
+      "pdf_url": "https://arxiv.org/pdf/2608.29098.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark",
+        "multimodal"
+      ],
+      "published": "2026-08-29",
+      "added": "2026-09-02",
+      "stars": 5
+    },
+    {
+      "id": "hf-2608-29387",
+      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
+      "authors": [
+        "Yue Peng",
+        "Lanke Xia",
+        "Zihan Wang",
+        "Jiahao Ye",
+        "Ke Ning",
+        "Hongyi Wen"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an executable artifact as user requests evolve. We introduce EvoGenUI-Bench, a benchmark for multi-turn interface maintenance comprising 150 five-turn tasks and 750 turns across three scenarios: information presentation, executable interaction, and tool-grounded external state. We execute generated artifacts in a browser and evaluate them using screenshots, source and DOM evidence, actor traces, and runtime logs. Beyond turn-level and",
+      "url": "https://huggingface.co/papers/2608.29387",
+      "pdf_url": "https://arxiv.org/pdf/2608.29387.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-08-29",
+      "added": "2026-09-02",
+      "stars": 5
+    },
+    {
       "id": "hf-2608-28958",
       "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
       "authors": [
@@ -647,33 +778,6 @@
       "stars": 4
     },
     {
-      "id": "hf-2608-29098",
-      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
-      "authors": [
-        "Zongrui Wang",
-        "Xiangyang Zhu",
-        "Sicheng Wang",
-        "Han Wang",
-        "Dingyi Rong",
-        "Zeyu Zhang",
-        "Chunyi Li",
-        "Yue Shi"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant behavior. Existing safeguards, however, are typically trained for a single judgment target and reduce safety assessment to a binary decision. Consequently, risk becomes difficult to compare across a multimodal interaction, and ambiguous cases are obscured. We introduce SafeAtlas-VL, a dataset of 1.5M training instances that places image-, request-, and response-level judgments on a five-level ordered scale. We curate a broad collec",
-      "url": "https://huggingface.co/papers/2608.29098",
-      "pdf_url": "https://arxiv.org/pdf/2608.29098.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-29",
-      "added": "2026-09-02",
-      "stars": 4
-    },
-    {
       "id": "hf-2608-30135",
       "title": "Verification-Aware Training for Speculative Decoding",
       "authors": [
@@ -698,29 +802,6 @@
       "published": "2026-08-31",
       "added": "2026-09-02",
       "stars": 4
-    },
-    {
-      "id": "hf-2608-29387",
-      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
-      "authors": [
-        "Yue Peng",
-        "Lanke Xia",
-        "Zihan Wang",
-        "Jiahao Ye",
-        "Ke Ning",
-        "Hongyi Wen"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an executable artifact as user requests evolve. We introduce EvoGenUI-Bench, a benchmark for multi-turn interface maintenance comprising 150 five-turn tasks and 750 turns across three scenarios: information presentation, executable interaction, and tool-grounded external state. We execute generated artifacts in a browser and evaluate them using screenshots, source and DOM evidence, actor traces, and runtime logs. Beyond turn-level and",
-      "url": "https://huggingface.co/papers/2608.29387",
-      "pdf_url": "https://arxiv.org/pdf/2608.29387.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark"
-      ],
-      "published": "2026-08-29",
-      "added": "2026-09-02",
-      "stars": 3
     },
     {
       "id": "hf-2608-31113",
@@ -769,59 +850,6 @@
       "stars": 3
     },
     {
-      "id": "hf-2609-00621",
-      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
-      "authors": [
-        "Wentao Zhang",
-        "Syed Shariyar Murtaza",
-        "Junaid Ahmad Bhatti",
-        "Utkarsh Soni",
-        "Yifan Nie",
-        "Eugene Wen",
-        "Yuntian Deng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled roles: generating task-relevant content and specifying execution-critical protocols, such as message routing, output formatting, and termination signals, on which the underlying code relies. As a result, a prompt edit intended to improve content generation can inadvertently corrupt the protocol and cause the entire agent pipeline to fail. Our key observation is that these two roles have different representations: execution protocol",
-      "url": "https://huggingface.co/papers/2609.00621",
-      "pdf_url": "https://arxiv.org/pdf/2609.00621.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-09-01",
-      "added": "2026-09-02",
-      "stars": 2
-    },
-    {
-      "id": "hf-2609-00551",
-      "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
-      "authors": [
-        "Yijun Chen",
-        "Yaqi Zheng",
-        "Yanya Li",
-        "Boyi Xiao",
-        "Buqiang Xu",
-        "Shuofei Qiao",
-        "Jizhan Fang",
-        "Xinle Deng"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve captions, frames, transcripts, summaries, or graph facts as isolated fragments. Although searchable, such fragments are not generation-ready: language models must reconstruct cross-modal and temporal alignments at inference time, when context is limited and attribution is difficult. We propose EM^2Mem, an event-centric multimodal memory framework that binds heterogeneous evidence to event anchors during memory construction. Each",
-      "url": "https://huggingface.co/papers/2609.00551",
-      "pdf_url": "https://arxiv.org/pdf/2609.00551.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "multimodal",
-        "code"
-      ],
-      "published": "2026-09-01",
-      "added": "2026-09-02",
-      "stars": 2
-    },
-    {
       "id": "hf-2609-00519",
       "title": "The Safeguard Worked. Is the LLM System Safer?",
       "authors": [
@@ -840,7 +868,53 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-02",
-      "stars": 2
+      "stars": 3
+    },
+    {
+      "id": "hf-2608-29137",
+      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
+      "authors": [
+        "Shuangkang Fang",
+        "Yufeng Wang",
+        "Yi-Hsuan Tsai",
+        "Wenrui Ding",
+        "Yi Yang",
+        "Shuchang Zhou",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to text-driven 3D scene editing. However, existing schemes for 3D scene editing still have certain shortcomings, hindering their further development as interactive design tools. Such schemes typically adhere to fixed input patterns, limiting flexibility in text input. Furthermore, their editing capabilities are constrained by a single or a few 2D visual models and require intricate pipeline design to integrate these models into 3",
+      "url": "https://huggingface.co/papers/2608.29137",
+      "pdf_url": "https://arxiv.org/pdf/2608.29137.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal",
+        "robotics"
+      ],
+      "published": "2026-08-29",
+      "added": "2026-09-02",
+      "stars": 3
+    },
+    {
+      "id": "hf-2609-00968",
+      "title": "ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation",
+      "authors": [
+        "Jeonghyeok Do",
+        "Seungchul Lee",
+        "Munchurl Kim"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "SAR-to-EO image translation aims to generate electro-optical (EO) imagery from synthetic aperture radar (SAR) observations. Existing latent diffusion approaches typically inherit a predetermined autoencoder, although reconstruction fidelity can vary substantially across codecs and modalities. Because the latent codec affects the round-trip preservation of both SAR conditions and EO targets, codec selection constitutes a fundamental design choice; nevertheless, existing methods largely rely on codecs pretrained on natural images. To remedy this,",
+      "url": "https://huggingface.co/papers/2609.00968",
+      "pdf_url": "https://arxiv.org/pdf/2609.00968.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-09-01",
+      "added": "2026-09-02",
+      "stars": 3
     },
     {
       "id": "hf-2609-00048",
@@ -887,31 +961,6 @@
         "code"
       ],
       "published": "2026-08-30",
-      "added": "2026-09-02",
-      "stars": 2
-    },
-    {
-      "id": "hf-2608-29137",
-      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
-      "authors": [
-        "Shuangkang Fang",
-        "Yufeng Wang",
-        "Yi-Hsuan Tsai",
-        "Wenrui Ding",
-        "Yi Yang",
-        "Shuchang Zhou",
-        "Ming-Hsuan Yang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to text-driven 3D scene editing. However, existing schemes for 3D scene editing still have certain shortcomings, hindering their further development as interactive design tools. Such schemes typically adhere to fixed input patterns, limiting flexibility in text input. Furthermore, their editing capabilities are constrained by a single or a few 2D visual models and require intricate pipeline design to integrate these models into 3",
-      "url": "https://huggingface.co/papers/2608.29137",
-      "pdf_url": "https://arxiv.org/pdf/2608.29137.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-08-29",
       "added": "2026-09-02",
       "stars": 2
     },
@@ -969,55 +1018,6 @@
       "published": "2026-08-29",
       "added": "2026-09-02",
       "stars": 2
-    },
-    {
-      "id": "hf-2609-00968",
-      "title": "ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation",
-      "authors": [
-        "Jeonghyeok Do",
-        "Seungchul Lee",
-        "Munchurl Kim"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "SAR-to-EO image translation aims to generate electro-optical (EO) imagery from synthetic aperture radar (SAR) observations. Existing latent diffusion approaches typically inherit a predetermined autoencoder, although reconstruction fidelity can vary substantially across codecs and modalities. Because the latent codec affects the round-trip preservation of both SAR conditions and EO targets, codec selection constitutes a fundamental design choice; nevertheless, existing methods largely rely on codecs pretrained on natural images. To remedy this,",
-      "url": "https://huggingface.co/papers/2609.00968",
-      "pdf_url": "https://arxiv.org/pdf/2609.00968.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-09-01",
-      "added": "2026-09-02",
-      "stars": 1
-    },
-    {
-      "id": "hf-2608-28612",
-      "title": "InternReviewer & InternAdvocate: Objective Reward and Evaluation for Agentic Reinforcement Learning in Peer Review and Rebuttal",
-      "authors": [
-        "Xuerui Su",
-        "Liya Guo",
-        "Qizhi Pei",
-        "Qipeng Guo",
-        "Zhongbo Tian",
-        "Lijun Wu",
-        "Kai Chen",
-        "Zun Wang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Generating professional scholarly content, such as peer reviews and rebuttals, requires an intricate synergy between domain reasoning and factual grounding. This work presents a comprehensive framework for the development and evaluation of specialized scholarly agents, InternReviewer and InternAdvocate. We first establish a large-scale, high-quality scholarly dataset and integrate a high-efficiency arXiv retrieval tool to enable active evidence gathering. To optimize these agents, we implement an agentic Reinforcement Learning (RL) paradigm dri",
-      "url": "https://huggingface.co/papers/2608.28612",
-      "pdf_url": "https://arxiv.org/pdf/2608.28612.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-07-21",
-      "added": "2026-09-02",
-      "stars": 1
     },
     {
       "id": "hf-2608-30795",
