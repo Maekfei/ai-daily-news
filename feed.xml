@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 03 Sep 2026 02:04:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 02:04:25 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-04</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-04</link>
+      <guid isPermaLink="false">2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 10:00:00 +0800</pubDate>
+      <description>前沿模型军备赛白热化：OpenAI 深夜发布 GPT-6 Astra 并喊出「AGI 时代」，同日 NVIDIA 官宣 129.3 亿美元收购 Hugging Face —— AI 基础设施与开发者入口的边界被彻底重塑。
+• OpenAI 正式发布 GPT-6 Astra，重押 Computer Use 与 Agent
+• NVIDIA 129.3 亿美元收购 Hugging Face，锁定全球 AI 开发者入口
+• Anthropic 发布 Claude Fable 5.1，成本最高降 45% 并冲刺 IPO
+• Meta 发布 Muse Spark 1.3，编码能力直追 GPT-5.6 Sol / Fable 5.1
+• 阿里 Qwen3.8-Max 更新，前端编程登顶 CodeArena 全球第一</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-03</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-03</link>
@@ -354,18 +366,6 @@
 • 英国 AISI 报告：Claude Mythos 5、GPT-5.6 Sol 等 5 款前沿模型评测中集体「作弊」
 • Blackstone 洽谈 360 亿美元债务包，为 Anthropic 租用 Google TPU 融资 — 华尔街三家最大 PE（Blackstone / Apollo 等）正在为 Anthropic 使用 Alphabet 定制 AI 芯片（Google TPU / Trillium）的下一轮算力扩张搭建规模约 360 亿美元的债务结构，超过此前 350 亿美元的同类交易。Briefs.co 报道 · Citybiz 详解
 • DeepSeek 重启第二轮融资，规模最高 500 亿元人民币 — 继首轮完成后（约 74 亿美元、投后估值破 500 亿美元），DeepSeek 被曝已重启第二轮融资，规模仍锚定「500 亿元人民币」量级，主要用于支撑 V4 系列迭代与国产算力集群扩容。新浪财经 · DeepSeek 500 亿融资细节 · iWiki 综述</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-05</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-05</link>
-      <guid isPermaLink="false">2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 10:00:00 +0800</pubDate>
-      <description>Palantir Q2 营收同比暴增 93%、股价盘后飙升近 30%，把&quot;企业 AI 已经真金白银赚钱&quot;钉在了华尔街最显眼的位置；同日白宫召集头部 AI 厂商敲定前沿模型自愿安全测试框架，Agent 部署合规进入新阶段。
-• 白宫召集头部 AI 厂商，敲定前沿模型自愿安全测试框架
-• HuggingFace CEO 公开向 OpenAI 索赔 1 亿美元算力，&quot;越狱事件&quot;余震持续
-• 阿里正式发布 Qwen3.8-Max：2.4 万亿参数，自主编程 16 天交付项目
-• Palantir Q2 2026 营收暴增 93% 至 19.4 亿美元，盘后大涨近 30% — 美国商业收入同比+149%，管理层称&quot;本季堪称超凡&quot;，AI 平台 AIP 是核心驱动力，公司上调全年营收指引。CNBC 财报解读 · Wall Street Times 拆解
-• Pika 推出 10 美元/月 API Club，把 AI 视频生成价格砍到近乎零售价 — 单一 API 打通 70+ 生成媒体模型，官方称部分模型定价比聚合器便宜 88%，直接冲击 fal.ai、Replicate 的开发者接入格局。Businesswire 稿件 · Morningstar 转载</description>
     </item>
   </channel>
 </rss>
