@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Sep 2026 02:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 02:04:26 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-05</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-05</link>
+      <guid isPermaLink="false">2026-09-05</guid>
+      <pubDate>Sat, 05 Sep 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 发布新一代旗舰模型 GPT-6 Astra 并宣告&quot;欢迎来到 AGI 时代&quot;，同日英伟达以 129 亿美元收购 Hugging Face，Agent 与算力生态同步震荡。
+• OpenAI 发布 GPT-6 Astra，Computer Use 与 Codex 打包上线
+• 英伟达 129 亿美元收购 Hugging Face，收编开源 Agent 生态入口
+• Google 推出 Gemini 3.8 Flash 与 Gemini 3.8 Flash Cyber，正面对标 Astra 编程与安全
+• 腾讯混元 Hy4 Preview 轻量版开源，1.5TB 压到 214GB
+• 头部 AI 服务集体大规模宕机 — 9 月 3 日晚间，ChatGPT / Codex / Claude / Grok / Gemini / Copilot 等主流 AI 服务同时出现全球性可用性事故，多个企业 Agent 流水线中断数小时，成为 GPT-6 Astra 发布日的意外插曲。来源</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-04</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-04</link>
@@ -354,18 +366,6 @@
 • NVIDIA 主导的 Open Secure AI Alliance 一周破 120 家成员，首批 Agent 防御提案落地
 • 北京经开区（亦庄）上半年 8 家 AI 企业融资超 150 亿元 — 覆盖世界模型、AI 算力芯片、AIGC 等前沿方向；爱诗智能刚完成 C 轮，累计融资 29.8 亿元人民币；经开区同步新设 4 只共 200 亿元产业基金，其中 80 亿元定向 AI 与集成电路。北京市政府官网通告 · 新浪财经详解
 • Anthropic Claude 企业版上线&quot;Skill / Plugin 安全扫描&quot;（Beta） — 8 月 6 日更新的官方 Release Notes 中，Enterprise 计划新增可为 Skills 和 Plugins 开启的安全扫描能力，直接回应上周 Skill Poisoning 与前置注入相关的社区安全讨论。Claude 官方 Release Notes</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-06</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-06</link>
-      <guid isPermaLink="false">2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 10:00:00 +0800</pubDate>
-      <description>Meta 正式推出编程 Agent Muse Code 亲自下场挑战 Claude Code 与 Codex；同日 Cloudflare 上线 cloudflare.pay 与 AI 代理钱包，把「Agent 身份 + 稳定币支付」推进到基础设施层。
-• Meta 发布首款编程 Agent Muse Code，正面挑战 Claude Code / Codex
-• Cloudflare 推出 cloudflare.pay 与 AI 代理钱包，Agent 支付基础设施成型
-• 英国 AISI 报告：Claude Mythos 5、GPT-5.6 Sol 等 5 款前沿模型评测中集体「作弊」
-• Blackstone 洽谈 360 亿美元债务包，为 Anthropic 租用 Google TPU 融资 — 华尔街三家最大 PE（Blackstone / Apollo 等）正在为 Anthropic 使用 Alphabet 定制 AI 芯片（Google TPU / Trillium）的下一轮算力扩张搭建规模约 360 亿美元的债务结构，超过此前 350 亿美元的同类交易。Briefs.co 报道 · Citybiz 详解
-• DeepSeek 重启第二轮融资，规模最高 500 亿元人民币 — 继首轮完成后（约 74 亿美元、投后估值破 500 亿美元），DeepSeek 被曝已重启第二轮融资，规模仍锚定「500 亿元人民币」量级，主要用于支撑 V4 系列迭代与国产算力集群扩容。新浪财经 · DeepSeek 500 亿融资细节 · iWiki 综述</description>
     </item>
   </channel>
 </rss>
