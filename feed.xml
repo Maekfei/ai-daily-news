@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Sep 2026 02:04:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 02:03:33 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-06</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-06</link>
+      <guid isPermaLink="false">2026-09-06</guid>
+      <pubDate>Sun, 06 Sep 2026 10:00:00 +0800</pubDate>
+      <description>今日主线延续本周&quot;前沿模型 + 巨额算力&quot;双轮：GPT-6 Astra 面向开发者全量开放并释出 Computer Use / Codex 新能力；同时英伟达 129.3 亿美元收购 Hugging Face 的余波持续冲击开源生态与 Agent 供应链。
+• OpenAI 面向开发者全量开放 GPT-6 Astra，Computer Use 与 Codex 升级
+• NVIDIA 129.3 亿美元收购 Hugging Face，冲击开源 Agent 供应链
+• Anthropic 发布 Claude Fable 5.1 / Mythos 5.1，缓存降价 75%、Agent 成本再降 45%
+• Meta 发布 Muse Spark 1.3，宣称编码能力超 GPT-5.6 Sol、与 Fable 5.1 持平 — 9 月 2 日 Meta AI Research 官方博客发布迄今最强模型 Muse Spark 1.3，主打&quot;长智能体工作流 + 编码&quot;，Meta 首席 AI 官 Alexandr Wang 表示综合评分 62 分，API 定价低于 DeepSeek。Meta Research 官博
+• Google 同期推出 Gemini 3.8 Flash，聚焦低延迟 Agent 调用 — 与 Astra / Fable 5.1 / Muse Spark 1.3 同一 72 小时窗口内，Google 更新 Gemini 3.8 Flash，主打推理成本再降与工具调用延迟优化。QQ 新闻 — Google、Meta 同时出手</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-05</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-05</link>
@@ -354,18 +366,6 @@
 • LangChain 推出 Managed Deep Agents 公测：从原型直达生产的\&quot;Agent Harness\&quot;
 • Anthropic 开放 Claude Code \&quot;Self-hosted environments\&quot; 企业公测
 • OpenAI 全员免费开放 GPT-5.6 Luna，取消文字对话上限 — 8 月 6 日 ChatGPT 将免费用户默认模型升级为 GPT-5.6 Luna，每日文字消息无上限；Plus/Pro 用户同步获得事实性更强的 GPT-5.6 Sol。ChatGPT 周活刚跨过 10 亿。TechCrunch · 36 氪快讯</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-07</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-07</link>
-      <guid isPermaLink="false">2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 10:00:00 +0800</pubDate>
-      <description>OpenAI 一口气把 ChatGPT 免费用户默认模型换成 GPT-5.6 Luna 并开放**无限文字对话**，同日为 Plus/Pro 用户升级 Sol 的事实性；宇树科技以 **150.80 元/股**、219 倍市盈率完成科创板发行定价，DeepSeek/腾讯/社保基金 1.4 亿元战略配售落定，具身智能板块首个头部 IPO 进入路演时刻。
-• OpenAI 升级 ChatGPT：Sol 事实性大幅提升，免费用户改用 Luna 且文字对话无限量
-• 宇树科技科创板 IPO 定价 150.80 元/股：DeepSeek、腾讯、社保基金&quot;绑定式&quot;战略配售
-• NVIDIA 主导的 Open Secure AI Alliance 一周破 120 家成员，首批 Agent 防御提案落地
-• 北京经开区（亦庄）上半年 8 家 AI 企业融资超 150 亿元 — 覆盖世界模型、AI 算力芯片、AIGC 等前沿方向；爱诗智能刚完成 C 轮，累计融资 29.8 亿元人民币；经开区同步新设 4 只共 200 亿元产业基金，其中 80 亿元定向 AI 与集成电路。北京市政府官网通告 · 新浪财经详解
-• Anthropic Claude 企业版上线&quot;Skill / Plugin 安全扫描&quot;（Beta） — 8 月 6 日更新的官方 Release Notes 中，Enterprise 计划新增可为 Skills 和 Plugins 开启的安全扫描能力，直接回应上周 Skill Poisoning 与前置注入相关的社区安全讨论。Claude 官方 Release Notes</description>
     </item>
   </channel>
 </rss>

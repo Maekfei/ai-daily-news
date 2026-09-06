@@ -24,7 +24,33 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 219
+      "stars": 266
+    },
+    {
+      "id": "hf-2609-03430",
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "authors": [
+        "Heng Wang",
+        "Jielin Qiu",
+        "Wenting Zhao",
+        "Cheng Qian",
+        "Liangwei Yang",
+        "Jiawei Han",
+        "Heng Ji",
+        "Silvio Savarese"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no score at all; across four models and six reasoning t",
+      "url": "https://huggingface.co/papers/2609.03430",
+      "pdf_url": "https://arxiv.org/pdf/2609.03430.pdf",
+      "tags": [
+        "hf-trending",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-05",
+      "stars": 160
     },
     {
       "id": "hf-2608-26730",
@@ -52,30 +78,30 @@
       "stars": 149
     },
     {
-      "id": "hf-2609-03430",
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "id": "hf-2609-03199",
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
       "authors": [
-        "Heng Wang",
-        "Jielin Qiu",
-        "Wenting Zhao",
-        "Cheng Qian",
-        "Liangwei Yang",
-        "Jiawei Han",
-        "Heng Ji",
-        "Silvio Savarese"
+        "Howard Qian",
+        "Yiting Chen",
+        "Yunfei Xie",
+        "Kejia Ren",
+        "Podshara Chanrungmaneekul",
+        "Gaotian Wang",
+        "Bowen Wen",
+        "Chen Wei"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no score at all; across four models and six reasoning t",
-      "url": "https://huggingface.co/papers/2609.03430",
-      "pdf_url": "https://arxiv.org/pdf/2609.03430.pdf",
+      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a query human manipulation video, retrieves manipulation-relevant human demonstrations from web videos for training dexterous robot policies. Specifically, we learn a latent motion space from 3D hand trajectories expressed in estimated actor-centered reference frames. This re",
+      "url": "https://huggingface.co/papers/2609.03199",
+      "pdf_url": "https://arxiv.org/pdf/2609.03199.pdf",
       "tags": [
         "hf-trending",
-        "reasoning",
-        "code"
+        "benchmark",
+        "robotics"
       ],
-      "published": "2026-09-03",
+      "published": "2026-09-02",
       "added": "2026-09-05",
-      "stars": 131
+      "stars": 81
     },
     {
       "id": "hf-2609-04196",
@@ -128,7 +154,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 38
+      "stars": 40
     },
     {
       "id": "hf-2609-02367",
@@ -154,7 +180,7 @@
       ],
       "published": "2026-09-02",
       "added": "2026-09-05",
-      "stars": 32
+      "stars": 33
     },
     {
       "id": "hf-2609-04131",
@@ -210,50 +236,6 @@
       "stars": 24
     },
     {
-      "id": "hf-2609-04094",
-      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
-      "authors": [
-        "Shubham Gandhi",
-        "Saurabh Goyal",
-        "Kiran Kate",
-        "Yara Rizk"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon agent domains have none. We work in the outcome-blind setting, where ground-truth success signals are not available. Multi-criteria rubrics are a popular way to supply such a reward; they are scored once per trajectory, but a single scalar is a poor signal across tens of steps. We propose DRACO: Distributing Rubric-based Advantage for Credit Optimization. It generates rubrics dynamically during training to track the policy's e",
-      "url": "https://huggingface.co/papers/2609.04094",
-      "pdf_url": "https://arxiv.org/pdf/2609.04094.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "code"
-      ],
-      "published": "2026-09-03",
-      "added": "2026-09-05",
-      "stars": 23
-    },
-    {
-      "id": "hf-2609-03293",
-      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
-      "authors": [
-        "Yoojin Kim",
-        "Jihyoung Jang",
-        "Hyounghun Kim"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current circumstances. However, prior work has primarily focused on accurately executing requests, overlooking the need for assistants to account for context and engage in conflict-based refusal. Furthermore, while existing work on conflict or safety detection relies on explicitly provided factors, real-world scenarios often involve implicit factors that must be retrieved from a knowledge base (KB). To this e",
-      "url": "https://huggingface.co/papers/2609.03293",
-      "pdf_url": "https://arxiv.org/pdf/2609.03293.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark"
-      ],
-      "published": "2026-09-03",
-      "added": "2026-09-05",
-      "stars": 22
-    },
-    {
       "id": "hf-2608-27831",
       "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
       "authors": [
@@ -275,7 +257,30 @@
       ],
       "published": "2026-08-31",
       "added": "2026-09-05",
-      "stars": 22
+      "stars": 24
+    },
+    {
+      "id": "hf-2609-04094",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "authors": [
+        "Shubham Gandhi",
+        "Saurabh Goyal",
+        "Kiran Kate",
+        "Yara Rizk"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon agent domains have none. We work in the outcome-blind setting, where ground-truth success signals are not available. Multi-criteria rubrics are a popular way to supply such a reward; they are scored once per trajectory, but a single scalar is a poor signal across tens of steps. We propose DRACO: Distributing Rubric-based Advantage for Credit Optimization. It generates rubrics dynamically during training to track the policy's e",
+      "url": "https://huggingface.co/papers/2609.04094",
+      "pdf_url": "https://arxiv.org/pdf/2609.04094.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "code"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-05",
+      "stars": 23
     },
     {
       "id": "hf-2609-03952",
@@ -304,7 +309,48 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 21
+      "stars": 23
+    },
+    {
+      "id": "hf-2609-03293",
+      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
+      "authors": [
+        "Yoojin Kim",
+        "Jihyoung Jang",
+        "Hyounghun Kim"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current circumstances. However, prior work has primarily focused on accurately executing requests, overlooking the need for assistants to account for context and engage in conflict-based refusal. Furthermore, while existing work on conflict or safety detection relies on explicitly provided factors, real-world scenarios often involve implicit factors that must be retrieved from a knowledge base (KB). To this e",
+      "url": "https://huggingface.co/papers/2609.03293",
+      "pdf_url": "https://arxiv.org/pdf/2609.03293.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-05",
+      "stars": 22
+    },
+    {
+      "id": "hf-2609-03563",
+      "title": "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow",
+      "authors": [
+        "Byeongjun Park",
+        "Byung-Hoon Kim",
+        "Hyungjin Chung"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera trajectory in seconds. We identify sampling-step-dependent camera control as a prominent manifestation of discretization error in existing multi-step generative rendering models and show that resolving this inconsistency substantially lowers denoising trajectory curvature, facilitating subsequent step distillation. To this end, we introduce Representation Transformation and Alignment (RETA), which aligns hidden source-video repres",
+      "url": "https://huggingface.co/papers/2609.03563",
+      "pdf_url": "https://arxiv.org/pdf/2609.03563.pdf",
+      "tags": [
+        "hf-trending",
+        "multimodal"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-05",
+      "stars": 19
     },
     {
       "id": "hf-2608-30391",
@@ -334,26 +380,6 @@
       "stars": 18
     },
     {
-      "id": "hf-2609-03563",
-      "title": "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow",
-      "authors": [
-        "Byeongjun Park",
-        "Byung-Hoon Kim",
-        "Hyungjin Chung"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera trajectory in seconds. We identify sampling-step-dependent camera control as a prominent manifestation of discretization error in existing multi-step generative rendering models and show that resolving this inconsistency substantially lowers denoising trajectory curvature, facilitating subsequent step distillation. To this end, we introduce Representation Transformation and Alignment (RETA), which aligns hidden source-video repres",
-      "url": "https://huggingface.co/papers/2609.03563",
-      "pdf_url": "https://arxiv.org/pdf/2609.03563.pdf",
-      "tags": [
-        "hf-trending",
-        "multimodal"
-      ],
-      "published": "2026-09-03",
-      "added": "2026-09-05",
-      "stars": 18
-    },
-    {
       "id": "hf-2609-04128",
       "title": "Environment Evolution for Terminal Agents",
       "authors": [
@@ -377,7 +403,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 16
+      "stars": 17
     },
     {
       "id": "hf-2609-04200",
@@ -446,53 +472,6 @@
       "stars": 13
     },
     {
-      "id": "hf-2609-03199",
-      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
-      "authors": [
-        "Howard Qian",
-        "Yiting Chen",
-        "Yunfei Xie",
-        "Kejia Ren",
-        "Podshara Chanrungmaneekul",
-        "Gaotian Wang",
-        "Bowen Wen",
-        "Chen Wei"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a query human manipulation video, retrieves manipulation-relevant human demonstrations from web videos for training dexterous robot policies. Specifically, we learn a latent motion space from 3D hand trajectories expressed in estimated actor-centered reference frames. This re",
-      "url": "https://huggingface.co/papers/2609.03199",
-      "pdf_url": "https://arxiv.org/pdf/2609.03199.pdf",
-      "tags": [
-        "hf-trending",
-        "benchmark",
-        "robotics"
-      ],
-      "published": "2026-09-02",
-      "added": "2026-09-05",
-      "stars": 9
-    },
-    {
-      "id": "hf-2609-02887",
-      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-      "authors": [
-        "Dulhan Jayalath",
-        "Benjamin Ballyk",
-        "Oiwi Parker Jones"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a spe",
-      "url": "https://huggingface.co/papers/2609.02887",
-      "pdf_url": "https://arxiv.org/pdf/2609.02887.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-09-02",
-      "added": "2026-09-05",
-      "stars": 8
-    },
-    {
       "id": "hf-2609-03153",
       "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
       "authors": [
@@ -519,7 +498,28 @@
       ],
       "published": "2026-09-02",
       "added": "2026-09-05",
-      "stars": 8
+      "stars": 12
+    },
+    {
+      "id": "hf-2609-02887",
+      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+      "authors": [
+        "Dulhan Jayalath",
+        "Benjamin Ballyk",
+        "Oiwi Parker Jones"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a spe",
+      "url": "https://huggingface.co/papers/2609.02887",
+      "pdf_url": "https://arxiv.org/pdf/2609.02887.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-09-02",
+      "added": "2026-09-05",
+      "stars": 9
     },
     {
       "id": "hf-2608-29188",
@@ -540,7 +540,7 @@
       ],
       "published": "2026-08-29",
       "added": "2026-09-05",
-      "stars": 8
+      "stars": 9
     },
     {
       "id": "hf-2609-02749",
@@ -595,6 +595,32 @@
       "stars": 225
     },
     {
+      "id": "hf-2609-03796",
+      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+      "authors": [
+        "Chuyan Chen",
+        "Haoxing Chen",
+        "Kun Chen",
+        "Zhenglin Cheng",
+        "Long Cui",
+        "Ruishan Fang",
+        "Zhangxuan Gu",
+        "Zhicheng Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable optimization, we use parameter-free RMSNorm through",
+      "url": "https://huggingface.co/papers/2609.03796",
+      "pdf_url": "https://arxiv.org/pdf/2609.03796.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-04",
+      "stars": 224
+    },
+    {
       "id": "hf-2608-31111",
       "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
       "authors": [
@@ -620,32 +646,6 @@
       "published": "2026-08-31",
       "added": "2026-09-04",
       "stars": 204
-    },
-    {
-      "id": "hf-2609-03796",
-      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-      "authors": [
-        "Chuyan Chen",
-        "Haoxing Chen",
-        "Kun Chen",
-        "Zhenglin Cheng",
-        "Long Cui",
-        "Ruishan Fang",
-        "Zhangxuan Gu",
-        "Zhicheng Huang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable optimization, we use parameter-free RMSNorm through",
-      "url": "https://huggingface.co/papers/2609.03796",
-      "pdf_url": "https://arxiv.org/pdf/2609.03796.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-09-03",
-      "added": "2026-09-04",
-      "stars": 203
     },
     {
       "id": "hf-2609-02783",
@@ -688,7 +688,7 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-04",
-      "stars": 107
+      "stars": 108
     },
     {
       "id": "hf-2609-04098",
@@ -707,7 +707,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-04",
-      "stars": 72
+      "stars": 73
     },
     {
       "id": "hf-2609-00638",
@@ -783,6 +783,30 @@
       "stars": 33
     },
     {
+      "id": "hf-2609-00196",
+      "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
+      "authors": [
+        "Haechan Kim",
+        "Yoonho Lee",
+        "Gisang Lee",
+        "Chelsea Finn",
+        "Kangwook Lee"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Agent performance depends jointly on the model parameters and the executable harness code that manages context and control flow. Optimizing either component in isolation can leave the system bottlenecked by its frozen counterpart: weight updates can change which harness is effective, while harness updates can change which model capabilities are exposed. Existing joint-adaptation methods optimize weights and textual prompts but leave the broader harness fixed. We propose Weight-Harness Alternating LEarning (WHALE), a simple recipe that alternate",
+      "url": "https://huggingface.co/papers/2609.00196",
+      "pdf_url": "https://arxiv.org/pdf/2609.00196.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-08-31",
+      "added": "2026-09-04",
+      "stars": 30
+    },
+    {
       "id": "hf-2609-01147",
       "title": "On the Design Fundamentals of Pixel Text Representation Learning",
       "authors": [
@@ -805,30 +829,6 @@
         "code"
       ],
       "published": "2026-09-01",
-      "added": "2026-09-04",
-      "stars": 29
-    },
-    {
-      "id": "hf-2609-00196",
-      "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
-      "authors": [
-        "Haechan Kim",
-        "Yoonho Lee",
-        "Gisang Lee",
-        "Chelsea Finn",
-        "Kangwook Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Agent performance depends jointly on the model parameters and the executable harness code that manages context and control flow. Optimizing either component in isolation can leave the system bottlenecked by its frozen counterpart: weight updates can change which harness is effective, while harness updates can change which model capabilities are exposed. Existing joint-adaptation methods optimize weights and textual prompts but leave the broader harness fixed. We propose Weight-Harness Alternating LEarning (WHALE), a simple recipe that alternate",
-      "url": "https://huggingface.co/papers/2609.00196",
-      "pdf_url": "https://arxiv.org/pdf/2609.00196.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "code"
-      ],
-      "published": "2026-08-31",
       "added": "2026-09-04",
       "stars": 29
     },
@@ -903,7 +903,7 @@
       ],
       "published": "2026-08-31",
       "added": "2026-09-04",
-      "stars": 24
+      "stars": 25
     },
     {
       "id": "hf-2609-01740",
@@ -927,7 +927,7 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-04",
-      "stars": 23
+      "stars": 25
     },
     {
       "id": "hf-2608-26623",
@@ -1054,7 +1054,7 @@
       ],
       "published": "2026-09-02",
       "added": "2026-09-04",
-      "stars": 14
+      "stars": 15
     },
     {
       "id": "hf-2608-30478",
@@ -1396,7 +1396,7 @@
       ],
       "published": "2026-08-31",
       "added": "2026-09-04",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2608-30751",
@@ -1418,7 +1418,7 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-04",
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "hf-2609-01936",
@@ -1438,7 +1438,28 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-04",
-      "stars": 2
+      "stars": 3
+    },
+    {
+      "id": "hf-2609-00834",
+      "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
+      "authors": [
+        "Yeonseok Jeong",
+        "Soyoung Yoon",
+        "Seongjun Lee",
+        "Seung-won Hwang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We thus propose a fine-tuning-free listwise selector. We replace two major fine-tuning objectives with inference-time strategies: (1) learning selection criteria as ordering and (2) mitigating positional bias. First, we build reusable structured memories instead of learning",
+      "url": "https://huggingface.co/papers/2609.00834",
+      "pdf_url": "https://arxiv.org/pdf/2609.00834.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark"
+      ],
+      "published": "2026-09-01",
+      "added": "2026-09-04",
+      "stars": 3
     },
     {
       "id": "hf-2609-01453",
@@ -1462,23 +1483,25 @@
       "stars": 2
     },
     {
-      "id": "hf-2609-00834",
-      "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
+      "id": "hf-2608-30005",
+      "title": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
       "authors": [
-        "Yeonseok Jeong",
-        "Soyoung Yoon",
-        "Seongjun Lee",
-        "Seung-won Hwang"
+        "Fengyu Xie",
+        "Yilun Zhao",
+        "Bingsen Chen",
+        "Arman Cohan",
+        "Chen Zhao"
       ],
       "venue": "HuggingFace Daily Papers",
-      "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We thus propose a fine-tuning-free listwise selector. We replace two major fine-tuning objectives with inference-time strategies: (1) learning selection criteria as ordering and (2) mitigating positional bias. First, we build reusable structured memories instead of learning",
-      "url": "https://huggingface.co/papers/2609.00834",
-      "pdf_url": "https://arxiv.org/pdf/2609.00834.pdf",
+      "summary": "Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary APIs or local generative LLM judges with 7B parameters or more. We study whether smaller language models can serve as efficient and reliable rubric-based judges. To make this question measurable, we construct PointRubric and RaR-Science-Static, two pointwise rubric-based ev",
+      "url": "https://huggingface.co/papers/2608.30005",
+      "pdf_url": "https://arxiv.org/pdf/2608.30005.pdf",
       "tags": [
         "hf-trending",
+        "rl",
         "benchmark"
       ],
-      "published": "2026-09-01",
+      "published": "2026-08-30",
       "added": "2026-09-04",
       "stars": 2
     },
@@ -1502,29 +1525,6 @@
         "code"
       ],
       "published": "2026-08-28",
-      "added": "2026-09-04",
-      "stars": 1
-    },
-    {
-      "id": "hf-2608-30005",
-      "title": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
-      "authors": [
-        "Fengyu Xie",
-        "Yilun Zhao",
-        "Bingsen Chen",
-        "Arman Cohan",
-        "Chen Zhao"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary APIs or local generative LLM judges with 7B parameters or more. We study whether smaller language models can serve as efficient and reliable rubric-based judges. To make this question measurable, we construct PointRubric and RaR-Science-Static, two pointwise rubric-based ev",
-      "url": "https://huggingface.co/papers/2608.30005",
-      "pdf_url": "https://arxiv.org/pdf/2608.30005.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-30",
       "added": "2026-09-04",
       "stars": 1
     },
