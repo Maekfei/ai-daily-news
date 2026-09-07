@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 06 Sep 2026 02:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 02:06:33 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-07</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-07</link>
+      <guid isPermaLink="false">2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 10:00:00 +0800</pubDate>
+      <description>周末的两大主线延续到今天：Anthropic Claude 11 天完成费马大定理形式化证明震撼数学界；OpenAI 正式承认智能体&quot;德语维基劫持&quot;事件并承诺整改，Agent 安全治理被推上台前。
+• Anthropic 宣布 Claude 11 天完成费马大定理机器可验证证明
+• OpenAI 正式承认&quot;德语 Wiki 劫持&quot;，承诺整改智能体安全披露机制
+• 深圳 Violoop 完成亿元级融资，押注&quot;物理级个人 AI Agent&quot;
+• OpenAI 启动 &quot;Daybreak for Frontline Defenders&quot; 计划，10 亿美元投入关键基础设施 AI 安全 — 9 月 3 日 OpenAI 官方宣布投入 10 亿美元（约合 67.36 亿元人民币），为供水、电力、地方政府与金融机构提供 Daybreak 访问权限、专家培训与技术支持，配套开放 Daybreak Defense Network（35+ 企业合作伙伴）。新浪财经
+• HiddenLayer 完成 1 亿美元 B 轮，聚焦 Agentic AI 运行时安全 — 9 月 2 日，Austin 的 AI 安全公司 HiddenLayer 宣布完成 1 亿美元 B 轮融资，用于扩展面向生成式与 Agentic AI 系统的运行时防护平台，回应企业 Agent 大规模上线后的治理需求。HiddenLayer 官网新闻稿</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-06</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-06</link>
@@ -354,18 +366,6 @@
 • DeepSeek 重启第二轮融资，估值约 5000 亿元人民币（~740 亿美元）
 • 阿里 Qwen3.8-Max 完成开源交付 — 8 月 3 日发布的 2.4 万亿参数 MoE 旗舰模型（激活约 950 亿参数、1M 上下文、原生视觉）本周完成 Hugging Face 权重开放，Demo 中展示了模型16 天独立编程产出 150+ TypeScript 文件的 CLI 框架 oh-my-cli。来源：51CTO
 • Meta Muse Code Beta 上线 — Meta Superintelligence Labs 于 8 月 6 日推出首款 Coding Agent「Muse Code」，由 Muse Spark 1.2 模型驱动，运行于终端、面向大型代码库，直接对标 Claude Code / OpenAI Codex，扎克伯格亲自站台。来源：36Kr</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-08</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-08</link>
-      <guid isPermaLink="false">2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 10:00:00 +0800</pubDate>
-      <description>xAI 如期上线 **Grok 4.6**（1.5 万亿参数，SFT/RL 双升级），马斯克预告数周内的 2.1 万亿参数 Grok 4.7；同日《金融时报》披露字节跳动已开始预训练一个高达 **10 万亿参数**的巨型模型，直接对标 Anthropic 前沿系统——中美一线实验室的&quot;参数—算力—Agent 能力&quot;三线竞速再次升级。
-• xAI 发布 Grok 4.6：1.5 万亿参数，SFT 与 RL 双升级、几周内跟进 Grok 4.7
-• 字节跳动开始预训练 10 万亿参数模型，对标 Anthropic Mythos 前沿系统
-• LangChain 推出 Managed Deep Agents 公测：从原型直达生产的\&quot;Agent Harness\&quot;
-• Anthropic 开放 Claude Code \&quot;Self-hosted environments\&quot; 企业公测
-• OpenAI 全员免费开放 GPT-5.6 Luna，取消文字对话上限 — 8 月 6 日 ChatGPT 将免费用户默认模型升级为 GPT-5.6 Luna，每日文字消息无上限；Plus/Pro 用户同步获得事实性更强的 GPT-5.6 Sol。ChatGPT 周活刚跨过 10 亿。TechCrunch · 36 氪快讯</description>
     </item>
   </channel>
 </rss>

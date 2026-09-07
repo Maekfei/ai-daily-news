@@ -1,6 +1,123 @@
 {
   "papers": [
     {
+      "id": "hf-2609-05416",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "authors": [
+        "Muyao Niu",
+        "Jixuan He",
+        "Ruihan Yu",
+        "Lian Fu",
+        "Yonghao Yu",
+        "Zheng-Hui Huang",
+        "Yifan Zhan",
+        "Fengbo Lan"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simulation, and robotics. This task is challenging in densely cluttered scenes, where objects heavily occlude one another and each view reveals only a fraction of their geometry. Geometry-based approaches typically reconstruct the scene as a single repres",
+      "url": "https://huggingface.co/papers/2609.05416",
+      "pdf_url": "https://arxiv.org/pdf/2609.05416.pdf",
+      "tags": [
+        "hf-trending",
+        "benchmark",
+        "robotics"
+      ],
+      "published": "2026-09-04",
+      "added": "2026-09-07",
+      "stars": 1
+    },
+    {
+      "id": "hf-2609-00444",
+      "title": "Group Adaptive Clipping Policy Optimization",
+      "authors": [
+        "Sheng Jia",
+        "Xiao Wang",
+        "Shiva Prasad Kasiviswanathan",
+        "Rein Houthooft"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Group relative policy optimization for reinforcement learning with verifiable rewards (RLVR) typically uses a fixed importance-sampling (IS) ratio clipping boundary across all rollouts. We identify a key limitation: rare correct rollouts on harder problems and abundant correct rollouts on easier problems are clipped at comparable rates, despite contributing very different learning signals. Rollouts with low group success exhibit larger IS ratios and carry stronger gradient signal for exploration and solving new problems, yet are disproportionat",
+      "url": "https://huggingface.co/papers/2609.00444",
+      "pdf_url": "https://arxiv.org/pdf/2609.00444.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "reasoning",
+        "benchmark"
+      ],
+      "published": "2026-08-31",
+      "added": "2026-09-07",
+      "stars": 1
+    },
+    {
+      "id": "hf-2609-04304",
+      "title": "Iris: Climbing to the Search Frontier",
+      "authors": [
+        "Ziyuan Liu",
+        "Hengqi Liu",
+        "Zichuan Wang",
+        "Yang Qin",
+        "Jiachen Liang",
+        "Xu Chu",
+        "Shaowei Chen",
+        "Yuantao Gu"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails closed-book yet solves once the supporting evidenc",
+      "url": "https://huggingface.co/papers/2609.04304",
+      "pdf_url": "https://arxiv.org/pdf/2609.04304.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "rl",
+        "benchmark"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-07",
+      "stars": 1
+    },
+    {
+      "id": "hf-2609-05295",
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "authors": [
+        "Yang Li",
+        "Semih Yavuz",
+        "Shafiq Joty"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "On-policy distillation (OPD) provides dense, per-token supervision for language model post-training, but its effectiveness is bottlenecked by teacher quality: external teachers suffer from distribution mismatch, while self-distillation with privileged conditioning is limited by in-context learning capacity. We propose RISE (Recursive Improvement via Self-Extrapolating Policy Distillation), which constructs a synthetic teacher directly from the model's own RLVR training trajectory. By extrapolating the displacement between the current checkpoint",
+      "url": "https://huggingface.co/papers/2609.05295",
+      "pdf_url": "https://arxiv.org/pdf/2609.05295.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "reasoning",
+        "code"
+      ],
+      "published": "2026-09-04",
+      "added": "2026-09-07",
+      "stars": 0
+    },
+    {
+      "id": "hf-2609-04490",
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "authors": [
+        "Ismail Erbas",
+        "Xavier Intes",
+        "Vikas Pandey"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Quantization is widely used to reduce the computational and memory demands of neural-network inference. In recurrent networks, however, the quantized state is stored and returned at the next time step, so the rule used to store that state can alter subsequent computations. Here, we introduce recurrent-state write-back to denote this rule and isolate its effect in a compact GRU encoder--decoder for fluorescence lifetime imaging, a molecular imaging modality used in quantitative biological imaging. A central task is estimating two lifetime parame",
+      "url": "https://huggingface.co/papers/2609.04490",
+      "pdf_url": "https://arxiv.org/pdf/2609.04490.pdf",
+      "tags": [
+        "hf-trending"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-07",
+      "stars": 0
+    },
+    {
       "id": "hf-2609-04148",
       "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
       "authors": [
@@ -24,7 +141,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 266
+      "stars": 272
     },
     {
       "id": "hf-2609-03430",
@@ -50,7 +167,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 160
+      "stars": 164
     },
     {
       "id": "hf-2608-26730",
@@ -75,7 +192,7 @@
       ],
       "published": "2026-08-27",
       "added": "2026-09-05",
-      "stars": 149
+      "stars": 150
     },
     {
       "id": "hf-2609-03199",
@@ -101,7 +218,7 @@
       ],
       "published": "2026-09-02",
       "added": "2026-09-05",
-      "stars": 81
+      "stars": 115
     },
     {
       "id": "hf-2609-04196",
@@ -127,7 +244,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 65
+      "stars": 66
     },
     {
       "id": "hf-2609-04034",
@@ -154,7 +271,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 40
+      "stars": 42
     },
     {
       "id": "hf-2609-02367",
@@ -210,6 +327,30 @@
       "stars": 29
     },
     {
+      "id": "hf-2608-27831",
+      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+      "authors": [
+        "Gyuhyeong Kim",
+        "Hyojung Gwon",
+        "Jeonghyeon Kim",
+        "Kyuhong Shim",
+        "Sunjae Lee"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues: long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category information taxonomy and four dimensions of linguistic style, and apply them to real user prompts from SWE-chat and problem statements from SWE-bench Verified and Pro. We find that requests carrying only a problem statement, alone or with limited additi",
+      "url": "https://huggingface.co/papers/2608.27831",
+      "pdf_url": "https://arxiv.org/pdf/2608.27831.pdf",
+      "tags": [
+        "hf-trending",
+        "agent",
+        "benchmark",
+        "code"
+      ],
+      "published": "2026-08-31",
+      "added": "2026-09-05",
+      "stars": 27
+    },
+    {
       "id": "hf-2609-04083",
       "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
       "authors": [
@@ -236,30 +377,6 @@
       "stars": 24
     },
     {
-      "id": "hf-2608-27831",
-      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
-      "authors": [
-        "Gyuhyeong Kim",
-        "Hyojung Gwon",
-        "Jeonghyeon Kim",
-        "Kyuhong Shim",
-        "Sunjae Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues: long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category information taxonomy and four dimensions of linguistic style, and apply them to real user prompts from SWE-chat and problem statements from SWE-bench Verified and Pro. We find that requests carrying only a problem statement, alone or with limited additi",
-      "url": "https://huggingface.co/papers/2608.27831",
-      "pdf_url": "https://arxiv.org/pdf/2608.27831.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "code"
-      ],
-      "published": "2026-08-31",
-      "added": "2026-09-05",
-      "stars": 24
-    },
-    {
       "id": "hf-2609-04094",
       "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
       "authors": [
@@ -280,7 +397,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 23
+      "stars": 24
     },
     {
       "id": "hf-2609-03952",
@@ -403,7 +520,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-05",
-      "stars": 17
+      "stars": 18
     },
     {
       "id": "hf-2609-04200",
@@ -449,7 +566,7 @@
       ],
       "published": "2026-08-29",
       "added": "2026-09-05",
-      "stars": 13
+      "stars": 14
     },
     {
       "id": "hf-2609-01072",
@@ -519,7 +636,7 @@
       ],
       "published": "2026-09-02",
       "added": "2026-09-05",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2608-29188",
@@ -540,7 +657,7 @@
       ],
       "published": "2026-08-29",
       "added": "2026-09-05",
-      "stars": 9
+      "stars": 10
     },
     {
       "id": "hf-2609-02749",
@@ -568,6 +685,32 @@
       "stars": 498
     },
     {
+      "id": "hf-2609-03796",
+      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+      "authors": [
+        "Chuyan Chen",
+        "Haoxing Chen",
+        "Kun Chen",
+        "Zhenglin Cheng",
+        "Long Cui",
+        "Ruishan Fang",
+        "Zhangxuan Gu",
+        "Zhicheng Huang"
+      ],
+      "venue": "HuggingFace Daily Papers",
+      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable optimization, we use parameter-free RMSNorm through",
+      "url": "https://huggingface.co/papers/2609.03796",
+      "pdf_url": "https://arxiv.org/pdf/2609.03796.pdf",
+      "tags": [
+        "hf-trending",
+        "rl",
+        "multimodal"
+      ],
+      "published": "2026-09-03",
+      "added": "2026-09-04",
+      "stars": 227
+    },
+    {
       "id": "hf-2609-01437",
       "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
       "authors": [
@@ -593,32 +736,6 @@
       "published": "2026-09-01",
       "added": "2026-09-04",
       "stars": 225
-    },
-    {
-      "id": "hf-2609-03796",
-      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-      "authors": [
-        "Chuyan Chen",
-        "Haoxing Chen",
-        "Kun Chen",
-        "Zhenglin Cheng",
-        "Long Cui",
-        "Ruishan Fang",
-        "Zhangxuan Gu",
-        "Zhicheng Huang"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98 of which are real images. For efficient and scalable optimization, we use parameter-free RMSNorm through",
-      "url": "https://huggingface.co/papers/2609.03796",
-      "pdf_url": "https://arxiv.org/pdf/2609.03796.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "multimodal"
-      ],
-      "published": "2026-09-03",
-      "added": "2026-09-04",
-      "stars": 224
     },
     {
       "id": "hf-2608-31111",
@@ -688,7 +805,7 @@
       ],
       "published": "2026-09-01",
       "added": "2026-09-04",
-      "stars": 108
+      "stars": 110
     },
     {
       "id": "hf-2609-04098",
@@ -707,7 +824,7 @@
       ],
       "published": "2026-09-03",
       "added": "2026-09-04",
-      "stars": 73
+      "stars": 74
     },
     {
       "id": "hf-2609-00638",
@@ -1832,135 +1949,6 @@
       "published": "2026-08-31",
       "added": "2026-09-02",
       "stars": 22
-    },
-    {
-      "id": "hf-2608-30428",
-      "title": "Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions",
-      "authors": [
-        "Jaewoo Ahn",
-        "Junseo Kim",
-        "Hyunseo Kim",
-        "Heeseung Yun",
-        "Jaehyeon Son",
-        "Zsolt Kira",
-        "Gunhee Kim"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Strategic deception by LLM and VLM agents has emerged as a central AI alignment and safety concern. Social-deduction games (where each player holds a hidden role and communicates with others to deduce identities) serve as the canonical testbed, particularly in multi-agent settings. Existing testbeds, however, are text-only and run on a single fixed agent configuration, missing the non-verbal sensorimotor channels treated as core by deception taxonomies and leaving it ambiguous whether an observed behavior reflects the underlying model or the su",
-      "url": "https://huggingface.co/papers/2608.30428",
-      "pdf_url": "https://arxiv.org/pdf/2608.30428.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "benchmark",
-        "multimodal",
-        "robotics"
-      ],
-      "published": "2026-08-31",
-      "added": "2026-09-02",
-      "stars": 12
-    },
-    {
-      "id": "hf-2608-29910",
-      "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
-      "authors": [
-        "Runjia Qian",
-        "Zile Wang",
-        "Jihai Zhang",
-        "Kai Zou",
-        "Wei Yu",
-        "Jiaxing Li",
-        "Zexiang Liu",
-        "Yaokun Li"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Interactive world models extend video generation from offline clip synthesis toward persistent simulation of interactive virtual worlds, enabling applications in games, robotics, embodied agents, and XR. Achieving stable long-horizon interactive generation, however, remains challenging, as the model must simultaneously preserve scene geometry, dynamic consistency, and camera control while supporting real-time autoregressive generation. Building upon Matrix-Game 3.0, we present Matrix-Game 3.5, as shown in Figure 1, which advances real-time inte",
-      "url": "https://huggingface.co/papers/2608.29910",
-      "pdf_url": "https://arxiv.org/pdf/2608.29910.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "robotics"
-      ],
-      "published": "2026-08-30",
-      "added": "2026-09-02",
-      "stars": 12
-    },
-    {
-      "id": "hf-2608-31076",
-      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
-      "authors": [
-        "Xuehai Wang",
-        "Haowei Qin",
-        "Tongxin Liu",
-        "Junkai Li",
-        "Buqiang Xu",
-        "Jintian Zhang",
-        "Yijun Chen",
-        "Zirui Xue"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required to complete the task. As a result, agents may miss important analyses, use inappropriate methods, or draw conclusions that are insufficiently supported by evidence. To address the problem, we present AutoSciRub, an evaluation-first framework that ind",
-      "url": "https://huggingface.co/papers/2608.31076",
-      "pdf_url": "https://arxiv.org/pdf/2608.31076.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "rl",
-        "benchmark"
-      ],
-      "published": "2026-08-31",
-      "added": "2026-09-02",
-      "stars": 11
-    },
-    {
-      "id": "hf-2608-29464",
-      "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
-      "authors": [
-        "Aryo Pradipta Gema",
-        "Neel Rajani",
-        "Rohit Saxena",
-        "Wai-Chung Kwan",
-        "Pasquale Minervini"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's answer. Existing faithfulness tests often place explicit bias cues in the user message, while agents may encounter preferences through tool returns or raw artifacts. We introduce FACE-Eval (Faithful Attribution of Cue Effects Evaluation), a 5,100-sample evaluation that varies cue location (user message or tool return) and explicitness (direct summary or raw artifact). We measure verbalized commitment among cue-following answer",
-      "url": "https://huggingface.co/papers/2608.29464",
-      "pdf_url": "https://arxiv.org/pdf/2608.29464.pdf",
-      "tags": [
-        "hf-trending",
-        "agent",
-        "reasoning",
-        "benchmark"
-      ],
-      "published": "2026-08-29",
-      "added": "2026-09-02",
-      "stars": 11
-    },
-    {
-      "id": "hf-2608-24293",
-      "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
-      "authors": [
-        "Yeonkyeong Lee",
-        "Hyunsung Go",
-        "Jongmin Kim",
-        "Sewoong Lim",
-        "Donghoon Lee"
-      ],
-      "venue": "HuggingFace Daily Papers",
-      "summary": "Latent diffusion models have emerged as a dominant framework for high-fidelity image and video synthesis, operating in compact latent spaces with variational autoencoders (VAEs) to enhance computational efficiency without compromising visual quality. However, conventional VAEs are suboptimal for video data as they employ fixed compression ratios that cannot adapt to the varying complexity of spatio-temporal content. We present KATok (Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation), a transformer-based VAE that incorporates an",
-      "url": "https://huggingface.co/papers/2608.24293",
-      "pdf_url": "https://arxiv.org/pdf/2608.24293.pdf",
-      "tags": [
-        "hf-trending",
-        "rl",
-        "benchmark",
-        "multimodal"
-      ],
-      "published": "2026-08-25",
-      "added": "2026-09-02",
-      "stars": 11
     }
   ]
 }
