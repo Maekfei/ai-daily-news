@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 08 Sep 2026 02:07:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 02:07:08 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-09</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-09</link>
+      <guid isPermaLink="false">2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 10:00:00 +0800</pubDate>
+      <description>Cognition（Devin 母公司）完成 20 亿美元 E 轮融资、估值飙至 480 亿美元；Mistral 拿下三星领投的 30 亿欧元 D 轮，欧洲 AI 融资纪录被同日刷新。Agent 与主权算力，正在成为本轮资本狂潮的两条主线。
+• Cognition（Devin 母公司）20 亿美元 E 轮融资，估值 480 亿美元
+• Mistral 拿下三星领投 30 亿欧元 D 轮，欧洲 AI 融资纪录再刷新
+• OpenAI&quot;万 Agent 集群&quot;攻克百年数学难题，Astra 首次驱动机器人绘画
+• 蚂蚁集团联合清华发布 AReaL v1.0，主打 Agent 一键接入强化学习
+• 百度小度全线智能体化，家庭场景多智能体协作首次落地消费硬件</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-08</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-08</link>
@@ -354,18 +366,6 @@
 • 200+ 经济学家（含 16 位诺奖得主 + Bengio）联名警告 AI 就业冲击
 • 远景乌兰察布&quot;星河基地&quot; 8 月 6 日投产、8 月 11 日细节公开 — 远景科技集团在内蒙古乌兰察布建成全球最大 AI 算力超级单体，占地 12 万平方米（20 个足球场）、规划总容量 2 GW、百万卡并行、百万 P 算力，超高比例绿电直连；官方称为&quot;全国最大 AI 算力园区和 Token 工厂&quot;。这为字节 10 万亿参数、DeepSeek V4/V5 等国产大模型级别训练提供绿电底座。来源：腾讯新闻
 • 陆家嘴财经早餐披露 NVIDIA/Apollo 融资平台 8 月 11 日官宣 — 除 NVIDIA 官网公告外，中国主流财经渠道同步跟进，明确算力融资平台将采取&quot;独立法人 + 项目 SPV&quot;模式，第一批资金主要面向 xAI Colossus 2、OpenAI Stargate 二期、CoreWeave 扩容。来源：腾讯新闻</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-10</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-10</link>
-      <guid isPermaLink="false">2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 10:00:00 +0800</pubDate>
-      <description>「人形机器人第一股」宇树科技今日科创板申购、发行市值约 610 亿元；同时字节跳动被曝正训练一款约 **10 万亿参数**大模型，直指 Anthropic Mythos 级别，中美前沿模型规模赛出现新变量。
-• 字节跳动被曝训练 10 万亿参数模型，规模对标 Anthropic Mythos
-• 宇树科技今日科创板申购，发行市值约 610 亿元人民币
-• Anthropic 官宣自研 AI 芯片，为 Claude 定制&quot;软硬件协同&quot;路线
-• Meta 发布首款编程 Agent「Muse Code」Beta — Meta Superintelligence Labs 于 8 月 6 日上线终端级 Coding Agent，由 Muse Spark 1.2 驱动，上下文 1M tokens、最大输出 131K tokens，直接对标 Claude Code / OpenAI Codex；扎克伯格与 Alexandr Wang 站台，主打大型代码库跨仓库规划-编码-验证全流程。来源：IT 之家
-• OpenAI 因 Astra 达&quot;Critical&quot;级网络安全阈值暂停部分研发 — 8 月 8 日公告，Astra 触发《Preparedness Framework》中最高等级&quot;Critical Cyber&quot;红线，进入沙箱与权限管控，是行业首例厂商因自评风险主动叫停旗舰模型的案例；美国 AISI 与部分安全组织将参与测试。来源：iWiki 每日 AI 技术早报</description>
     </item>
   </channel>
 </rss>
