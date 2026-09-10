@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 09 Sep 2026 02:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 02:07:14 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-10</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-10</link>
+      <guid isPermaLink="false">2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 官宣用「1 万 Agent × 88 小时」攻克千禧年难题纳维–斯托克斯方程；DeepSeek 传聘中信证券冲刺科创板并同日启动 flash 系列最高降价 60%——Agent 群体智能与国产大模型资本化，同日成为全球 AI 圈两大主叙事。
+• OpenAI 用 1 万 Agent 协作 88 小时，官宣攻克纳维–斯托克斯千禧年难题
+• OpenAI 基金会补位「AI 末日派」核心人物 Paul Christiano，安全委员会重组
+• DeepSeek flash 系列全线降价 60%，V4.1 Flash 同日正式发布
+• Anthropic 为 Claude 上线 background computer use，Agent 迈向无人值守长任务
+• DeepSeek 传聘中信证券筹备科创板 IPO，年内递表 — 路透社 9 月 9 日援引消息人士称，DeepSeek 已聘请中信证券担任保荐机构，全面筹备上海科创板首次公开发行，计划今年递交申报、明年挂牌；此前首轮融资 510 亿元人民币、投后估值约 500 亿美元。募资将投向算力基建、前沿模型与安全对齐。新浪财经 · 消息人士称 DeepSeek 聘请中信证券</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-09</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-09</link>
@@ -354,18 +366,6 @@
 • Waymo 联合 CEO 演讲：&quot;纯视觉方案难以实现无人驾驶&quot;
 • 中国 AI 大模型调用量连续 15 周领跑全球 — 据每日经济新闻援引 OpenRouter 数据，上周（8/3–8/9）全球 AI 大模型总调用量 69 万亿 Token，其中中国来源模型（DeepSeek / Qwen / GLM / Kimi 等）调用量环比 +570%，在 OpenRouter 全球分发路由上已连续 15 周保持第一，反映出海外开发者对开源中国模型的持续采纳。来源：新浪财经
 • 6sense MCP Server 正式 GA — GTM 智能平台 6sense 宣布其 MCP（Model Context Protocol）Server 从 7 月的 Beta 转为正式可用，任何 Claude / GPT / Gemini 系 Agent 可通过标准 MCP 接口直接调用 6sense 的意向数据、公司画像、买家旅程等 B2B 商业智能，正在成为 Agent-native GTM 工具链的一部分。来源：6sense 官方博客</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-11</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-11</link>
-      <guid isPermaLink="false">2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 10:00:00 +0800</pubDate>
-      <description>NVIDIA 联手华尔街 Apollo/BlackRock/Blackstone/Brookfield/Goldman Sachs/KKR 六巨头，撬动 **5000 亿美元**第三方资本专门为 AI 算力融资——这是 AI 基建从&quot;科技开支&quot;正式演化为&quot;独立资产类别&quot;的分水岭事件；同日微软被曝下月发布 **Maia 300** 自研 AI 芯片、200+ 经济学家（含 16 位诺奖得主）联名警告 AI 就业冲击。
-• NVIDIA 联手华尔街六巨头设立 5000 亿美元 AI 算力融资平台
-• 微软 Maia 300 AI 芯片计划 9 月发布，与台积电锁定 30 万颗产能
-• 200+ 经济学家（含 16 位诺奖得主 + Bengio）联名警告 AI 就业冲击
-• 远景乌兰察布&quot;星河基地&quot; 8 月 6 日投产、8 月 11 日细节公开 — 远景科技集团在内蒙古乌兰察布建成全球最大 AI 算力超级单体，占地 12 万平方米（20 个足球场）、规划总容量 2 GW、百万卡并行、百万 P 算力，超高比例绿电直连；官方称为&quot;全国最大 AI 算力园区和 Token 工厂&quot;。这为字节 10 万亿参数、DeepSeek V4/V5 等国产大模型级别训练提供绿电底座。来源：腾讯新闻
-• 陆家嘴财经早餐披露 NVIDIA/Apollo 融资平台 8 月 11 日官宣 — 除 NVIDIA 官网公告外，中国主流财经渠道同步跟进，明确算力融资平台将采取&quot;独立法人 + 项目 SPV&quot;模式，第一批资金主要面向 xAI Colossus 2、OpenAI Stargate 二期、CoreWeave 扩容。来源：腾讯新闻</description>
     </item>
   </channel>
 </rss>
