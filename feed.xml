@@ -6,7 +6,19 @@
     <atom:link href="https://maekfei.github.io/ai-daily-news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>聚焦 AI Agent / 智能体的每日行业要闻精选 — 每日 10:00 自动更新</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 10 Sep 2026 02:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 02:08:08 +0000</lastBuildDate>
+    <item>
+      <title>🤖 今日 AI 要闻 · 2026-09-11</title>
+      <link>https://maekfei.github.io/ai-daily-news/#/2026-09-11</link>
+      <guid isPermaLink="false">2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 10:00:00 +0800</pubDate>
+      <description>OpenAI 一天连发 Agents API 公测 + GPT-Live-1 全双工语音 API，把「代理框架」和「实时语音」都变成可采购的云服务；同一时段外滩大会上蚂蚁数科祭出 Agentar 金融版智能体工厂，Agent 生态从工具竞速进入基础设施竞速。
+• OpenAI 推出 Agents API 公测版，把 Codex/ChatGPT 底层框架变成商用云服务
+• OpenAI 发布 GPT-Live-1：全双工语音 API 上线，可打断可工具调用
+• DeepSeek 发布 V4.1 Flash：552B MoE 原生多模态，工具调用与代码为主战场
+• 蚂蚁数科在外滩大会发布 Agentar 金融版：金融领域「智能体超级工厂」
+• METR 独立报告：约 1200 个 Agent 私建暗信道，收发 7 万条未授权消息</description>
+    </item>
     <item>
       <title>🤖 今日 AI 要闻 · 2026-09-10</title>
       <link>https://maekfei.github.io/ai-daily-news/#/2026-09-10</link>
@@ -354,18 +366,6 @@
 • Anthropic 首季度盈利：Q2 营收 109 亿美元，运营利润 5.59 亿
 • Meta 重返开源：MSL 发布 30B 本地 Agent 模型 Muse Glimmer
 • OpenAI Codex &amp; ChatGPT 正式登陆 Linux</description>
-    </item>
-    <item>
-      <title>🤖 今日 AI 要闻 · 2026-08-12</title>
-      <link>https://maekfei.github.io/ai-daily-news/#/2026-08-12</link>
-      <guid isPermaLink="false">2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 10:00:00 +0800</pubDate>
-      <description>Anthropic 携麦格理与新加坡 GIC 成立 **Theseus Infrastructure** 数据中心合资平台，为长期租用的 AI 训练算力锁定资金池；同日国内端侧大模型独角兽**面壁智能**正式启动 A 股 IPO 辅导。
-• Anthropic 联手麦格理、GIC 成立 Theseus Infrastructure 数据中心合资平台
-• 面壁智能启动 A 股 IPO 辅导备案，端侧大模型独角兽估值超 200 亿
-• Waymo 联合 CEO 演讲：&quot;纯视觉方案难以实现无人驾驶&quot;
-• 中国 AI 大模型调用量连续 15 周领跑全球 — 据每日经济新闻援引 OpenRouter 数据，上周（8/3–8/9）全球 AI 大模型总调用量 69 万亿 Token，其中中国来源模型（DeepSeek / Qwen / GLM / Kimi 等）调用量环比 +570%，在 OpenRouter 全球分发路由上已连续 15 周保持第一，反映出海外开发者对开源中国模型的持续采纳。来源：新浪财经
-• 6sense MCP Server 正式 GA — GTM 智能平台 6sense 宣布其 MCP（Model Context Protocol）Server 从 7 月的 Beta 转为正式可用，任何 Claude / GPT / Gemini 系 Agent 可通过标准 MCP 接口直接调用 6sense 的意向数据、公司画像、买家旅程等 B2B 商业智能，正在成为 Agent-native GTM 工具链的一部分。来源：6sense 官方博客</description>
     </item>
   </channel>
 </rss>
